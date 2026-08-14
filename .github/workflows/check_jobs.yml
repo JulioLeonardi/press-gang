@@ -52,5 +52,3 @@ jobs:
         with:
           commit_message: "chore: update seen.json [skip ci]"
           file_pattern: state/seen.json
-
-# (registration nudge)
