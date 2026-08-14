@@ -47,6 +47,35 @@ Every run afterward notifies only on new matches. To re-seed from scratch, run t
 
 `max_notifications_per_run` (default 60) caps a single run. If a source reformats and suddenly looks like 5,000 new jobs, you get 60 and the rest defer — not a channel flood.
 
+## Weekly heartbeat
+
+This bot's healthy state is silence, which looks identical to a dead bot — exhausted Actions minutes, a source gone permanently 404, a revoked webhook. [heartbeat.yml](.github/workflows/heartbeat.yml) posts a status message every Monday 09:00 UTC so silence becomes informative:
+
+- postings tracked, and how many were new in the last 7 days
+- estimated Actions minutes used this month, with a progress bar
+- last check-jobs result, and a red flag if several recent runs failed
+- a warning if run durations approach 60s (crossing it doubles minute usage)
+
+Run it manually with `gh workflow run heartbeat.yml -f dry_run=true` to preview without sending.
+
+**The minutes figure is an estimate.** GitHub's `/timing` endpoint reports `billable: 0ms` on the Free tier, so it's unusable. Instead the heartbeat counts runs this month, samples the real `run_duration_ms` of recent runs, applies GitHub's round-up-to-the-minute rule, and scales. Two caveats: minutes are billed **account-wide** across all your private repos, and this only counts this one; and the count includes Dependabot's runs, which are slower than the bot's own.
+
+## Cost and cadence
+
+Every job bills as a **whole minute**, rounded up, even though a check takes ~16 seconds. Against the Free tier's 2,000 private-repo minutes/month:
+
+| Cadence | Minutes/month | % of free tier |
+| --- | --- | --- |
+| Every 30 min | ~1,460 | 73% |
+| **Hourly (current)** | **~730** | **37%** |
+| Every 2 hours | ~365 | 18% |
+
+Hourly is the configured default: the sources only update a few times a day, so anything faster bought nothing and left no headroom.
+
+Exhausting the allowance doesn't charge you — the default spending limit is $0, so Actions simply stops until the next billing cycle. That's precisely the silent failure the heartbeat exists to catch.
+
+**On making the repo public** (which would give unlimited minutes): the secret stays safe, since the workflows trigger only on `schedule` and `workflow_dispatch` and fork PRs can't reach secrets. The real cost is privacy — `state/seen.json` and the Actions logs would publicly expose which jobs you're tracking, with dated commits showing when you started looking. If you do go public, strip `company`/`title` from the state file first; only the hashed ids are load-bearing.
+
 ## Corrections to the design doc
 
 The doc was written against assumed source formats. Verified against live data, several assumptions were wrong:
@@ -77,7 +106,8 @@ Also worth knowing:
 ## Layout
 
 ```
-.github/workflows/check_jobs.yml   cron + manual trigger
+.github/workflows/check_jobs.yml   hourly cron + manual trigger
+.github/workflows/heartbeat.yml    weekly liveness report
 config/sources.yaml                source repos, adapters, tunables
 config/eu_locations.yaml           country/city/remote match lists
 src/fetch.py                       per-source adapters
@@ -85,6 +115,7 @@ src/normalize.py                   text/date normalization, dedupe key
 src/filter.py                      location + sponsorship rules
 src/notify_discord.py              batched embeds, retry/backoff
 src/main.py                        orchestration
+src/heartbeat.py                   weekly status + minutes estimate
 state/seen.json                    committed state
 tests/test_core.py                 sanity checks
 ```
