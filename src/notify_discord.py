@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import re
 import time
 
 import requests
@@ -87,13 +88,34 @@ def notify(webhook_url: str, postings: list[dict], *, dry_run: bool = False) -> 
     return sent
 
 
+def _redact(value, webhook_url: str) -> str:
+    """Strip the webhook URL (and any Discord webhook URL) from a log message."""
+    text = str(value)
+    if webhook_url:
+        text = text.replace(webhook_url, "<webhook redacted>")
+        # Also catch the token alone, in case only the tail was interpolated.
+        tail = webhook_url.rstrip("/").rsplit("/", 1)[-1]
+        if len(tail) > 8:
+            text = text.replace(tail, "<redacted>")
+    return re.sub(
+        r"https?://\S*?discord(?:app)?\.com/api/webhooks/\S*",
+        "<webhook redacted>",
+        text,
+    )
+
+
 def _post_with_retry(webhook_url: str, payload: dict) -> bool:
     delay = 1.0
     for attempt in range(1, MAX_RETRIES + 1):
         try:
             response = requests.post(webhook_url, json=payload, timeout=TIMEOUT)
         except requests.RequestException as exc:
-            log.warning("webhook attempt %d: network error (%s)", attempt, exc)
+            # requests embeds the full URL in connection errors. Never let the
+            # webhook URL reach the logs -- GitHub's secret masking is exact-
+            # string and best-effort, and Actions logs are world-readable on a
+            # public repo. Anyone with this URL can post to the channel.
+            log.warning("webhook attempt %d: network error (%s)",
+                        attempt, _redact(exc, webhook_url))
         else:
             if response.status_code in (200, 204):
                 return True
