@@ -6,6 +6,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Product Management Intern"
     },
+    "021189495442a940": {
+      "company": "Meta",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Data Engineer, Analytics"
+    },
     "0a86e2717fd97acd": {
       "company": "Ranger",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -15,6 +20,21 @@
       "company": "Varian",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineer - DevOps/.NET/Azure"
+    },
+    "0ff190925c71f802": {
+      "company": "Idler",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer"
+    },
+    "172aa1f48b31f83b": {
+      "company": "Waymo",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "WebRAD & Rider Support Full Stack SWE"
+    },
+    "19f987589a6b22d4": {
+      "company": "ByteDance",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Research Scientist Graduate - 3D/4D Generation - 2026 Start"
     },
     "1ceae8da01a8bbb5": {
       "company": "Appian",
@@ -31,6 +51,21 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Associate Software Developer"
     },
+    "1f6099d125382416": {
+      "company": "Amazon",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer I"
+    },
+    "20c6b2675fe16895": {
+      "company": "AgentMail",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Founding Engineer"
+    },
+    "2a9f5e48f9f3c18a": {
+      "company": "Apple",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "AIML Resident - Robot Learning"
+    },
     "2aacbadf30731131": {
       "company": "Magna",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -41,6 +76,21 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Air Dominance & Strike - Flight Software Engineer, Embedded C/C++"
     },
+    "314c9426b79dd653": {
+      "company": "Apple",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "AIML Resident - Siri Agent Modeling"
+    },
+    "38e1bedb875c0920": {
+      "company": "Thera",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Founding Engineer"
+    },
+    "3fc9fb1463408485": {
+      "company": "Databricks",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "AI Tooling Program Engineer"
+    },
     "40968a71147f50e1": {
       "company": "Netsmart",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -50,6 +100,11 @@
       "company": "Citadel",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Quantitative Research Analyst Intern"
+    },
+    "4460ef26f27c165b": {
+      "company": "Fanatics",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Quantitative Analyst 1"
     },
     "4553df4b64164c4c": {
       "company": "Citadel Securities",
@@ -71,6 +126,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Research Engineer - 3D World Models"
     },
+    "4c82b9f6bf6ae7b7": {
+      "company": "Parsons",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer"
+    },
     "4cc423e860f0a9be": {
       "company": "Citadel Securities",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -81,10 +141,20 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Associate - Digital Product Management"
     },
+    "4e915b5075628d91": {
+      "company": "Phonely",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Forward Deployed Engineer"
+    },
     "4f3a3de03cd645ea": {
       "company": "Capital One",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Cyber Security Intern"
+    },
+    "56401589df28ffa3": {
+      "company": "Qualcomm Innovation Center, Inc.",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Product Software Engineer"
     },
     "5ad5f08c3767e1db": {
       "company": "Visa",
@@ -96,10 +166,25 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineering Intern"
     },
+    "5f360b7c1cac26f9": {
+      "company": "Jump Trading",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Campus Crypto Researcher"
+    },
+    "5ffd549e056773a8": {
+      "company": "Stripe",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Backend Engineer, Secure Endpoint Access"
+    },
     "60d8d76c1f1a8ed0": {
       "company": "Lumafield",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Backend Engineer"
+    },
+    "6631b63f259c864e": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Validation Engineer, AI Platforms"
     },
     "6652075955fbf47c": {
       "company": "Keysight Technologies",
@@ -126,6 +211,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "AI Product Manager"
     },
+    "6ef63fc8019be2b6": {
+      "company": "Viasat",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer, Broadband Networks"
+    },
     "702368b571d28775": {
       "company": "Citadel",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -141,15 +231,95 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineering Intern"
     },
+    "73ad8fabd9a41a84": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Robotics Systems Engineer, Optimus"
+    },
     "73cef0ccd8a5ef1d": {
       "company": "Mistral AI",
       "first_seen": "2026-08-14T02:02:51.457053+00:00",
       "title": "Applied Scientist / Research Engineer Intern"
     },
+    "74759073773ae234": {
+      "company": "Planbase",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Founding Engineer (Full-Stack)"
+    },
+    "76a73a7e86f7cad5": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Thermal Controls Engineer, Vehicle Software"
+    },
+    "7b6a22e275bff21f": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "AI Engineer, ML Inference Optimization, Autonomy & Robotics"
+    },
+    "7c20c8f2453860f4": {
+      "company": "ServiceNow",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer"
+    },
+    "80153d5b4e7ec05a": {
+      "company": "Oracle",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Advanced Degree Software Engineer Intern - Industries"
+    },
+    "825fead7cc230b3a": {
+      "company": "thyssenkrupp",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Sustainability Systems Intern"
+    },
+    "861c1a9611a6f181": {
+      "company": "Tencent",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Hunyuan Multimodal Algorithm Researcher intern - Omni-Modal"
+    },
+    "86428637ff6ad9ef": {
+      "company": "Emerge Career",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Founding Product Engineer"
+    },
+    "88817f6caa6ef2b7": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "In Vehicle Test Engineer, Steering, Vehicle Software"
+    },
+    "88c184c08ea8c181": {
+      "company": "Apple",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "AIML Resident - Machine Learning Research"
+    },
+    "89dbabae1a849d68": {
+      "company": "Copart",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineering Intern"
+    },
+    "8ad4fded605450aa": {
+      "company": "Apple",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "AIML Resident - Data Operations Capacity Planning & Analytics"
+    },
+    "8d9a32f6e905a3e5": {
+      "company": "Waymo",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer, ML Tools"
+    },
     "8e33f84df3565ff7": {
       "company": "Fiserv",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Application Development Intern"
+    },
+    "8f52a6676d80330e": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer, AI Inference Codesign"
+    },
+    "93c39e569df37771": {
+      "company": "dScribe AI",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Founding Engineer"
     },
     "9ee086cc936d2546": {
       "company": "Helsing",
@@ -166,15 +336,55 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Robotics AI Algorithm- R&D"
     },
+    "9f353fa747e0e70b": {
+      "company": "NVIDIA",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "New Grad 2026: Developer Technology Engineer, Public Sector"
+    },
+    "a1d789cc9450fe33": {
+      "company": "Apple",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer, IS&T Early Career"
+    },
     "ad268b4641d15a70": {
       "company": "Boeing",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Data Analytics Intern"
     },
+    "af84db6eef0bdf37": {
+      "company": "ByteDance",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "New Grad 2026: Machine Learning Graduate (eCommerce User Growth & Intelligent Marketing)"
+    },
     "b069da22405303c7": {
       "company": "Melotech",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Full-Stack Developer Intern - Music & Audio"
+    },
+    "b25fe8808562ff4f": {
+      "company": "Apple",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "AIML Resident - Knowledge Answer Quality & Richness"
+    },
+    "b2d487364f06691c": {
+      "company": "Wanderlog (W19)",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "New Grad: Full-Stack Software Engineer"
+    },
+    "b655dc4859a2cc3a": {
+      "company": "Wanderlog",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Full-Stack Software Engineer"
+    },
+    "b7778b6cbcfd4906": {
+      "company": "Berkshire Hathaway Energy",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Intern – Corp IT - Grid Operations Applications"
+    },
+    "b8af9e25eeb5df50": {
+      "company": "Apple",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "AIML Resident - Input Experience NLP"
     },
     "ba48c34d6760980a": {
       "company": "Visa",
@@ -186,6 +396,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Financial Economist"
     },
+    "c26686a388fa30ff": {
+      "company": "AeroVironment",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "CNO Developer"
+    },
     "c464755b6b853c07": {
       "company": "Appian",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -196,25 +411,55 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "New Grad 2026: Associate Product Manager (APM)"
     },
+    "c4beb4aefc7e1d1a": {
+      "company": "Replit",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer - New Grad (Summer 2026)"
+    },
     "c7562ccc6a11b62b": {
       "company": "Citadel Securities",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Quantitative Researcher – PhD Graduate - Europe"
+    },
+    "c8a8dc8b9760056b": {
+      "company": "Circle",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "New Grad 2026: Software Engineer, Backend"
     },
     "c94d1e51cc96d877": {
       "company": "Uncountable",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Full-Stack Intern"
     },
+    "ca5c0fb9f5ddca11": {
+      "company": "Trellis AI",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Member of Technical Staff"
+    },
     "caff6374f712be74": {
       "company": "Baton Corporation",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Junior Full Stack Engineer"
     },
+    "ce8e89f8a0a0b741": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Machine Learning Engineer, Tesla Insurance"
+    },
+    "d0d5cfe1ef4c1549": {
+      "company": "Citizen Health",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer"
+    },
     "d23dbba6a4e806e8": {
       "company": "Appian",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineering Intern"
+    },
+    "d285c9952db7f633": {
+      "company": "Figma",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer, Full Stack"
     },
     "d401a3a22b9ee89b": {
       "company": "Citadel Securities",
@@ -256,6 +501,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Data Science Intern - Music & Audio"
     },
+    "dcff3a47cab4d894": {
+      "company": "Capgemini",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Full Stack AI Engineer"
+    },
     "dd318082f3d1493c": {
       "company": "Melotech",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -266,25 +516,70 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineer 1, Technology"
     },
+    "e0c07821386ea24b": {
+      "company": "Amazon",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "System Development Engineer, Robotics Integration and Optimization Services"
+    },
+    "e28b688c020fb8a8": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Engineer, Maps & Navigation Validation, Vehicle Software"
+    },
     "e639e3c6e4f198e7": {
       "company": "Squarepoint Capital",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Intern Quant Researcher"
+    },
+    "e6fdca2233ee9656": {
+      "company": "ASML",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Internship - Software Development Engineer in Test"
     },
     "e7e34cc14b35179a": {
       "company": "Travelers",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineer I (AI Driven)"
     },
+    "e805c0c8e4fd49bb": {
+      "company": "Poka Labs",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Founding Engineer"
+    },
+    "e8632bfb23691289": {
+      "company": "Oklo",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Junior Software Engineer"
+    },
     "eb1142ed6896449a": {
       "company": "ServiceNow",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Frontend Software Engineer"
     },
+    "ecc60e3768f08e76": {
+      "company": "Adobe",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Software Development Engineer"
+    },
+    "ecff7ef0a9ebe3c8": {
+      "company": "Tencent",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Hunyuan Multimodal Algorithm Researcher Intern - Omni-Modal"
+    },
+    "ee5f052e3c8a24fa": {
+      "company": "Zip",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "New Grad 2026: Software Engineer"
+    },
     "f0b8a7a4eaa87437": {
       "company": "Citadel",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Investment & Trading Intern"
+    },
+    "f176dbeddaaf7c54": {
+      "company": "IMC",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "New Grad 2026: Software Engineer"
     },
     "f272fead900830af": {
       "company": "Emerson",
@@ -305,6 +600,11 @@
       "company": "Aptiv",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Working Student Interior Sensing ML"
+    },
+    "fdf4d13c69c4f1aa": {
+      "company": "FormFactor",
+      "first_seen": "2026-08-14T04:46:09.690148+00:00",
+      "title": "Field Service Engineer - Probe Card"
     }
   },
   "version": 1
