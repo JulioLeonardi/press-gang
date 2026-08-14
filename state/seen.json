@@ -11,6 +11,16 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Data Engineer, Analytics"
     },
+    "04a14fb8e442f939": {
+      "company": "Citizen Health",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer"
+    },
+    "0521082f9b8a43d3": {
+      "company": "Amazon",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "System Development Engineer, macOS MDM, Kuiper Devices & Systems"
+    },
     "0a86e2717fd97acd": {
       "company": "Ranger",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -21,6 +31,16 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineer - DevOps/.NET/Azure"
     },
+    "0e558a38e9cc4e48": {
+      "company": "Apple",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "IS&T Early Career Engineering Program Manager"
+    },
+    "0e83eeb6ab661502": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Backend Software Engineer, Optimus & Robotaxi"
+    },
     "0ff190925c71f802": {
       "company": "Idler",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -30,6 +50,11 @@
       "company": "Waymo",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "WebRAD & Rider Support Full Stack SWE"
+    },
+    "18ea6f49098c8e1c": {
+      "company": "Taro",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Founding Software Engineer"
     },
     "19f987589a6b22d4": {
       "company": "ByteDance",
@@ -46,6 +71,16 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Cloud Support Engineer I (Support Response)"
     },
+    "1d65e88125be6a4e": {
+      "company": "Apple",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer, Xcode Intelligence Experience"
+    },
+    "1e0ca0ec3f87fb31": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Frontend Software Engineer, Energy Charging"
+    },
     "1e112afe51d98e90": {
       "company": "MetroStar",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -56,10 +91,20 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Software Engineer I"
     },
+    "206d2d75ee62e6b6": {
+      "company": "Google",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad 2026: Software Engineer"
+    },
     "20c6b2675fe16895": {
       "company": "AgentMail",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Founding Engineer"
+    },
+    "29c71a8d281cddcf": {
+      "company": "Google",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer II, Early Career, Google Cloud AI Catalyst Program"
     },
     "2a9f5e48f9f3c18a": {
       "company": "Apple",
@@ -76,10 +121,45 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Air Dominance & Strike - Flight Software Engineer, Embedded C/C++"
     },
+    "2bdf4da7e6c8cda0": {
+      "company": "Planbase",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Founding Engineer (Full-Stack)"
+    },
+    "2e1d0c33ce2e2ee2": {
+      "company": "Amazon",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "ADC Engineer I, PEET ADC"
+    },
+    "2f1bbd3a04defccf": {
+      "company": "Amazon",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Systems Development Engineer, Network Operations OISL"
+    },
     "314c9426b79dd653": {
       "company": "Apple",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "AIML Resident - Siri Agent Modeling"
+    },
+    "349c8c36983efcbd": {
+      "company": "SMX",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Junior Data Scientist"
+    },
+    "350b107b09ad507a": {
+      "company": "Adobe",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Development Engineer"
+    },
+    "35dd888ffc2e043e": {
+      "company": "Corgi",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Full Stack Engineer"
+    },
+    "36cc1442af8fdff5": {
+      "company": "Adobe",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad 2026: AI Context Engineer"
     },
     "38e1bedb875c0920": {
       "company": "Thera",
@@ -151,10 +231,30 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Cyber Security Intern"
     },
+    "5277b7e9ffa55007": {
+      "company": "Liva AI",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Founding Engineer"
+    },
+    "52ecef883cee234c": {
+      "company": "Revionics",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad: Machine Learning Engineer"
+    },
+    "5632296b34f477f3": {
+      "company": "Uber",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad 2025: Software Engineer I"
+    },
     "56401589df28ffa3": {
       "company": "Qualcomm Innovation Center, Inc.",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Product Software Engineer"
+    },
+    "599071fe9fd5a49d": {
+      "company": "Maitai",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Full-Stack Engineer - Agent Marketplace (In-Person RWC Only)"
     },
     "5ad5f08c3767e1db": {
       "company": "Visa",
@@ -181,6 +281,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Backend Engineer"
     },
+    "655624fb1785d286": {
+      "company": "Herdora",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Member of Technical Staff"
+    },
     "6631b63f259c864e": {
       "company": "Tesla",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -196,15 +301,30 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineer"
     },
+    "686f31039b86dd9c": {
+      "company": "Aurora",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Security Software Engineer I"
+    },
     "69b7d6f5c27bf172": {
       "company": "Valkyrie",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Derivatives Trader"
     },
+    "69eb17f7efc0fb3e": {
+      "company": "ByteDance",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad 2026: Site Reliability Engineer (Edge Services)"
+    },
     "6bc43aaa3bead354": {
       "company": "Citadel Securities",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Machine Learning Researcher – PhD Graduate"
+    },
+    "6e2d8e40d71c7d37": {
+      "company": "TikTok",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad 2026: Machine Learning Engineer"
     },
     "6eeea592c3f2f348": {
       "company": "n8n",
@@ -220,6 +340,11 @@
       "company": "Citadel",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Quantitative Researcher – PhD Graduate"
+    },
+    "702c162f7dcd6887": {
+      "company": "Boerboel",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad: Quantitative Researcher"
     },
     "726403d3e1bcf0e4": {
       "company": "GoDaddy",
@@ -241,6 +366,11 @@
       "first_seen": "2026-08-14T02:02:51.457053+00:00",
       "title": "Applied Scientist / Research Engineer Intern"
     },
+    "73e604f1cc127511": {
+      "company": "Twitch Interactive, Inc.",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer I"
+    },
     "74759073773ae234": {
       "company": "Planbase",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -250,6 +380,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Thermal Controls Engineer, Vehicle Software"
+    },
+    "792e0bfee33f750e": {
+      "company": "Amazon",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "System Development Engineer, Payload Antenna Team"
     },
     "7b6a22e275bff21f": {
       "company": "Tesla",
@@ -271,6 +406,16 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Sustainability Systems Intern"
     },
+    "8320eac14bdb4255": {
+      "company": "McDonald's",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer 1"
+    },
+    "83e4914d9772bcb9": {
+      "company": "Stamp (W25)",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Founding Mobile Engineer"
+    },
     "861c1a9611a6f181": {
       "company": "Tencent",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -280,6 +425,11 @@
       "company": "Emerge Career",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Founding Product Engineer"
+    },
+    "872faf44d40f4fba": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Verification Infrastructure & DevOps Engineer, AI Hardware"
     },
     "88817f6caa6ef2b7": {
       "company": "Tesla",
@@ -321,6 +471,16 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Founding Engineer"
     },
+    "943ee797b2e7d746": {
+      "company": "Battelle",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Early Career Software Engineer"
+    },
+    "9a78a9a3c8e0dd27": {
+      "company": "Sixtyfour (X25)",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Founding Engineer, AI Research Agents (Full-Stack)"
+    },
     "9ee086cc936d2546": {
       "company": "Helsing",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -341,15 +501,45 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "New Grad 2026: Developer Technology Engineer, Public Sector"
     },
+    "a12fe7a965a6d058": {
+      "company": "QuinStreet",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer"
+    },
     "a1d789cc9450fe33": {
       "company": "Apple",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Software Engineer, IS&T Early Career"
     },
+    "a23d0bc794baefa7": {
+      "company": "Nextdoor",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad 2026: Machine Learning Engineer, Machine Learning"
+    },
+    "a3197e684e4faf3d": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Machine Learning Infrastructure Simulation Engineer, Optimus"
+    },
+    "a45ddd8da84c7e45": {
+      "company": "Aurora Innovation",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer 1"
+    },
+    "aacf39fa702b113d": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Infrastructure & DevOps Engineer, AI Hardware"
+    },
     "ad268b4641d15a70": {
       "company": "Boeing",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Data Analytics Intern"
+    },
+    "af13af86d90bc035": {
+      "company": "Anthrogen",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Member of Technical Staff"
     },
     "af84db6eef0bdf37": {
       "company": "ByteDance",
@@ -361,6 +551,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Full-Stack Developer Intern - Music & Audio"
     },
+    "b1d33ba1e98a88d4": {
+      "company": "Honeywell",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer I"
+    },
     "b25fe8808562ff4f": {
       "company": "Apple",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -371,10 +566,35 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "New Grad: Full-Stack Software Engineer"
     },
+    "b4a42f29e05e3982": {
+      "company": "Uneekor",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Quality Assurance Engineer"
+    },
+    "b608956547595312": {
+      "company": "Wanderlog (W19)",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad: Full-Stack Software Engineer"
+    },
+    "b6505c9c979157f9": {
+      "company": "Annapurna Labs",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Silicon & AI Systems Innovation Engineer"
+    },
     "b655dc4859a2cc3a": {
       "company": "Wanderlog",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Full-Stack Software Engineer"
+    },
+    "b6d3af5dde6c207c": {
+      "company": "Stamp",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Founding Machine Learning Engineer"
+    },
+    "b6dcac08881e180d": {
+      "company": "Qualtrics",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer I, Digital Experience"
     },
     "b7778b6cbcfd4906": {
       "company": "Berkshire Hathaway Energy",
@@ -386,10 +606,20 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "AIML Resident - Input Experience NLP"
     },
+    "b9accb6e32dca5bf": {
+      "company": "Stamp",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Founding Full Stack Engineer"
+    },
     "ba48c34d6760980a": {
       "company": "Visa",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "New Grad 2026: Site Reliability Engineer"
+    },
+    "be97a4a8164cbbc7": {
+      "company": "Docusign",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer"
     },
     "c01bf750895fa49f": {
       "company": "Fideres",
@@ -400,6 +630,16 @@
       "company": "AeroVironment",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "CNO Developer"
+    },
+    "c2b4e498e6b3495d": {
+      "company": "Anyscale",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad 2026: Software Engineer"
+    },
+    "c3f14d023d37aac9": {
+      "company": "Apten",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer (Full Stack)"
     },
     "c464755b6b853c07": {
       "company": "Appian",
@@ -421,6 +661,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Quantitative Researcher – PhD Graduate - Europe"
     },
+    "c86b8405d5b066d6": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Security Engineer, Energy Product Software"
+    },
     "c8a8dc8b9760056b": {
       "company": "Circle",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -440,6 +685,16 @@
       "company": "Baton Corporation",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Junior Full Stack Engineer"
+    },
+    "cb61392f9a9aa1c1": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Sensing Software Engineer"
+    },
+    "cdd08bfd85b46802": {
+      "company": "Spot & Tango",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Jr. Software Engineer"
     },
     "ce8e89f8a0a0b741": {
       "company": "Tesla",
@@ -471,6 +726,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Cloud Platform Engineer Intern, Growth"
     },
+    "d54e6978892e825b": {
+      "company": "StarSling (X25)",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad: Full-Stack Software Engineer"
+    },
     "d5d4879be22c1bb0": {
       "company": "NAMSA",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -491,6 +751,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "AI Deployment Engineering Internship"
     },
+    "d8bcdb638cd3e684": {
+      "company": "Claim Health (X25)",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Founding Engineer"
+    },
     "d9e1276ff082e62b": {
       "company": "Duolingo",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -500,6 +765,11 @@
       "company": "Melotech",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Data Science Intern - Music & Audio"
+    },
+    "dc718b160a092e6a": {
+      "company": "Intuit",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Software Engineer 1"
     },
     "dcff3a47cab4d894": {
       "company": "Capgemini",
@@ -526,6 +796,26 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Software Engineer, Maps & Navigation Validation, Vehicle Software"
     },
+    "e28e22ccbbcdf359": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Backend Software Engineer, IT Data & Analytics"
+    },
+    "e2cb0bcae938e4a2": {
+      "company": "DoorDash",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad: Software Engineer I"
+    },
+    "e410d9f2aa0eca91": {
+      "company": "Proception Inc",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Robotics Software Engineering - Real-Time Control & Embedded Systems"
+    },
+    "e48116343604b8a7": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Junior Software Engineer"
+    },
     "e639e3c6e4f198e7": {
       "company": "Squarepoint Capital",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -550,6 +840,11 @@
       "company": "Oklo",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Junior Software Engineer"
+    },
+    "ead73406a1b2b8ba": {
+      "company": "Tesla",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "Full Stack Software Engineer, Battery Optimization"
     },
     "eb1142ed6896449a": {
       "company": "ServiceNow",
@@ -605,6 +900,11 @@
       "company": "FormFactor",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Field Service Engineer - Probe Card"
+    },
+    "ff81da9b20ef8c29": {
+      "company": "Boerboel",
+      "first_seen": "2026-08-14T06:10:57.247056+00:00",
+      "title": "New Grad: Developer"
     }
   },
   "version": 1
