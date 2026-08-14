@@ -11,6 +11,11 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Associate Software Developer"
     },
+    "00e08505c96d5d98": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "PhD Graduate - Multiple Teams"
+    },
     "01c5f072868c6060": {
       "company": "American Express",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -55,6 +60,11 @@
       "company": "Amazon",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "System Development Engineer, macOS MDM, Kuiper Devices & Systems"
+    },
+    "05e283a27baf992a": {
+      "company": "MSA Safety",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Embedded Software Engineer 1/2 - Fire Service"
     },
     "05e57ad21a2ad9ce": {
       "company": "Tesla",
@@ -121,6 +131,11 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Software Engineer"
     },
+    "121bcb151f27d06c": {
+      "company": "TDS",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Field Service Technician"
+    },
     "14189e1e4b350357": {
       "company": "Altice USA",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
@@ -146,6 +161,16 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Research Scientist Graduate - 3D/4D Generation - 2026 Start"
     },
+    "1a8ef31faa2a1269": {
+      "company": "TRC Companies",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Environmental Scientist - Emissions Testing"
+    },
+    "1c583070cef2e936": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Data Scientist / Computer Scientist PhD Graduate - Decision Systems"
+    },
     "1ceae8da01a8bbb5": {
       "company": "Appian",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -165,6 +190,11 @@
       "company": "Apple",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Software Engineer, Xcode Intelligence Experience"
+    },
+    "1dff0e71bb01b895": {
+      "company": "CTG",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "AI Vibe Coding Engineer"
     },
     "1e0ca0ec3f87fb31": {
       "company": "Tesla",
@@ -201,6 +231,11 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Founding Engineer"
     },
+    "221a0516c7dc3ef4": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Algorithm Researcher - Multiple Teams"
+    },
     "234540ab9cefe968": {
       "company": "Adobe",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
@@ -215,6 +250,11 @@
       "company": "Cellular Sales",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Junior Data Engineer"
+    },
+    "26d69314117a49e3": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Systems Engineer Graduate - Systems Engineer - Analyst"
     },
     "29c71a8d281cddcf": {
       "company": "Google",
@@ -251,6 +291,11 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "Software Engineer, Communications Platform"
     },
+    "2d04cd0944692d41": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Data Scientist New Grad - Data Science - System Performance Evaluation"
+    },
     "2e1d0c33ce2e2ee2": {
       "company": "Amazon",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -265,6 +310,16 @@
       "company": "Apple",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "AIML Resident - Siri Agent Modeling"
+    },
+    "325cb3c2280db5a1": {
+      "company": "EagleView",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Flight Systems Technician - Capture Systems R&D"
+    },
+    "33b1eec675df2582": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "AI/ML Data Scientist/Engineer New Grad - Analytic Capabilities"
     },
     "33be7a8465b6de9a": {
       "company": "Planbase",
@@ -316,6 +371,16 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Software Dev Engineer I"
     },
+    "3b77fdc409a278b4": {
+      "company": "Honeywell",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Software Engineer 1"
+    },
+    "3d0d92d4203daec1": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Intelligent Systems Development Engineer - Intelligent Combat Platforms Group"
+    },
     "3f434249e83cd56f": {
       "company": "DeepGrove",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
@@ -361,6 +426,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Quantitative Research Analyst – University Graduate"
     },
+    "45e9fb1513b6cce1": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Autonomous Systems Seeker and Sensor Engineer"
+    },
     "467f4d5094ebbc16": {
       "company": "Garmin",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
@@ -385,6 +455,11 @@
       "company": "Arm",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad 2025: Software Applications Engineer"
+    },
+    "4aca3eb870cf9fa1": {
+      "company": "Seagate Technology",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Systems Engineer - Early Career"
     },
     "4b418f6977cf5864": {
       "company": "SpAItial",
@@ -466,10 +541,30 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Product Software Engineer"
     },
+    "5811bc7728658bc6": {
+      "company": "Chenega Corporation",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Data Analyst"
+    },
     "599071fe9fd5a49d": {
       "company": "Maitai",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Full-Stack Engineer - Agent Marketplace (In-Person RWC Only)"
+    },
+    "5a1403d6f1d5b79a": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "BS/MS Rotational Discovery Program"
+    },
+    "5a77e580e30241ba": {
+      "company": "NRG Energy",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Field Service Technician"
+    },
+    "5ab684075ef997e3": {
+      "company": "V2X",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Electronic Technician 1"
     },
     "5ad5f08c3767e1db": {
       "company": "Visa",
@@ -516,6 +611,11 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Software Engineer (AI Applications)"
     },
+    "639703e6b9bfb9f5": {
+      "company": "AVI-SPL",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Onsite Support Technician"
+    },
     "643b97690dfe0257": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
@@ -546,6 +646,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Wireless Protocol Software Engineer - Layer 2 - Radio Link Control"
     },
+    "6746e054321739e4": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Systems Engineer/Analyst New Grad - Multi-Mission Planning Development"
+    },
     "677eb34d8447c07c": {
       "company": "Plaid",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -555,6 +660,11 @@
       "company": "Aurora",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Security Software Engineer I"
+    },
+    "689a76185783a18c": {
+      "company": "V2X",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Electronics Worker 1 - 2nd shift"
     },
     "69b7d6f5c27bf172": {
       "company": "Valkyrie",
@@ -566,10 +676,20 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "New Grad 2026: Site Reliability Engineer (Edge Services)"
     },
+    "6b64893fc8109bf9": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Artificial Intelligence and Complex Systems Postdoc Researcher"
+    },
     "6bc43aaa3bead354": {
       "company": "Citadel Securities",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Machine Learning Researcher – PhD Graduate"
+    },
+    "6bcaa54696d808d9": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Artificial Intelligence Engineer - Intelligent Autonomous Systems"
     },
     "6e2d8e40d71c7d37": {
       "company": "TikTok",
@@ -601,10 +721,25 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "New Grad: Quantitative Researcher"
     },
+    "7187f38eef8352f3": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Computer Scientist New Grad - Tactical System Prototyping and Deployment"
+    },
     "726403d3e1bcf0e4": {
       "company": "GoDaddy",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Development Engineer Intern"
+    },
+    "72784120f5d087ca": {
+      "company": "Arcfield",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Data Analyst / Applied Mathematician"
+    },
+    "72d5a1a18955034c": {
+      "company": "International Motors, LLC",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Supply Chain Analytics Data Scientist"
     },
     "72e1f489c1c1a498": {
       "company": "Medtronic",
@@ -661,6 +796,11 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "System Development Engineer, Payload Antenna Team"
     },
+    "7a0832e347607040": {
+      "company": "EagleView",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Image Correction Technician - Photogrammetric Image Corrections"
+    },
     "7a46893d0e651739": {
       "company": "Textron",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
@@ -676,10 +816,25 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Software Engineer"
     },
+    "7c58f599143310fd": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "PhD Graduate - Distributed Tactical Awareness"
+    },
+    "7cfa4c11bf8a1b8f": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Navigation Systems Analyst/Engineer"
+    },
     "80153d5b4e7ec05a": {
       "company": "Oracle",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Advanced Degree Software Engineer Intern - Industries"
+    },
+    "812769db4da992ec": {
+      "company": "V2X",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Electronics Worker 1"
     },
     "825fead7cc230b3a": {
       "company": "thyssenkrupp",
@@ -766,6 +921,11 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Software Engineer (Edge Platform)"
     },
+    "8e8c73490770651e": {
+      "company": "VTG",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Associate Software Engineer"
+    },
     "8f52a6676d80330e": {
       "company": "Tesla",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -806,6 +966,11 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Machine Learning Engineer"
     },
+    "98cd179bf0627308": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Modeler and Data Analyst - PhD Graduate"
+    },
     "98ec37dda41b4f65": {
       "company": "Amazon",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
@@ -821,10 +986,20 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Software Engineer"
     },
+    "9b5f4b3f28f211bc": {
+      "company": "Arcfield",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Software Engineer / Electrical Engineer"
+    },
     "9ba2ef6ebdd1b5ec": {
       "company": "Tesla",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "Software Engineer, Core Infrastructure, AI"
+    },
+    "9cd5152be466724e": {
+      "company": "Trace Systems",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Client Systems Hardware Specialist 1"
     },
     "9db321dac35e07c2": {
       "company": "Stripe",
@@ -876,6 +1051,11 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Software Engineer"
     },
+    "a173585546f20d8d": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Software Engineering/ML/Data Scientist Graduate - Intelligence Systems"
+    },
     "a1cc91eeeafdd04b": {
       "company": "McDonald's Corporation",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
@@ -891,10 +1071,25 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "New Grad 2026: Machine Learning Engineer, Machine Learning"
     },
+    "a294d5c7743ea3dc": {
+      "company": "AppLovin",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Data Scientist - Analytics"
+    },
+    "a2aa6b75a247e0d2": {
+      "company": "DecisionPoint Corporation",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Entry-level Software Developer"
+    },
     "a3197e684e4faf3d": {
       "company": "Tesla",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Machine Learning Infrastructure Simulation Engineer, Optimus"
+    },
+    "a3e6dd71743d6287": {
+      "company": "PlanetArt",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Associate Product Manager - Web"
     },
     "a44030a276c77d3f": {
       "company": "Notion",
@@ -906,10 +1101,25 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Software Engineer 1"
     },
+    "a4d0cdca86ca7509": {
+      "company": "Trace Systems",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Database Administrator 1"
+    },
+    "a4e4c2b330d5bcd0": {
+      "company": "V2X",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Range Technician 1"
+    },
     "a7c2afd951790041": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad 2026: Product Manager (SMB)"
+    },
+    "a8739449e4773414": {
+      "company": "EquipmentShare",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Telematics Installer"
     },
     "a8993afcc53a0b0d": {
       "company": "Tesla",
@@ -935,6 +1145,16 @@
       "company": "Interaction",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Member of Technical Staff"
+    },
+    "ae2bb9feaaacbd46": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Manufacturing Technician A"
+    },
+    "ae7972c2d4e9fda3": {
+      "company": "Cayuse Holdings",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Pega Certified System Architect"
     },
     "aef105fbaa58b743": {
       "company": "Stripe",
@@ -966,6 +1186,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Full-Stack Developer Intern - Music & Audio"
     },
+    "b17a6d31b79c7aba": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Cyber Engineer - Capabilities Development"
+    },
     "b1d33ba1e98a88d4": {
       "company": "Honeywell",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -980,6 +1205,11 @@
       "company": "Wanderlog (W19)",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "New Grad: Full-Stack Software Engineer"
+    },
+    "b2fcdfcfaf12952a": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Synthetic Aperture Radar Machine Learning Engineer - Imaging Systems"
     },
     "b4a42f29e05e3982": {
       "company": "Uneekor",
@@ -1051,10 +1281,20 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad 2026: Associate Product Manager"
     },
+    "bd34c43868b2e4d3": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Computer Engineer New Grad - Shipboard Systems Team"
+    },
     "bd42013d7a6282cb": {
       "company": "TikTok",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Software Engineer (Live Service)"
+    },
+    "bd7a4f9ba839a3ae": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Postdoctoral Fellow - 2D Electronic Materials and Devices"
     },
     "bd9a00c7ea6dd930": {
       "company": "D3 Global Inc",
@@ -1115,6 +1355,11 @@
       "company": "Replit",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Software Engineer - New Grad (Summer 2026)"
+    },
+    "c746411c5c0b5935": {
+      "company": "ITA International",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Junior Power Platform Developer"
     },
     "c7562ccc6a11b62b": {
       "company": "Citadel Securities",
@@ -1185,6 +1430,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Machine Learning Engineer, Tesla Insurance"
+    },
+    "d088606379644f7c": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Senior Engineer-Analyst - ISR Scientific Applications"
     },
     "d0d5cfe1ef4c1549": {
       "company": "Citizen Health",
@@ -1311,6 +1561,16 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "System Development Engineer, Robotics Integration and Optimization Services"
     },
+    "e0df99882d0cbfbc": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Artificial Intelligence Research Scientist - Artificial Intelligence and Machine Learning"
+    },
+    "e1d879055baab923": {
+      "company": "NRG Energy",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Field Service Professional"
+    },
     "e26d5b23ba1189fa": {
       "company": "Eluvio",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
@@ -1325,6 +1585,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Backend Software Engineer, IT Data & Analytics"
+    },
+    "e2a83498da752bd0": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Assembly"
     },
     "e2cb0bcae938e4a2": {
       "company": "DoorDash",
@@ -1350,6 +1615,11 @@
       "company": "Dayton Freight Lines",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Entry Level Software Developer"
+    },
+    "e4ca36e03a994780": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Applied Algorithms Engineer New Grad"
     },
     "e4d46fec541afe69": {
       "company": "TikTok",
@@ -1396,10 +1666,20 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Frontend Software Engineer"
     },
+    "eba2e552244d19e1": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Machine Learning PhD New Grad - Artificial Intelligence"
+    },
     "ebefaf7bc6909b3e": {
       "company": "Garmin",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Software Engineer I, Aviation Web Development"
+    },
+    "ec45e3af91974415": {
+      "company": "International Motors, LLC",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Product Engineer - Electrical"
     },
     "ecc60e3768f08e76": {
       "company": "Adobe",
@@ -1420,6 +1700,16 @@
       "company": "Zip",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "New Grad 2026: Software Engineer"
+    },
+    "efde2d615212d245": {
+      "company": "PENN Entertainment",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Audio Visual Technician"
+    },
+    "f0979f511b13a63d": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Statistician New Grad - Statistics and Data Science"
     },
     "f0b8a7a4eaa87437": {
       "company": "Citadel",
@@ -1465,6 +1755,16 @@
       "company": "Atlassian",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Software Engineer"
+    },
+    "f6a60ca7299769a3": {
+      "company": "NRG Energy",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Direct to Home Technician"
+    },
+    "f740253811890fe6": {
+      "company": "Johns Hopkins Applied Physics Laboratory",
+      "first_seen": "2026-08-14T10:59:33.977587+00:00",
+      "title": "Engineer Graduate - Multi-Mission Planning Development"
     },
     "f819ea37143adcd3": {
       "company": "Citadel Securities",
