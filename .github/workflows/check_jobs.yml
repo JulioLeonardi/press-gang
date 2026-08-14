@@ -2,9 +2,15 @@ name: check-jobs
 
 on:
   schedule:
-    # Every 30 min. GitHub frequently delays scheduled runs on shared runners;
-    # treat this as "roughly half-hourly", not a guarantee.
-    - cron: "*/30 * * * *"
+    # Hourly. GitHub frequently delays scheduled runs on shared runners; treat
+    # this as "roughly hourly", not a guarantee.
+    #
+    # Deliberately not more frequent: each run bills as a full Actions minute
+    # (jobs round UP), so hourly costs ~730 of the 2,000 free private-repo
+    # minutes per month. Half-hourly was ~1,460 — under the cap, but with no
+    # headroom. The sources only update a few times a day, so the extra
+    # frequency bought nothing.
+    - cron: "0 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:

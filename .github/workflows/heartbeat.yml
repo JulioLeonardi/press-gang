@@ -1,0 +1,44 @@
+name: heartbeat
+
+on:
+  schedule:
+    # Mondays 09:00 UTC. Kept separate from check-jobs so a failure here
+    # can never take down job checking.
+    - cron: "0 9 * * 1"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Log the heartbeat without sending it"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  actions: read # needed to count runs for the minutes estimate
+
+concurrency:
+  group: heartbeat
+  cancel-in-progress: false
+
+jobs:
+  beat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Send heartbeat
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_VISIBILITY: ${{ github.event.repository.visibility }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="--dry-run"; fi
+          python src/heartbeat.py $ARGS
