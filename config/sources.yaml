@@ -37,7 +37,7 @@ settings:
   #   | "U.S. Citizenship is Required" | "Other"  (<- 99% of rows, means "unspecified")
   # "Other" is mapped to `unknown`. Set allow_unknown_sponsorship: true to let
   # unspecified US roles through (very noisy — see README).
-  allow_unknown_sponsorship: false
+  allow_unknown_sponsorship: true
 
   # Drop seen-ids first observed more than this many days ago.
   prune_after_days: 90
