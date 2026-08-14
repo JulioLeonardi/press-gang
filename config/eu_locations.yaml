@@ -1,0 +1,234 @@
+# Location matching lists.
+#
+# NOTE: US detection runs FIRST and wins. This matters because many EU city
+# names are also US cities — Dublin CA/OH, Berlin NH, Paris TX, Vienna VA,
+# Naples FL, Milan TN, Rome GA, Athens GA. Without US precedence those would
+# all false-positive as EU.
+#
+# The UK is deliberately absent (post-Brexit, not EU).
+
+# EU-27 member states, plus common alternates/adjectives.
+countries:
+  - Austria
+  - Belgium
+  - Bulgaria
+  - Croatia
+  - Cyprus
+  - Czechia
+  - Czech Republic
+  - Denmark
+  - Estonia
+  - Finland
+  - France
+  - Germany
+  - Greece
+  - Hungary
+  - Ireland
+  - Italy
+  - Italia
+  - Latvia
+  - Lithuania
+  - Luxembourg
+  - Malta
+  - Netherlands
+  - The Netherlands
+  - Holland
+  - Poland
+  - Portugal
+  - Romania
+  - Slovakia
+  - Slovenia
+  - Spain
+  - Espana
+  - Sweden
+
+# Major hiring cities in the EU-27.
+cities:
+  # Italy
+  - Milan
+  - Milano
+  - Rome
+  - Roma
+  - Turin
+  - Torino
+  - Bologna
+  - Florence
+  - Firenze
+  - Naples
+  - Napoli
+  - Venice
+  - Padua
+  - Genoa
+  - Catania
+  - Pisa
+  - Trento
+  # Ireland
+  - Dublin
+  - Cork
+  - Galway
+  - Limerick
+  # Netherlands
+  - Amsterdam
+  - Rotterdam
+  - Utrecht
+  - Eindhoven
+  - The Hague
+  - Den Haag
+  - Delft
+  - Groningen
+  # Germany
+  - Berlin
+  - Munich
+  - Muenchen
+  - Munchen
+  - Hamburg
+  - Frankfurt
+  - Cologne
+  - Koln
+  - Stuttgart
+  - Dusseldorf
+  - Dresden
+  - Leipzig
+  - Karlsruhe
+  - Nuremberg
+  - Aachen
+  # France
+  - Paris
+  - Lyon
+  - Toulouse
+  - Nice
+  - Nantes
+  - Bordeaux
+  - Lille
+  - Marseille
+  - Grenoble
+  - Sophia Antipolis
+  - Rennes
+  # Spain
+  - Madrid
+  - Barcelona
+  - Valencia
+  - Seville
+  - Sevilla
+  - Malaga
+  - Bilbao
+  - Zaragoza
+  # Portugal
+  - Lisbon
+  - Lisboa
+  - Porto
+  - Braga
+  - Coimbra
+  # Poland
+  - Warsaw
+  - Warszawa
+  - Krakow
+  - Cracow
+  - Wroclaw
+  - Gdansk
+  - Poznan
+  - Katowice
+  - Lodz
+  # Nordics / Baltics
+  - Stockholm
+  - Gothenburg
+  - Goteborg
+  - Malmo
+  - Lund
+  - Copenhagen
+  - Kobenhavn
+  - Aarhus
+  - Helsinki
+  - Espoo
+  - Tampere
+  - Oulu
+  - Tallinn
+  - Riga
+  - Vilnius
+  - Kaunas
+  # Central / Eastern / Southern
+  - Vienna
+  - Wien
+  - Graz
+  - Linz
+  - Salzburg
+  - Innsbruck
+  - Brussels
+  - Bruxelles
+  - Antwerp
+  - Ghent
+  - Leuven
+  - Prague
+  - Praha
+  - Brno
+  - Ostrava
+  - Budapest
+  - Debrecen
+  - Bucharest
+  - Bucuresti
+  - Cluj
+  - Cluj-Napoca
+  - Timisoara
+  - Iasi
+  - Sofia
+  - Plovdiv
+  - Varna
+  - Bratislava
+  - Kosice
+  - Ljubljana
+  - Zagreb
+  - Split
+  - Athens
+  - Thessaloniki
+  - Nicosia
+  - Limassol
+  - Luxembourg City
+  - Valletta
+
+# Remote phrasings that imply an EU-eligible remote role.
+remote_patterns:
+  - remote (eu)
+  - remote - eu
+  - remote, eu
+  - eu remote
+  - remote europe
+  - europe remote
+  - remote (europe)
+  - remote emea
+  - emea remote
+  - anywhere in europe
+  - remote within the eu
+
+# NOT in the EU. Kept here so it's a one-line move into `countries`/`cities`
+# if you later decide you want them. Off by default.
+include_non_eu_european: false
+non_eu_european:
+  - Switzerland
+  - Zurich
+  - Geneva
+  - Lausanne
+  - Basel
+  - Norway
+  - Oslo
+  - Trondheim
+  - Iceland
+  - Reykjavik
+
+# Explicitly excluded even if they'd otherwise match (UK is out).
+exclude_patterns:
+  - united kingdom
+  - england
+  - scotland
+  - wales
+  - northern ireland
+  - london
+  - manchester
+  - cambridge, uk
+  - oxford
+  - edinburgh
+  - glasgow
+  - bristol
+  - leeds
+  - belfast
+  - ", uk"
+  - (uk)

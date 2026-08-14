@@ -1,0 +1,311 @@
+{
+  "bootstrapped": true,
+  "postings": {
+    "01c5f072868c6060": {
+      "company": "American Express",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Product Management Intern"
+    },
+    "0a86e2717fd97acd": {
+      "company": "Ranger",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Forward-Deployed Test Engineer"
+    },
+    "0ca61239a05279bf": {
+      "company": "Varian",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Engineer - DevOps/.NET/Azure"
+    },
+    "1ceae8da01a8bbb5": {
+      "company": "Appian",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Information Security Engineer Intern"
+    },
+    "1d27ab445c819510": {
+      "company": "Lambda",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Cloud Support Engineer I (Support Response)"
+    },
+    "1e112afe51d98e90": {
+      "company": "MetroStar",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Associate Software Developer"
+    },
+    "2aacbadf30731131": {
+      "company": "Magna",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Robotics AI Software- R&D"
+    },
+    "2ad8a00ca8afcfd1": {
+      "company": "Anduril Industries",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Air Dominance & Strike - Flight Software Engineer, Embedded C/C++"
+    },
+    "40968a71147f50e1": {
+      "company": "Netsmart",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Engineer Intern"
+    },
+    "438abb3ee298de11": {
+      "company": "Citadel",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Quantitative Research Analyst Intern"
+    },
+    "4553df4b64164c4c": {
+      "company": "Citadel Securities",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Quantitative Research Analyst – University Graduate"
+    },
+    "4767937658ec62d6": {
+      "company": "Gannett Fleming",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Entry Level Software Developer"
+    },
+    "476ef86d324279e9": {
+      "company": "Radian",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Data Scientist I - Hybrid"
+    },
+    "4b418f6977cf5864": {
+      "company": "SpAItial",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Research Engineer - 3D World Models"
+    },
+    "4cc423e860f0a9be": {
+      "company": "Citadel Securities",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Quantitative Research Analyst Bachelor's or master's degree Intern"
+    },
+    "4d6943347e74137d": {
+      "company": "American Express",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Associate - Digital Product Management"
+    },
+    "4f3a3de03cd645ea": {
+      "company": "Capital One",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Cyber Security Intern"
+    },
+    "5ad5f08c3767e1db": {
+      "company": "Visa",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "New Grad 2026: Software Engineer"
+    },
+    "5b4d2ba405fe594d": {
+      "company": "HPR",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Engineering Intern"
+    },
+    "60d8d76c1f1a8ed0": {
+      "company": "Lumafield",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Backend Engineer"
+    },
+    "6652075955fbf47c": {
+      "company": "Keysight Technologies",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Wireless Protocol Software Engineer - Layer 2 - Radio Link Control"
+    },
+    "677eb34d8447c07c": {
+      "company": "Plaid",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Engineer"
+    },
+    "69b7d6f5c27bf172": {
+      "company": "Valkyrie",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Derivatives Trader"
+    },
+    "6bc43aaa3bead354": {
+      "company": "Citadel Securities",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Machine Learning Researcher – PhD Graduate"
+    },
+    "6eeea592c3f2f348": {
+      "company": "n8n",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "AI Product Manager"
+    },
+    "702368b571d28775": {
+      "company": "Citadel",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Quantitative Researcher – PhD Graduate"
+    },
+    "726403d3e1bcf0e4": {
+      "company": "GoDaddy",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Development Engineer Intern"
+    },
+    "72e1f489c1c1a498": {
+      "company": "Medtronic",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Engineering Intern"
+    },
+    "73cef0ccd8a5ef1d": {
+      "company": "Mistral AI",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Applied Scientist / Research Engineer Intern"
+    },
+    "8e33f84df3565ff7": {
+      "company": "Fiserv",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Application Development Intern"
+    },
+    "9ee086cc936d2546": {
+      "company": "Helsing",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "AI Research Intern - 3D Computer Vision"
+    },
+    "9f0f47b75ad7e650": {
+      "company": "Roblox",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "New Grad 2026: Associate Product Designer"
+    },
+    "9f1e9c3b8bdbabe9": {
+      "company": "Magna",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Robotics AI Algorithm- R&D"
+    },
+    "ad268b4641d15a70": {
+      "company": "Boeing",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Data Analytics Intern"
+    },
+    "b069da22405303c7": {
+      "company": "Melotech",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Full-Stack Developer Intern - Music & Audio"
+    },
+    "ba48c34d6760980a": {
+      "company": "Visa",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "New Grad 2026: Site Reliability Engineer"
+    },
+    "c01bf750895fa49f": {
+      "company": "Fideres",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Financial Economist"
+    },
+    "c464755b6b853c07": {
+      "company": "Appian",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "New Grad 2027: Software Engineer"
+    },
+    "c4a92880b11e4e79": {
+      "company": "Visa",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "New Grad 2026: Associate Product Manager (APM)"
+    },
+    "c7562ccc6a11b62b": {
+      "company": "Citadel Securities",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Quantitative Researcher – PhD Graduate - Europe"
+    },
+    "c94d1e51cc96d877": {
+      "company": "Uncountable",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Full-Stack Intern"
+    },
+    "caff6374f712be74": {
+      "company": "Baton Corporation",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Junior Full Stack Engineer"
+    },
+    "d23dbba6a4e806e8": {
+      "company": "Appian",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Engineering Intern"
+    },
+    "d401a3a22b9ee89b": {
+      "company": "Citadel Securities",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Quantitative Trading Intern"
+    },
+    "d50ab5011cd7c44b": {
+      "company": "Poshmark",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Cloud Platform Engineer Intern, Growth"
+    },
+    "d5d4879be22c1bb0": {
+      "company": "NAMSA",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Business System Analyst - Various Platforms - NAMSA Talent Building Community"
+    },
+    "d5da822511bfe473": {
+      "company": "Channel3",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Founding Engineer"
+    },
+    "d67e8cd1a328c5f6": {
+      "company": "Prior Labs",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Research Scientist Intern - PhD"
+    },
+    "d86bf6a1f62c6e5a": {
+      "company": "Internship",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "AI Deployment Engineering Internship"
+    },
+    "d9e1276ff082e62b": {
+      "company": "Duolingo",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "AI Product Engineer, Math"
+    },
+    "dc2d8a375469c562": {
+      "company": "Melotech",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Data Science Intern - Music & Audio"
+    },
+    "dd318082f3d1493c": {
+      "company": "Melotech",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "AI/ML Engineer Intern"
+    },
+    "df811a124f13bcf8": {
+      "company": "American Express",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Engineer 1, Technology"
+    },
+    "e639e3c6e4f198e7": {
+      "company": "Squarepoint Capital",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Intern Quant Researcher"
+    },
+    "e7e34cc14b35179a": {
+      "company": "Travelers",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Engineer I (AI Driven)"
+    },
+    "eb1142ed6896449a": {
+      "company": "ServiceNow",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Frontend Software Engineer"
+    },
+    "f0b8a7a4eaa87437": {
+      "company": "Citadel",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Investment & Trading Intern"
+    },
+    "f272fead900830af": {
+      "company": "Emerson",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Embedded Software Engineer"
+    },
+    "f819ea37143adcd3": {
+      "company": "Citadel Securities",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Rates Trading Intern"
+    },
+    "f8a65d9a5da4b58e": {
+      "company": "Appian",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Software Engineering Intern"
+    },
+    "fa35d02df1ab1313": {
+      "company": "Aptiv",
+      "first_seen": "2026-08-14T01:39:53.379301+00:00",
+      "title": "Working Student Interior Sensing ML"
+    }
+  },
+  "version": 1
+}

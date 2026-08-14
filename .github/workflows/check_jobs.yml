@@ -1,0 +1,54 @@
+name: check-jobs
+
+on:
+  schedule:
+    # Every 30 min. GitHub frequently delays scheduled runs on shared runners;
+    # treat this as "roughly half-hourly", not a guarantee.
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Log matches without sending to Discord"
+        type: boolean
+        default: false
+      reseed:
+        description: "Silently re-seed state (no notifications)"
+        type: boolean
+        default: false
+
+# Required for the job to push the updated state file back.
+permissions:
+  contents: write
+
+concurrency:
+  # Never let two runs write seen.json at once.
+  group: check-jobs
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Check for new postings
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          ARGS=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          if [ "${{ inputs.reseed }}" = "true" ]; then ARGS="$ARGS --reseed"; fi
+          python src/main.py $ARGS
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        if: ${{ inputs.dry_run != true }}
+        with:
+          commit_message: "chore: update seen.json [skip ci]"
+          file_pattern: state/seen.json

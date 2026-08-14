@@ -1,0 +1,47 @@
+# Source repos to watch.
+#
+# adapter: "simplify_json" | "markdown_table"
+#   simplify_json  -> Simplify-style listings.json (list of posting objects)
+#   markdown_table -> README with a | Company | Role | Location | Link | Date | table
+#
+# A failing source is logged and skipped; it never aborts the run.
+
+sources:
+  - name: SimplifyJobs/New-Grad-Positions
+    adapter: simplify_json
+    url: https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json
+
+  - name: SimplifyJobs/Summer2026-Internships
+    adapter: simplify_json
+    url: https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json
+
+  # NOTE: SimplifyJobs/Summer2027-Internships currently serves a byte-identical
+  # file to Summer2026 (verified Aug 2026) — it's a mirror, not a second source.
+  # Adding it just doubles a 10MB download. Re-check once 2027 diverges.
+
+  - name: vanshb03/New-Grad-2026
+    adapter: markdown_table
+    url: https://raw.githubusercontent.com/vanshb03/New-Grad-2026/main/README.md
+
+  - name: vanshb03/Summer2026-Internships
+    adapter: markdown_table
+    url: https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/main/README.md
+
+settings:
+  # Only consider postings still marked active/open by the source.
+  require_active: true
+
+  # US roles: which sponsorship values are allowed through.
+  # Simplify's real enum is:
+  #   "Offers Sponsorship" | "Does Not Offer Sponsorship"
+  #   | "U.S. Citizenship is Required" | "Other"  (<- 99% of rows, means "unspecified")
+  # "Other" is mapped to `unknown`. Set allow_unknown_sponsorship: true to let
+  # unspecified US roles through (very noisy — see README).
+  allow_unknown_sponsorship: false
+
+  # Drop seen-ids first observed more than this many days ago.
+  prune_after_days: 90
+
+  # Safety cap on how many postings one run may notify about.
+  # Protects against a source reformatting and looking like 5,000 "new" jobs.
+  max_notifications_per_run: 60
