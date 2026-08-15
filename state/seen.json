@@ -61,6 +61,16 @@
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "Service Technician"
     },
+    "00faf795bd7354b4": {
+      "company": "Western Digital",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Failure Analysis Automation Engineer Intern - Failure Analysis Automation Engineering"
+    },
+    "014c762c488bc628": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Manufacturing Technician Cleanroom"
+    },
     "0193b5a38b4204a9": {
       "company": "CWILL",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
@@ -401,6 +411,11 @@
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Software Engineer - EVV"
     },
+    "0a706418efec3507": {
+      "company": "Alpaca",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Securities Finance Trader"
+    },
     "0a73203211190aa9": {
       "company": "Nexstar",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
@@ -616,6 +631,11 @@
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "AI Innovation Research Engineer New Grad"
     },
+    "0ff10d68d9e976b7": {
+      "company": "Pegatron Technologies LLC",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Field Application Engineer"
+    },
     "0ff190925c71f802": {
       "company": "Idler",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -655,6 +675,11 @@
       "company": "Kimley-Horn",
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Software Developer Intern"
+    },
+    "11155f8bdeedd959": {
+      "company": "CaseGuard",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Data Annotation Specialist"
     },
     "1141cc404a98ebf3": {
       "company": "Retail Information Systems",
@@ -716,6 +741,11 @@
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Research Scientist Intern - Multi-modal Agentic Databases"
     },
+    "13854172d6f215ed": {
+      "company": "Boson Ai",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Software Engineer - Platform & Application"
+    },
     "13bca898e18fbdb1": {
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
@@ -750,6 +780,11 @@
       "company": "IXL Learning",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Associate Product Manager New Grad"
+    },
+    "1519cd3c61f7373a": {
+      "company": "Primetals Technologies",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Data Science Internship - Governance"
     },
     "15259c9e2002582f": {
       "company": "TikTok",
@@ -851,6 +886,11 @@
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Java Developer Intern - Web Application Developer"
     },
+    "17c30ff8756e8a6b": {
+      "company": "Bespoke Technologies, Inc.",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "R&D Computer Engineer"
+    },
     "17d97657a016ab8b": {
       "company": "TikTok",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
@@ -891,6 +931,11 @@
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Product Engineering Student - Product Engineering"
     },
+    "18e87451c15b739e": {
+      "company": "Sysmex",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Field Service Technician - Field Service"
+    },
     "18ea6f49098c8e1c": {
       "company": "Taro",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -920,6 +965,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Backend Software Engineer Graduate - Privacy and Security - Product"
+    },
+    "1988dd0b2d8c51d6": {
+      "company": "Amazon",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Programmer Analyst 1"
     },
     "19f987589a6b22d4": {
       "company": "ByteDance",
@@ -1045,6 +1095,11 @@
       "company": "Harvey",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad: Software Engineer"
+    },
+    "1d2e36796df40390": {
+      "company": "Appian",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Product Manager"
     },
     "1d54b9d179a02c03": {
       "company": "AbbVie",
@@ -1201,6 +1256,11 @@
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Backend Software Engineer Graduate - Creation Platform"
     },
+    "20c327bd7eb4b2a5": {
+      "company": "Trane Technologies",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Lab Technician 1"
+    },
     "20c6b2675fe16895": {
       "company": "AgentMail",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -1345,6 +1405,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "New Grad 2026: Machine Learning Engineer (Monetization Technology - TikTok Ads Creative & Ecosystem)"
+    },
+    "249d00d7ff661943": {
+      "company": "Appian",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Software Engineer Intern"
     },
     "24b115f3c74d540b": {
       "company": "ByteDance",
@@ -1556,6 +1621,11 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "AIML Resident - Robot Learning"
     },
+    "2aa3f8b5bc74097e": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Career Accelerator Program - Product Engineer"
+    },
     "2aa8732a73144284": {
       "company": "TikTok",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
@@ -1565,6 +1635,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Issue Discovery Operations Intern - Content Ecosystem"
+    },
+    "2aabd01e457988fb": {
+      "company": "Optiver",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Institutional Trader Intern"
     },
     "2aacbadf30731131": {
       "company": "Magna",
@@ -1600,6 +1675,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Software Engineer Intern - Transaction Platform"
+    },
+    "2b5c199840467d37": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Product Installation Engineer"
     },
     "2ba58217cd7c6548": {
       "company": "TikTok",
@@ -2141,6 +2221,11 @@
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Mall"
     },
+    "393b7e7d947a754e": {
+      "company": "EquipmentShare",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Low Voltage Technician"
+    },
     "397ad3ba974175d2": {
       "company": "OH.io",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
@@ -2161,10 +2246,20 @@
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Engineer AI Agentic Solutions"
     },
+    "39b3bb3dbd2f93b6": {
+      "company": "Bluestaq",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Bluestaq Graduate Research Scholar - NDSU Partnership"
+    },
     "39cf7df2bca91c04": {
       "company": "Warner Bros.",
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Research & Analytics Internships - Multiple Teams"
+    },
+    "39d6848aed8f7d47": {
+      "company": "EquipmentShare",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Telematics Installer"
     },
     "3a2a72809c29e32d": {
       "company": "CWILL",
@@ -2216,6 +2311,11 @@
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "Software Engineer 1"
     },
+    "3b7dd533ebd535f3": {
+      "company": "Brandeis University",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Research Assistant - School of Business and Economics"
+    },
     "3b8d967f1f927bca": {
       "company": "TikTok",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
@@ -2245,6 +2345,11 @@
       "company": "Bigbear.ai",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Data Engineer"
+    },
+    "3cc6ddb71dacca0b": {
+      "company": "Geo Owl",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Maritime Cartographer Apprentice"
     },
     "3ce61cdef557e528": {
       "company": "ByteDance",
@@ -2361,6 +2466,11 @@
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Business Analyst/Data Analyst"
     },
+    "4022148dbbec6ef3": {
+      "company": "Geo Owl",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Full Motion Video Analyst - Intelligence Analyst"
+    },
     "4025cf206550d194": {
       "company": "Oracle",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
@@ -2466,6 +2576,11 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "Associate Product Builder (APB) - Rotational Program"
     },
+    "41ef5b3ef0da3919": {
+      "company": "Group 1001",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Quantitative Analysis Intern"
+    },
     "41fcd47823d47e36": {
       "company": "Knowledge Services",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -2490,6 +2605,11 @@
       "company": "TransMarket Group",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
       "title": "Software Engineer Intern"
+    },
+    "427d14aecab1ca82": {
+      "company": "E Source Companies",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Associate Engineer"
     },
     "42bb202eb53715ad": {
       "company": "Lennar",
@@ -2975,6 +3095,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Research Scientist Graduate - Multimodal Interaction and World Model"
+    },
+    "504b797476eb4d2e": {
+      "company": "Hewlett Packard (HP)",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Graduate Software Developer"
     },
     "506222db526d2991": {
       "company": "ByteDance",
@@ -3646,6 +3771,11 @@
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "SoC Physical Design Engineer - PnR"
     },
+    "5fd77010074cb771": {
+      "company": "Appian",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Product Manager Intern"
+    },
     "5ffd549e056773a8": {
       "company": "Stripe",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -3856,6 +3986,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "GIS Analyst - Data and Technology Services - Utilities Program"
     },
+    "647f6049b511ea13": {
+      "company": "Compass",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Software Engineer - Mobile - iOS"
+    },
     "64caef29620fa164": {
       "company": "Cisco",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
@@ -3895,6 +4030,11 @@
       "company": "Scientific Research Corporation",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
       "title": "Engineering Technician 1"
+    },
+    "65c717921263775e": {
+      "company": "Harris Computer",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Support Consultant"
     },
     "65da27ccb89e915d": {
       "company": "Adobe",
@@ -4020,6 +4160,11 @@
       "company": "GliaCell Technologies",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Junior Software Engineer"
+    },
+    "6948927e5ef81f87": {
+      "company": "Cerebras",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Kernel Engineer New Grad"
     },
     "69831d468c23c3fd": {
       "company": "Howmet Aerospace",
@@ -4281,6 +4426,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Senior Associate Growth Products"
     },
+    "6f20874c7631bb7f": {
+      "company": "Google",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Modem Power Firmware Engineer - Pixel"
+    },
     "6fd7268de263c64f": {
       "company": "SimpliSafe",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -4441,6 +4591,11 @@
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "Software Engineer - Applied Machine Learning - IS&T"
     },
+    "7261efa92119a113": {
+      "company": "Amazon",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Software Development Engineer - Amazon Leo"
+    },
     "726403d3e1bcf0e4": {
       "company": "GoDaddy",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -4450,6 +4605,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Network Software Engineer Intern - Network Switch"
+    },
+    "7272159c9b4ffbf1": {
+      "company": "Amazon",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "EFA Network Software Engineer 1 - Annapurna Labs"
     },
     "7276c187de02c790": {
       "company": "TikTok",
@@ -4836,6 +4996,11 @@
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Machine Learning Engineer Intern"
     },
+    "7c7be3a7e3d17ac1": {
+      "company": "McMaster-Carr",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Technology - Development - Design"
+    },
     "7ca3cbe48991edcb": {
       "company": "TP-Link Systems",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
@@ -4890,6 +5055,11 @@
       "company": "Mapjects",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "PHP Developer Intern"
+    },
+    "7e3f50b77461f906": {
+      "company": "Welo Global",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Data Collection Project"
     },
     "7e7a919694a7298e": {
       "company": "Lawrence Livermore National Laboratory (LLNL)",
@@ -5046,6 +5216,11 @@
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Software Engineering Intern/Co-op"
     },
+    "82706d6b28277a4c": {
+      "company": "Enova",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Analytics Analyst - Fraud"
+    },
     "8276a29eeae2bcef": {
       "company": "Marriott International",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
@@ -5055,6 +5230,11 @@
       "company": "SentiLink",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Quantitative Scientist New Grad - Multiple Teams"
+    },
+    "82dc645de87c9553": {
+      "company": "Southern States, LLC",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Application Engineer 1 - Psd"
     },
     "82dec74f5a3d7eb8": {
       "company": "TikTok",
@@ -5080,6 +5260,11 @@
       "company": "Amazon",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Robotics Systems Engineer, Amazon Robotics Deployment Engineering"
+    },
+    "8390f55e360f7f44": {
+      "company": "WebFX",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Junior Business Data Analyst"
     },
     "839b580d011de4e9": {
       "company": "TikTok",
@@ -5331,6 +5516,11 @@
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "Business Intelligence Associate"
     },
+    "89c61a00a13fc9f5": {
+      "company": "CloudFit Software",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "CloudFit Software Internship - Company name withheld"
+    },
     "89dbabae1a849d68": {
       "company": "Copart",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -5481,6 +5671,11 @@
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Test Engineer"
     },
+    "8dc2f9bafdc1691d": {
+      "company": "Motorola",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Software Engineer"
+    },
     "8dd3cf28a7a0aa5b": {
       "company": "WSP",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
@@ -5625,6 +5820,11 @@
       "company": "Trillium",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Equity Trader Intern"
+    },
+    "91ddf1ef978a5421": {
+      "company": "Artera Technologies",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Software Engineer"
     },
     "91e42912b3aead5d": {
       "company": "TikTok",
@@ -5961,6 +6161,11 @@
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "Video/Image AI/ML Software Engineer Graduate - Multimedia"
     },
+    "9aa9942354742529": {
+      "company": "Montgomery Investment Technology, Inc.",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Montgomery Investment Technology"
+    },
     "9ae51890143ea7c8": {
       "company": "Kyocera Document Solutions America",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
@@ -6175,6 +6380,11 @@
       "company": "Dexcom",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Software Development Engineer 1"
+    },
+    "9fbbc32cac9b17e9": {
+      "company": "Citadel Securities",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Quantitative AI Technical Staff"
     },
     "9fc2592dde2ccc8a": {
       "company": "BAE Systems",
@@ -6776,6 +6986,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "PC Support"
     },
+    "b00255c93877a0b2": {
+      "company": "Argonne National Laboratory",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Assistant Scientist - Time-Resolved Photoemission Electron Microscopy"
+    },
     "b01a646dbe2a34f5": {
       "company": "ADT",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
@@ -6971,10 +7186,20 @@
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Full Stack Developer"
     },
+    "b4a01184332489da": {
+      "company": "CornerStone Partners",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Investment Analyst"
+    },
     "b4a42f29e05e3982": {
       "company": "Uneekor",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Software Quality Assurance Engineer"
+    },
+    "b4d2bf17181fa37f": {
+      "company": "Appian",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Associate Application Engineer"
     },
     "b50bd76d908a3a2c": {
       "company": "American Express",
@@ -7091,6 +7316,11 @@
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Electronics/Electro-Mechanical Assembler"
     },
+    "b71e9d796dfc1bfc": {
+      "company": "Warner Bros.",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Sports Growth Strategy and Data Intern"
+    },
     "b73eb1b7bfde8901": {
       "company": "Prysmian Cables & Systems",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
@@ -7100,6 +7330,11 @@
       "company": "Bowman Consulting Group",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Survey Instrument Operator"
+    },
+    "b752f3c994fa5635": {
+      "company": "Pennsylvania State University",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Systems Administrator - Linux/Cloud"
     },
     "b7778b6cbcfd4906": {
       "company": "Berkshire Hathaway Energy",
@@ -7776,6 +8011,11 @@
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "Research Associate"
     },
+    "c6a55d0cd7a13675": {
+      "company": "TSMG",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Video Recording Participant"
+    },
     "c6e14b0a5522db09": {
       "company": "Salesforce",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
@@ -7986,6 +8226,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Software Engineer Intern"
     },
+    "cbbb3c6b928e800f": {
+      "company": "Visa",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Software Engineer - Corporate GenAI"
+    },
     "cc0b2de94f689611": {
       "company": "Rivian",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
@@ -8020,6 +8265,11 @@
       "company": "Garmin",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Embedded Software Engineer 1"
+    },
+    "ccd0dc08fcd304ff": {
+      "company": "Honeywell",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Graduate Service Data Analyst 1"
     },
     "cce43e8e7da9d815": {
       "company": "Meds",
@@ -8101,6 +8351,11 @@
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "System Development Engineer, AWS Vetting"
     },
+    "ceb1afddce0cc8c4": {
+      "company": "Tenstorrent",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Software Engineer Intern - Power Modeling & AI Tools"
+    },
     "cf039a6d5231eb5c": {
       "company": "TikTok",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
@@ -8125,6 +8380,11 @@
       "company": "Alto-Shaam",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Associate Product Manager - Pricing"
+    },
+    "cff4d445fa4fa09a": {
+      "company": "Argonne National Laboratory",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Postdoctoral Appointee - AI/ML for Particle Accelerators"
     },
     "d006eaaa6a3e5166": {
       "company": "WallStreetQuants",
@@ -8466,6 +8726,11 @@
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Planning Technician - Work+ Program"
     },
+    "d7b0cf5a2ea0d478": {
+      "company": "Axalta",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Mobility Operations Rotational Program"
+    },
     "d7b32c0d5bc9d1d7": {
       "company": "Micron Technology",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
@@ -8590,6 +8855,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Software Engineer Graduate - Recommendation Architecture - Feeds Infrastructure"
+    },
+    "da6a9f02cfeed7af": {
+      "company": "Newmark Group",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Data Outreach Associate"
     },
     "da9d359b35683864": {
       "company": "Terranova",
@@ -9056,6 +9326,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Quantitative Technologist Intern, C++"
     },
+    "e4376389329eb05a": {
+      "company": "Red Bull",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Data Science Intern - Data Science"
+    },
     "e43eca5fa6b96965": {
       "company": "Clyde Companies",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -9146,6 +9421,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Embedded Systems Engineer New Grad"
     },
+    "e5e490e9d8463acd": {
+      "company": "Marsh & McLennan",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Data and Analytics Analyst - Data & Analytics Team"
+    },
     "e6314525f1274c5b": {
       "company": "Dover",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
@@ -9175,6 +9455,11 @@
       "company": "Worldwide TechServices",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Dynamic Server Support"
+    },
+    "e6b5d855068e6353": {
+      "company": "NVIDIA",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Developer Technology Engineer New Grad - Public Sector"
     },
     "e6c2d244bdd8adc6": {
       "company": "TikTok",
@@ -9310,6 +9595,11 @@
       "company": "Woven",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Software Engineer - Calibration - Analysis/Tool"
+    },
+    "ea88b062cd513715": {
+      "company": "Bee Sweet Citrus",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Data Processing Intern - Multiple Teams"
     },
     "ea90bf1cbf4c8d47": {
       "company": "Chicago Trading Company",
@@ -10006,6 +10296,11 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Software Engineer in ML Systems"
     },
+    "fa81da35947a84c8": {
+      "company": "Hearst",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Broadcast Operations Technician"
+    },
     "fa8eb223fa510a81": {
       "company": "Castleton Commodities International",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
@@ -10205,6 +10500,11 @@
       "company": "TP-Link Systems",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Early Career Embedded Software Engineer"
+    },
+    "ffb7033b1dfacd27": {
+      "company": "BLR | Leadership Platforms | CCMI",
+      "first_seen": "2026-08-15T17:17:58.081227+00:00",
+      "title": "Leadership Platforms - CCMI"
     }
   },
   "version": 1
