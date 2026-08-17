@@ -2036,6 +2036,11 @@
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Software Engineering Co-op Spring 2027"
     },
+    "1ba26e656dc29573": {
+      "company": "CSI",
+      "first_seen": "2026-08-17T15:21:52.123639+00:00",
+      "title": "Product Manager - Business Banking & Treasury Management"
+    },
     "1bbe7b2881d2860a": {
       "company": "TikTok",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
@@ -8161,6 +8166,11 @@
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Back-End Engineer Intern"
     },
+    "6ce4b925419cd522": {
+      "company": "Mass General Brigham",
+      "first_seen": "2026-08-17T15:21:52.123639+00:00",
+      "title": "Data Analyst 1"
+    },
     "6cf391ee73ce2f0d": {
       "company": "Zebra Technologies",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
@@ -12521,6 +12531,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Junior AI Engineer"
     },
+    "a2e6a0a2a1669ccf": {
+      "company": "Daktronics",
+      "first_seen": "2026-08-17T15:21:52.123639+00:00",
+      "title": "Firmware/Hardware Design Student"
+    },
     "a3197e684e4faf3d": {
       "company": "Tesla",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -13070,6 +13085,11 @@
       "company": "Level99 Entertainment",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Installer"
+    },
+    "ab118fa46be87218": {
+      "company": "Daktronics",
+      "first_seen": "2026-08-17T15:21:52.123639+00:00",
+      "title": "Software Design Student"
     },
     "ab168cec77741536": {
       "company": "Capital One",
@@ -15331,6 +15351,11 @@
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Software Engineer College Grad"
     },
+    "c6ecfe1f41e03d9c": {
+      "company": "FAST Enterprises",
+      "first_seen": "2026-08-17T15:21:52.123639+00:00",
+      "title": "Implementation Intern"
+    },
     "c7015c4b0a9465c7": {
       "company": "Omnicom Group",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -15775,6 +15800,11 @@
       "company": "Meds",
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Entry Level Data Analyst"
+    },
+    "cce6e205f4db69bc": {
+      "company": "Datadog",
+      "first_seen": "2026-08-17T15:21:52.123639+00:00",
+      "title": "Software Engineer Intern - Observability and Security Platform"
     },
     "ccfa3a776db55873": {
       "company": "BlueLabs Analytics",
@@ -18336,6 +18366,11 @@
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Upgrade Install and Relocation Engineer - Duv"
     },
+    "ec337631d2e1fa03": {
+      "company": "NVIDIA",
+      "first_seen": "2026-08-17T15:21:52.123639+00:00",
+      "title": "Verification Engineer"
+    },
     "ec45e3af91974415": {
       "company": "International Motors, LLC",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
@@ -18895,6 +18930,11 @@
       "company": "Cummins",
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Electronic Systems Engineer - Software"
+    },
+    "f27ee92d78c7ee1b": {
+      "company": "Rivian",
+      "first_seen": "2026-08-17T15:21:52.123639+00:00",
+      "title": "FPGA Design Intern - FPGA Design"
     },
     "f28518dbb562eb2a": {
       "company": "Lentech Inc.",
