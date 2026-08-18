@@ -326,6 +326,11 @@
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
       "title": "Equipment Technician CMP - Rfab"
     },
+    "043e1cad5f5a7b1d": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-18T15:27:45.947507+00:00",
+      "title": "Integration/Test Engineering Intern"
+    },
     "044ca62b06f182be": {
       "company": "RTX",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
@@ -2805,6 +2810,11 @@
       "company": "PayPal",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad: Software Engineer"
+    },
+    "235ed489137d5d52": {
+      "company": "Draper",
+      "first_seen": "2026-08-18T15:27:45.947507+00:00",
+      "title": "Full Stack Web Development Co-op - Spring 2027"
     },
     "235edc498de959aa": {
       "company": "FormFactor",
@@ -11406,6 +11416,11 @@
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "New Grad 2026: Machine Learning Engineer - Local Services Search (BS/MS)"
     },
+    "8d97941a459ee1c8": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-18T15:27:45.947507+00:00",
+      "title": "Application Developer Associate"
+    },
     "8d9a32f6e905a3e5": {
       "company": "Waymo",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -19071,6 +19086,11 @@
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
       "title": "Business Analysis Associate Intern - Access Management"
     },
+    "e8e453584a7afa0f": {
+      "company": "Johnson Controls",
+      "first_seen": "2026-08-18T15:27:45.947507+00:00",
+      "title": "Software Engineer 1 - Data Center Engineering"
+    },
     "e910f980f9885d6d": {
       "company": "Florida Institute of Technology",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -20545,6 +20565,11 @@
       "company": "Avnet",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Associate Field Application Engineer"
+    },
+    "f91d785b96e306b3": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-18T15:27:45.947507+00:00",
+      "title": "Associate Integration/Test Engineer"
     },
     "f91f9fb951288acb": {
       "company": "Flexport",
