@@ -3311,6 +3311,11 @@
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Vehicle Integration Technician - All levels"
     },
+    "263fb2c65dbdd27d": {
+      "company": "Sunday Robotics",
+      "first_seen": "2026-08-20T09:30:37.108491+00:00",
+      "title": "Memory Developer - In-house - PM Shift"
+    },
     "26770294050741ab": {
       "company": "AeroVironment",
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
@@ -7996,6 +8001,11 @@
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Machine Learning Engineer - Associate"
     },
+    "5e990bc6ae8c7b9d": {
+      "company": "AVI-SPL",
+      "first_seen": "2026-08-20T09:30:37.108491+00:00",
+      "title": "AV Support Technician"
+    },
     "5e9d3998f60b03bf": {
       "company": "Varda Space",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
@@ -11790,6 +11800,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "In Vehicle Test Engineer, Steering, Vehicle Software"
+    },
+    "8890d6c205e4f463": {
+      "company": "Boston Consulting Group",
+      "first_seen": "2026-08-20T09:30:37.108491+00:00",
+      "title": "Forward Deployed AI Scientist"
     },
     "88a289cbe8d8e5c2": {
       "company": "Ginkgo Bioworks",
@@ -22405,6 +22420,11 @@
       "company": "Mission Critical Group",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Production Technician - Integrated Solutions"
+    },
+    "feeacaeb054906b2": {
+      "company": "RTX",
+      "first_seen": "2026-08-20T09:30:37.108491+00:00",
+      "title": "ECAD Design Engineer 1"
     },
     "fef9b642fa64e574": {
       "company": "University of Arkansas",
