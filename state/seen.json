@@ -1681,6 +1681,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Engineering Technician"
     },
+    "12eafc70c1d7f247": {
+      "company": "Mercury Insurance",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Software Engineer 1 Test"
+    },
     "1302e8d73574b012": {
       "company": "TikTok",
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
@@ -2981,6 +2986,11 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Founding Engineer"
     },
+    "21025b09aba72d77": {
+      "company": "Mercury Insurance",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Software Engineer 1"
+    },
     "21028758338d741f": {
       "company": "Omnicell",
       "first_seen": "2026-08-21T11:21:31.979386+00:00",
@@ -3601,6 +3611,11 @@
       "first_seen": "2026-08-21T02:58:59.617439+00:00",
       "title": "Residential Installation & Service Technician"
     },
+    "2768b9d333845ccd": {
+      "company": "Brunswick",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Software Engineer Intern"
+    },
     "2774a434b12b4fb3": {
       "company": "STR",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
@@ -3825,6 +3840,11 @@
       "company": "Qualcomm",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Camera Low Power Engineer - Camera Engineering"
+    },
+    "2a5d5979bfa8ee86": {
+      "company": "Alfa Financial Software",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Implementation Analyst - Graduate Program"
     },
     "2a730bc5d7ce77b1": {
       "company": "University of Rochester",
@@ -5135,6 +5155,11 @@
       "company": "Emory Healthcare",
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
       "title": "Associate AI Product Strategist"
+    },
+    "386fe315e65977b8": {
+      "company": "Hyve Solutions",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Software Engineer New Grad"
     },
     "387abf30115b70d3": {
       "company": "Booz Allen",
@@ -6866,6 +6891,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Associate - Digital Product Management"
     },
+    "4d749647e1bcee01": {
+      "company": "Frost",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Computer Science Intern - Digital Services"
+    },
     "4dd5aa2ee2cf8691": {
       "company": "Anduril",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
@@ -7450,6 +7480,11 @@
       "company": "ITT",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Trade & Supply Chain Data Analytics Co-op"
+    },
+    "541bcc25744ecf46": {
+      "company": "Integration Innovation (i3)",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Software Engineer"
     },
     "5437176bd3705d69": {
       "company": "ASM International",
@@ -13011,6 +13046,11 @@
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Field Service Engineer"
     },
+    "8f1cde74780928ce": {
+      "company": "MiTek",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Electrical Panel Assembler"
+    },
     "8f208bf70c3f6906": {
       "company": "RTX",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -13440,6 +13480,11 @@
       "company": "Worldwide TechServices",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "PC Support - Dynamic"
+    },
+    "9473d7453ef44a37": {
+      "company": "T-Mobile",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Associate Software Engineer"
     },
     "947c2050fed82b33": {
       "company": "FTI Consulting",
@@ -17486,6 +17531,11 @@
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
       "title": "Product Development Intern - R&D"
     },
+    "bf45869cad1c1a03": {
+      "company": "University System of New Hampshire",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Research Support"
+    },
     "bf535d7fb56039c1": {
       "company": "Citylogix",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
@@ -17615,6 +17665,11 @@
       "company": "Apple",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Camera Framework Engineer, Photo Capture"
+    },
+    "c1198b78c75d6d65": {
+      "company": "BRG",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Health Analytics Intern - Health Analytics Practice"
     },
     "c1219f22e0f80036": {
       "company": "Ramp",
@@ -19461,6 +19516,11 @@
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Backend Inference Runtime Engineer New Grad - AML Inference"
     },
+    "d4704bab6ed39dc7": {
+      "company": "Medable",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Associate Forward Deployed Engineer"
+    },
     "d486e8e71dc110ab": {
       "company": "NRG Energy",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
@@ -20475,6 +20535,11 @@
       "company": "Insilico Logix",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Data Analyst"
+    },
+    "de862f09a9774882": {
+      "company": "Entegris",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Electrical Technician 1"
     },
     "de8d07197d4f286e": {
       "company": "Gecko Robotics",
@@ -22215,6 +22280,11 @@
       "company": "Heron Power",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Hardware Test Engineering Intern"
+    },
+    "f0394a9a70b2a91e": {
+      "company": "General Motors",
+      "first_seen": "2026-08-21T20:21:44.821595+00:00",
+      "title": "Software Engineer - AV Data Collection"
     },
     "f050d424bc5230d8": {
       "company": "Urban Science",
