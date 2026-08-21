@@ -4021,6 +4021,11 @@
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Entry Level Software Developer"
     },
+    "2cf49f685cc31c29": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-08-21T07:39:40.698702+00:00",
+      "title": "Associate RF Engineer"
+    },
     "2cfb029b6bb19e57": {
       "company": "Leidos",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
@@ -10081,6 +10086,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Implementation Analyst"
     },
+    "714c5e026868cbe3": {
+      "company": "Nucleus Biologics",
+      "first_seen": "2026-08-21T07:39:40.698702+00:00",
+      "title": "Full Stack Engineer"
+    },
     "7166d5332bab714a": {
       "company": "Berkshire Hathaway Energy",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
@@ -11146,6 +11156,11 @@
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "AI Algorithm Developer"
     },
+    "7cb502032749079e": {
+      "company": "Starbucks",
+      "first_seen": "2026-08-21T07:39:40.698702+00:00",
+      "title": "Application Developer - Application Development"
+    },
     "7cb55ca296a8a11d": {
       "company": "TikTok",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
@@ -11430,6 +11445,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Research Engineer"
+    },
+    "8012d53be12eb35c": {
+      "company": "Stanley Black & Decker",
+      "first_seen": "2026-08-21T07:39:40.698702+00:00",
+      "title": "Leadership Program Engineering - Embedded Software"
     },
     "80153d5b4e7ec05a": {
       "company": "Oracle",
@@ -13300,6 +13320,11 @@
       "company": "Semtech",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Test Operator 1"
+    },
+    "9590d51f418d95f9": {
+      "company": "Oracle",
+      "first_seen": "2026-08-21T07:39:40.698702+00:00",
+      "title": "Support Engineer 1"
     },
     "95c56e9b09e5b89b": {
       "company": "BlackRock",
@@ -17406,6 +17431,11 @@
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Anthropic Fellows Program - ML Systems & Performance"
     },
+    "c1ffa09cbaeb6328": {
+      "company": "Databricks",
+      "first_seen": "2026-08-21T07:39:40.698702+00:00",
+      "title": "Software Engineer Intern"
+    },
     "c214e72da172fff8": {
       "company": "The Home Depot",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -20465,6 +20495,11 @@
       "company": "General Dynamics Information Technology",
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
       "title": "Software Developer"
+    },
+    "e1b6db7b7a101dc6": {
+      "company": "Hunter Strategy",
+      "first_seen": "2026-08-21T07:39:40.698702+00:00",
+      "title": "Data Analyst"
     },
     "e1bad1a5c1d64970": {
       "company": "The Trade Desk",
