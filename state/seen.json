@@ -246,6 +246,11 @@
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Engineering Co-op"
     },
+    "0331d9c77f29ec08": {
+      "company": "Tesla",
+      "first_seen": "2026-08-21T01:05:05.928595+00:00",
+      "title": "Electrical & Software Engineer, Circuit Board Test Automation"
+    },
     "03326dfbb47b705e": {
       "company": "Edgehog Trading",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
@@ -886,6 +891,11 @@
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "Software Engineer Intern - Global Traffic Architecture"
     },
+    "0a056757d52cebb4": {
+      "company": "Epsilon",
+      "first_seen": "2026-08-21T01:05:05.928595+00:00",
+      "title": "New Grad 2025: Associate, Software Engineer"
+    },
     "0a0d0e6e50b0f8b1": {
       "company": "RTX",
       "first_seen": "2026-08-18T06:37:11.543032+00:00",
@@ -1320,6 +1330,11 @@
       "company": "IES Holdings",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "Data Analytics Intern"
+    },
+    "0f5fbff8d33d83ec": {
+      "company": "Harvey",
+      "first_seen": "2026-08-21T01:05:05.928595+00:00",
+      "title": "New Grad: Software Engineer"
     },
     "0f76eea4dbb6e18e": {
       "company": "TikTok",
@@ -4691,6 +4706,11 @@
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Software Development Intern"
     },
+    "357f8b13e7d0ff03": {
+      "company": "Tesla",
+      "first_seen": "2026-08-21T01:05:05.928595+00:00",
+      "title": "Machine Learning Engineer, Embodied Intelligence, Optimus"
+    },
     "3592e17bdda1a88f": {
       "company": "Jump Trading",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
@@ -6551,6 +6571,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Quantitative Research Analyst Bachelor's or master's degree Intern"
     },
+    "4ccb971e69bd025f": {
+      "company": "PayPal",
+      "first_seen": "2026-08-21T01:05:05.928595+00:00",
+      "title": "New Grad: Software Engineer"
+    },
     "4cd5ed3ae776097f": {
       "company": "Apple",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
@@ -7020,6 +7045,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "New Grad 2026: Machine Learning Engineer (Brand Ads)"
+    },
+    "51d1dc3e806efb2f": {
+      "company": "Amazon",
+      "first_seen": "2026-08-21T01:05:05.928595+00:00",
+      "title": "Antenna Systems Engineer, Antenna Calibration, Kuiper"
     },
     "52032c48316cfae1": {
       "company": "Epic Games",
@@ -10300,6 +10330,11 @@
       "company": "University Corporation for Atmospheric Research",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
       "title": "CESM Software Engineer 1 - Computer Engineering"
+    },
+    "752ed0210e27470d": {
+      "company": "Zoox",
+      "first_seen": "2026-08-21T01:05:05.928595+00:00",
+      "title": "Hardware Software Integration Engineer - Contract Student Worker"
     },
     "7547e12b406554df": {
       "company": "PlanetArt",
@@ -15061,6 +15096,11 @@
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "AI and Data Engineering Summer Scholar Intern - Government & Public Services"
     },
+    "aaa4bd6284e5178b": {
+      "company": "Adobe",
+      "first_seen": "2026-08-21T01:05:05.928595+00:00",
+      "title": "New Grad 2026: Machine Learning Engineer"
+    },
     "aac6eb430f509257": {
       "company": "Snowflake",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
@@ -18095,6 +18135,11 @@
       "company": "Visa",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Software Engineer - Corporate GenAI"
+    },
+    "cbc01335359f237c": {
+      "company": "Citizen Health",
+      "first_seen": "2026-08-21T01:05:05.928595+00:00",
+      "title": "Software Engineer"
     },
     "cbce3b88f00de4b9": {
       "company": "BlackRock",
