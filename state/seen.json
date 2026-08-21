@@ -641,6 +641,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Dynamic Intern"
     },
+    "072bd3f289d1afb8": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Product Development Engineer Intern/Co-op"
+    },
     "07329eb93f68154e": {
       "company": "Testing Xperts",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
@@ -845,6 +850,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Cell Engineering Intern - Cell Qualification"
+    },
+    "0961c79487a9a797": {
+      "company": "Scientific Games",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Field Service Technician - Newark-Columbus Region"
     },
     "097bdc935b0f71ba": {
       "company": "3S Business Corporation",
@@ -3211,6 +3221,11 @@
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Junior Machine Learning Engineer"
     },
+    "24533a036194f49e": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Hardware Design Verification Engineer Co-op/Intern"
+    },
     "2462ac1d56c83384": {
       "company": "Amazon",
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
@@ -3700,6 +3715,11 @@
       "company": "GCI",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "Product Manager 1 - Future Opening"
+    },
+    "29840a4e1efbe8bb": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Field Applications Engineer Intern - Masters"
     },
     "2998fa4368cefa6d": {
       "company": "The Hub Project",
@@ -4496,6 +4516,11 @@
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Engineering Intern - Software Development"
     },
+    "32c2c17ded71ebf3": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Data Analyst Intern/Co-op"
+    },
     "32c386a1779445ec": {
       "company": "Apollo Mission Critical Engineering",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
@@ -4951,6 +4976,11 @@
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Technician"
     },
+    "37f58eedb3c65582": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Machine Learning Intern/Co-op - Artificial Intelligence"
+    },
     "38058766d701cbd7": {
       "company": "Emory Healthcare",
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
@@ -5115,6 +5145,11 @@
       "company": "Jump Trading",
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "AI Research Engineer - Research Automation"
+    },
+    "3993f0cb3736a462": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Product Development Engineering Intern/Co-op"
     },
     "3997be4b92199074": {
       "company": "TikTok",
@@ -7421,6 +7456,11 @@
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Software Developer Associate"
     },
+    "55aa6f8e49cd1c57": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Firmware Engineer Intern/Co-op"
+    },
     "55c76b668100611d": {
       "company": "Noblis",
       "first_seen": "2026-08-20T16:30:52.119549+00:00",
@@ -8141,6 +8181,11 @@
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Power BI & Analytics Intern"
     },
+    "5d9bc8c2885bbf3e": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Hardware Engineering Intern/Co-op - Undergrad"
+    },
     "5da1fa2a37403bc1": {
       "company": "NVIDIA",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
@@ -8681,6 +8726,11 @@
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Investment Analyst New Grad"
     },
+    "630924e38172ff12": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Layout Design Intern"
+    },
     "636bb1ff3a43ffda": {
       "company": "TikTok",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -8735,6 +8785,11 @@
       "company": "West Virginia University",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Postdoctoral Research Associate - Department of Physics and Astronomy"
+    },
+    "63e2ac17fe5934ce": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Firmware Engineer Co-op/Intern"
     },
     "64035c9db5654102": {
       "company": "Tesla",
@@ -11546,6 +11601,11 @@
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Application Development Intern"
     },
+    "82bc41e85de4ba6f": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Hardware Design Verification Engineering Intern/Co-op"
+    },
     "82c3a90d1f9b00c3": {
       "company": "Prelim",
       "first_seen": "2026-08-16T20:17:59.830480+00:00",
@@ -11730,6 +11790,11 @@
       "company": "Remodel Health",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Junior Software Engineer"
+    },
+    "848e7e7c25981153": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Hardware Design Verification Engineer Intern/Co-op"
     },
     "848ea440b7294a05": {
       "company": "Micron Technology",
@@ -15291,6 +15356,11 @@
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Marketing Technology & Analytics Intern"
     },
+    "ac0c30ae024d9d89": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Machine Learning Intern/Co-op - Machine Learning - Artificial Intelligence"
+    },
     "ac4ac7316d3b27d7": {
       "company": "Figure",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
@@ -17386,6 +17456,11 @@
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Software Engineer Intern"
     },
+    "c2a0ad8922a07444": {
+      "company": "Lawrence Livermore National Laboratory (LLNL)",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Energy Systems Analyst Graduate Intern - Fall 2026"
+    },
     "c2a54ea6c9dfc927": {
       "company": "Magna",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
@@ -17460,6 +17535,11 @@
       "company": "Pennsylvania State University",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "AI Research Assistant Graduate"
+    },
+    "c33f5fb91cd8e8ab": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Research Engineer Intern/Co-op - AMD Research"
     },
     "c3432573630fd2ca": {
       "company": "Susquehanna International Group (SIG)",
@@ -17911,6 +17991,11 @@
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Software Development Intern - Spring 2027"
     },
+    "c78b6f0586c64ee8": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Machine Learning Intern/Co-op - Multiple Teams"
+    },
     "c79a4d75cb8e2cfa": {
       "company": "Walmart",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -18236,6 +18321,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Software Engineer Intern"
     },
+    "cb95e40f1aa979dd": {
+      "company": "Scientific Games",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Field Service Technician"
+    },
     "cb9b20d3a84dddef": {
       "company": "State Street",
       "first_seen": "2026-08-18T16:26:58.927371+00:00",
@@ -18471,6 +18561,11 @@
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "AI Functional Intern - Consulting Practice"
     },
+    "cdc73415f744470c": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Hardware Engineer Intern/Co-op - Hardware Engineering"
+    },
     "cdd08bfd85b46802": {
       "company": "Spot & Tango",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -18575,6 +18670,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Machine Learning Engineer Intern - Basic Ranking"
+    },
+    "cf1e5fa576a3a8bb": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Firmware Engineering Intern Co-op - Undergrad"
     },
     "cf22d5f968100634": {
       "company": "Copart",
@@ -20986,6 +21086,11 @@
       "first_seen": "2026-08-21T02:58:59.617439+00:00",
       "title": "COBOL Software Developer"
     },
+    "e844f02c61d93496": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Software Engineer Intern/Co-op"
+    },
     "e8498e8ae56c707a": {
       "company": "Mapjects",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
@@ -21611,6 +21716,11 @@
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Graduate Research Scholar - NDSU Partnership"
     },
+    "ee8f3a85c28bf31d": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Hardware Engineer Intern/Co-op"
+    },
     "ee9831a2eef1b5e6": {
       "company": "Eurofins",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -21620,6 +21730,11 @@
       "company": "Medtronic",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Software Engineer Intern"
+    },
+    "eeac491cf97ba4e2": {
+      "company": "AMD",
+      "first_seen": "2026-08-21T06:40:06.643649+00:00",
+      "title": "Software Engineer Intern/Co-op - Masters"
     },
     "eeddbd5b8a64cd2d": {
       "company": "TikTok",
