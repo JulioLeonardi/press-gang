@@ -1551,6 +1551,11 @@
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Data Annotation Specialist"
     },
+    "113ed2894b0991f1": {
+      "company": "TikTok",
+      "first_seen": "2026-08-22T02:50:56.543781+00:00",
+      "title": "AI Product Manager Intern - Product Social"
+    },
     "113f729a50958408": {
       "company": "EquipmentShare",
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
@@ -3726,6 +3731,11 @@
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Security Engineer New Grad - Threat Detection and Response"
     },
+    "28755033664bbb38": {
+      "company": "AT&T",
+      "first_seen": "2026-08-22T02:50:56.543781+00:00",
+      "title": "Installation Technician"
+    },
     "288be4dec4f8eb5a": {
       "company": "Dee Zee",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
@@ -4290,6 +4300,11 @@
       "company": "Canon",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Repair Technician 1 - Camera Lenses"
+    },
+    "2eba3cdf381d96f5": {
+      "company": "Intel",
+      "first_seen": "2026-08-22T02:50:56.543781+00:00",
+      "title": "Silicon Packaging Design Engineer"
     },
     "2ebf2e5d86d01f1e": {
       "company": "Advanced Energy",
@@ -9756,6 +9771,11 @@
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "Application Engineer"
     },
+    "6ad0c6ad3d2f4b25": {
+      "company": "NVIDIA",
+      "first_seen": "2026-08-22T02:50:56.543781+00:00",
+      "title": "Architecture Energy Modeling Engineer - Power Modeling, Methodology and Analysis"
+    },
     "6ad71716cf1b8959": {
       "company": "The Home Depot",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
@@ -12286,6 +12306,11 @@
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Hardware Engineering Intern"
     },
+    "857e6fc72ea4231a": {
+      "company": "Applied Materials",
+      "first_seen": "2026-08-22T02:50:56.543781+00:00",
+      "title": "Software Engineer 1"
+    },
     "858e7032cc23a034": {
       "company": "Applied Systems, Inc.",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
@@ -12370,6 +12395,11 @@
       "company": "Motorola",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Embedded Software Engineer - Modern C++ - Linux"
+    },
+    "86713e91dc69b737": {
+      "company": "TikTok",
+      "first_seen": "2026-08-22T02:50:56.543781+00:00",
+      "title": "Software Engineer Intern"
     },
     "867b898e444e62da": {
       "company": "KBR",
@@ -14880,6 +14910,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Research Scientist Intern - Neural Graphics and World Models"
+    },
+    "a127c057c8c5ca1e": {
+      "company": "TikTok",
+      "first_seen": "2026-08-22T02:50:56.543781+00:00",
+      "title": "Product Manager Intern - Content and Service Ads"
     },
     "a12894279e2eca42": {
       "company": "TikTok",
@@ -23290,6 +23325,11 @@
       "company": "Equifax",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Systems Analyst - Entry"
+    },
+    "f7624d502504c76d": {
+      "company": "True Anomaly",
+      "first_seen": "2026-08-22T02:50:56.543781+00:00",
+      "title": "Software Engineer 1 New Grad - QA"
     },
     "f7ac244223d9b146": {
       "company": "LiveFlow",
