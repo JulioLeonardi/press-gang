@@ -2271,6 +2271,11 @@
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Programmer Analyst 1"
     },
+    "198d816ede8b93b6": {
+      "company": "Analog Devices",
+      "first_seen": "2026-08-22T11:17:38.706195+00:00",
+      "title": "Systems Integration Engineer Intern"
+    },
     "19c618cf13ce12d5": {
       "company": "Voloridge Investment Management",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -5715,6 +5720,11 @@
       "company": "TransMarket Group",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Quantitative Trader Intern"
+    },
+    "3e04e1fb5a424ebf": {
+      "company": "BP",
+      "first_seen": "2026-08-22T11:17:38.706195+00:00",
+      "title": "Reservoir Engineer Intern - Summer Internship"
     },
     "3e0df788c27da8c7": {
       "company": "KLA",
@@ -10981,6 +10991,11 @@
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
       "title": "RL Engineer Intern - RL Engineer - Tesla AI"
     },
+    "76ae9aa3cba53b38": {
+      "company": "Tesla",
+      "first_seen": "2026-08-22T11:17:38.706195+00:00",
+      "title": "Software Engineer - Traction Control - Chassis Controls"
+    },
     "76b8569745d9e074": {
       "company": "Varsity Brands",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
@@ -15951,6 +15966,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Intern"
     },
+    "ad34ae57b327ef80": {
+      "company": "AMERICAN SYSTEMS",
+      "first_seen": "2026-08-22T11:17:38.706195+00:00",
+      "title": "Field Service Technician Intern - Transitioning Military"
+    },
     "ad39e20c35a8b557": {
       "company": "Renesas Electronics",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
@@ -17660,6 +17680,11 @@
       "company": "Toshiba Global Commerce",
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
       "title": "AI Software Engineer Intern"
+    },
+    "be592607a6d8bd9a": {
+      "company": "Analog Devices",
+      "first_seen": "2026-08-22T11:17:38.706195+00:00",
+      "title": "Algorithm Development Engineer Intern"
     },
     "be5f90d5c96ccd06": {
       "company": "University of Texas at Austin",
@@ -20290,6 +20315,11 @@
       "company": "Accenture",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Entry Level SAP Development Associate"
+    },
+    "d994d0d6f7ce193f": {
+      "company": "Hitachi",
+      "first_seen": "2026-08-22T11:17:38.706195+00:00",
+      "title": "Engineering Intern"
     },
     "d9a22ed81a9077d0": {
       "company": "SAM",
