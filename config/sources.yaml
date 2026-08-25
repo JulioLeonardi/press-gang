@@ -37,7 +37,7 @@ settings:
   #   | "U.S. Citizenship is Required" | "Other"  (<- 99% of rows, means "unspecified")
   # "Other" is mapped to `unknown`. Set allow_unknown_sponsorship: true to let
   # unspecified US roles through (very noisy — see README).
-  allow_unknown_sponsorship: true
+  allow_unknown_sponsorship: false
 
   # Titles containing any of these terms are dropped before location checks.
   # Matched whole-word against the normalized (lowercased, de-accented) title,
