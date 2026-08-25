@@ -22,15 +22,44 @@ python tests/test_core.py           # sanity checks
 
 ## How it decides
 
-A posting is kept if its **title isn't excluded** AND **(EU location)** OR **(US location AND sponsorship offered)**.
+A posting is kept if its **title isn't excluded** AND **(EU location)** OR **(US location AND sponsorship is plausible)**.
 
-Title exclusion runs first and is driven by `exclude_title_patterns` in [config/sources.yaml](config/sources.yaml) — by default `intern`, `interns`, `internship`, `internships`. Terms match **whole words** against the normalized title, so `intern` drops "Software Engineer Intern" but leaves "International Tax Analyst" and "Internal Tools Engineer" alone. That whole-word rule is why each suffix form is listed separately; add `co-op`, `apprentice`, `working student` etc. the same way.
+Title exclusion runs first and is driven by `exclude_title_patterns` in [config/sources.yaml](config/sources.yaml) — the internship terms plus clearance markers (`TS/SCI`, `poly`, `ITAR`, `US citizen`…). Terms match **whole words** against the normalized title, so `intern` drops "Software Engineer Intern" but leaves "International Tax Analyst" and "Internal Tools Engineer" alone, and `sci` never touches "Computer Science". That whole-word rule is why each suffix form is listed separately; add `co-op`, `apprentice`, `working student` etc. the same way.
 
 US detection runs **first and wins**. This matters more than it sounds: Dublin CA/OH, Berlin NH, Paris TX, Vienna VA and Naples FL are all real US tech locations that would otherwise false-positive as EU.
 
 Multi-location postings qualify if *any one* location matches, so a "London | Milan | NYC" role comes through on Milan.
 
 Tunable in [config/eu_locations.yaml](config/eu_locations.yaml) and [config/sources.yaml](config/sources.yaml) — no code changes needed to add a source, a city, or flip a rule.
+
+## Sponsorship: why there's a company list
+
+The sources' own `sponsorship` field is close to useless. Measured against the live pool:
+
+- **28** active US postings say "Offers Sponsorship" — that's ~0.08/day, with some weeks at zero.
+- **8** say citizenship is required.
+- **~99%** say `Other`, which means *unspecified*, not *offered*.
+
+So gating on the field makes the bot silent, and ignoring it floods the channel with cleared-defense roles that were never going to sponsor. [config/h1b_sponsors.yaml](config/h1b_sponsors.yaml) is the middle path: a company-level signal seeded from the **USCIS H-1B Employer Data Hub** (FY2022+FY2023), matched against the names that actually appear in the feeds and hand-cleaned, since USCIS records legal entities (`AMAZON.COM SERVICES LLC`) while postings use trade names (`Amazon`).
+
+US postings resolve in this order:
+
+| Source flag | Company on the list | Result |
+|---|---|---|
+| `no` | — | dropped (citizenship required) |
+| `yes` | — | sent, verified |
+| `unknown` | yes | sent, **🛂 Known H-1B employer** |
+| `unknown` | no | sent ⚠️ unverified, or dropped if `allow_unknown_sponsorship: false` |
+
+That last row is the volume dial: `true` gives ~50/day with the good ones visually distinguishable, `false` gives ~28/day of known sponsors only.
+
+**This is a company-level signal, not a promise about a specific req.** Amazon has GovCloud roles and Apple has US-persons-only work; the clearance title patterns catch the ones that say so in the title, but some will slip through. The embed says "Known H-1B employer", not "this role sponsors", deliberately.
+
+Names match **exact-or-prefix** on the normalized company, so `Amazon` covers "Amazon Web Services". Prefix-anchored rather than substring because a contains-match let `Applied Materials` hit "Johns Hopkins Applied Physics Laboratory" in testing. Cleared-defense primes (Northrop, RTX, L3Harris, CACI, Leidos, Peraton, SpaceX, JHU APL…) are **deliberately absent** even though a few appear in USCIS data with small counts.
+
+Coverage today: **~55%** of US postings match the list. The unmatched residue is dominated by exactly the employers you'd expect — SpaceX, Northrop Grumman, RTX, Johns Hopkins APL, General Dynamics, Peraton.
+
+FY2024+ USCIS data exists only inside a Tableau dashboard with no CSV export, so FY2023 is the newest bulk source. That's acceptable here: *whether* a company sponsors is stable year over year.
 
 ## Dedupe key
 

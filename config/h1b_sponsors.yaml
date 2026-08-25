@@ -1,0 +1,788 @@
+# Companies known to sponsor H-1B visas.
+#
+# WHY THIS EXISTS
+#   The sources' own `sponsorship` field is unusable: across the whole active
+#   pool only ~28 US postings carry "Offers Sponsorship" (~0.08/day, and zero
+#   in some weeks), while ~99% say "Other", meaning "unspecified". Gating on
+#   the field alone makes the bot silent; ignoring it entirely floods the
+#   channel with cleared-defense roles. This list is the middle path: a
+#   company-level signal for who actually sponsors.
+#
+# PROVENANCE
+#   Seeded from the USCIS H-1B Employer Data Hub, FY2022 + FY2023 combined
+#   (https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub).
+#   Employer names were matched against the companies that really appear in
+#   the job feeds and then hand-cleaned, because USCIS records legal entities
+#   ("AMAZON.COM SERVICES LLC") while postings use trade names ("Amazon").
+#   FY2024+ exists only inside a Tableau dashboard with no CSV export, so
+#   FY2023 is the newest bulk data available. That is fine here: whether a
+#   company sponsors at all is stable year over year, unlike headcount.
+#
+# HOW MATCHING WORKS
+#   Names are normalized (lowercased, de-accented, legal suffixes stripped)
+#   and matched exactly OR as a prefix, so "Amazon" catches "Amazon Web
+#   Services" and "Amazon Robotics". Prefix-anchored deliberately: a contains
+#   match let "Applied Materials" hit "Johns Hopkins Applied Physics
+#   Laboratory" during testing. Keep entries as the SHORTEST distinctive form
+#   of the name -- "Capital One", not "Capital One Financial Corporation".
+#
+# WHAT IS DELIBERATELY ABSENT
+#   Cleared-defense primes (Northrop Grumman, RTX, L3Harris, CACI, Leidos,
+#   Peraton, Noblis, Booz Allen, SAIC, GDIT, Boeing, SpaceX, JHU APL) are
+#   omitted even though several appear in USCIS data with small counts. They
+#   sponsor at the margins, but nearly all of their new-grad reqs require a
+#   clearance or US-person status -- exactly the noise this filter exists to
+#   suppress. `exclude_title_patterns` in sources.yaml catches the stragglers.
+#
+# MAINTENANCE
+#   Add a company: put it in the right group, shortest distinctive name.
+#   Delete a whole group you don't care about (staffing_and_outsourcing is the
+#   usual first cut) -- the loader flattens whatever groups remain.
+
+sponsors:
+  # --- Large technology employers -----------------------------------------
+  big_tech:
+    - Amazon
+    - Google
+    - Microsoft
+    - Apple
+    - Meta
+    - Netflix
+    - NVIDIA
+    - Intel
+    - IBM
+    - Oracle
+    - Cisco
+    - Salesforce
+    - Adobe
+    - Qualcomm
+    - LinkedIn
+    - Uber
+    - Lyft
+    - Airbnb
+    - PayPal
+    - Intuit
+    - Workday
+    - ServiceNow
+    - Atlassian
+    - Dropbox
+    - Zoom
+    - DocuSign
+    - Docusign
+    - Nutanix
+    - VMware
+    - Palantir
+    - Hewlett Packard Enterprise
+    - HP
+    - Dell Technologies
+    - T-Mobile
+    - Motorola
+    - Twitch
+    - Twitch Interactive
+    - TikTok
+    - ByteDance
+    - Yahoo
+    - Zillow
+    - Expedia
+    - Booking.com
+    - eBay
+    - Etsy
+    - Wayfair
+    - Nordstrom
+    - StubHub
+    - KAYAK
+    - Shopify
+    - Spotify
+    - Pinterest
+    - Reddit
+    - Snap
+    - Quora
+    - Nextdoor
+    - Compass
+    - DoorDash
+    - Instacart
+    - Grubhub
+    - Asurion
+    - SquareTrade
+    - Qualtrics
+
+  # --- Infrastructure, data, dev tools, security --------------------------
+  software_and_infra:
+    - Snowflake
+    - Databricks
+    - MongoDB
+    - Elastic
+    - Confluent
+    - HashiCorp
+    - Datadog
+    - Splunk
+    - New Relic
+    - Grafana Labs
+    - Cloudflare
+    - Fastly
+    - Akamai
+    - DigitalOcean
+    - Twilio
+    - Stripe
+    - Plaid
+    - Block
+    - Square
+    - Okta
+    - CrowdStrike
+    - Crowdstrike
+    - Palo Alto Networks
+    - Fortinet
+    - Zscaler
+    - SentinelOne
+    - Tenable
+    - Rapid7
+    - Sophos
+    - Trellix
+    - Netskope
+    - Arista Networks
+    - Juniper Networks
+    - F5
+    - Citrix
+    - Nutanix
+    - Pure Storage
+    - NetApp
+    - Veeva Systems
+    - Celonis
+    - Pega
+    - Appian
+    - UiPath
+    - Alteryx
+    - Informatica
+    - Teradata
+    - Cloudera
+    - Samsara
+    - Anyscale
+    - Alkira
+    - Selector Software
+    - Truveta
+    - TraceLink
+    - LinkSquares
+    - AlphaSense
+    - Amperity
+    - Quantcast
+    - Magnite
+    - Softheon
+    - HighRadius
+    - Commure
+    - Artera
+    - Coalition
+    - SentiLink
+    - Jumio
+    - Verifone
+    - Alarm.com
+    - Arlo Technologies
+    - SimpliSafe
+    - ADT
+    - IXL Learning
+    - Duolingo
+    - Grammarly
+    - Notion
+    - Figma
+    - Canva
+    - Asana
+    - Miro
+    - Airtable
+    - Smartsheet
+    - Gusto
+    - Rippling
+    - Deel
+    - Brex
+    - Ramp
+    - Navan
+    - Noom
+    - ibotta
+    - Sierra
+    - Vercel
+    - Postman
+    - JFrog
+    - GitLab
+    - Automattic
+
+  # --- AI / ML labs and platforms -----------------------------------------
+  ai_and_ml:
+    - Anthropic
+    - OpenAI
+    - Scale AI
+    - Cohere
+    - Hugging Face
+    - Perplexity
+    - Runway
+    - Adept
+    - Character.AI
+    - Groq
+    - Cerebras
+    - SambaNova
+    - Lambda
+    - Together AI
+    - Weights & Biases
+    - Applied Intuition
+    - Flexcompute
+
+  # --- Semiconductors and hardware ----------------------------------------
+  semiconductors_and_hardware:
+    - AMD
+    - Advanced Micro Devices
+    - Broadcom
+    - Marvell
+    - Micron Technology
+    - Micron
+    - Texas Instruments
+    - Analog Devices
+    - Microchip Technology
+    - Renesas Electronics
+    - Infineon
+    - STMicroelectronics
+    - NXP Semiconductors
+    - onsemi
+    - Skyworks
+    - Qorvo
+    - Silicon Laboratories
+    - Semtech
+    - Rambus
+    - Astera Labs
+    - GlobalFoundries
+    - Applied Materials
+    - Lam Research
+    - KLA
+    - KLA Corporation
+    - ASML
+    - Entegris
+    - Onto Innovation
+    - FormFactor
+    - Axcelis Technologies
+    - Advanced Energy
+    - Coherent
+    - Viavi Solutions
+    - Keysight Technologies
+    - Teradyne
+    - Synopsys
+    - Cadence Design Systems
+    - Siemens EDA
+    - Arm
+    - SiFive
+    - Western Digital
+    - Seagate
+    - Super Micro Computer
+    - Supermicro
+    - Zebra Technologies
+    - Garmin
+    - Corning
+    - Jabil
+    - Flex
+    - Sanmina
+    - Celestica
+    - Vertiv
+    - Thorlabs
+    - Topcon Positioning
+    - SynQor
+    - nVent
+    - Nokia
+    - Ericsson
+    - Samsung
+    - LG Electronics
+    - Sony
+    - Canon
+    - Panasonic
+    - Bose
+    - HARMAN International
+    - Logitech
+    - Sonos
+    - Roku
+    - Viasat
+    - ViaSat
+    - EchoStar
+
+  # --- Automotive, mobility, autonomy, aerospace (commercial) -------------
+  automotive_and_mobility:
+    - Tesla
+    - Rivian
+    - Lucid Motors
+    - Ford Motor Company
+    - Ford
+    - General Motors
+    - Toyota
+    - Toyota Research Institute
+    - Honda
+    - Nissan
+    - Denso
+    - Aptiv
+    - Magna
+    - BorgWarner
+    - Bosch
+    - Continental
+    - ZF
+    - Stellantis
+    - Waymo
+    - Zoox
+    - Nuro
+    - Cruise
+    - Aurora Innovation
+    - Torc Robotics
+    - WeRide
+    - Pony.ai
+    - Plus
+    - PlusAI
+    - Motional
+    - Zipline
+    - Joby Aviation
+    - Archer Aviation
+    - Path Robotics
+    - Gotion
+    - Polaris
+    - Brunswick
+    - Harley-Davidson
+    - Cummins
+    - PACCAR
+    - Navistar
+
+  # --- Finance, trading, insurance ----------------------------------------
+  finance_and_trading:
+    - JPMorgan Chase
+    - JP Morgan Chase
+    - Goldman Sachs
+    - Morgan Stanley
+    - Citi
+    - Citigroup
+    - Wells Fargo
+    - Bank of America
+    - Capital One
+    - American Express
+    - Visa
+    - Mastercard
+    - Charles Schwab
+    - Fidelity Investments
+    - BlackRock
+    - Vanguard
+    - Invesco
+    - PGIM
+    - State Street
+    - Northern Trust
+    - BNY Mellon
+    - Citizens Financial Group
+    - PNC Financial Services
+    - Texas Capital Bank
+    - Axos Bank
+    - Royal Bank of Canada
+    - Mizuho Securities
+    - Nomura
+    - Barclays
+    - UBS
+    - Deutsche Bank
+    - HSBC
+    - Fannie Mae
+    - Freddie Mac
+    - Sallie Mae
+    - Equifax
+    - Experian
+    - TransUnion
+    - FICO
+    - Bloomberg
+    - S&P Global
+    - Moody's
+    - MSCI
+    - Nasdaq
+    - Intercontinental Exchange
+    - Robinhood
+    - Coinbase
+    - Chime
+    - SoFi
+    - Affirm
+    - Marqeta
+    - iCapital Network
+    - StoneX Group
+    - Citadel
+    - Citadel Securities
+    - Jane Street
+    - Two Sigma
+    - Hudson River Trading
+    - Jump Trading
+    - Optiver
+    - IMC Trading
+    - Akuna Capital
+    - Susquehanna International Group
+    - SIG Susquehanna
+    - DRW
+    - Tower Research Capital
+    - Radix Trading
+    - Old Mission
+    - Geneva Trading
+    - Chicago Trading Company
+    - Belvedere Trading
+    - Wolverine Trading
+    - Peak6
+    - Maven Securities
+    - Bracebridge Capital
+    - Acadian Asset Management
+    - AQR Capital Management
+    - Millennium Management
+    - Point72
+    - Balyasny
+    - Squarepoint Capital
+    - XTX Markets
+    - Liberty Mutual
+    - Travelers
+    - Progressive
+    - Allstate
+    - Aflac
+    - Marsh
+    - Guidewire
+    - Root
+
+  # --- Healthcare, biotech, pharma, medical devices -----------------------
+  health_and_life_sciences:
+    - Thermo Fisher Scientific
+    - Danaher Corporation
+    - Illumina
+    - Moderna
+    - Pfizer
+    - Merck
+    - AbbVie
+    - Amgen
+    - Genentech
+    - Regeneron
+    - Vertex Pharmaceuticals
+    - Bristol Myers Squibb
+    - Eli Lilly
+    - Johnson & Johnson
+    - Novartis
+    - AstraZeneca
+    - GSK
+    - Sanofi
+    - Bayer
+    - Takeda
+    - Biogen
+    - Exelixis
+    - Repligen
+    - Myriad Genetics
+    - 23andMe
+    - Tempus
+    - IQVIA
+    - Medpace
+    - Syneos Health
+    - Parexel
+    - Boston Scientific
+    - Stryker
+    - Medtronic
+    - Becton Dickinson
+    - Edwards Lifesciences
+    - Intuitive Surgical
+    - Hologic
+    - ResMed
+    - Resmed
+    - ZOLL Medical
+    - Globus Medical
+    - Omnicell
+    - Baxter
+    - Abbott
+    - Zimmer Biomet
+    - Dexcom
+    - Sysmex
+    - Bausch Lomb
+    - GE HealthCare
+    - Siemens Healthineers
+    - Philips
+    - Cigna
+    - Elevance Health
+    - Humana
+    - Centene
+    - Oscar Health
+    - Devoted Health
+    - ChenMed
+    - DaVita
+    - Mass General Brigham
+    - Emory Healthcare
+    - Cleveland Clinic
+    - Mayo Clinic
+    - Kaiser Permanente
+
+  # --- Industrial, energy, materials, engineering -------------------------
+  industrial_and_energy:
+    - Honeywell
+    - Emerson
+    - Eaton
+    - Eaton Corporation
+    - Johnson Controls
+    - Trane Technologies
+    - Carrier
+    - Daikin Applied
+    - Rockwell Automation
+    - ABB
+    - Schneider Electric
+    - Siemens
+    - GE Vernova
+    - General Electric
+    - Illinois Tool Works
+    - Stanley Black & Decker
+    - Parker Hannifin
+    - Dover
+    - Baker Hughes
+    - Halliburton
+    - Schlumberger
+    - SLB
+    - Weatherford
+    - ExxonMobil
+    - Chevron Corporation
+    - Chevron
+    - Shell
+    - BP
+    - ConocoPhillips
+    - NRG Energy
+    - Dominion Energy
+    - American Electric Power
+    - Duke Energy
+    - Exelon
+    - Ameren
+    - Xcel Energy
+    - NextEra Energy
+    - Constellation Energy
+    - Westinghouse Electric Company
+    - Eos Energy Storage
+    - Voltus
+    - Form Energy
+    - Commonwealth Fusion Systems
+    - Rio Tinto
+    - Nucor
+    - Alcoa
+    - Dow
+    - DuPont
+    - 3M
+    - PPG
+    - Sherwin-Williams
+    - Ecolab
+    - Air Products
+    - Linde
+    - Sika
+    - FLSmidth
+    - Solar Turbines
+    - Leggett & Platt
+    - MiTek
+    - Simpson Strong-Tie
+    - Snap-on
+    - Hunter Douglas
+    - Newell Brands
+    - CaptiveAire Systems
+    - Boyd
+    - Arcadis
+    - Stantec
+    - AECOM
+    - Burns & McDonnell
+    - Kimley-Horn
+    - Bowman Consulting Group
+    - Gannett Fleming
+    - Bentley
+    - Bentley Systems
+    - Iteris
+    - Intertek
+    - Bureau Veritas
+
+  # --- Consumer, retail, media, travel, logistics -------------------------
+  consumer_and_retail:
+    - Walmart
+    - Target
+    - Costco
+    - Best Buy
+    - Home Depot
+    - Lowe's
+    - Kroger
+    - Albertsons
+    - Dollar General
+    - Ross Stores
+    - TJX
+    - Gap
+    - Levi Strauss
+    - Nike
+    - Under Armour
+    - lululemon
+    - Williams-Sonoma
+    - Wayfair
+    - Chewy
+    - Procter & Gamble
+    - Unilever
+    - Colgate-Palmolive
+    - Kimberly-Clark
+    - PepsiCo
+    - Coca-Cola
+    - Nestle
+    - Mondelez
+    - General Mills
+    - Kellanova
+    - Conagra Brands
+    - Tyson Foods
+    - McDonald's
+    - Starbucks
+    - Chipotle
+    - Yum! Brands
+    - Marriott International
+    - Hilton
+    - Hyatt
+    - Delta Air Lines
+    - United Airlines
+    - American Airlines
+    - Southwest Airlines
+    - FedEx
+    - UPS
+    - Ryder System
+    - C.H. Robinson
+    - XPO
+    - Flexport
+    - Genuine Parts Company
+    - Avnet
+    - Arrow Electronics
+    - HD Supply
+    - White Cap Supply Holdings
+    - Deluxe
+    - Disney
+    - Warner Bros. Discovery
+    - Paramount
+    - NBCUniversal
+    - Comcast
+    - Charter Communications
+    - Spectrum
+    - Electronic Arts
+    - Activision Blizzard
+    - Riot Games
+    - Epic Games
+    - Roblox
+    - Unity
+    - Take-Two Interactive
+    - Zynga
+    - Scientific Games
+    - Light & Wonder
+
+  # --- Consulting and professional services -------------------------------
+  # These sponsor in volume, but the work is client-site and varies wildly.
+  consulting:
+    - Deloitte
+    - Accenture
+    - PwC
+    - EY
+    - KPMG
+    - McKinsey & Company
+    - Boston Consulting Group
+    - Bain & Company
+    - Capgemini
+    - Guidehouse
+    - Gartner
+    - Forrester
+    - Kyndryl
+    - Unisys
+    - Capco
+    - Wavestone
+    - The Brattle Group
+    - Analytic Partners
+    - Revenue Analytics
+    - Vizient
+    - LexisNexis Risk Solutions
+    - dunnhumby
+    - Publicis Sapient
+    - Slalom
+    - West Monroe
+    - ZS Associates
+    - Analysis Group
+    - Cornerstone Research
+    - Charles River Associates
+
+  # --- Staffing / IT outsourcing ------------------------------------------
+  # These sponsor heavily -- it is their business model -- but roles are often
+  # contract, client-site, and low quality. This is the group most people
+  # delete first; removing it costs you nothing else.
+  staffing_and_outsourcing:
+    - Infosys
+    - Wipro
+    - Tata Consultancy Services
+    - Cognizant
+    - HCLTech
+    - Tech Mahindra
+    - LTIMindtree
+    - Mphasis
+    - Hexaware
+    - HEXAWARE
+    - Virtusa
+    - Zensar
+    - Persistent Systems
+    - Marlabs
+    - Idexcel
+    - iSoftStone
+    - EPAM
+    - Globant
+    - Endava
+    - Thoughtworks
+    - Insight Global
+    - Robert Half
+    - Kforce
+    - TEKsystems
+    - Astreya
+    - Saxon Global
+    - BTI Solutions
+    - Infojini
+    - ASSYST
+    - Cook Systems
+    - Tech Tammina
+    - 3S Business Corporation
+    - 9to9 Software Solutions
+    - Procom
+    - Sajix
+    - Evolver
+    - Symphony
+    - Acumen Solutions
+    - Dunn Solutions Group
+    - Datalab USA
+    - Innodata
+    - BCforward
+
+  # --- Universities and research institutes -------------------------------
+  # Cap-exempt: they can file H-1B petitions year-round rather than fighting
+  # the March lottery, which makes them unusually good visa odds. Worth
+  # keeping even if the pay is below industry.
+  academia_and_research:
+    - Carnegie Mellon University
+    - Stanford University
+    - Massachusetts Institute of Technology
+    - Harvard University
+    - University of Pennsylvania
+    - Northeastern University
+    - Brown University
+    - Columbia University
+    - Cornell University
+    - Yale University
+    - Princeton University
+    - Johns Hopkins University
+    - Duke University
+    - New York University
+    - Boston University
+    - Northwestern University
+    - University of Chicago
+    - University of Michigan
+    - University of Washington
+    - Georgia Institute of Technology
+    - University of Illinois
+    - Purdue University
+    - University of Texas
+    - Texas A&M University
+    - University of Wisconsin
+    - Ohio State University
+    - Pennsylvania State University
+    - University of Maryland
+    - University of Arkansas
+    - University of Central Florida
+    - West Virginia University
+    - Tulane University
+    - Emory University
+    - Vanderbilt University
+    - Rice University
+    - Florida Institute of Technology
+    - Le Moyne College
+    - University of St. Thomas
+    - Medical College of Wisconsin
+    - SRI International
+    - Argonne National Laboratory
+    - Brookhaven National Laboratory
+    - Lawrence Berkeley National Laboratory
+    - Fermilab
+    - The Brookings Institution
+    - OCLC

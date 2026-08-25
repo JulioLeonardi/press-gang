@@ -26,6 +26,7 @@ from notify_discord import notify  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_PATH = ROOT / "config" / "sources.yaml"
 LOCATIONS_PATH = ROOT / "config" / "eu_locations.yaml"
+SPONSORS_PATH = ROOT / "config" / "h1b_sponsors.yaml"
 STATE_PATH = ROOT / "state" / "seen.json"
 
 log = logging.getLogger("job-alert-bot")
@@ -105,6 +106,14 @@ def main() -> int:
     locations_config = yaml.safe_load(LOCATIONS_PATH.read_text(encoding="utf-8"))
     settings = sources_config.get("settings", {}) or {}
 
+    # Optional: a missing sponsor list degrades to the old behavior (every
+    # unknown-sponsorship US role is "unverified") rather than killing the run.
+    if SPONSORS_PATH.exists():
+        sponsors_config = yaml.safe_load(SPONSORS_PATH.read_text(encoding="utf-8")) or {}
+    else:
+        log.warning("%s not found -- no known-sponsor badging this run", SPONSORS_PATH.name)
+        sponsors_config = {}
+
     state = load_state()
     bootstrapping = args.reseed or not state.get("bootstrapped", False)
 
@@ -120,7 +129,7 @@ def main() -> int:
              len(all_postings), len(sources_config.get("sources", [])))
 
     # --- filter ---
-    matches = filter_postings(all_postings, locations_config, settings)
+    matches = filter_postings(all_postings, locations_config, settings, sponsors_config)
 
     # --- dedupe (cross-source too: same id from two repos collapses here) ---
     seen_ids = set(state["postings"])

@@ -11,21 +11,17 @@ sources:
     adapter: simplify_json
     url: https://raw.githubusercontent.com/SimplifyJobs/New-Grad-Positions/dev/.github/scripts/listings.json
 
-  - name: SimplifyJobs/Summer2026-Internships
-    adapter: simplify_json
-    url: https://raw.githubusercontent.com/SimplifyJobs/Summer2026-Internships/dev/.github/scripts/listings.json
-
-  # NOTE: SimplifyJobs/Summer2027-Internships currently serves a byte-identical
-  # file to Summer2026 (verified Aug 2026) — it's a mirror, not a second source.
-  # Adding it just doubles a 10MB download. Re-check once 2027 diverges.
-
   - name: vanshb03/New-Grad-2026
     adapter: markdown_table
     url: https://raw.githubusercontent.com/vanshb03/New-Grad-2026/main/README.md
 
-  - name: vanshb03/Summer2026-Internships
-    adapter: markdown_table
-    url: https://raw.githubusercontent.com/vanshb03/Summer2026-Internships/main/README.md
+  # NOTE: the two Summer2026-Internships repos (SimplifyJobs + vanshb03) were
+  # dropped Aug 2026. exclude_title_patterns discarded ~1,850 of their rows per
+  # run, so we were paying a ~10MB download to throw the results away. The few
+  # new-grad roles that leak into them are the accepted cost.
+  #
+  # NOTE: SimplifyJobs/Summer2027-Internships serves a byte-identical file to
+  # Summer2026 (verified Aug 2026) — a mirror, not a second source.
 
 settings:
   # Only consider postings still marked active/open by the source.
@@ -37,7 +33,13 @@ settings:
   #   | "U.S. Citizenship is Required" | "Other"  (<- 99% of rows, means "unspecified")
   # "Other" is mapped to `unknown`. Set allow_unknown_sponsorship: true to let
   # unspecified US roles through (very noisy — see README).
-  allow_unknown_sponsorship: false
+  # With the h1b_sponsors.yaml list in play this is less all-or-nothing than
+  # it was: known sponsors are badged and sent as verified either way, and
+  # this flag now only decides whether *unlisted* US companies ride along
+  # (flagged "sponsorship unverified") or are dropped outright.
+  #   true  -> ~50/day, known sponsors visually distinguishable in the channel
+  #   false -> ~15/day, known sponsors only
+  allow_unknown_sponsorship: true
 
   # Titles containing any of these terms are dropped before location checks.
   # Matched whole-word against the normalized (lowercased, de-accented) title,
@@ -48,6 +50,24 @@ settings:
     - interns
     - internship
     - internships
+    # Clearance / US-person markers. The sponsor list is a company-level
+    # signal, so a sponsoring employer can still post a cleared req (Amazon
+    # has GovCloud work, Apple has US-persons-only roles). These catch the
+    # ones that announce it in the title.
+    - clearance
+    - security clearance
+    - ts/sci
+    - tssci
+    - sci
+    - polygraph
+    - poly
+    - top secret
+    - secret
+    - itar
+    - us citizen
+    - u.s. citizen
+    - citizenship required
+    - public trust
 
   # Drop seen-ids first observed more than this many days ago.
   prune_after_days: 90

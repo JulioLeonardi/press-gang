@@ -29,6 +29,10 @@ def build_embed(posting: dict) -> dict:
     bits = [f"\U0001F4CD {location}"]
     if posting.get("sponsorship_flag") == "yes":
         bits.append("\U0001F6C2 Sponsors internationals")
+    elif posting.get("known_sponsor"):
+        # Company-level signal, not a promise about this specific req -- the
+        # wording says "employer", not "this role", on purpose.
+        bits.append("\U0001F6C2 Known H-1B employer")
     if unverified:
         bits.append("⚠️ Sponsorship unconfirmed")
     bits.append(f"_{reason} · {posting.get('source_repo', '')}_")

@@ -11,7 +11,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
 import yaml
 
-from filter import LocationMatcher, compile_title_exclusions, filter_postings
+from filter import (
+    LocationMatcher,
+    SponsorMatcher,
+    compile_title_exclusions,
+    filter_postings,
+)
 from normalize import make_id, to_mmddyyyy
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -100,6 +105,71 @@ sample = [
 ]
 kept_ids = [p["id"] for p in filter_postings(sample, config, settings)]
 check("filter_postings drops the intern role only", kept_ids, ["b", "c"])
+
+# --- H-1B sponsor matching --------------------------------------------------
+sponsor_cfg = yaml.safe_load((ROOT / "config" / "h1b_sponsors.yaml").read_text(encoding="utf-8"))
+S = SponsorMatcher(sponsor_cfg)
+
+check("sponsor list is non-empty", bool(S), True)
+
+for name in ["Amazon", "Google", "Apple", "Palantir", "Citadel Securities", "Optiver"]:
+    check(f"{name} is a known sponsor", S.is_sponsor(name), True)
+
+# Prefix matching: one entry should cover a company's subsidiaries.
+check("prefix: Amazon Web Services", S.is_sponsor("Amazon Web Services"), True)
+check("prefix: Amazon Robotics", S.is_sponsor("Amazon Robotics"), True)
+check("legal suffix tolerated", S.is_sponsor("Roblox, Inc."), True)
+check("leading article stripped", S.is_sponsor("The Home Depot"), True)
+
+# The whole point of prefix-anchoring rather than substring matching.
+check("'Applied Materials' does NOT match Johns Hopkins APL",
+      S.is_sponsor("Johns Hopkins Applied Physics Laboratory"), False)
+
+# Cleared-defense primes are deliberately absent.
+for name in ["Northrop Grumman", "RTX", "L3Harris Technologies", "CACI",
+             "Peraton", "SpaceX", "Leidos"]:
+    check(f"{name} is NOT badged as a sponsor", S.is_sponsor(name), False)
+
+check("empty company is not a sponsor", S.is_sponsor(""), False)
+check("missing sponsor config degrades safely", bool(SponsorMatcher(None)), False)
+
+# --- sponsorship branch end-to-end ------------------------------------------
+us_settings = dict(settings, allow_unknown_sponsorship=True)
+sample = [
+    {"id": "known", "title": "Software Engineer", "location": "Seattle, WA",
+     "company": "Amazon", "sponsorship_flag": "unknown", "active": True},
+    {"id": "unlisted", "title": "Software Engineer", "location": "Reston, VA",
+     "company": "Peraton", "sponsorship_flag": "unknown", "active": True},
+    {"id": "explicit", "title": "Software Engineer", "location": "Austin, TX",
+     "company": "Some Startup", "sponsorship_flag": "yes", "active": True},
+    {"id": "refused", "title": "Software Engineer", "location": "Chantilly, VA",
+     "company": "Amazon", "sponsorship_flag": "no", "active": True},
+]
+result = {p["id"]: p for p in filter_postings(sample, config, us_settings, sponsor_cfg)}
+
+check("known sponsor is kept", "known" in result, True)
+check("known sponsor is badged", result["known"].get("known_sponsor"), True)
+check("known sponsor is not marked unverified", result["known"].get("unverified"), False)
+check("unlisted US company still rides along", "unlisted" in result, True)
+check("unlisted US company is marked unverified", result["unlisted"]["unverified"], True)
+check("explicit sponsorship wins without the list", result["explicit"]["unverified"], False)
+check("explicit 'no' is dropped even for a listed sponsor", "refused" in result, False)
+
+# Strict mode: unlisted companies dropped entirely.
+strict = dict(settings, allow_unknown_sponsorship=False)
+strict_ids = {p["id"] for p in filter_postings(sample, config, strict, sponsor_cfg)}
+check("strict mode keeps the known sponsor", "known" in strict_ids, True)
+check("strict mode drops the unlisted company", "unlisted" in strict_ids, False)
+check("strict mode keeps explicit sponsorship", "explicit" in strict_ids, True)
+
+# --- clearance title exclusions ---------------------------------------------
+for title in ["Software Engineer TS/SCI Poly", "Associate Software Engineer - Ts/Sci",
+              "Junior Software Developer - Active TS/SCI with Poly Required"]:
+    check(f"drops cleared role {title!r}", excluded(title), True)
+
+for title in ["Data Scientist", "Research Scientist, Computer Science",
+              "Software Engineer, Polygon Rendering"]:
+    check(f"clearance terms do not touch {title!r}", excluded(title), False)
 
 print()
 if failures:
