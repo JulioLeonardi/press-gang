@@ -1,8 +1,9 @@
 # Source repos to watch.
 #
-# adapter: "simplify_json" | "markdown_table"
+# adapter: "simplify_json" | "markdown_table" | "eu_parquet"
 #   simplify_json  -> Simplify-style listings.json (list of posting objects)
 #   markdown_table -> README with a | Company | Role | Location | Link | Date | table
+#   eu_parquet     -> Aramente/eu-tech-jobs daily Parquet snapshot (see below)
 #
 # A failing source is logged and skipped; it never aborts the run.
 
@@ -14,6 +15,72 @@ sources:
   - name: vanshb03/New-Grad-2026
     adapter: markdown_table
     url: https://raw.githubusercontent.com/vanshb03/New-Grad-2026/main/README.md
+
+  # The only source that actually produces EU matches -- the two US new-grad
+  # repos above have yielded exactly 0 (see backlog.md). Rebuilt daily ~07:00
+  # CET, so the whole day's delta lands in one hourly run and drains over the
+  # next couple at max_notifications_per_run.
+  #
+  # Unlike the others this is a general EU tech job board, not a new-grad list:
+  # ~20k live rows, no new-grad concept, and an LLM tagger that lags the
+  # scraper (role_family null on 50% of rows, seniority null on 75%, and null
+  # on nearly every brand-new row). The options below are what keep it from
+  # burying the other sources. Measured by diffing the 2026-08-18 and
+  # 2026-08-24 snapshots through the real filter:
+  #
+  #   role_families only, no seniority filter ... 5,600 corpus, ~181 new/day
+  #   + drop tagged senior/staff/principal ..... 4,379 corpus, ~182 new/day
+  #   + drop senior-sounding untagged titles ... 2,710 corpus, ~118 new/day
+  #   + engineering/ml-ai/data/research only ... 2,438 corpus, ~118 new/day  <- current
+  #
+  # Note the seniority tags alone buy nothing (182 vs 181): the tagger has not
+  # reached the new rows yet, so the title guard is what does the work.
+  - name: Aramente/eu-tech-jobs
+    adapter: eu_parquet
+    url: https://raw.githubusercontent.com/Aramente/eu-tech-jobs/main/data/latest/jobs.parquet
+    # slug -> display name. jobs.parquet only has "wttj-capgemini"-style slugs.
+    companies_url: https://raw.githubusercontent.com/Aramente/eu-tech-jobs/main/data/latest/companies.parquet
+    options:
+      # Rows tagged with a role_family outside this set are dropped. Untagged
+      # rows are KEPT -- see the tagger-lag note above. Full upstream enum:
+      # engineering / ml-ai / data / research / design / ops / product /
+      # sales / marketing / support / finance / hr / other.
+      role_families: [engineering, ml-ai, data, research]
+
+      # Rows the tagger has explicitly marked at these levels are dropped.
+      # "intern" is here as well as in exclude_title_patterns because the tag
+      # catches the ones whose title doesn't say so (V.I.E., alternance).
+      exclude_seniority: [senior, staff, principal, exec, intern]
+
+      # Consulted only for rows with NO seniority tag. Whole-word against the
+      # normalized title. This is the filter that actually moves the number.
+      senior_title_patterns:
+        - senior
+        - sr
+        - staff
+        - principal
+        - lead
+        - head
+        - director
+        - vp
+        - chief
+        - architect
+        - manager
+
+      # The upstream repo also tracks consumer fashion/beauty/luxury brands for
+      # a separate private landing page it runs. ~400 of its 1,732 companies
+      # and ~1,750 live jobs, overwhelmingly Paris-based -- so they pass the EU
+      # location check and would swamp everything else. Its own public site
+      # drops them on exactly these tags.
+      exclude_industry_tags:
+        - fashion
+        - beauty
+        - perfume
+        - home
+        - interior-design
+        - decoration
+        - textile
+        - retail-luxury
 
   # NOTE: the two Summer2026-Internships repos (SimplifyJobs + vanshb03) were
   # dropped Aug 2026. exclude_title_patterns discarded ~1,850 of their rows per
@@ -39,7 +106,7 @@ settings:
   # (flagged "sponsorship unverified") or are dropped outright.
   #   true  -> ~50/day, known sponsors visually distinguishable in the channel
   #   false -> ~15/day, known sponsors only
-  allow_unknown_sponsorship: true
+  allow_unknown_sponsorship: false
 
   # Titles containing any of these terms are dropped before location checks.
   # Matched whole-word against the normalized (lowercased, de-accented) title,
@@ -68,6 +135,119 @@ settings:
     - u.s. citizen
     - citizenship required
     - public trust
+
+    # --- non-CS role families -------------------------------------------
+    # Added when eu-tech-jobs came online. That source keeps rows the upstream
+    # tagger hasn't classified yet (it lags the scraper), so sales/retail/field
+    # roles arrive untagged and survive the role_family allowlist. These terms
+    # are the second line of defence and take the feed from ~132 to ~73/day.
+    #
+    # Every term below was checked against BOTH pools before being added --
+    # this list is global, so it also prunes the US sources. Net effect there
+    # is -140 matches, and after the tuning noted inline, zero of them are
+    # CS roles: they are overwhelmingly field-service and lab technicians.
+    #
+    # If you retune, re-check the guard cases. The traps found the first time:
+    #   "assurance"    -> kills "Quality Assurance Engineer"     (NOT added)
+    #   "hardware"     -> kills "SWE New Grad - Hardware Tools"  (phrase only)
+    #   "assistant"    -> kills "Research Assistant/Programmer"  (NOT added)
+    #   "marketing"    -> kills an ML New Grad + "Programmer Analyst,
+    #                     Marketing Analytics"                   (phrase only)
+    #   "commercial"   -> kills "Forward Deployed SWE New Grad - Commercial"
+    #                                                            (NOT added)
+    #   "recruitment"  -> kills "SWE - AI/LLM - Global Frontier Tech
+    #                     Recruitment Program"                   (NOT added)
+    #   "support"      -> kills "AI/Application Support Engineer" (NOT added)
+
+    # Sales. "sales" alone subsumes the -development/-representative/-manager/
+    # -specialist variants; the rest are the ones that don't contain the word.
+    - sales
+    - account executive
+    - sales development
+    - business development
+    - account manager
+    - business developer
+    - key account
+    - conseiller          # FR: sales advisor
+    - conseillere
+    - vente               # FR: sales
+    - ventes
+    - chef de secteur     # FR: area sales manager
+    - terrain             # FR: "Commercial(e) Terrain" = field sales
+
+    # One company ("Agency") posts the same freelance data-labelling gig across
+    # every EU country -- 103 near-identical rows in a single snapshot.
+    - ai trainer
+    - freelance ai
+
+    # Field service / hardware / lab. This is the group that also does the
+    # heavy lifting on the US side (~125 of the ~140 US removals).
+    - technician
+    - technicien
+    - technicienne
+    - field service
+    - electricien
+    - electrician
+    - mecanicien
+    - installateur
+    - avionics
+    - hardware engineer   # phrase, not bare "hardware" -- see traps above
+    - hardware technician
+
+    # Internships/apprenticeships in the languages the EU source actually
+    # publishes in. The English terms above miss all of these.
+    - alternance
+    - alternant
+    - alternante
+    - stage
+    - stagiaire
+    - werkstudent
+    - working student
+    - apprenti
+    - apprentie
+    - apprentice
+    - apprenticeship
+    - praktikum
+    - praktikant
+    - praktikantin
+    - tirocinio
+    - becario
+
+    # Retail / warehouse / in-store. Almost all French supermarket chains that
+    # the EU source carries; they pass the EU location check cleanly.
+    - caisse              # checkout
+    - employe             # "EMPLOYE COMMERCIAL LIBRE SERVICE"
+    - vendeur
+    - vendeuse
+    - magasin
+    - omnicanal
+    - hote                # "hote/hotesse d'accueil" = receptionist
+    - hotesse
+    - preparateur
+    - cariste             # forklift operator
+    - logistique
+    - chef de rayon
+    - manutentionnaire
+
+    # Back-office corporate.
+    - accountant
+    - comptable
+    - juriste
+    - legal
+    - avocat
+    - recruiter
+    - recrutement
+    - talent acquisition
+    - ressources humaines
+    - secretaire
+    - controleur de gestion
+    - paie                # payroll
+    - banque
+    - marketing digital   # phrases, not bare "marketing" -- see traps above
+    - chef de produit
+    - charge de communication
+    - social media
+    - brand manager
 
   # Drop seen-ids first observed more than this many days ago.
   prune_after_days: 90
