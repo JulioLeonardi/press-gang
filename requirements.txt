@@ -1,2 +1,5 @@
 requests>=2.32.0
 PyYAML>=6.0.2
+# eu_parquet adapter only. Reads Aramente/eu-tech-jobs' Parquet snapshot;
+# a missing pyarrow skips that one source rather than failing the run.
+pyarrow>=17.0.0

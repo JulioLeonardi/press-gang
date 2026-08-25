@@ -171,6 +171,114 @@ for title in ["Data Scientist", "Research Scientist, Computer Science",
               "Software Engineer, Polygon Rendering"]:
     check(f"clearance terms do not touch {title!r}", excluded(title), False)
 
+# --- non-CS role exclusions -------------------------------------------------
+for title in ["Enterprise Account Executive, Financial Services",
+              "Business Development Representative", "Sales Development Representative - DACH",
+              "Commercial(e) Terrain", "Conseiller de vente",
+              "Asturian Language Specialist - Freelance AI Trainer Project",
+              "Field Service Technician 1", "Lithography Maintenance Technician",
+              "Avionics Hardware Engineer", "Technicien de maintenance CVC H/F",
+              "Working Student | IT (Werkstudent)", "Alternant - Data Analyst H/F",
+              "Stagiaire Marketing & Reseaux Sociaux", "Praktikant:in (m/w/d) - Sales",
+              "MODELE INTERMARCHE - EMPLOYE COMMERCIAL (H/F)", "Hote d'accueil (H/F)",
+              "Chef d'equipe logistique (H/F)", "Junior Accountant, Accounts Payable",
+              "Associate Legal Counsel", "Talent Acquisition Partner"]:
+    check(f"drops non-CS role {title!r}", excluded(title), True)
+
+# The traps. Each of these was killed by an obvious-looking bare term during
+# tuning; the config uses a narrower phrase (or nothing) because of them. If a
+# retune reintroduces the bare term, these fail rather than silently costing
+# you CS roles.
+for title in ["Quality Assurance Engineer - Development",             # not "assurance"
+              "Product Security Engineer Graduate (Security Assurance)",
+              "Software Engineer New Grad - Hardware Tools and Methodology",  # not "hardware"
+              "Research Assistant/Programmer",                        # not "assistant"
+              "Graduate Research Assistant",
+              "Marketing Science Analyst",                            # not "marketing"
+              "Programmer Analyst - Marketing Analytics",
+              "New Grad 2026: Machine Learning Graduate (eCommerce User Growth)",
+              "Forward Deployed Software Engineer New Grad - Commercial",     # not "commercial"
+              "Software Development Engineer - AI/LLM Network - Global Frontier "
+              "Tech Recruitment Program",                             # not "recruitment"
+              "Application Support Engineer",                         # not "support"
+              "AI Support Engineer - Dublin",
+              # Plain CS roles, as a floor.
+              "Backend Engineer", "Site Reliability Engineer", "Embedded Software Engineer",
+              "Firmware Engineer", "Full Stack Developer", "Junior Software Developer",
+              "Machine Learning Engineer", "DevOps Engineer"]:
+    check(f"non-CS terms do not touch {title!r}", excluded(title), False)
+
+# --- eu_parquet row transform -----------------------------------------------
+# The transform only; _fetch_eu_parquet's HTTP range reads are not exercised.
+from fetch import eu_rows_to_postings  # noqa: E402
+
+eu_companies = {"gh-acme": "Acme AI", "wttj-brand": "Brand SAS"}
+eu_options = {
+    "role_families": ["engineering", "ml-ai"],
+    "exclude_seniority": ["senior", "intern"],
+    "senior_title_patterns": ["senior", "lead", "manager"],
+}
+
+
+def eu_row(**overrides):
+    row = {
+        "id": "abc123", "company_slug": "gh-acme", "title": "Software Engineer",
+        "url": "https://example.com/j/1", "location": "Berlin, Germany",
+        "seniority": None, "role_family": "engineering",
+        "posted_at": datetime(2026, 8, 5, 12, 0, tzinfo=timezone.utc),
+    }
+    row.update(overrides)
+    return row
+
+
+def eu_titles(*rows):
+    return [p["title"] for p in eu_rows_to_postings(list(rows), eu_companies, eu_options, "eu")]
+
+
+one = eu_rows_to_postings([eu_row()], eu_companies, eu_options, "eu")[0]
+check("slug resolves to the company display name", one["company"], "Acme AI")
+check("keeps the source's own stable id", one["id"], "abc123")
+check("posted_at -> MMDDYYYY", one["date_posted"], "08052026")
+check("sponsorship is unknown (column is 100% null upstream)",
+      one["sponsorship_flag"], "unknown")
+check("live snapshot means active", one["active"], True)
+
+check("unknown company_slug is dropped", eu_titles(eu_row(company_slug="nope")), [])
+check("aggregator 'via-' stub is dropped (absent from the company map)",
+      eu_titles(eu_row(company_slug="via-remoteok-x")), [])
+check("blank location falls back to Unspecified",
+      eu_rows_to_postings([eu_row(location="")], eu_companies, eu_options, "eu")[0]["location"],
+      "Unspecified")
+
+# role_family: tagged-and-outside is dropped, untagged rides along
+check("tagged role_family outside the allowlist is dropped",
+      eu_titles(eu_row(role_family="sales")), [])
+check("tagged role_family inside the allowlist is kept",
+      eu_titles(eu_row(role_family="ml-ai")), ["Software Engineer"])
+check("UNTAGGED role_family is kept (upstream tagger lags the scraper)",
+      eu_titles(eu_row(role_family=None)), ["Software Engineer"])
+
+# seniority: an explicit tag wins; only untagged rows fall back to the title
+check("tagged senior is dropped", eu_titles(eu_row(seniority="senior")), [])
+check("tagged intern is dropped", eu_titles(eu_row(seniority="intern")), [])
+check("tagged junior is kept", eu_titles(eu_row(seniority="junior")), ["Software Engineer"])
+check("untagged senior-sounding title is dropped",
+      eu_titles(eu_row(title="Senior Software Engineer")), [])
+check("untagged 'Engineering Manager' is dropped",
+      eu_titles(eu_row(title="Engineering Manager")), [])
+check("a seniority tag overrides the title guard",
+      eu_titles(eu_row(title="Senior Software Engineer", seniority="junior")),
+      ["Senior Software Engineer"])
+check("title guard is whole-word: 'Leader' does not match 'lead'",
+      eu_titles(eu_row(title="Team Leader Onboarding")), ["Team Leader Onboarding"])
+check("title guard is whole-word: 'Ambassador' does not match 'sr'",
+      eu_titles(eu_row(title="Developer Ambassador")), ["Developer Ambassador"])
+
+check("no options -> nothing is filtered out",
+      [p["title"] for p in eu_rows_to_postings(
+          [eu_row(role_family="sales", seniority="senior")], eu_companies, {}, "eu")],
+      ["Software Engineer"])
+
 print()
 if failures:
     print(f"{len(failures)} FAILED")

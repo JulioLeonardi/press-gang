@@ -1,0 +1,63 @@
+name: job-board
+
+on:
+  schedule:
+    # 00:00 UTC = 8 PM US Eastern during EDT.
+    #
+    # GitHub cron has no timezone support, so this is a fixed UTC offset: when
+    # the US falls back to EST in November it becomes 7 PM local. Change to
+    # "0 1 * * *" then, or leave it and accept the hour of drift.
+    #
+    # Also note GitHub delays scheduled runs on shared runners, sometimes by
+    # 10-20 minutes at the top of the hour. The page timestamps its own build
+    # time, so a late run is visible rather than silently stale.
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+# `pages` + `id-token` are what actions/deploy-pages needs. `contents: read`
+# only -- unlike check-jobs this workflow never writes back to the repo.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  # Pages allows one in-flight deployment; cancel a superseded build rather
+  # than queueing it. Distinct from the check-jobs group on purpose -- these
+  # two touch nothing in common and should never block each other.
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      # Reads state/seen.json from the checkout to mark rows NEW. That file is
+      # committed hourly by check-jobs, so it is at most an hour stale here.
+      - name: Render the board
+        run: python scripts/render_board.py -o site/index.html --title "Job Board"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,5 +1,12 @@
 __pycache__/
 *.py[cod]
+
+# Generated, not source. `site/` is rebuilt by the job-board workflow and
+# uploaded straight to Pages; `backlog.md` is a local dump from backlog_dump.py.
+# Both are derived from the live feeds, so committing them only publishes a
+# stale copy of your job search into the repo history.
+site/
+backlog.md
 .venv/
 venv/
 env/

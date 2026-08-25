@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<!-- This page lists a personal job search. Public URL, but kept out of search
+     results deliberately. Remove this line if you ever want it indexed. -->
+<meta name="robots" content="noindex, nofollow">
+<title>__TITLE__</title>
+<style>
+:root {
+  --ground: #F6F7F9;
+  --surface: #FFFFFF;
+  --surface-2: #EFF2F5;
+  --ink: #16202B;
+  --ink-2: #4A5866;
+  --ink-3: #7A8794;
+  --line: #DFE4EA;
+  --line-2: #C9D1DA;
+  --accent: #0E6E6E;
+  --accent-ink: #FFFFFF;
+  --confirmed: #0F766E;
+  --confirmed-bg: #E2F1EF;
+  --eu: #6D4AA6;
+  --eu-bg: #EDE7F6;
+  --known: #3B5BA5;
+  --known-bg: #E5EAF6;
+  --unverified: #97620F;
+  --unverified-bg: #F6EDDC;
+  --shadow: 0 1px 2px rgba(22,32,43,.06), 0 1px 8px rgba(22,32,43,.04);
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  --sans: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, "SF Mono", "Cascadia Mono", Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #0F1317;
+    --surface: #171C22;
+    --surface-2: #1E242B;
+    --ink: #E6EBF0;
+    --ink-2: #A3AEBA;
+    --ink-3: #77838F;
+    --line: #262D35;
+    --line-2: #333C46;
+    --accent: #4FB3AC;
+    --accent-ink: #06231F;
+    --confirmed: #5CC2B4;
+    --confirmed-bg: #12302C;
+    --eu: #B69BE0;
+    --eu-bg: #241A38;
+    --known: #8FA9E0;
+    --known-bg: #1B2439;
+    --unverified: #D6A455;
+    --unverified-bg: #33270F;
+    --shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 10px rgba(0,0,0,.28);
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #0F1317;
+  --surface: #171C22;
+  --surface-2: #1E242B;
+  --ink: #E6EBF0;
+  --ink-2: #A3AEBA;
+  --ink-3: #77838F;
+  --line: #262D35;
+  --line-2: #333C46;
+  --accent: #4FB3AC;
+  --accent-ink: #06231F;
+  --confirmed: #5CC2B4;
+  --confirmed-bg: #12302C;
+  --eu: #B69BE0;
+  --eu-bg: #241A38;
+  --known: #8FA9E0;
+  --known-bg: #1B2439;
+  --unverified: #D6A455;
+  --unverified-bg: #33270F;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 10px rgba(0,0,0,.28);
+}
+
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+.wrap { max-width: 1080px; margin: 0 auto; padding: 0 20px 80px; }
+
+/* --- masthead --- */
+.masthead { padding: 44px 0 26px; border-bottom: 1px solid var(--line); }
+.eyebrow {
+  font-family: var(--mono); font-size: 11px; letter-spacing: .13em;
+  text-transform: uppercase; color: var(--ink-3); margin: 0 0 12px;
+}
+h1 {
+  font-family: var(--serif); font-weight: 600; font-size: clamp(30px, 5vw, 44px);
+  line-height: 1.1; letter-spacing: -.015em; margin: 0 0 10px; text-wrap: balance;
+}
+.standfirst { margin: 0; color: var(--ink-2); max-width: 62ch; }
+.standfirst strong { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+.tiers { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.tier {
+  flex: 1 1 200px; background: var(--surface); border: 1px solid var(--line);
+  border-radius: 8px; padding: 14px 16px; box-shadow: var(--shadow);
+  border-left: 3px solid var(--tint, var(--line-2));
+}
+.tier .n {
+  font-family: var(--mono); font-size: 26px; font-variant-numeric: tabular-nums;
+  color: var(--tint, var(--ink)); line-height: 1.1;
+}
+.tier .k { font-size: 13px; color: var(--ink-2); margin-top: 3px; }
+.tier .h { font-size: 12px; color: var(--ink-3); margin-top: 6px; }
+.t-confirmed { --tint: var(--confirmed); }
+.t-eu { --tint: var(--eu); }
+.t-known { --tint: var(--known); }
+.t-unverified { --tint: var(--unverified); }
+
+/* --- controls --- */
+.bar {
+  position: sticky; top: 0; z-index: 10; background: var(--ground);
+  border-bottom: 1px solid var(--line); padding: 12px 0;
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center;
+}
+.search {
+  flex: 1 1 240px; min-width: 0; padding: 9px 12px; font: inherit;
+  color: var(--ink); background: var(--surface);
+  border: 1px solid var(--line-2); border-radius: 7px;
+}
+.search::placeholder { color: var(--ink-3); }
+.search:focus-visible, .chip:focus-visible, .rowcheck:focus-visible, .apply:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  font: inherit; font-size: 13px; padding: 7px 12px; cursor: pointer;
+  background: var(--surface); color: var(--ink-2);
+  border: 1px solid var(--line-2); border-radius: 999px;
+  display: inline-flex; align-items: center; gap: 7px;
+}
+.chip:hover { border-color: var(--ink-3); color: var(--ink); }
+.chip[aria-pressed="true"] { background: var(--ink); color: var(--ground); border-color: var(--ink); }
+.chip .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--tint, var(--ink-3)); }
+.chip[aria-pressed="true"] .dot { background: var(--ground); }
+.chip .ct { font-family: var(--mono); font-size: 11px; opacity: .75; font-variant-numeric: tabular-nums; }
+
+.progress { display: flex; align-items: center; gap: 9px; margin-left: auto; }
+.meter { width: 90px; height: 5px; background: var(--surface-2); border-radius: 3px; overflow: hidden; }
+.meter i { display: block; height: 100%; background: var(--accent); width: 0; transition: width .25s; }
+.progress span { font-family: var(--mono); font-size: 11px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+
+/* --- list --- */
+.daygroup { margin-top: 26px; }
+.dayhead {
+  font-family: var(--serif); font-size: 17px; font-weight: 600;
+  padding-bottom: 7px; margin: 0 0 10px; border-bottom: 1px solid var(--line);
+  display: flex; align-items: baseline; gap: 10px;
+}
+.dayhead .c { font-family: var(--mono); font-size: 11px; color: var(--ink-3); font-weight: 400; }
+
+.row {
+  display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: start;
+  background: var(--surface); border: 1px solid var(--line);
+  border-left: 3px solid var(--tint); border-radius: 8px;
+  padding: 12px 14px; margin-bottom: 7px; box-shadow: var(--shadow);
+}
+.row.g-confirmed { --tint: var(--confirmed); }
+.row.g-eu { --tint: var(--eu); }
+.row.g-known { --tint: var(--known); }
+.row.g-unverified { --tint: var(--unverified); }
+.row.done { opacity: .48; }
+.row.done .co { text-decoration: line-through; }
+
+.rowcheck { width: 17px; height: 17px; margin-top: 3px; accent-color: var(--accent); cursor: pointer; }
+.co { font-weight: 650; letter-spacing: -.005em; }
+.ti { color: var(--ink-2); font-size: 14px; }
+.meta { display: flex; flex-wrap: wrap; gap: 6px 12px; margin-top: 5px; font-size: 12.5px; color: var(--ink-3); align-items: center; }
+.badge {
+  font-size: 11px; font-weight: 600; letter-spacing: .02em; padding: 2px 8px;
+  border-radius: 4px; background: var(--tintbg); color: var(--tint);
+}
+.g-confirmed .badge { --tintbg: var(--confirmed-bg); }
+.g-eu .badge { --tintbg: var(--eu-bg); }
+.g-known .badge { --tintbg: var(--known-bg); }
+.g-unverified .badge { --tintbg: var(--unverified-bg); }
+.new { font-size: 11px; font-weight: 700; color: var(--accent); letter-spacing: .04em; }
+.apply {
+  align-self: center; font-size: 13px; font-weight: 600; text-decoration: none;
+  color: var(--accent); border: 1px solid var(--line-2); border-radius: 6px;
+  padding: 6px 13px; white-space: nowrap;
+}
+.apply:hover { border-color: var(--accent); background: var(--surface-2); }
+.apply.dead { color: var(--ink-3); pointer-events: none; border-style: dashed; }
+
+.empty { text-align: center; padding: 60px 20px; color: var(--ink-3); }
+.note {
+  margin-top: 30px; padding: 14px 16px; background: var(--surface-2);
+  border-radius: 8px; font-size: 13px; color: var(--ink-2); max-width: 68ch;
+}
+.note b { color: var(--ink); }
+.note + .note { margin-top: 10px; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+@media (max-width: 620px) {
+  .row { grid-template-columns: auto 1fr; }
+  .apply { grid-column: 2; justify-self: start; margin-top: 4px; }
+  .progress { margin-left: 0; }
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header class="masthead">
+    <p class="eyebrow">__EYEBROW__</p>
+    <h1>__TITLE__</h1>
+    <p class="standfirst">__STANDFIRST__</p>
+    <div class="tiers">__TIERS__</div>
+  </header>
+
+  <div class="bar">
+    <input class="search" id="q" type="search" placeholder="Search company, role, or location…" aria-label="Search postings">
+    <div class="chips" id="chips">__CHIPS__
+      <button class="chip" id="hidedone" aria-pressed="false">Hide reviewed</button>
+    </div>
+    <div class="progress">
+      <div class="meter"><i id="mfill"></i></div>
+      <span id="mtext">0 / 0</span>
+    </div>
+  </div>
+
+  <main id="list"></main>
+
+  <p class="note">
+    <b>Tiers are company-level, not role-level.</b> “Known H-1B employer” means the company
+    filed H-1B petitions in the USCIS FY2022–23 data — it is not a promise about this
+    particular req. Sponsoring employers still post cleared and US-persons-only roles.
+    Review state is saved in this browser only.
+  </p>
+  <p class="note">
+    <b>This board is wider than your Discord alerts.</b> It includes the
+    <em>sponsorship unverified</em> tier, which <code>allow_unknown_sponsorship: false</code>
+    keeps out of the channel. Rebuilt nightly at 8 PM ET from the live feeds, so a posting
+    that disappears here has been closed or filled upstream.
+  </p>
+</div>
+
+<script id="data" type="application/json">__DATA__</script>
+<script>
+(function () {
+  var rows = JSON.parse(document.getElementById("data").textContent);
+  var list = document.getElementById("list");
+  var q = document.getElementById("q");
+  var hideDone = document.getElementById("hidedone");
+  var KEY = "job-board-reviewed";
+  var done = {};
+  try { done = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { done = {}; }
+
+  var active = __ACTIVE__;
+  var LABEL = {
+    confirmed: "Sponsorship confirmed",
+    eu: "EU location",
+    known: "Known H-1B employer",
+    unverified: "Unverified"
+  };
+  var MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+
+  function save() {
+    try { localStorage.setItem(KEY, JSON.stringify(done)); } catch (e) {}
+  }
+
+  function prettyDay(iso) {
+    var p = iso.split("-");
+    if (p.length !== 3) return "Undated";
+    return MONTHS[+p[1] - 1] + " " + (+p[2]) + ", " + p[0];
+  }
+
+  function esc(s) {
+    return String(s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  function meter() {
+    var n = 0;
+    for (var i = 0; i < rows.length; i++) if (done[rows[i].i]) n++;
+    document.getElementById("mfill").style.width = (rows.length ? n / rows.length * 100 : 0) + "%";
+    document.getElementById("mtext").textContent = n + " / " + rows.length;
+  }
+
+  function render() {
+    var term = q.value.trim().toLowerCase();
+    var hide = hideDone.getAttribute("aria-pressed") === "true";
+    var shown = rows.filter(function (r) {
+      if (!active[r.g]) return false;
+      if (hide && done[r.i]) return false;
+      if (!term) return true;
+      return (r.c + " " + r.t + " " + r.l).toLowerCase().indexOf(term) !== -1;
+    });
+
+    if (!shown.length) {
+      list.innerHTML = '<p class="empty">No postings match these filters.</p>';
+      meter();
+      return;
+    }
+
+    // Precount per day in one pass; the original did this with a nested scan,
+    // which is O(n^2) and visibly janky once the board passes ~2,000 rows.
+    var counts = {};
+    for (var k = 0; k < shown.length; k++) {
+      counts[shown[k].d] = (counts[shown[k].d] || 0) + 1;
+    }
+
+    var html = "", day = null;
+    for (var i = 0; i < shown.length; i++) {
+      var r = shown[i];
+      if (r.d !== day) {
+        if (day !== null) html += "</section>";
+        day = r.d;
+        html += '<section class="daygroup"><h2 class="dayhead">' + esc(prettyDay(day)) +
+                '<span class="c">' + counts[day] + "</span></h2>";
+      }
+      html += '<article class="row g-' + r.g + (done[r.i] ? " done" : "") + '">' +
+        '<input class="rowcheck" type="checkbox" data-i="' + esc(r.i) + '"' +
+          (done[r.i] ? " checked" : "") + ' aria-label="Mark reviewed">' +
+        "<div>" +
+          '<div class="co">' + esc(r.c) + "</div>" +
+          '<div class="ti">' + esc(r.t) + "</div>" +
+          '<div class="meta"><span class="badge">' + LABEL[r.g] + "</span>" +
+            (r.n ? '<span class="new">NEW</span>' : "") +
+            "<span>" + esc(r.l) + "</span>" +
+            "<span>" + esc(r.s) + "</span>" +
+          "</div>" +
+        "</div>" +
+        (r.u ? '<a class="apply" href="' + esc(r.u) + '" target="_blank" rel="noopener">Apply →</a>'
+             : '<span class="apply dead">No link</span>') +
+        "</article>";
+    }
+    html += "</section>";
+    list.innerHTML = html;
+    meter();
+  }
+
+  list.addEventListener("change", function (e) {
+    var box = e.target.closest(".rowcheck");
+    if (!box) return;
+    var id = box.getAttribute("data-i");
+    if (box.checked) done[id] = 1; else delete done[id];
+    save();
+    box.closest(".row").classList.toggle("done", box.checked);
+    if (hideDone.getAttribute("aria-pressed") === "true") render(); else meter();
+  });
+
+  document.getElementById("chips").addEventListener("click", function (e) {
+    var chip = e.target.closest(".chip");
+    if (!chip) return;
+    var pressed = chip.getAttribute("aria-pressed") === "true";
+    chip.setAttribute("aria-pressed", pressed ? "false" : "true");
+    if (chip.dataset.g) active[chip.dataset.g] = !pressed;
+    render();
+  });
+
+  var timer;
+  q.addEventListener("input", function () {
+    clearTimeout(timer);
+    timer = setTimeout(render, 110);
+  });
+
+  // Drop review state for postings that have since left the board, so
+  // localStorage doesn't grow without bound across nightly rebuilds.
+  (function prune() {
+    var live = {}, changed = false;
+    for (var i = 0; i < rows.length; i++) live[rows[i].i] = 1;
+    for (var id in done) if (!live[id]) { delete done[id]; changed = true; }
+    if (changed) save();
+  })();
+
+  render();
+})();
+</script>
+
+</body>
+</html>
