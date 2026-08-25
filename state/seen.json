@@ -31,6 +31,11 @@
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "AI Vision Research Engineer Graduate - PhD"
     },
+    "005acafd6cb1de07": {
+      "company": "Dell Technologies",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "Hardware Engineer 1 - Client Solutions Group"
+    },
     "005f16d2f53faf55": {
       "company": "Artera",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -3176,6 +3181,11 @@
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "Rust Developer Intern"
     },
+    "2117afeade07f407": {
+      "company": "AMD",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "ASIC Package Engineering Co-op/Intern"
+    },
     "2122c2bb5c97aff3": {
       "company": "Micron Technology",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
@@ -5626,6 +5636,11 @@
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Entry Level Business Analyst / Data Analyst"
     },
+    "39a252df13fc121c": {
+      "company": "Meridian Partners",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "Python Software Engineer Co-op"
+    },
     "39a80528b0238fbd": {
       "company": "Nordstrom",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -5865,6 +5880,11 @@
       "company": "Susquehanna International Group (SIG)",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Machine Learning Intern"
+    },
+    "3c367638d9e7af62": {
+      "company": "Meridian Partners",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "Data Scientist Co-op"
     },
     "3c6d98849a6bc758": {
       "company": "Bigbear.ai",
@@ -6555,6 +6575,11 @@
       "company": "General Dynamics",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Engineer 1/2"
+    },
+    "443293f5b0407608": {
+      "company": "AMD",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "ASIC Package Engineer Intern Co-op"
     },
     "443403519f37adcf": {
       "company": "ByteDance",
@@ -7461,6 +7486,11 @@
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Service Technician"
     },
+    "4ea15ad160211614": {
+      "company": "Meridian Partners",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "Full Stack Software Engineer Co-op"
+    },
     "4eabafefbcb885fa": {
       "company": "The Boeing Company",
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
@@ -7946,6 +7976,11 @@
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Trade & Supply Chain Data Analytics Co-op"
     },
+    "540f6776344a263e": {
+      "company": "Brown University",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "Health Economics Research Analyst"
+    },
     "541bcc25744ecf46": {
       "company": "Integration Innovation (i3)",
       "first_seen": "2026-08-21T20:21:44.821595+00:00",
@@ -8400,6 +8435,11 @@
       "company": "Intel",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Dry Etch Module Equipment Technician - Ocotillo Technology Fabrication"
+    },
+    "592584fc4dc5de57": {
+      "company": "AMD",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "ASIC Package Engineering Intern Co-op"
     },
     "59284f32ec38c17f": {
       "company": "TRUCKING PEOPLE",
@@ -16106,6 +16146,11 @@
       "first_seen": "2026-08-19T10:24:08.822599+00:00",
       "title": "Hardware Engineering Intern"
     },
+    "a5ba78afe2a7a9a2": {
+      "company": "Meridian Partners",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "Embedded Software Engineer Co-op"
+    },
     "a5d77a4ac80e1b35": {
       "company": "American Express",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
@@ -17681,6 +17726,11 @@
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Survey Instrument Operator"
     },
+    "b748ff36a60c1a83": {
+      "company": "Meridian Partners",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "Machine Learning Engineer Co-op"
+    },
     "b75272f1d96cb694": {
       "company": "TikTok",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
@@ -18345,6 +18395,11 @@
       "company": "UL Solutions",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Associate Data Scientist"
+    },
+    "bd75d1b89fe941f2": {
+      "company": "Meridian Partners",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "Cloud Software Engineer Co-op"
     },
     "bd7a4f9ba839a3ae": {
       "company": "Johns Hopkins Applied Physics Laboratory",
@@ -22810,6 +22865,11 @@
       "company": "Bluesight",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Firmware Engineer"
+    },
+    "e85eadba4f50e404": {
+      "company": "Meridian Partners",
+      "first_seen": "2026-08-25T06:40:15.629625+00:00",
+      "title": "Front End Software Engineer Co-op"
     },
     "e8632bfb23691289": {
       "company": "Oklo",
