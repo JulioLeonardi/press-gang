@@ -22,7 +22,9 @@ python tests/test_core.py           # sanity checks
 
 ## How it decides
 
-A posting is kept if **(EU location)** OR **(US location AND sponsorship offered)**.
+A posting is kept if its **title isn't excluded** AND **(EU location)** OR **(US location AND sponsorship offered)**.
+
+Title exclusion runs first and is driven by `exclude_title_patterns` in [config/sources.yaml](config/sources.yaml) — by default `intern`, `interns`, `internship`, `internships`. Terms match **whole words** against the normalized title, so `intern` drops "Software Engineer Intern" but leaves "International Tax Analyst" and "Internal Tools Engineer" alone. That whole-word rule is why each suffix form is listed separately; add `co-op`, `apprentice`, `working student` etc. the same way.
 
 US detection runs **first and wins**. This matters more than it sounds: Dublin CA/OH, Berlin NH, Paris TX, Vienna VA and Naples FL are all real US tech locations that would otherwise false-positive as EU.
 

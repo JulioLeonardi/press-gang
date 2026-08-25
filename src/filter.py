@@ -1,6 +1,7 @@
-"""Location + sponsorship filtering.
+"""Title, location, and sponsorship filtering.
 
 A posting passes if:
+    (0) its title is not excluded by exclude_title_patterns, AND
     (A) it is EU-located,  OR
     (B) it is US-located AND sponsorship is offered
         (or unknown, if allow_unknown_sponsorship is on).
@@ -23,6 +24,20 @@ _US_STATES = (
 ).split()
 _US_STATE_RE = re.compile(r",\s*(" + "|".join(_US_STATES) + r")\b", re.IGNORECASE)
 _US_COUNTRY_RE = re.compile(r"\b(united states|u\.?s\.?a?\.?)\b", re.IGNORECASE)
+
+
+def compile_title_exclusions(patterns) -> list[re.Pattern]:
+    """Word-boundary matchers for unwanted role titles.
+
+    Boundaries matter here: a bare substring test on "intern" also swallows
+    "International Tax Analyst" and "Internal Tools Engineer". Each term is
+    matched whole, so "internship" needs its own entry alongside "intern".
+    """
+    return [
+        re.compile(r"\b" + re.escape(normalize_text(p)) + r"\b")
+        for p in (patterns or [])
+        if p
+    ]
 
 
 class LocationMatcher:
@@ -57,12 +72,18 @@ def filter_postings(postings: list[dict], location_config: dict, settings: dict)
     matcher = LocationMatcher(location_config)
     require_active = settings.get("require_active", True)
     allow_unknown = settings.get("allow_unknown_sponsorship", False)
+    title_exclusions = compile_title_exclusions(settings.get("exclude_title_patterns"))
 
-    kept, stats = [], {"inactive": 0, "eu": 0, "us_sponsored": 0, "rejected": 0}
+    kept, stats = [], {"inactive": 0, "title": 0, "eu": 0, "us_sponsored": 0, "rejected": 0}
 
     for posting in postings:
         if require_active and not posting.get("active", True):
             stats["inactive"] += 1
+            continue
+
+        title = normalize_text(posting.get("title", ""))
+        if any(term.search(title) for term in title_exclusions):
+            stats["title"] += 1
             continue
 
         # Multi-location postings: any one qualifying location is enough.
@@ -95,8 +116,9 @@ def filter_postings(postings: list[dict], location_config: dict, settings: dict)
             stats["rejected"] += 1
 
     log.info(
-        "filter: kept %d (eu=%d, us_sponsored=%d), dropped %d (inactive=%d, no_match=%d)",
+        "filter: kept %d (eu=%d, us_sponsored=%d), dropped %d (inactive=%d, title=%d, no_match=%d)",
         len(kept), stats["eu"], stats["us_sponsored"],
-        stats["inactive"] + stats["rejected"], stats["inactive"], stats["rejected"],
+        stats["inactive"] + stats["title"] + stats["rejected"],
+        stats["inactive"], stats["title"], stats["rejected"],
     )
     return kept

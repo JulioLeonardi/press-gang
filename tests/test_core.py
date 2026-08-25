@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "src"))
 
 import yaml
 
-from filter import LocationMatcher
+from filter import LocationMatcher, compile_title_exclusions, filter_postings
 from normalize import make_id, to_mmddyyyy
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -70,6 +70,36 @@ for us_city in ["Dublin, CA", "Dublin, OH", "Berlin, NH", "Paris, TX", "Vienna, 
 check("Zurich excluded while include_non_eu_european is false", M.is_eu("Zurich, Switzerland"), False)
 check("plain 'Remote' is not assumed EU", M.is_eu("Remote"), False)
 check("empty location is not EU", M.is_eu(""), False)
+
+# --- title exclusion --------------------------------------------------------
+sources = yaml.safe_load((ROOT / "config" / "sources.yaml").read_text(encoding="utf-8"))
+settings = sources.get("settings", {})
+excl = compile_title_exclusions(settings.get("exclude_title_patterns"))
+
+
+def excluded(title):
+    from normalize import normalize_text
+    normalized = normalize_text(title)
+    return any(term.search(normalized) for term in excl)
+
+
+for title in ["Software Engineer Intern", "Summer 2026 Internship",
+              "Data Science Interns", "SWE Intern (Backend)",
+              "Internship - Machine Learning", "intern"]:
+    check(f"drops {title!r}", excluded(title), True)
+
+for title in ["International Tax Analyst", "Internal Tools Engineer",
+              "Software Engineer, New Grad", "Backend Engineer (Internationalization)"]:
+    check(f"keeps {title!r}", excluded(title), False)
+
+# End-to-end: exclusion runs before the location check, and only on titles.
+sample = [
+    {"id": "a", "title": "Software Engineer Intern", "location": "Berlin, Germany", "active": True},
+    {"id": "b", "title": "Software Engineer", "location": "Berlin, Germany", "active": True},
+    {"id": "c", "title": "Internal Tools Engineer", "location": "Milan, Italy", "active": True},
+]
+kept_ids = [p["id"] for p in filter_postings(sample, config, settings)]
+check("filter_postings drops the intern role only", kept_ids, ["b", "c"])
 
 print()
 if failures:

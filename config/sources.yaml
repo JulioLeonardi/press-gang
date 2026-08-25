@@ -39,6 +39,16 @@ settings:
   # unspecified US roles through (very noisy — see README).
   allow_unknown_sponsorship: true
 
+  # Titles containing any of these terms are dropped before location checks.
+  # Matched whole-word against the normalized (lowercased, de-accented) title,
+  # so "intern" does NOT also drop "International Tax Analyst" or "Internal
+  # Tools Engineer" -- which is why the plural/suffix forms are listed out.
+  exclude_title_patterns:
+    - intern
+    - interns
+    - internship
+    - internships
+
   # Drop seen-ids first observed more than this many days ago.
   prune_after_days: 90
 
