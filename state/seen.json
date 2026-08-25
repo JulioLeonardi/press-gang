@@ -956,6 +956,11 @@
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "Machine Learning Intern"
     },
+    "09d0534086ebcc7e": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Security Research Engineer Intern"
+    },
     "09d2bf1f8a271bb0": {
       "company": "IMC",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
@@ -1965,6 +1970,11 @@
       "company": "Primetals Technologies",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Data Science Internship - Governance"
+    },
+    "1521937a1b79ec67": {
+      "company": "Cerebras",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Software Integration Engineer - AI Inference Core"
     },
     "15259c9e2002582f": {
       "company": "TikTok",
@@ -4921,6 +4931,11 @@
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Deep Learning Compiler Engineer New Grad"
     },
+    "326ab2bc2a760a4f": {
+      "company": "Dominion Energy",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Electric Transmission Asset Management Engineer/Senior Engineer/Staff Engineer"
+    },
     "3276ccd6f8405b80": {
       "company": "Apple",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -5025,6 +5040,11 @@
       "company": "Johns Hopkins Applied Physics Laboratory",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "AI/ML Data Scientist/Engineer New Grad - Analytic Capabilities"
+    },
+    "33b7369b27c08744": {
+      "company": "AMD",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Research Engineering Intern/Co-op - AMD Research"
     },
     "33be7a8465b6de9a": {
       "company": "Planbase",
@@ -13531,6 +13551,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Software Engineer Intern"
     },
+    "8b6f8b7ad6977dd9": {
+      "company": "Optiver",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Trading Automation and Operations Intern"
+    },
     "8b791afa35b635fc": {
       "company": "Microchip Technology",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
@@ -16706,6 +16731,11 @@
       "first_seen": "2026-08-21T06:40:06.643649+00:00",
       "title": "Machine Learning Intern/Co-op - Machine Learning - Artificial Intelligence"
     },
+    "ac4384438f960096": {
+      "company": "Rocket EMS",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "2D X-Ray Operator - Second Shift"
+    },
     "ac4ac7316d3b27d7": {
       "company": "Figure",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
@@ -17185,6 +17215,11 @@
       "company": "Tencent",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Hunyuan Multimodal Algorithm Researcher Intern"
+    },
+    "b10cb1344c7375f2": {
+      "company": "Kodiak Robotics",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Simulation Intern"
     },
     "b11c4dfe540b04f7": {
       "company": "Per Scholas",
@@ -19651,6 +19686,11 @@
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Content Management Automation Student Technician"
     },
+    "c8337b4b4cf32de0": {
+      "company": "Weatherford",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Field Engineer 1 - Production Automation"
+    },
     "c83733a5f0be1b17": {
       "company": "RTX",
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
@@ -20220,6 +20260,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Software Engineer (Media Platform)"
+    },
+    "ce430e9083efeda3": {
+      "company": "Kodiak Robotics",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Controls Intern"
     },
     "ce449980f2e1989e": {
       "company": "Sentry Insurance",
@@ -21960,6 +22005,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Software Engineer Graduate - AI Infrastructure Compute"
+    },
+    "defa7f769fae20f1": {
+      "company": "RAVE Aerospace",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Test Lab Technician 1 - System Test Lab - Rack Room"
     },
     "df023dca987f1d9d": {
       "company": "Qualcomm",
@@ -23895,6 +23945,11 @@
       "company": "Tech Tammina",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Software Engineer - Inspection - Permanent"
+    },
+    "f13a21030ea79796": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-25T11:23:38.468711+00:00",
+      "title": "Associate Software Engineer"
     },
     "f13fa223a3fb1dd5": {
       "company": "RTX",
