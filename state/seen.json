@@ -851,6 +851,11 @@
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Software Developer"
     },
+    "08d10cb4b01a5cee": {
+      "company": "Caris",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "Associate Software Engineer - Clinical Software Products"
+    },
     "08d3f1bfc5b88509": {
       "company": "Seagate Technology",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -1010,6 +1015,11 @@
       "company": "Nexstar",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Engineer"
+    },
+    "0a7632d294b0ee09": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "Software Engineer Intern"
     },
     "0a86e2717fd97acd": {
       "company": "Ranger",
@@ -2011,6 +2021,11 @@
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Software Engineer Intern - Security-Data - BS/MS"
     },
+    "16389b14fea5807d": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "Configuration Management Intern"
+    },
     "164567ad90b5f3ae": {
       "company": "Cadence Design Systems",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -2910,6 +2925,11 @@
       "company": "Danaher Corporation",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Associate Field Service Engineer"
+    },
+    "1e206824ab167f97": {
+      "company": "Cisco",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "Software Engineer 2"
     },
     "1e32cb9ecc52db78": {
       "company": "Apple",
@@ -4581,6 +4601,11 @@
       "first_seen": "2026-08-25T01:03:30.610318+00:00",
       "title": "Electronics Assembler 1 - Operations Department"
     },
+    "3014cd398db9eb9e": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "Associate Software Engineering"
+    },
     "301d0d096a3a9e02": {
       "company": "InterImage",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
@@ -4975,6 +5000,11 @@
       "company": "Planbase",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Founding Engineer (Full-Stack)"
+    },
+    "33c39f0c2a54f1b1": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "Optical Engineer Associate"
     },
     "33d428791da216dd": {
       "company": "Atlassian",
@@ -9335,6 +9365,11 @@
       "company": "Garmin",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Aviation Test Hardware Design Engineer 1"
+    },
+    "628690341eab5828": {
+      "company": "KLA",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "AI Engineer - Computer Vision/Signal Processing"
     },
     "629276db67ee7699": {
       "company": "RTX",
@@ -13806,6 +13841,11 @@
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Mixed Signal Engineer Intern"
     },
+    "8fd0288ecff71756": {
+      "company": "X Development",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "2026 PhD Residency - Earth Scientist AI Resident - Early Stage Project"
+    },
     "8fd1d641bf75a35a": {
       "company": "Copart",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
@@ -14120,6 +14160,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Software Engineer Graduate - Cloud Native Infrastructure"
+    },
+    "938d35cd098d2ae1": {
+      "company": "BP",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "Corporate Asset Development Engineer Intern"
     },
     "939ed5dac8ecaac8": {
       "company": "Continental Resources",
@@ -15440,6 +15485,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Machine Learning Backend Engineer Graduate - AML MLDev"
+    },
+    "a02d37fe4c8dcbc6": {
+      "company": "Fortive",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "Field Service Engineer Co-op"
     },
     "a02e7fccad2c8cb5": {
       "company": "Citadel Securities",
@@ -19336,6 +19386,11 @@
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Backend Software Engineer New Grad - Feed Safety"
     },
+    "c7175bf2f8d582aa": {
+      "company": "Emory Healthcare",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "Associate AI Engineer"
+    },
     "c7187ef3aa45a90c": {
       "company": "Kearney",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
@@ -19945,6 +20000,11 @@
       "company": "American Fidelity",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Agentic AI Intern"
+    },
+    "cd7ce4e30d7d9cb8": {
+      "company": "Garmin",
+      "first_seen": "2026-08-25T03:45:01.753920+00:00",
+      "title": "GIS/Cartography Technician 1"
     },
     "cd7ef91b53235d92": {
       "company": "Tesla",
