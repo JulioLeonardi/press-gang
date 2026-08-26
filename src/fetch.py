@@ -174,7 +174,7 @@ def _parse_markdown_table(text: str, source_name: str) -> list[dict]:
 
         location = _clean(_BR.sub(" | ", cells[columns["location"]])) if "location" in columns else ""
         date_raw = cells[columns["date"]] if "date" in columns else ""
-        date_posted = to_mmddyyyy(_clean(date_raw), fallback=now)
+        date_posted = to_mmddyyyy(_clean(date_raw), now=now)
 
         sponsorship = "yes" if _SPONSOR_MARKER in title_raw else "unknown"
 
@@ -256,6 +256,51 @@ make_id(company, title, date). Two measurements drove that:
 
 So the source id costs nothing and removes the duplicates. If a US-and-EU
 source is ever added, revisit this."""
+
+_REQUIRED_TITLE_NOTE = """\
+`require_title_patterns` is a positive screen -- an allowlist of CS-role terms
+the title must contain -- and it runs on every row, including ones the upstream
+tagger already labelled `engineering`. Both of those choices are measured, not
+assumed. Against the 2026-08-26 snapshot (19,526 rows, 1,837 surviving the old
+config and the EU location filter):
+
+  * 1,249 of those 1,837 (68%) carry NO role_family tag at all, so the
+    `role_families` allowlist never applied to them. The global
+    exclude_title_patterns blocklist was the only screening they got, and it
+    cannot keep up: this is a general EU job board, so the tail of non-CS role
+    words across French, German, Italian and Spanish is effectively unbounded.
+    What was getting through: an entire French recruitment agency (Linking
+    Talents, 20 postings -- maintenance electricians, sawmill operators,
+    construction site managers), ~30 AstraZeneca Medical Science Liaison and
+    clinical roles, Deliveroo warehouse pickers, Hermes boutique staff, and
+    two Kita kindergarten-teacher posts.
+  * Applying it to tagged rows too, rather than only untagged ones, removes a
+    further 55. The tagger's `engineering` means engineering *broadly*: it
+    covers 1KOMMA5's photovoltaic Elektriker, HelloFresh's Mechatroniker
+    Instandhaltung, VINCI's civil-works site managers and Trigo's Hungarian
+    mechanical Mernok. The label is not a software signal.
+
+Net: 1,837 -> 963 EU postings. Recall against the rows the tagger classified
+as engineering/ml-ai/data/research is 90.6% before the `ingenieur` narrowing
+described in the config, and reading the "losses" they are overwhelmingly the
+mislabelled trade roles above plus Business/Product Analyst titles, not lost
+CS roles.
+
+Every term was probed individually for precision before being added. The ones
+REJECTED, and what they would have dragged in:
+
+  "technical"  -> Technical Support/Content/Customer Success Specialist (20)
+  "technique"  -> Agent Technique, Pilote technique HVAC, nuclear install (12)
+  "tech"       -> Tech Recruitment Business Partner, B2B Tech Marketer (2)
+  "administrator" (bare) -> Clinical Study / Credit Risk / Restaurant
+                  Administrator. Kept as the phrase "system administrator".
+  "crm"        -> Marketing Designer for CRM. "dynamics" catches the real one.
+  "analyst" (bare) -> Tax, Finance, Commercial, Merchant Fraud Analyst. "data"
+                  already covers Data Analyst.
+
+This is the mirror image of exclude_title_patterns and the two are complements,
+not substitutes: the blocklist still runs globally in filter_postings and still
+carries the terms that prune the US sources."""
 
 _EU_JOB_COLUMNS = [
     "id", "company_slug", "title", "url", "location",
@@ -370,9 +415,11 @@ def eu_rows_to_postings(
     role_families = set(options.get("role_families") or [])
     exclude_seniority = set(options.get("exclude_seniority") or [])
     senior_title = _compile_senior_title(options)
+    required_title = _compile_required_title(options)
 
     postings: list[dict] = []
-    dropped = {"company": 0, "role": 0, "seniority": 0, "senior_title": 0}
+    dropped = {"company": 0, "role": 0, "seniority": 0, "senior_title": 0,
+               "not_cs_title": 0}
 
     for row in rows:
         company = companies.get(row["company_slug"] or "")
@@ -402,7 +449,21 @@ def eu_rows_to_postings(
             dropped["company"] += 1
             continue
 
+        # Positive screen: the title must look like a CS role. Applied to EVERY
+        # row, tagged or not -- see _REQUIRED_TITLE_NOTE for why the tag is not
+        # trusted here even when it says "engineering".
+        if required_title and not required_title.search(normalize_text(title)):
+            dropped["not_cs_title"] += 1
+            continue
+
         # pyarrow hands back a datetime; tolerate a plain string too.
+        #
+        # posted_at is null on ~29% of rows (5,709 of 19,526 in the 2026-08-26
+        # snapshot) -- the scraper records plenty of listings the site shows no
+        # date for. Those come back as "" and the board files them under
+        # "Undated". Do NOT substitute the run time: the id here is the
+        # source's, so a fabricated date does not churn the key, it just tells
+        # the reader the posting appeared today when nobody knows when it did.
         posted_at = row.get("posted_at")
         if isinstance(posted_at, datetime):
             posted_at = posted_at.isoformat()
@@ -429,11 +490,12 @@ def eu_rows_to_postings(
             }
         )
 
-    log.debug(
-        "source %s: dropped %d (no/hidden company=%d, role_family=%d, "
-        "seniority=%d, senior-sounding title=%d)",
-        source_name, sum(dropped.values()), dropped["company"],
+    log.info(
+        "source %s: kept %d, dropped %d (no/hidden company=%d, role_family=%d, "
+        "seniority=%d, senior-sounding title=%d, non-CS title=%d)",
+        source_name, len(postings), sum(dropped.values()), dropped["company"],
         dropped["role"], dropped["seniority"], dropped["senior_title"],
+        dropped["not_cs_title"],
     )
     return postings
 
@@ -482,12 +544,42 @@ def _compile_senior_title(options: dict):
     patterns = options.get("senior_title_patterns")
     if patterns is None:
         patterns = _EU_SENIOR_TITLE_PATTERNS
-    terms = [normalize_text(p) for p in patterns if p]
+    return _compile_terms(patterns)
+
+
+def _compile_required_title(options: dict):
+    """Positive screen: keep a row only if its title matches one of these.
+
+    Absent or empty means no screening, so an existing config keeps its old
+    behaviour. There is no built-in default on purpose -- unlike the seniority
+    guard, this one decides what the source is *for*, so it belongs in the
+    config where its measurements are recorded, not buried in the adapter.
+    """
+    return _compile_terms(options.get("require_title_patterns"))
+
+
+def _compile_terms(patterns):
+    """One alternation matching any term as a whole word.
+
+    Boundaries are hand-rolled rather than \\b because the allowlists carry
+    stack names like "c++", "c#" and ".net". `\\bc\\+\\+\\b` cannot match: \\b
+    after "+" demands a word character, so the term silently never fires. The
+    lookarounds below are applied only on the sides where the term actually
+    starts or ends with an alphanumeric, which handles both shapes.
+
+    Whole-word still matters for the same reason it does in
+    compile_title_exclusions: a substring test on "sr" hits "Ambassador", "ai"
+    hits "email", and "lead" hits "Leader".
+    """
+    terms = [normalize_text(p) for p in (patterns or []) if p]
     if not terms:
         return None
-    # Whole-word, same reasoning as compile_title_exclusions: a substring test
-    # on "sr" hits "Ambassador" and one on "lead" hits "Leader"/"Lead Gen".
-    return re.compile(r"\b(" + "|".join(re.escape(t) for t in terms) + r")\b")
+    parts = []
+    for term in terms:
+        prefix = r"(?<![a-z0-9])" if term[:1].isalnum() else ""
+        suffix = r"(?![a-z0-9])" if term[-1:].isalnum() else ""
+        parts.append(prefix + re.escape(term) + suffix)
+    return re.compile("|".join(parts))
 
 
 _TEXT_ADAPTERS = {

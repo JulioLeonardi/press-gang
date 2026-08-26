@@ -2,7 +2,7 @@
 
 Runs the same fetch -> filter pipeline the bot uses, then writes every current
 match into a static page grouped by sponsorship tier and posting date. Rebuilt
-nightly; the page is a snapshot of what is open *now*, not an append-only log.
+once a day; the page is a snapshot of what is open *now*, not an append-only log.
 
 Two deliberate differences from what Discord receives:
 
@@ -26,6 +26,7 @@ import logging
 import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import yaml
 
@@ -38,6 +39,17 @@ from filter import filter_postings  # noqa: E402
 log = logging.getLogger("board")
 
 TEMPLATE = Path(__file__).resolve().parent / "board_template.html"
+
+# Every date the page prints about *itself* is rendered here, not in UTC. The
+# workflow runs on a UTC cron, and a build that lands late in the UTC evening is
+# still the previous day locally -- the page used to say "rebuilt August 26" on
+# the evening of the 25th. The cron is now scheduled mid-morning ET so both
+# clocks agree on the calendar day even if GitHub delays the run by an hour,
+# but the page states the timezone regardless rather than relying on that.
+#
+# Posting dates are deliberately NOT converted: those are the dates the sources
+# published, and the day headings should say what the source said.
+BOARD_TZ = ZoneInfo("America/New_York")
 
 # Order matters: it is both the tier-card order and the precedence used to
 # assign a posting to exactly one group. Explicit sponsorship outranks the
@@ -62,7 +74,11 @@ def tier_of(posting: dict) -> str:
 
 
 def iso_date(posting: dict) -> str:
-    """MMDDYYYY -> YYYY-MM-DD. The template groups and sorts on this."""
+    """MMDDYYYY -> YYYY-MM-DD. The template groups and sorts on this.
+
+    "" for a posting the source published no date for; the template renders
+    that group as "Undated" and build_rows sorts it to the bottom.
+    """
     raw = str(posting.get("date_posted", ""))
     try:
         return datetime.strptime(raw, "%m%d%Y").strftime("%Y-%m-%d")
@@ -115,6 +131,7 @@ def build_rows(postings: list[dict], seen: set[str], new_since: datetime | None)
 
 
 def render(rows: list[dict], generated: datetime, title: str) -> str:
+    local = generated.astimezone(BOARD_TZ)
     counts = {key: sum(1 for r in rows if r["g"] == key) for key, *_ in TIERS}
 
     tiers_html, chips_html = [], []
@@ -132,17 +149,23 @@ def render(rows: list[dict], generated: datetime, title: str) -> str:
         )
 
     newest = next((r["d"] for r in rows if r["d"]), "")
+    undated = sum(1 for r in rows if not r["d"])
+    # %-I is glibc-only and %I zero-pads, so build the 12-hour clock by hand --
+    # this script has to render identically on a dev Windows box and on the runner.
+    clock = f"{local.hour % 12 or 12}:{local:%M %p %Z}"
     standfirst = (
         f'<strong>{len(rows)}</strong> postings currently open that pass the screening rules — '
         "internships, cleared roles and non-CS families removed. "
-        f'Rebuilt nightly; last run {generated:%B %d, %Y at %H:%M} UTC.'
+        + (f'<strong>{undated}</strong> carry no date from the source and are grouped '
+           "under <em>Undated</em> at the foot of the page. " if undated else "")
+        + f'Rebuilt once a day; last run {local:%B %d, %Y} at {clock}.'
     )
 
     html = TEMPLATE.read_text(encoding="utf-8")
     replacements = {
         "__TITLE__": esc(title),
         "__EYEBROW__": esc(
-            f"Live board · rebuilt {generated:%B %d, %Y}"
+            f"Live board · rebuilt {local:%B %d, %Y}"
             + (f" · newest posting {newest}" if newest else "")
         ),
         "__STANDFIRST__": standfirst,
@@ -210,7 +233,11 @@ def main() -> int:
     if args.max_age_days > 0:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=args.max_age_days)).strftime("%Y-%m-%d")
         before = len(selected)
-        selected = [p for p in selected if (iso_date(p) or "") >= cutoff]
+        # An undated posting is kept. The alternative -- treating "" as older
+        # than any cutoff -- would silently delete the ~29% of the EU snapshot
+        # that has a null posted_at, which is a lot of live jobs to throw away
+        # over a field the source simply never filled in.
+        selected = [p for p in selected if not iso_date(p) or iso_date(p) >= cutoff]
         log.info("age filter (%dd): kept %d of %d", args.max_age_days, len(selected), before)
 
     generated = datetime.now(timezone.utc)
@@ -223,8 +250,9 @@ def main() -> int:
     out.write_text(render(rows, generated, args.title), encoding="utf-8")
 
     tiers = {key: sum(1 for r in rows if r["g"] == key) for key, *_ in TIERS}
-    log.info("wrote %s -- %d postings (%s), %d marked NEW, %.0fKB",
+    log.info("wrote %s -- %d postings (%s), %d undated, %d marked NEW, %.0fKB",
              out, len(rows), ", ".join(f"{k}={v}" for k, v in tiers.items()),
+             sum(1 for r in rows if not r["d"]),
              sum(1 for r in rows if r.get("n")), out.stat().st_size / 1024)
     return 0
 

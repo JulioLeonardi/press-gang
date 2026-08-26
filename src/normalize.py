@@ -51,7 +51,7 @@ def normalize_title(title: str) -> str:
     return slug(cleaned)
 
 
-def to_mmddyyyy(value, *, fallback: datetime | None = None) -> str:
+def to_mmddyyyy(value, *, now: datetime | None = None) -> str:
     """Coerce a source's date into the MMDDYYYY string used in the dedupe key.
 
     Handles the three shapes the real sources emit:
@@ -59,14 +59,21 @@ def to_mmddyyyy(value, *, fallback: datetime | None = None) -> str:
       - ISO-8601 string
       - bare 'Aug 05' with no year (vanshb03 README) -- year inferred
 
-    `fallback` (the run's first-seen date) is used when a source gives no date
-    at all. Without it the date slot would be empty and a repost would collide
-    with the original, defeating the point of having the date in the key.
+    Returns "" when the source gives no usable date. It used to substitute the
+    current time instead, which was worse in both directions: the board grouped
+    every dateless posting under "today" (29% of the EU snapshot has a null
+    `posted_at`, so ~500 rows piled into a fake bucket at the top of the page
+    that moved forward every rebuild), and for id-by-date sources the key
+    changed on every run, so the same posting re-notified daily. An empty date
+    slot means a genuine repost can collide with the original -- a real but far
+    rarer cost than manufacturing a date that isn't true.
+
+    `now` overrides the reference clock used to resolve a yearless date.
     """
-    now = fallback or datetime.now(timezone.utc)
+    now = now or datetime.now(timezone.utc)
 
     if value is None or value == "":
-        return now.strftime("%m%d%Y")
+        return ""
 
     # Epoch seconds (Simplify uses ints like 1767841111).
     if isinstance(value, (int, float)) or (isinstance(value, str) and value.isdigit()):
@@ -77,7 +84,7 @@ def to_mmddyyyy(value, *, fallback: datetime | None = None) -> str:
                 seconds /= 1000.0
             return datetime.fromtimestamp(seconds, tz=timezone.utc).strftime("%m%d%Y")
         except (ValueError, OverflowError, OSError):
-            return now.strftime("%m%d%Y")
+            return ""
 
     text = str(value).strip()
 
@@ -100,22 +107,33 @@ def to_mmddyyyy(value, *, fallback: datetime | None = None) -> str:
             if candidate:
                 return candidate.strftime("%m%d%Y")
 
-    return now.strftime("%m%d%Y")
+    return ""
+
+
+# How far past `now` a yearless date may land before we read it as last year's.
+# This absorbs clock/timezone skew only: the README is maintained somewhere on
+# earth, so its "today" can run at most UTC+14 ahead of ours. One day covers
+# that with room to spare.
+#
+# It was two days, which was too generous by exactly the amount that broke the
+# board: on 2026-08-26 the README's fourteen "Aug 28" rows -- year-old postings,
+# several with "New Grad 2025" still in the title -- resolved to 2026-08-28 and
+# sorted to the very top of the page as future-dated entries.
+_YEARLESS_SKEW = timedelta(days=1)
 
 
 def _resolve_yearless(month: int, day: int, now: datetime) -> datetime | None:
     """Pick the year for a month/day with none given.
 
     README tables list newest-first and only ever contain past postings, so the
-    right year is the most recent one that doesn't land in the future. A small
-    forward tolerance absorbs timezone skew around New Year.
+    right year is the most recent one that doesn't land in the future.
     """
     for year in (now.year, now.year - 1):
         try:
             candidate = datetime(year, month, day, tzinfo=timezone.utc)
         except ValueError:  # Feb 29 in a non-leap year
             continue
-        if candidate <= now + timedelta(days=2):
+        if candidate <= now + _YEARLESS_SKEW:
             return candidate
     return None
 
@@ -127,6 +145,10 @@ def make_id(company: str, title: str, date_mmddyyyy: str) -> str:
     listed by multiple repos with different tracking URLs and different UUIDs,
     so keying on either would notify twice for one job. Including the date
     means the same role reposted months later is treated as genuinely new.
+
+    `date_mmddyyyy` may be "" when the source published no date. Those postings
+    all share one date slot, so a repost of an undated role collides with the
+    original and is not re-notified. Accepted deliberately -- see to_mmddyyyy.
     """
     raw = f"{normalize_company(company)}|{normalize_title(title)}|{date_mmddyyyy}"
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]

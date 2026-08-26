@@ -1,5 +1,10 @@
 requests>=2.32.0
 PyYAML>=6.0.2
+# render_board.py stamps the page in America/New_York via zoneinfo. Linux
+# runners read the system tz database; Windows ships none, so a local run of
+# the board script needs this. Harmless on the runner.
+tzdata>=2024.1; sys_platform == "win32"
+
 # eu_parquet adapter only. Reads Aramente/eu-tech-jobs' Parquet snapshot;
 # a missing pyarrow skips that one source rather than failing the run.
 pyarrow>=17.0.0

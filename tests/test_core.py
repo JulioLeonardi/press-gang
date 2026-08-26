@@ -52,10 +52,26 @@ check("ISO string -> MMDDYYYY", to_mmddyyyy("2026-08-05"), "08052026")
 check("millisecond epoch", to_mmddyyyy(1767841111000), "01082026")
 
 now = datetime(2026, 8, 13, tzinfo=timezone.utc)
-check("yearless 'Aug 05' takes current year", to_mmddyyyy("Aug 05", fallback=now), "08052026")
-check("yearless 'Dec 20' rolls back a year", to_mmddyyyy("Dec 20", fallback=now), "12202025")
-check("missing date falls back to first-seen", to_mmddyyyy(None, fallback=now), "08132026")
-check("garbage date falls back", to_mmddyyyy("TBD", fallback=now), "08132026")
+check("yearless 'Aug 05' takes current year", to_mmddyyyy("Aug 05", now=now), "08052026")
+check("yearless 'Dec 20' rolls back a year", to_mmddyyyy("Dec 20", now=now), "12202025")
+
+# The skew window is one day, not two. A yearless date further ahead than that
+# is last year's -- the regression that put fourteen "Aug 28" rows (year-old
+# postings, some still titled "New Grad 2025") at the top of the 2026-08-26
+# board as future-dated entries.
+check("yearless date one day ahead is still this year (clock skew)",
+      to_mmddyyyy("Aug 14", now=now), "08142026")
+check("yearless date two days ahead rolls back a year",
+      to_mmddyyyy("Aug 15", now=now), "08152025")
+
+# No date means no date. Substituting the run time used to pile every dateless
+# posting into a fake "today" group that moved forward on every rebuild.
+check("missing date is empty, not today", to_mmddyyyy(None, now=now), "")
+check("empty-string date is empty", to_mmddyyyy("", now=now), "")
+check("garbage date is empty", to_mmddyyyy("TBD", now=now), "")
+check("an undated posting still gets a stable id",
+      make_id("Acme", "Software Engineer", ""),
+      make_id("Acme", "Software Engineer", ""))
 
 # --- location matching ------------------------------------------------------
 config = yaml.safe_load((ROOT / "config" / "eu_locations.yaml").read_text(encoding="utf-8"))
@@ -239,6 +255,9 @@ one = eu_rows_to_postings([eu_row()], eu_companies, eu_options, "eu")[0]
 check("slug resolves to the company display name", one["company"], "Acme AI")
 check("keeps the source's own stable id", one["id"], "abc123")
 check("posted_at -> MMDDYYYY", one["date_posted"], "08052026")
+check("null posted_at is undated, not stamped with the run date",
+      eu_rows_to_postings([eu_row(posted_at=None)], eu_companies, eu_options, "eu")[0]["date_posted"],
+      "")
 check("sponsorship is unknown (column is 100% null upstream)",
       one["sponsorship_flag"], "unknown")
 check("live snapshot means active", one["active"], True)
@@ -278,6 +297,52 @@ check("no options -> nothing is filtered out",
       [p["title"] for p in eu_rows_to_postings(
           [eu_row(role_family="sales", seniority="senior")], eu_companies, {}, "eu")],
       ["Software Engineer"])
+
+# require_title_patterns: the positive screen. 68% of this source's rows carry
+# no role_family tag, so the allowlist above never applies to them and a
+# blocklist alone cannot keep a general EU job board down to CS roles.
+cs_options = dict(eu_options, require_title_patterns=[
+    "software", "engineer", "data", "ai", "it", "ingenieur", "entwickler",
+    "c++", ".net", "system administrator", "cobol",
+])
+
+
+def cs_titles(*rows):
+    return [p["title"] for p in eu_rows_to_postings(list(rows), eu_companies, cs_options, "eu")]
+
+
+check("a CS title passes the positive screen",
+      cs_titles(eu_row(title="Backend Software Engineer")), ["Backend Software Engineer"])
+check("a non-CS title is dropped even though nothing blocklists it",
+      cs_titles(eu_row(title="Medical Science Liaison - Oncology")), [])
+check("the French agency roles that prompted this are dropped",
+      cs_titles(eu_row(title="Electromecanicien de maintenance - Journee"),
+                eu_row(title="Gestionnaire IJSS (H/F)"),
+                eu_row(title="Chef de chantier gros oeuvre VILLAS DE LUXE H/F")), [])
+check("a tagged-engineering electrician is dropped too (the tag is not a "
+      "software signal)",
+      cs_titles(eu_row(title="Elektriker / Elektroniker Photovoltaik (m/w/d)",
+                       role_family="engineering")), [])
+check("non-English CS titles pass",
+      cs_titles(eu_row(title="Ingenieur Logiciel"), eu_row(title="Java Entwickler (m/w/d)")),
+      ["Ingenieur Logiciel", "Java Entwickler (m/w/d)"])
+
+# The reason the matcher hand-rolls its boundaries instead of using \b: \b after
+# "+" demands a word character, so r"\bc\+\+\b" can never match and the term
+# would silently do nothing.
+check("stack names with trailing punctuation still match ('c++')",
+      cs_titles(eu_row(title="C++ Developer (m/w/d)")), ["C++ Developer (m/w/d)"])
+check("stack names with leading punctuation still match ('.net')",
+      cs_titles(eu_row(title="Consultant .NET")), ["Consultant .NET"])
+check("multi-word terms match as phrases",
+      cs_titles(eu_row(title="System Administrator (w/m/d)")), ["System Administrator (w/m/d)"])
+check("the screen is whole-word: 'ai' does not fire inside 'email'",
+      cs_titles(eu_row(title="Email Campaign Coordinator")), [])
+check("the screen is whole-word: 'it' does not fire inside 'Recruitment'",
+      cs_titles(eu_row(title="Recruitment Coordinator")), [])
+check("an absent require_title_patterns screens nothing (back-compat)",
+      eu_titles(eu_row(title="Medical Science Liaison - Oncology")),
+      ["Medical Science Liaison - Oncology"])
 
 print()
 if failures:

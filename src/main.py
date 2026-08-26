@@ -36,8 +36,9 @@ def load_state() -> dict:
     """State shape: {"version", "bootstrapped", "postings": {id: {first_seen}}}.
 
     `first_seen` is stored per id (not a bare id list) because pruning needs a
-    timestamp, and because it's the fallback date for sources that publish no
-    date of their own.
+    timestamp, and because the board uses it to decide which rows are NEW.
+    It is NOT a stand-in posting date: a source that publishes no date leaves
+    `date_posted` empty and the posting renders as "Undated". See to_mmddyyyy.
     """
     if not STATE_PATH.exists():
         return {"version": 1, "bootstrapped": False, "postings": {}}
