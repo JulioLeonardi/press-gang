@@ -52,6 +52,183 @@ sources:
       # catches the ones whose title doesn't say so (V.I.E., alternance).
       exclude_seniority: [senior, staff, principal, exec, intern]
 
+      # Positive screen: the title must contain one of these or the row is
+      # dropped. Applied to EVERY row, including ones the tagger labelled
+      # `engineering` -- that label covers electricians and civil-works site
+      # managers, so it is not a software signal. Full rationale and the
+      # per-term precision measurements are in _REQUIRED_TITLE_NOTE in
+      # src/fetch.py; the short version:
+      #
+      #   68% of surviving rows carry no role_family tag, so `role_families`
+      #   above never touched them and a blocklist was the only screening they
+      #   got. On a general EU job board across four languages that is a losing
+      #   game -- a whole French recruitment agency, AstraZeneca's Medical
+      #   Science Liaisons, Deliveroo warehouse pickers and two kindergarten
+      #   teacher posts were all getting through.
+      #
+      #   with role/seniority tuning only ......... 1,837 EU matches  <- was
+      #   + require_title_patterns ................ 1,041 EU matches
+      #   + bare "ingenieur" narrowed (see FR) .... 963 EU matches    <- now
+      #   recall on tagger-confirmed CS rows ...... 533/588 = 90.6%
+      #
+      # Comment this block out to restore the old behaviour; an absent or empty
+      # list means no positive screening at all.
+      #
+      # Before adding a term, probe what it actually recovers. "technical",
+      # "technique", "tech", bare "administrator", "crm" and bare "analyst"
+      # were all tried and rejected -- see the note in fetch.py for what each
+      # one dragged in. Matched whole-word against the normalized (lowercased,
+      # de-accented) title, so "ai" does not fire inside "email".
+      require_title_patterns:
+        # --- English core ------------------------------------------------
+        - software
+        - engineer
+        - engineering
+        - developer
+        - development
+        - programmer
+        - architect
+        - sre
+        - site reliability
+        - devops
+        - devsecops
+        - platform
+        - backend
+        - back end
+        - frontend
+        - front end
+        - fullstack
+        - full stack
+        - web
+        - mobile
+        - ios
+        - android
+        - embedded
+        - firmware
+        - systems
+        - infrastructure
+        - cloud
+        - network
+        - database
+        - data
+        - ml
+        - ai
+        - machine learning
+        - deep learning
+        - nlp
+        - computer vision
+        - llm
+        - analytics
+        - scientist
+        - research
+        - researcher
+        - cyber
+        - security
+        - cryptography
+        - algorithm
+        - optimization
+        - optimisation
+        - robotic
+        - robotics
+        - qa
+        - quality assurance
+        - test automation
+        - automation
+        - scrum
+        - system administrator     # phrase: bare "administrator" was rejected
+        - systemadministrator
+        - sysadmin
+        - it
+
+        # Named stacks. A title that is just "Java / Kotlin (m/w/d)" or
+        # "Analista Cobol" names no role at all, only the technology.
+        - java
+        - python
+        - golang
+        - rust
+        - javascript
+        - typescript
+        - react
+        - node
+        - angular
+        - vue
+        - kotlin
+        - swift
+        - scala
+        - ruby
+        - php
+        - c++
+        - c#
+        - .net
+        - dotnet
+        - sql
+        - kubernetes
+        - aws
+        - azure
+        - gcp
+        - salesforce
+        - sap
+        - abap
+        - erp
+        - dynamics
+        - servicenow
+        - zscaler
+        - mainframe
+        - cobol
+
+        # --- FR -----------------------------------------------------------
+        # NOTE: bare "ingenieur" is deliberately NOT here, unlike English
+        # "engineer". The two words are not equivalent in practice. Bare
+        # "engineer" uniquely admits 201 rows and they are overwhelmingly real
+        # ("Kernel/Linux Engineer", "Forward Deployed Engineer"), because in
+        # English a tech employer saying just "Engineer" usually means software.
+        # "Ingenieur" is any discipline, and this board carries French
+        # engineering consultancies in bulk: bare "ingenieur" uniquely admitted
+        # 85 rows, of which 22 were B-HIVE HVAC/electrical/railway/civil, 20
+        # were Thales hardware/electronics/radar-support, and the rest EDF
+        # nuclear, SOGECLAIR mechanical and VINCI civil works. The genuinely
+        # CS ones are recovered by the qualified phrases and terms below.
+        - developpeur
+        - developpeuse
+        - developpement logiciel
+        - ingenieur developpement
+        - ingenieur etudes et developpement
+        - ingenieur test
+        - informatique
+        - logiciel
+        - donnees
+        - reseau
+        - reseaux
+        - cybersecurite
+        - administrateur
+        - ia                  # "Consultant(e) IA"
+        - intelligence artificielle
+        - algorithme          # French forms: "algorithm" is whole-word, so it
+        - algorithmes         # does not reach "Algorithmie et Traitement"
+        - algorithmie
+        - embarque            # "Integration SW embarque", "systemes embarques"
+        - embarquee
+        - embarques
+
+        # --- DE -----------------------------------------------------------
+        - entwickler
+        - entwicklung
+        - informatiker
+        - softwareentwickler
+        - programmierer
+        - informatik
+
+        # --- IT / ES / PT / NL --------------------------------------------
+        - sviluppatore
+        - informatica
+        - desarrollador
+        - programador
+        - ingeniero
+        - desenvolvedor
+        - ontwikkelaar
+        - ciberseguridad
+        - cibersecurity       # sic -- NTT DATA's own spelling
+
       # Consulted only for rows with NO seniority tag. Whole-word against the
       # normalized title. This is the filter that actually moves the number.
       senior_title_patterns:

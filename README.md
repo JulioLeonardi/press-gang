@@ -67,7 +67,8 @@ The two US repos are new-grad lists and between them produce **zero** EU matches
 
 - **~84% of Simplify rows are inactive** (closed postings), filtered out via `require_active`.
 - **99.3% of Simplify rows report sponsorship as `Other`** — meaning *unspecified*, not *offered*. Only 22 of 18,364 said `Offers Sponsorship`. This is the entire reason the company list below exists.
-- **Markdown-table dates have no year** (`Aug 05`). The year is inferred as the most recent one that isn't in the future.
+- **Markdown-table dates have no year** (`Aug 05`). The year is inferred as the most recent one that isn't in the future, allowing one day of clock skew. The window has to be tight: the README is a rolling year-long list, so `Aug 28` seen on `Aug 26` is last year's posting, not one two days from now.
+- **Sources routinely publish no date at all** — ~29% of the EU snapshot has a null `posted_at`. Those postings carry an empty `date_posted` rather than the run's own timestamp, and the board groups them as *Undated*.
 - `SimplifyJobs/Summer2027-Internships` serves a byte-identical file to `Summer2026` — a mirror, so it isn't configured as a separate source.
 
 ### The `eu_parquet` adapter
@@ -76,15 +77,20 @@ The two US repos are new-grad lists and between them produce **zero** EU matches
 
 - **Parquet, read over HTTP Range requests.** The file is 19.2MB but 17.8MB of that is a `description_md` column the bot never displays. Reading only the needed columns pulls **1.5MB in ~9 requests**. It's a single row group, so column pruning is the only lever available. This is the sole reason `pyarrow` is a dependency; if the import fails, that one source is skipped and the run continues.
 - **Two files.** `jobs.parquet` carries only a `company_slug` (`wttj-capgemini`), so `companies.parquet` (78KB, plain GET) is joined for display names.
-- **It's a firehose, not a curated list.** ~20k live rows, no new-grad concept, and the upstream LLM tagger lags the scraper — `role_family` is null on 50% of rows and `seniority` on 75%, including nearly every brand-new row. Untagged rows are therefore **kept**, since requiring a tag would discard exactly the newest postings. Because untagged rows bypass the `role_family` allowlist, the global `exclude_title_patterns` list is the second line of defence: the `options:` block gets the source to ~132 new/day and the title terms take it to **~73/day**. Per-option measurements are recorded in the config.
+- **It's a firehose, not a curated list.** ~20k live rows, no new-grad concept, and the upstream LLM tagger lags the scraper — `role_family` is null on 50% of rows and `seniority` on 75%, including nearly every brand-new row. Untagged rows are therefore **kept**, since requiring a tag would discard exactly the newest postings. Per-option measurements are recorded in the config.
+- **A blocklist alone could not hold it.** Because untagged rows bypass the `role_family` allowlist, **68%** of everything getting through had been screened by nothing but the global `exclude_title_patterns` terms — and on a general EU job board spanning four languages, the tail of non-CS role words is effectively unbounded. An entire French recruitment agency (maintenance electricians, sawmill operators), ~30 AstraZeneca Medical Science Liaison roles, Deliveroo warehouse pickers and two kindergarten-teacher posts were all arriving in the channel. `require_title_patterns` inverts it into a **positive screen** — the title must look like a CS role — taking the source from **1,837 to 963** matches. Every term was probed for precision first; `technical`, `technique`, `tech`, bare `administrator` and bare `analyst` were all tried and rejected, and what each would have dragged in is recorded in `src/fetch.py`.
+- **`ingenieur` is not `engineer`.** The positive screen keeps bare English `engineer` (201 rows it uniquely admits, nearly all real — a tech employer saying just "Engineer" usually means software) but *not* bare French `ingenieur`, which is any discipline. That one word uniquely admitted 85 rows: B-HIVE HVAC and railway engineers, Thales electronics-repair, EDF nuclear, VINCI civil works. Qualified phrases plus `algorithmie` / `intelligence artificielle` / `embarque` recover the genuinely CS ones.
+- **The upstream `engineering` tag is not a software signal.** It covers 1KOMMA5°'s photovoltaic *Elektriker*, HelloFresh's *Mechatroniker Instandhaltung* and Trigo's Hungarian mechanical *Mérnök*. The positive screen therefore runs on tagged rows too, not just untagged ones — worth a further 55 drops.
 - **Four of its columns are dead.** `stack` and `languages` are empty on all 20,120 rows, `visa_sponsorship` is 100% null, and `remote_policy` is null on 92.8%. None are usable as filters, despite what the published schema suggests. Company `categories` is nearly as flat — 1,474 of 1,732 companies are just `tech`. The `visa_sponsorship` gap is harmless: these are EU-located roles, so they pass on location, not sponsorship.
 - **Consumer fashion/beauty brands are dropped.** The upstream repo carries ~400 of them for a separate landing page it runs — ~1,750 live jobs, mostly Paris-based, so they pass the EU location check. Its own public site filters them on the same `industry_tags`.
 
-## The nightly board
+## The daily board
 
-Discord is a queue: good for "what's new in the last hour", useless for browsing. [scripts/render_board.py](scripts/render_board.py) renders every currently-open match into one self-contained HTML page, and [.github/workflows/board.yml](.github/workflows/board.yml) rebuilds it nightly and publishes it to GitHub Pages.
+Discord is a queue: good for "what's new in the last hour", useless for browsing. [scripts/render_board.py](scripts/render_board.py) renders every currently-open match into one self-contained HTML page, and [.github/workflows/board.yml](.github/workflows/board.yml) rebuilds it once a day and publishes it to GitHub Pages.
 
-Search, per-tier filter chips, and a reviewed-checkbox with a progress meter. Review state lives in `localStorage`, so it's per-browser and survives the nightly rebuild — ids that leave the board are pruned from it.
+Search, per-tier filter chips, and a reviewed-checkbox with a progress meter. Review state lives in `localStorage`, so it's per-browser and survives the daily rebuild — ids that leave the board are pruned from it.
+
+**Dates.** Day headings are the *source's* posting date and are shown exactly as published. A posting the source gave no date for is filed under **Undated** at the foot of the page — never dated to the day the page was built. About a third of the EU feed arrives with a null `posted_at`, so this group is large; it does not mean those postings are old. The build timestamp in the masthead is rendered in US Eastern with the zone named, so it always agrees with the reader's calendar.
 
 **The board shows more than the channel does.** It forces `allow_unknown_sponsorship: true`, so the *sponsorship unverified* tier is visible there even when `config/sources.yaml` keeps it out of Discord. That's the point: it's where the deliberately-withheld matches go. Rows first seen within the last 24h are badged **NEW**.
 
@@ -105,7 +111,9 @@ Pages on a **private** repo requires a paid plan; on a public repo it's free, an
 2. Run the `job-board` workflow once from the Actions tab.
 3. The URL appears in the `deploy` job summary — `https://<user>.github.io/<repo>/`.
 
-The cron is `0 0 * * *` (00:00 UTC = 8 PM US Eastern during EDT). GitHub cron has no timezone support, so it drifts by an hour when the US changes clocks; adjust the cron or accept the drift.
+The cron is `17 11 * * *` (11:17 UTC = 7:17 AM US Eastern during EDT, 6:17 AM during EST). GitHub cron has no timezone support, so it drifts by an hour when the US changes clocks — mid-morning ET is chosen so that hour of drift, plus the delay GitHub adds to scheduled runs on shared runners, can never push the build across a date boundary and stamp the page with tomorrow's date.
+
+This workflow is the only thing that rebuilds the page. If the board looks like it updated twice in one day, check the Actions tab for a manual `workflow_dispatch` run.
 
 ## Sponsorship: why there's a company list
 
@@ -213,7 +221,7 @@ Running this in public exposes what you're looking at. Worth deciding deliberate
 ```
 .github/workflows/check_jobs.yml   hourly cron + manual trigger
 .github/workflows/heartbeat.yml    weekly liveness report
-.github/workflows/board.yml        nightly Pages build + deploy
+.github/workflows/board.yml        daily Pages build + deploy
 config/sources.yaml                source repos, adapters, tunables
 config/eu_locations.yaml           country/city/remote match lists
 config/h1b_sponsors.yaml           curated USCIS-seeded sponsor list
@@ -223,7 +231,7 @@ src/filter.py                      location + sponsorship rules
 src/notify_discord.py              batched embeds, retry/backoff
 src/main.py                        orchestration
 src/heartbeat.py                   weekly status + minutes estimate
-scripts/render_board.py            nightly Pages board renderer
+scripts/render_board.py            daily Pages board renderer
 scripts/board_template.html        its CSS/JS shell (placeholders: __DATA__ etc)
 scripts/backlog_dump.py            one-off catch-up dump to markdown
 state/seen.json                    committed state
