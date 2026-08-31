@@ -361,6 +361,11 @@
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Software Engineer in Build Engineering"
     },
+    "02a5003a047929b6": {
+      "company": "FLSmidth",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "Technical Product Development Engineer 1"
+    },
     "02b30e667b64e6b8": {
       "company": "Cummins",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
@@ -2135,6 +2140,11 @@
       "company": "AIR Control Concepts",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Application Engineer"
+    },
+    "0eedf7353e8f5b06": {
+      "company": "Johnson & Johnson",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "R&D Applications"
     },
     "0ef103b784f0ba42": {
       "company": "EBSCO",
@@ -4931,6 +4941,11 @@
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Mgr Supply Chain - Product Planner"
     },
+    "22ab5f91699409bb": {
+      "company": "Capital One",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "Technology Development Program Associate"
+    },
     "22aff0b58331a1b7": {
       "company": "Apple",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
@@ -5840,6 +5855,11 @@
       "company": "Applied Materials",
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
       "title": "Computer Vision/Machine Learning/Deep Learning Algorithm Developer"
+    },
+    "28bbd93f590d456f": {
+      "company": "Bristol Myers Squibb",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "Technology Rotational Development Program Associate"
     },
     "28c8f4915f60f602": {
       "company": "Personio",
@@ -9071,6 +9091,11 @@
       "first_seen": "2026-08-17T13:36:35.607869+00:00",
       "title": "Data Scientist Graduate - E-Commerce Governance"
     },
+    "3f69c7f249ff5c92": {
+      "company": "The Home Depot",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "Associate Product Manager - Product Management Program"
+    },
     "3f75573fa8d89294": {
       "company": "CACI",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
@@ -9395,6 +9420,11 @@
       "company": "Group 1001",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Quantitative Analysis Intern"
+    },
+    "41efa263be596a6e": {
+      "company": "Micron Technology",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "Design Readiness Engineer New Grad"
     },
     "41fcd47823d47e36": {
       "company": "Knowledge Services",
@@ -12125,6 +12155,11 @@
       "company": "DoorDash",
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "Ground Support Operator - Labs - DoorDash Air"
+    },
+    "5790ccd80b0ef47a": {
+      "company": "Intel",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "CPU Core Physical Design Engineer"
     },
     "579139346b1845d6": {
       "company": "ByteDance",
@@ -24086,6 +24121,11 @@
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Student Engineering Intern - Data Science"
     },
+    "ac8d238cf1633917": {
+      "company": "AMD",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "AI Applications Engineer - Wired and Wireless Business Team - Adaptive and Embedded Computing Group"
+    },
     "acaffdea5384023b": {
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -25015,6 +25055,11 @@
       "company": "Crowdstrike",
       "first_seen": "2026-08-24T13:48:41.831350+00:00",
       "title": "Software Engineer - Sensor - SAO"
+    },
+    "b3706e64d0148d50": {
+      "company": "LexisNexis Risk Solutions",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "Software Engineer New Grad - Risk Solutions Technology Graduate Program"
     },
     "b3aa523dfab72ab4": {
       "company": "Dark Wolf Solutions",
@@ -33220,6 +33265,11 @@
       "company": "Qualtrics",
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Software Engineer I, Employee Experience"
+    },
+    "eb89a31e7a2da296": {
+      "company": "Intel",
+      "first_seen": "2026-08-31T22:23:38.257373+00:00",
+      "title": "RTL Design Engineer"
     },
     "eb96814264211b87": {
       "company": "Atoms",
