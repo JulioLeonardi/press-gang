@@ -226,6 +226,11 @@
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "Consultant SAP Security (w/m/x)"
     },
+    "0155c8b91a6f1c38": {
+      "company": "American Express",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "AI Engineer 1 - Enterprise Technology Services"
+    },
     "016f9cc08f7e7c54": {
       "company": "AXA",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
@@ -420,6 +425,11 @@
       "company": "Topcon Positioning",
       "first_seen": "2026-08-21T12:39:14.804973+00:00",
       "title": "Service Technician"
+    },
+    "031dab71a9a2c0a6": {
+      "company": "General Motors",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Entry Level Software Engineer"
     },
     "032d6a6e2c2aa01b": {
       "company": "Nidec",
@@ -636,6 +646,11 @@
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Software Engineer 1"
     },
+    "044f85a0832c08a8": {
+      "company": "General Motors",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Entry Level Controller Integration Engineer"
+    },
     "044fc83a9c72fe1c": {
       "company": "University of Pikeville",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
@@ -795,6 +810,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "Graduate Software Engineer - Transaction Platform"
+    },
+    "059d2961d9448f79": {
+      "company": "American Express",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Software Engineer 2 - Enterprise Technology Services"
     },
     "05b2e19ced1e40b6": {
       "company": "Amgen",
@@ -3366,6 +3386,11 @@
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Java Developer Intern - Web Application Developer"
     },
+    "17c208a8626ac6f7": {
+      "company": "American Express",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Data Engineer 1 - Enterprise Technology Services"
+    },
     "17c30ff8756e8a6b": {
       "company": "Bespoke Technologies, Inc.",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
@@ -4870,6 +4895,11 @@
       "company": "Stryker",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Associate Installation Technician"
+    },
+    "2207ae67e22e1691": {
+      "company": "American Express",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "AI Engineer"
     },
     "220a775cf5bf493c": {
       "company": "Kimley-Horn",
@@ -10081,6 +10111,11 @@
       "first_seen": "2026-08-24T14:38:02.195646+00:00",
       "title": "Entry-Level Computer Scientist"
     },
+    "463c0703270a2fba": {
+      "company": "American Express",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Senior Analyst - Data & Analytics - Enterprise Technology Services"
+    },
     "463e4ac0d8597a56": {
       "company": "TikTok",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
@@ -11345,6 +11380,11 @@
       "company": "Cadence Design Systems",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Computational Aeroelasticity Developer"
+    },
+    "4fe1e8f076bf8778": {
+      "company": "Fortinet",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Junior Software Developer"
     },
     "4fe2aff20e51766e": {
       "company": "Safran Seats",
@@ -14631,6 +14671,11 @@
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Machine Learning Scientist Intern - Content Ecology - LLM Application"
     },
+    "678a3ea6a954caac": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Digital Design Engineer New Grad - Mixed Signal Design Engineer - HBM"
+    },
     "678d125aeb664b5a": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
@@ -16020,6 +16065,11 @@
       "company": "Amplify",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Associate Data Scientist"
+    },
+    "7138a6b7291fb76d": {
+      "company": "General Motors",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Entry Level Hardware Design and Validation - Vehicle Software and Electronics Engineering"
     },
     "713efd2767a0031e": {
       "company": "American Express",
@@ -17585,6 +17635,11 @@
       "company": "Dallas County",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "GIS Analyst 1 - Public Works"
+    },
+    "7befb3e421727b78": {
+      "company": "Guidehouse",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Consulting Analyst - AI & Data - Defense & Security"
     },
     "7bf1e990f395c206": {
       "company": "ElevenLabs",
@@ -23811,6 +23866,11 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "(M/F) Electronics R&D Engineer"
     },
+    "a726d9d5549a431e": {
+      "company": "American Express",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Data & Analytics Analyst - Enterprise Technology Services"
+    },
     "a72cd45186c7680a": {
       "company": "General Dynamics Information Technology",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
@@ -26766,6 +26826,11 @@
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Data Creator"
     },
+    "bc6bdc19c11187fd": {
+      "company": "American Express",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Data Engineer 2 - Enterprise Technology Services"
+    },
     "bc71e668d6fcdee1": {
       "company": "Scaleway",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
@@ -27410,6 +27475,11 @@
       "company": "Radix Trading",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Quantitative Technologist C++ Intern"
+    },
+    "c157f6ce15613e2f": {
+      "company": "T-Mobile",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Associate Engineer - Software"
     },
     "c165f425ab91b495": {
       "company": "Cambridge Investment Research",
@@ -28235,6 +28305,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
       "title": "Student Researcher - Compiler - Seed Infra"
+    },
+    "c677222a1b4a6775": {
+      "company": "American Express",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "AI Engineer 1 - Graduate"
     },
     "c682da2a563d52f7": {
       "company": "Urban Science",
@@ -30215,6 +30290,11 @@
       "company": "Medable",
       "first_seen": "2026-08-21T20:21:44.821595+00:00",
       "title": "Associate Forward Deployed Engineer"
+    },
+    "d479a96e347d91be": {
+      "company": "Chewy",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Software Engineer 1 - WIZMO engineering team"
     },
     "d484c6db03e7086d": {
       "company": "Procter & Gamble",
@@ -35145,6 +35225,11 @@
       "company": "Micron Technology",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "Memory Design Engineer - HBM"
+    },
+    "f434c72480e79c5c": {
+      "company": "United Airlines",
+      "first_seen": "2026-09-01T20:29:50.139147+00:00",
+      "title": "Associate Analyst - Global Network Planning"
     },
     "f43ba7f29aa56227": {
       "company": "Thales",
