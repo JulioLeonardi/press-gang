@@ -2576,6 +2576,11 @@
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "Field Service Technician"
     },
+    "122ffc5607c0c768": {
+      "company": "Keysight Technologies",
+      "first_seen": "2026-09-01T01:36:14.974477+00:00",
+      "title": "Machine Learning Engineer"
+    },
     "124efb54db4c3d0c": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -6891,6 +6896,11 @@
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Dynamic PC Support"
     },
+    "306c59865a7694ff": {
+      "company": "Deloitte",
+      "first_seen": "2026-09-01T01:36:14.974477+00:00",
+      "title": "M&A Analyst - M&A Business - Analytics"
+    },
     "307f82f45842c926": {
       "company": "Sharp DX (ex Apsia)",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
@@ -9040,6 +9050,11 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "SVP, Solution Engineering Data Foundation"
+    },
+    "3f3c7b122a66207d": {
+      "company": "Intel",
+      "first_seen": "2026-09-01T01:36:14.974477+00:00",
+      "title": "GPU Design Verification Engineer"
     },
     "3f434249e83cd56f": {
       "company": "DeepGrove",
@@ -20971,6 +20986,11 @@
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Technology Rotational Development Program Employee"
     },
+    "96144949509f563a": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-01T01:36:14.974477+00:00",
+      "title": "ASIC Floorplan Design Engineer New Grad"
+    },
     "9616c410cfa6821f": {
       "company": "N26",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
@@ -22490,6 +22510,11 @@
       "company": "CESI",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Enseignant responsable pédagogique en Amélioration Continue - CDD (6 mois) H/F"
+    },
+    "a014e8c04002a65f": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-01T01:36:14.974477+00:00",
+      "title": "AI Developer Technology Engineer New Grad - AI"
     },
     "a017a5c50dc3637c": {
       "company": "ByteDance",
@@ -26491,6 +26516,11 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "Software Engineer I"
     },
+    "bd0cd4702d1d1c4d": {
+      "company": "Cisco",
+      "first_seen": "2026-09-01T01:36:14.974477+00:00",
+      "title": "Software Engineer 2"
+    },
     "bd24751acf14f849": {
       "company": "B-HIVE",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -29240,6 +29270,11 @@
       "company": "Zebra Technologies",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Repair Services Associate - Support I"
+    },
+    "d0ac84fba2d3480f": {
+      "company": "Qualcomm",
+      "first_seen": "2026-09-01T01:36:14.974477+00:00",
+      "title": "GPU Research Engineer - GPU ASICS Engineering"
     },
     "d0b61d2b42f75665": {
       "company": "Peraton",
@@ -36110,6 +36145,11 @@
       "company": "NVIDIA",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Research Scientist - Electronic Design Automation"
+    },
+    "fea8aedb01dde190": {
+      "company": "NXP Semiconductors",
+      "first_seen": "2026-09-01T01:36:14.974477+00:00",
+      "title": "Systems & Applications Engineer - Entry Level"
     },
     "feae14cf0abda81b": {
       "company": "Mission Critical Group",
