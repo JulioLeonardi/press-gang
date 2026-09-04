@@ -101,6 +101,11 @@
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Assistant d'agence F/H"
     },
+    "008d71c0b7a8aa84": {
+      "company": "Rambus",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Lead MTS Power Management IC Application and Validation Engineer"
+    },
     "0092c38d89c8e04d": {
       "company": "Generac",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
@@ -1121,6 +1126,11 @@
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "Java Software Engineer"
     },
+    "075b35678b380d29": {
+      "company": "Barclays",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Technology Developer Graduate Program"
+    },
     "0766932ea5bdafaa": {
       "company": "TikTok",
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
@@ -2125,6 +2135,11 @@
       "company": "B-HIVE",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Ingénieur d'Études Mécanique & Électricité (H/F)"
+    },
+    "0e2b41e6cacc7e0e": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Software Engineer - Cloud Platform"
     },
     "0e3025ad2f33567d": {
       "company": "University of St. Thomas",
@@ -6070,6 +6085,11 @@
       "company": "Johns Hopkins Applied Physics Laboratory",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "Systems Engineer Graduate - Systems Engineer - Analyst"
+    },
+    "26d8ae20be6a9fdd": {
+      "company": "Rivian",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Software Engineer - Cloud & Software FinOps"
     },
     "26e14dd4d10ecadf": {
       "company": "Boston Consulting Group",
@@ -12536,6 +12556,11 @@
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Cybersecurity Software Engineer Intern"
     },
+    "5231e8b098528183": {
+      "company": "Coherent",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Software and Data"
+    },
     "523d32f47708fb75": {
       "company": "Denso",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
@@ -13946,6 +13971,11 @@
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
       "title": "Software Design Engineer Intern"
     },
+    "5c2df7d953da400f": {
+      "company": "Renesas Electronics",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Associate Product Engineer - Hi-Reliability"
+    },
     "5c3c79dd39c5ff21": {
       "company": "Adobe",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
@@ -14125,6 +14155,11 @@
       "company": "Wise",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
       "title": "Technical Support Engineer (Enterprise)"
+    },
+    "5d394a70466499e8": {
+      "company": "Constellation Energy",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Associate Software Engineer - AI"
     },
     "5d5a0deff7152aa7": {
       "company": "People.ai",
@@ -15890,6 +15925,11 @@
       "company": "General Dynamics Mission Systems",
       "first_seen": "2026-08-19T21:21:30.125750+00:00",
       "title": "Entry Level Software Engineer"
+    },
+    "68868398cf78451e": {
+      "company": "Abbott",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Senior Master Data Analyst"
     },
     "6889df6f16e01900": {
       "company": "Vector Atomic",
@@ -23481,6 +23521,11 @@
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Field Service Engineer"
     },
+    "9a9517de60c66c25": {
+      "company": "PayPal",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Machine Learning Engineer - Machine Learning Engineering"
+    },
     "9aa9942354742529": {
       "company": "Montgomery Investment Technology, Inc.",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
@@ -29061,6 +29106,11 @@
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "DevOps Engineer - Observability"
     },
+    "bff01aae193d2a00": {
+      "company": "PayPal",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Software Engineer New Grad - Software Engineering"
+    },
     "c0176ba957ea3330": {
       "company": "HNTB",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
@@ -29776,6 +29826,11 @@
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "Responsable Développement Commercial et Captures (projets spatiaux institutionnel & défense) - F/H"
     },
+    "c45cd54d6601d377": {
+      "company": "Intel",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "CAD/EDA Tools Automation Engineer"
+    },
     "c45e2e52e49190ce": {
       "company": "Pennylane",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
@@ -30145,6 +30200,11 @@
       "company": "TSMG",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Video Recording Participant"
+    },
+    "c6a9fd5b1b2b187a": {
+      "company": "Mastercard",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Associate Product Specialist - Product Management"
     },
     "c6bf84ab184510ae": {
       "company": "Schweitzer Engineering Laboratories",
@@ -31320,6 +31380,11 @@
       "company": "CaptiveAire Systems",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Application Engineer"
+    },
+    "ce37d960b9537e3b": {
+      "company": "PayPal",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Senior Machine Learning Engineer - Machine Learning Engineering"
     },
     "ce3ddce42abcd2b6": {
       "company": "TikTok",
@@ -38206,6 +38271,11 @@
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "Ingénieur(e) Expérimenté(e) Sûreté de fonctionnement Système (RAMS) F/H F/H"
     },
+    "f8dcd5936c2a428b": {
+      "company": "PayPal",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Data Scientist - Data Science"
+    },
     "f8f3699a9f01fa20": {
       "company": "ByteDance",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
@@ -38675,6 +38745,11 @@
       "company": "Fabriq",
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "AI Software Engineer (F/H)"
+    },
+    "fbd2362f03e303e0": {
+      "company": "Barclays",
+      "first_seen": "2026-09-04T23:41:20.502615+00:00",
+      "title": "Technology Developer Graduate Program - Expert Program"
     },
     "fbd6019cb33d7348": {
       "company": "Palantir",
