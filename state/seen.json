@@ -216,6 +216,11 @@
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Failure Analysis Automation Engineer Intern - Failure Analysis Automation Engineering"
     },
+    "010f97a92986705f": {
+      "company": "Meritis",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Ingénieur DevOps (H/F)"
+    },
     "0114f01133e73157": {
       "company": "NeoCognition",
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
@@ -1221,6 +1226,11 @@
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
       "title": "Research Project"
     },
+    "07ce9d29ec30f291": {
+      "company": "Thales",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Ingénieur(e) Développement Radar – Conception d’Algorithmes Innovants & Validation de Performance (H/F)"
+    },
     "07cfe654fd6f1cf3": {
       "company": "Groupe VYV",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
@@ -1735,6 +1745,11 @@
       "company": "SOGECLAIR",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Fatigue & DT Engineer (m/w/d)"
+    },
+    "0b84ede240dc8308": {
+      "company": "CGI",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Consultant(e) Cybersécurité GRC F/H"
     },
     "0b89170bceb70efc": {
       "company": "Keysight Technologies",
@@ -3066,6 +3081,11 @@
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "Forward Deployed Engineer"
     },
+    "13e81fbf8f2e04b0": {
+      "company": "Sopra Steria",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Chef/fe de projet IT - Défense & Sécurité - BREST"
+    },
     "13efb1d3b5d164a7": {
       "company": "Thales",
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
@@ -3465,6 +3485,11 @@
       "company": "Qualtrics",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Machine Learning Engineer I"
+    },
+    "166386d2aa2a26d6": {
+      "company": "Sopra Steria",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Ingénieur(e) DevOps/SRE - Aéroline - Île-de-France"
     },
     "1665aad9bed835f2": {
       "company": "Freddie Mac",
@@ -9901,6 +9926,11 @@
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "RESPONSABLE AUTOMATISME INFORMATIQUE INDUSTRIELLE H/F"
     },
+    "3edc0bde9ca3ba1f": {
+      "company": "Kingfisher",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Quality Assurance Engineer (Automation)"
+    },
     "3eeb0d5c2a028ee7": {
       "company": "Duonext",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
@@ -11245,6 +11275,11 @@
       "company": "Google",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Software Engineering Intern"
+    },
+    "481d6ffcf184fb82": {
+      "company": "Thales",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Ingénieur systèmes - Traitement du signal / Algorithmie Radar Confirmé(e) F/H"
     },
     "48259f3360bc6d9d": {
       "company": "Argonne National Laboratory",
@@ -14641,6 +14676,11 @@
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "Solution Consultant HCM"
     },
+    "5f7f3181132a6fbc": {
+      "company": "Thales",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Responsable département Cloud"
+    },
     "5f95be15dab28105": {
       "company": "Thales",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
@@ -17346,6 +17386,11 @@
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Architecte Logiciel F/H"
     },
+    "70f67848249b9c5f": {
+      "company": "Meritis",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Développeur Java Confirmé (H/F)"
+    },
     "70ff7d610dd7d112": {
       "company": "Renaissance Technologies",
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
@@ -19300,6 +19345,11 @@
       "company": "Resource Data",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "GIS Technician"
+    },
+    "7d2a6ec0821c22e4": {
+      "company": "Thales",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "CDD - Responsable de l'Ingénierie Financière - IS/IT Group (F/H)"
     },
     "7d2f65e68509cb4c": {
       "company": "Techtronic Industries (TTI)",
@@ -22090,6 +22140,11 @@
       "company": "Micron Technology",
       "first_seen": "2026-08-21T02:58:59.617439+00:00",
       "title": "Physical Failure Analysis Engineer Intern - Yield Enhancement"
+    },
+    "90237aca3b6b89c1": {
+      "company": "Sopra Steria",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Data Engineer PySpark - Data Factory - Services Financiers - Ile de France"
     },
     "9024204fb505520e": {
       "company": "Brunswick",
@@ -25451,6 +25506,11 @@
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "DUMEZ IDF - PETIT - Responsable travaux F/H"
     },
+    "a57dae0eefccfa08": {
+      "company": "NTT DATA",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Junior RAN Engineer"
+    },
     "a5835bf417aa73d4": {
       "company": "Wise",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
@@ -28061,6 +28121,11 @@
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Mapping Technician - Mapping I"
     },
+    "b798b11e54ff9b0c": {
+      "company": "SYXPERIANE",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Consultant fonctionnel ERP"
+    },
     "b79e3d2d7d3d64d8": {
       "company": "Innodata",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
@@ -28200,6 +28265,11 @@
       "company": "SpaceX",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Software Engineer - Platform / Infrastructure - Starlink"
+    },
+    "b87d278eac15907b": {
+      "company": "Hager",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Supplier Quality Engineer (h/f/x)"
     },
     "b885fe503cf7865f": {
       "company": "Orb Aerospace",
@@ -28686,6 +28756,11 @@
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "DevOps Engineer (SIF, Forge team)"
     },
+    "bb609a6e80903fe5": {
+      "company": "Thales",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Ingénieur Systèmes et Cybersécurité F/H"
+    },
     "bb644f9b66aa93df": {
       "company": "B-HIVE",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -28795,6 +28870,11 @@
       "company": "Mozilla",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
       "title": "Software Engineer, Release Engineering"
+    },
+    "bc13773a7be35156": {
+      "company": "Havas France",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "UNNEST - CDI - UNNEST - BI ENGINEER POWER BI - H/F"
     },
     "bc1a204c18ffdf43": {
       "company": "Dynatrace",
@@ -28980,6 +29060,11 @@
       "company": "Sopra Steria",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Ingénieur(e) Commercial(e) IT - Infrastructure & Cloud - Île-de-France"
+    },
+    "bd298042691c3bb7": {
+      "company": "Sopra Steria",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Technical Leader - ServiceNow - Business Line Solutions & Expertises - Ile de france"
     },
     "bd32eb823c4f43c5": {
       "company": "Roblox",
@@ -29345,6 +29430,11 @@
       "company": "ArianeGroup",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "CDI - Ingénieure/Ingénieur Méthodes Procédés Textiles"
+    },
+    "bfa594beb4e81fb2": {
+      "company": "Meritis",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Développeur C#/.NET (H/F)"
     },
     "bfb2292b71fa5bbf": {
       "company": "Procter & Gamble",
@@ -30260,6 +30350,11 @@
       "company": "Aircall",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Software Engineer - Outbound Campaigns"
+    },
+    "c4eb6bcca445fb90": {
+      "company": "CGI",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Consultant(e) Cybersécurité GRC F/H"
     },
     "c4ed9a6bdf8b4e11": {
       "company": "IMC Trading",
@@ -31370,6 +31465,11 @@
       "company": "Intel",
       "first_seen": "2026-08-22T16:19:05.342929+00:00",
       "title": "RTL Design Engineer - CPU Design Team"
+    },
+    "cc62d7fa1d28165a": {
+      "company": "Thales",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Ingénieur système - Traitement du signal / Algorithmie Radar F/H"
     },
     "cc685504f80361e9": {
       "company": "Celonis",
@@ -34261,6 +34361,11 @@
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Finance processes & learning - 6 months Intership (W/M)"
     },
+    "de2c24721fa386cc": {
+      "company": "Sopra Steria",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Architecte services infrastructure - Aéroline - Île-de-France"
+    },
     "de3437327290595e": {
       "company": "Waystar",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -34375,6 +34480,11 @@
       "company": "Adyen",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
       "title": "Java Engineer in Java Application Core Components team"
+    },
+    "debbf382a06f4248": {
+      "company": "Thales",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Software Solutions Engineer - Java (F/H)"
     },
     "dec84c8a82510bd5": {
       "company": "John Cockerill",
@@ -35876,6 +35986,11 @@
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Multimodal Generative AI Research Scientist - Intelligent Creation"
     },
+    "e823594e3dbc522e": {
+      "company": "Sopra Steria",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Développeur/se Full Stack – Défense et Sécurité – Brest"
+    },
     "e8342ef20c2aac2c": {
       "company": "Microsoft",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -35960,6 +36075,11 @@
       "company": "Palantir",
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Forward Deployed Software Engineer Intern - Commercial"
+    },
+    "e8a2b24b6e7194d7": {
+      "company": "Sopra Steria",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Ingénieur(e) Cloud -  Aéroline - Île-de-France"
     },
     "e8a4182fa5138d54": {
       "company": "Intel",
@@ -37415,6 +37535,11 @@
       "company": "Tech Tammina",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Software Engineer - Inspection - Permanent"
+    },
+    "f1368c80c6bb4467": {
+      "company": "Castorama France",
+      "first_seen": "2026-09-06T11:55:59.030411+00:00",
+      "title": "Responsable Tech Data (F/H)"
     },
     "f13a21030ea79796": {
       "company": "L3Harris Technologies",
