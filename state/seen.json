@@ -4111,6 +4111,11 @@
       "first_seen": "2026-08-19T06:38:26.837010+00:00",
       "title": "Metrology Technician"
     },
+    "1a8975ccbd15ce0b": {
+      "company": "Atlassian",
+      "first_seen": "2026-09-07T02:44:49.382617+00:00",
+      "title": "New Grad 2026: Machine Learning Engineer"
+    },
     "1a8b5b4e660274b1": {
       "company": "IMA Financial Group",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
@@ -5435,6 +5440,11 @@
       "company": "ADT",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "Installation Technician - Residential"
+    },
+    "2257137412e22351": {
+      "company": "ByteDance",
+      "first_seen": "2026-09-07T02:44:49.382617+00:00",
+      "title": "New Grad 2026: Product Manager (SMB)"
     },
     "22584409e49726d1": {
       "company": "Denso",
@@ -8115,6 +8125,11 @@
       "company": "Starbucks",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Shift Supervisor - Store - Frederick Trading Center"
+    },
+    "335b7d29f997f3a2": {
+      "company": "Tesla",
+      "first_seen": "2026-09-07T02:44:49.382617+00:00",
+      "title": "Software QA Engineer, Infotainment, Vehicle Software"
     },
     "336aa9bcb7e274dd": {
       "company": "Noblis",
@@ -11560,6 +11575,11 @@
       "company": "Thales",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Engineering Delivery Manager"
+    },
+    "4a773a6b6b372d43": {
+      "company": "Tesla",
+      "first_seen": "2026-09-07T02:44:49.382617+00:00",
+      "title": "Software Engineer, Autonomous Mobile Robotics"
     },
     "4a7f1e4ce21f0930": {
       "company": "Cohesity",
@@ -17155,6 +17175,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Software Engineer Intern - AI Infrastructure"
+    },
+    "6f5ac7cde327263f": {
+      "company": "Arm",
+      "first_seen": "2026-09-07T02:44:49.382617+00:00",
+      "title": "New Grad 2025: Software Applications Engineer"
     },
     "6f5b150229b2063e": {
       "company": "Philips",
@@ -31531,6 +31556,11 @@
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "Cyber Underwriter (BE/NL)"
     },
+    "ccc905d904e1e3dc": {
+      "company": "Tesla",
+      "first_seen": "2026-09-07T02:44:49.382617+00:00",
+      "title": "Data Engineer, Energy Service Engineering"
+    },
     "cccd223d150214d6": {
       "company": "Samsung",
       "first_seen": "2026-08-18T13:39:12.604133+00:00",
@@ -34806,6 +34836,11 @@
       "first_seen": "2026-08-21T16:29:13.769073+00:00",
       "title": "Software Engineer Intern"
     },
+    "e0c4c7b4637b8b01": {
+      "company": "BlackRock",
+      "first_seen": "2026-09-07T02:44:49.382617+00:00",
+      "title": "Associate, Research Associate – SMA Solutions, Quantitative Investment Solutions (QIS)"
+    },
     "e0cd4950652b4577": {
       "company": "Baker Hughes",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
@@ -37206,6 +37241,11 @@
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
       "title": "Forward Deployed Engineer"
     },
+    "ef57430342abef6b": {
+      "company": "Disney",
+      "first_seen": "2026-09-07T02:44:49.382617+00:00",
+      "title": "Software Engineer I"
+    },
     "ef586b71e824fff5": {
       "company": "Gcore",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -37790,6 +37830,11 @@
       "company": "Lentech Inc.",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Entry Level Web Developer - Multiple Teams"
+    },
+    "f292abe625087995": {
+      "company": "Amazon",
+      "first_seen": "2026-09-07T02:44:49.382617+00:00",
+      "title": "Security Engineer"
     },
     "f295da3d18ad6ac6": {
       "company": "Amgen",
