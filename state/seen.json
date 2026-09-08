@@ -1206,6 +1206,11 @@
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "New Grad: Software Engineer"
     },
+    "078b16e89c6ff5d9": {
+      "company": "Thales",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "Responsable Operations IS-IT - F/H"
+    },
     "07919121aa4064da": {
       "company": "AstraZeneca",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
@@ -2080,6 +2085,11 @@
       "company": "Microsoft",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Data Center Technician"
+    },
+    "0d6e42527631ad92": {
+      "company": "Deloitte",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "Audit & Assurance - Assistant - Data & Analytics - Summer 2027"
     },
     "0d8d58aca37c340f": {
       "company": "Astreya",
@@ -5601,6 +5611,11 @@
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
       "title": "Traffic Operations Center Operator/Controller"
     },
+    "22e42cd2c9ff9848": {
+      "company": "Thales",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "Analyste Reverse Engineering H/F"
+    },
     "22ea704ee8139f60": {
       "company": "TikTok",
       "first_seen": "2026-08-18T10:24:18.710632+00:00",
@@ -7045,6 +7060,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "New Grad 2026: Software Engineer Graduate (Data Arch - AI/ML Infrastructure)"
+    },
+    "2bad4d33e4d53373": {
+      "company": "Accenture",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "Product & Platform Engineering Analyst"
     },
     "2bb825f08b9797ce": {
       "company": "Cosine",
@@ -12986,6 +13006,11 @@
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "Engineer New Grad"
     },
+    "52d3297dfe2378de": {
+      "company": "Thales",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "Expert SAP BC (F/H)"
+    },
     "52d6f56dcf665ab6": {
       "company": "Melius",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
@@ -15210,6 +15235,11 @@
       "company": "Keysight Technologies",
       "first_seen": "2026-08-18T07:34:47.632154+00:00",
       "title": "ASIC Digital Design Engineer"
+    },
+    "61982a307a8ddbae": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "Digital Experience Data Analyst - Web Marketing Program"
     },
     "619b2811deb815bd": {
       "company": "Link Consulting",
@@ -18381,6 +18411,11 @@
       "first_seen": "2026-08-18T07:34:47.632154+00:00",
       "title": "Entry Level Application Engineer"
     },
+    "75141227d26fad54": {
+      "company": "Pennsylvania State University",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "Research Assistant - Instructional"
+    },
     "751fa99ae1d2f5ad": {
       "company": "Kodiak Robotics",
       "first_seen": "2026-08-25T09:31:34.606759+00:00",
@@ -18620,6 +18655,11 @@
       "company": "Field AI",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "Field Data Analyst"
+    },
+    "7661ee311aa85d9c": {
+      "company": "Accenture",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "AI & Data Analyst"
     },
     "766b10687bc7eeaf": {
       "company": "Vytalize Health",
@@ -26680,6 +26720,11 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Analytics Business Partner"
+    },
+    "abb5cd3849a38d38": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "Product Engineer"
     },
     "abb8c83d55bc903c": {
       "company": "PMG",
@@ -39340,6 +39385,11 @@
       "company": "Strac",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
       "title": "Full Stack Engineer"
+    },
+    "f921bd733dc0091f": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-09-08T17:43:54.715027+00:00",
+      "title": "Test & Validation Engineer - Product Engineering"
     },
     "f924792ed8ee988b": {
       "company": "Micron Technology",
