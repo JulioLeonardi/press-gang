@@ -14761,6 +14761,11 @@
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Chef de Projet AMOA/AMOEG Ferroviaire H/F"
     },
+    "5e25e6f68e346d3a": {
+      "company": "Pure Storage",
+      "first_seen": "2026-09-08T23:09:56.901258+00:00",
+      "title": "Hardware Validation Engineer"
+    },
     "5e26edb7c639b60f": {
       "company": "University of Texas at Austin",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
@@ -20286,6 +20291,11 @@
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "IT Software Support Engineer New Grad"
     },
+    "81c2aac296d8d2d4": {
+      "company": "State Street",
+      "first_seen": "2026-09-08T23:09:56.901258+00:00",
+      "title": "AI Developer Senior Associate"
+    },
     "81c7399e384376c6": {
       "company": "Techtronic Industries",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
@@ -21175,6 +21185,11 @@
       "company": "EXL",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
       "title": "Junior Software Developer"
+    },
+    "873fc5551f69f46f": {
+      "company": "Trane Technologies",
+      "first_seen": "2026-09-08T23:09:56.901258+00:00",
+      "title": "Accelerated Development Program New Grad"
     },
     "87462cdb41afc5d1": {
       "company": "Apple",
@@ -27826,6 +27841,11 @@
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Electrical Engineer - Power Systems Design"
     },
+    "b325b20de1cefdf5": {
+      "company": "Two Sigma",
+      "first_seen": "2026-09-08T23:09:56.901258+00:00",
+      "title": "Software Engineer"
+    },
     "b32807611105b5bc": {
       "company": "Hivebrite",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
@@ -27850,6 +27870,11 @@
       "company": "Crowdstrike",
       "first_seen": "2026-08-24T13:48:41.831350+00:00",
       "title": "Software Engineer - Sensor - SAO"
+    },
+    "b36cd849483832a0": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-09-08T23:09:56.901258+00:00",
+      "title": "Systems Engineer New Grad"
     },
     "b36d021ff3de7e4b": {
       "company": "The Adecco Group",
@@ -31015,6 +31040,11 @@
       "company": "Susquehanna International Group (SIG)",
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Quantitative Systematic Trading Intern"
+    },
+    "c69032f28b95c207": {
+      "company": "Zebra Technologies",
+      "first_seen": "2026-09-08T23:09:56.901258+00:00",
+      "title": "Software Engineer 1 - Fullstack"
     },
     "c694d2ca80540164": {
       "company": "Thales",
@@ -37015,6 +37045,11 @@
       "company": "GE Healthcare",
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
       "title": "Field Engineer Apprentice"
+    },
+    "eb7ea65afbfbba2a": {
+      "company": "Qualcomm",
+      "first_seen": "2026-09-08T23:09:56.901258+00:00",
+      "title": "Physical Design Engineer - ASICS Engineering"
     },
     "eb7ec93953374df0": {
       "company": "Twilio",
