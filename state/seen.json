@@ -8031,6 +8031,11 @@
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Research Graduate - AI Infra Compute"
     },
+    "31bbf443f2a0246f": {
+      "company": "Salesforce",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "AI Builder, Emerging Talent - BNL Market"
+    },
     "31bda028337d8feb": {
       "company": "Acuity",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -8710,6 +8715,11 @@
       "company": "RATP Digital & Innovation",
       "first_seen": "2026-09-07T13:57:10.044343+00:00",
       "title": "Ingénieur DevOps Expert Conteneurisation (H/F)"
+    },
+    "35f47e6faa1bf004": {
+      "company": "Alan",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "Fullstack Software Engineer (x/f/m) - Tech Foundations"
     },
     "361510fcb4992e5e": {
       "company": "Salesforce",
@@ -14610,6 +14620,11 @@
       "company": "MasTec",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Broadband Field Service Technician 1"
+    },
+    "5caf033f3951406d": {
+      "company": "Salesforce",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "AI Builder, Emerging Talent - Spanish Market"
     },
     "5caf071e57881959": {
       "company": "Havas France",
@@ -24936,6 +24951,11 @@
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Sales Data Analytics Intern - Summer 2027"
     },
+    "9e997486498385b8": {
+      "company": "Salesforce",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "AI Builder, Emerging Talent - French Market"
+    },
     "9e9bb10fa768923b": {
       "company": "Back Market",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -26811,6 +26831,11 @@
       "first_seen": "2026-08-21T01:05:05.928595+00:00",
       "title": "New Grad 2026: Machine Learning Engineer"
     },
+    "aab040318fe76536": {
+      "company": "Workday",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "Fullstack Product Engineer"
+    },
     "aac6eb430f509257": {
       "company": "Snowflake",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
@@ -28371,6 +28396,11 @@
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
       "title": "Software Engineer/Principal Software Engineer - Java"
     },
+    "b52f513725b14286": {
+      "company": "Notion",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "Security Engineer, Corporate Security"
+    },
     "b5367d121d5c3bda": {
       "company": "AstraZeneca",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
@@ -29215,6 +29245,11 @@
       "company": "Legora",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Solutions Engineer"
+    },
+    "ba0ad10bb5441b0e": {
+      "company": "Everest",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "Everest Core Engineer"
     },
     "ba0e880db406df43": {
       "company": "General Dynamics Information Technology",
@@ -32066,6 +32101,11 @@
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Consultante Consultant Expert SAP S/4HANA Public Cloud"
     },
+    "cb7b57b399ce4022": {
+      "company": "Salesforce",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "AI Builder, Emerging Talent - Swedish Market"
+    },
     "cb7e0342fcf338e4": {
       "company": "Appian",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
@@ -33950,6 +33990,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Software Engineer Project Intern - Security-Data - 2026 Start"
+    },
+    "d6a78355da831f8e": {
+      "company": "HP",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "AI Creative, Content & GEO Specialist"
     },
     "d6a8c7a4a36cfc84": {
       "company": "True Anomaly",
@@ -37391,6 +37436,11 @@
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Software Engineer New Grad"
     },
+    "eb982b34525ee255": {
+      "company": "Openai",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "Forward Deployed Engineer - Madrid (Spanish-speaking)"
+    },
     "eba2e552244d19e1": {
       "company": "Johns Hopkins Applied Physics Laboratory",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
@@ -38715,6 +38765,11 @@
       "company": "Lentech Inc.",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Entry Level Web Developer - Multiple Teams"
+    },
+    "f28a65fbe55edcd3": {
+      "company": "Openai",
+      "first_seen": "2026-09-09T17:01:05.885861+00:00",
+      "title": "Applied AI Engineer, Government"
     },
     "f292abe625087995": {
       "company": "Amazon",
