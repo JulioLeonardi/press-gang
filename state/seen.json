@@ -3111,6 +3111,11 @@
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Graduate Leadership Program - Data Analytics"
     },
+    "13a37c2239a99729": {
+      "company": "General Motors",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Software Engineer Early Career - AV Launch"
+    },
     "13aa505564a9b540": {
       "company": "RTE, Le réseau de transport d'électricité",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -3155,6 +3160,11 @@
       "company": "Everial",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Archiviste Rillieux"
+    },
+    "13f95e4c1064edd7": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Software Engineer"
     },
     "1404553d16cc2b68": {
       "company": "Ritchie Bros.",
@@ -5156,6 +5166,11 @@
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Player Tracking System Specialist - Seasonal"
     },
+    "20550e3016b62d68": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Software Engineer - Career Accelerator Program"
+    },
     "206d2d75ee62e6b6": {
       "company": "Google",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -5460,6 +5475,11 @@
       "company": "American Express",
       "first_seen": "2026-09-01T20:29:50.139147+00:00",
       "title": "AI Engineer"
+    },
+    "22088c730de45356": {
+      "company": "Northern Trust",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Technology Analyst - Software Engineering"
     },
     "220a775cf5bf493c": {
       "company": "Kimley-Horn",
@@ -13326,6 +13346,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "Applied Scientist - Unsecured Underwriting Machine Learning"
     },
+    "5445d1cc2c13e3a4": {
+      "company": "Cigna Group",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Technology Development Program Associate - Data & Analytics Engineering Track"
+    },
     "545ded915a630c43": {
       "company": "M.C. Dean",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
@@ -13740,6 +13765,11 @@
       "company": "Crusoe",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Software Engineer 1 - Network"
+    },
+    "56f36e9c33025c4a": {
+      "company": "McDonald's Corporation",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Software Engineer I, iOS"
     },
     "57020e492c37bd86": {
       "company": "Jump Trading",
@@ -19901,6 +19931,11 @@
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Junior Algorithmic Trader"
     },
+    "7dad631d77d59c0d": {
+      "company": "General Motors",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Entry Level Hardware Design and Validation"
+    },
     "7db3749137a52e0e": {
       "company": "Vanguard",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
@@ -24361,6 +24396,11 @@
       "first_seen": "2026-09-04T23:41:20.502615+00:00",
       "title": "Machine Learning Engineer - Machine Learning Engineering"
     },
+    "9aa097142dd61ad4": {
+      "company": "Northern Trust",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Technology Analyst - Data Science and Analytics"
+    },
     "9aa9942354742529": {
       "company": "Montgomery Investment Technology, Inc.",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
@@ -26525,6 +26565,11 @@
       "company": "Framatome",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "Ingénieur.e Conception Thermique Echangeurs F/H"
+    },
+    "a85f94c515ab0182": {
+      "company": "Nordstrom",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Engineer 1, Full Stack, Store POS+ Team"
     },
     "a8739449e4773414": {
       "company": "EquipmentShare",
@@ -31271,6 +31316,11 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Ingénieur Conception Mécanique h/f"
     },
+    "c5f4a5e3819c9fb4": {
+      "company": "Applied Intuition",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Electrical Engineer New Grad"
+    },
     "c5fffb4ac0811957": {
       "company": "Meta",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
@@ -32221,6 +32271,11 @@
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Software Development Co-op"
     },
+    "cbf03a0b69135cf3": {
+      "company": "Tesla",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Backend Software Engineer, Residential Energy Experience"
+    },
     "cbf3fbc77706293c": {
       "company": "HumanSignal (Label Studio)",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
@@ -32725,6 +32780,11 @@
       "company": "Viavi Solutions",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "Rotational Program Development Engineer"
+    },
+    "ced3226ff695c794": {
+      "company": "General Motors",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Machine Learning Systems Engineer - Data Labeling Engineering"
     },
     "cee4c65ed092a9f9": {
       "company": "Worldwide TechServices",
@@ -34071,6 +34131,11 @@
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
       "title": "Mobile GIS Field Mapping and Inspection Specialist"
     },
+    "d6fc4ed9d7517de8": {
+      "company": "Tesla",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Data Statistician"
+    },
     "d7053ca8f5e87c50": {
       "company": "Capgemini",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
@@ -35235,6 +35300,11 @@
       "company": "JetBrains",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
       "title": "QA Automation Engineer (IDEA Ultimate QA)"
+    },
+    "dde8d1a8e624660a": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Package Layout Engineer New Grad"
     },
     "dde92c9463df4d74": {
       "company": "Thales",
@@ -39870,6 +39940,11 @@
       "company": "Unseenlabs",
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
       "title": "Développeur.se en optimisation et planification F/H"
+    },
+    "f9489917436d327f": {
+      "company": "Tesla",
+      "first_seen": "2026-09-10T00:48:48.107051+00:00",
+      "title": "Software QA Engineer, Insurance"
     },
     "f94bfb4c606aa142": {
       "company": "AstraZeneca",
