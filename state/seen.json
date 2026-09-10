@@ -81,6 +81,11 @@
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
       "title": "Data Center Apprentice"
     },
+    "00862c07531a0512": {
+      "company": "Evolver",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Research Scientist - Autonomous Systems"
+    },
     "008655d112c029c5": {
       "company": "Tesla",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
@@ -2870,6 +2875,11 @@
       "company": "Google",
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Student Researcher"
+    },
+    "120f37b37fe57a67": {
+      "company": "Intel",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Design Verification Engineer"
     },
     "12154a41ae0c2da1": {
       "company": "Amazon",
@@ -6476,6 +6486,11 @@
       "first_seen": "2026-08-21T20:21:44.821595+00:00",
       "title": "Software Engineer Intern"
     },
+    "2770298a7f2f955f": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "AI Software Engineer - Manufacturing"
+    },
     "2772d926f5183aef": {
       "company": "Ibexa",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
@@ -8165,6 +8180,11 @@
       "company": "KLA Corporation",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Product Installation Engineer"
+    },
+    "3217be92e336fabb": {
+      "company": "Zebra Technologies",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Software Engineer 1"
     },
     "3218ecd52c92d3f5": {
       "company": "Analog Devices",
@@ -11605,6 +11625,11 @@
       "company": "Arm",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad 2025: Software Applications Engineer"
+    },
+    "47b77cf6ce6d885f": {
+      "company": "Zoom",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Software Development Engineer"
     },
     "47c2f6723e7f4e18": {
       "company": "NTT DATA",
@@ -24661,6 +24686,11 @@
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Characterization and Support Intern"
     },
+    "9a89038e8d050e68": {
+      "company": "Dominion Energy",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Associate Business Intelligence Analyst/Business Intelligence Analyst"
+    },
     "9a8abde03c0176a6": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
@@ -25640,6 +25670,11 @@
       "company": "Numberly",
       "first_seen": "2026-09-08T13:17:37.660070+00:00",
       "title": "Product Owner Technique - Marketing Automation"
+    },
+    "a0417adaef5401be": {
+      "company": "Argonne National Laboratory",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Software Engineer"
     },
     "a044a11b139f620e": {
       "company": "Abbott",
@@ -26886,6 +26921,11 @@
       "first_seen": "2026-09-10T00:48:48.107051+00:00",
       "title": "Engineer 1, Full Stack, Store POS+ Team"
     },
+    "a86dcaa1526bef27": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Software Development Engineer - Development Program"
+    },
     "a8739449e4773414": {
       "company": "EquipmentShare",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
@@ -27830,6 +27870,11 @@
       "company": "Crédit Agricole",
       "first_seen": "2026-09-09T12:42:27.975721+00:00",
       "title": "Ingénieur DevOps Expert H/F"
+    },
+    "aed492b48465ba98": {
+      "company": "Keysight Technologies",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "R&D Engineer 1"
     },
     "aed91cec4bad7e9e": {
       "company": "TikTok",
@@ -29776,6 +29821,11 @@
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Python Data Engineer"
     },
+    "bacfd075b84c590e": {
+      "company": "Tesla",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Senior Data Engineer - Datawarehouse - Service & Tools"
+    },
     "bad2659bd716c938": {
       "company": "Hermès",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -30355,6 +30405,11 @@
       "company": "Field AI",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Embedded Systems Engineer"
+    },
+    "be1c0388e0cf93a8": {
+      "company": "FormFactor",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Metrology Development Engineer"
     },
     "be1eb6ffa38cf4b3": {
       "company": "Sopra Steria",
@@ -32686,6 +32741,11 @@
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Associate Applied (AI) Value Engineer (Benelux) - Orbit Program"
     },
+    "cc17523c404a0eae": {
+      "company": "Intel",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Junior CPU Verification Engineer"
+    },
     "cc17b4a9ad36b56c": {
       "company": "GROUPE EPIKTET \"KINOUGARDE, COMPLETUDE, MÔMJI\"",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
@@ -33835,6 +33895,11 @@
       "company": "Polaris",
       "first_seen": "2026-08-24T17:27:14.641023+00:00",
       "title": "Digital & IT Leadership Development Program Associate - Digital Product Development"
+    },
+    "d31573a5dbd6f1ba": {
+      "company": "Stanley Black & Decker",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Brand & Product SLP - Brand and Product"
     },
     "d315a1f298db047a": {
       "company": "CCC Intelligent Solutions",
@@ -35205,6 +35270,11 @@
       "company": "Septeo",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "IT Support Specialist"
+    },
+    "dab226cdd089d037": {
+      "company": "Evolver",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "Research Scientist - Information Theory and Statistical Inference"
     },
     "dac1858d477aba9a": {
       "company": "Google",
@@ -41035,6 +41105,11 @@
       "company": "GazelEnergie",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Chef de projet IT CRM H/F"
+    },
+    "fd04488b63da34ec": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-10T23:40:50.395296+00:00",
+      "title": "ASIC Design Engineer New Grad"
     },
     "fd0af8a5453ce013": {
       "company": "Pattern Data",
