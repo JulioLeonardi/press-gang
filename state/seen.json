@@ -1466,6 +1466,11 @@
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Master Data Management Specialist - MDM Team"
     },
+    "093554cc31138862": {
+      "company": "Sanofi",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Operations Analyst"
+    },
     "09358cef413b55d3": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
@@ -6906,6 +6911,11 @@
       "first_seen": "2026-08-21T06:40:06.643649+00:00",
       "title": "Field Applications Engineer Intern - Masters"
     },
+    "2984ff92613d27c4": {
+      "company": "Workday",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Backend Engineer"
+    },
     "2998fa4368cefa6d": {
       "company": "The Hub Project",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
@@ -10290,6 +10300,11 @@
       "company": "The Boeing Company",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Software Systems Engineer"
+    },
+    "3eaa342d05642b88": {
+      "company": "Sentry",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Software Engineer, New Grad (2027)"
     },
     "3eb89f34c0d7cb93": {
       "company": "Preference Model",
@@ -14966,6 +14981,11 @@
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Forward Deployed Software Engineer New Grad - Commercial"
     },
+    "5cd8e6dec559e95b": {
+      "company": "Kyndryl",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Associate Product Manager - Agentic Modernization"
+    },
     "5ce37f8fad3748ee": {
       "company": "Sleep Doctor",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -17500,6 +17520,11 @@
       "company": "Atos",
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieur Cloud SRE H/F"
+    },
+    "6c3d604e9e702048": {
+      "company": "Wavestone",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Junior AI Engineer - AI & Data Team"
     },
     "6c4037b391b4e9f7": {
       "company": "ByteDance",
@@ -21301,6 +21326,11 @@
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Junior Software Engineer"
     },
+    "848cd08ef5174c47": {
+      "company": "Thales",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Analyste SAP BW BI (F/H)"
+    },
     "848e7e7c25981153": {
       "company": "AMD",
       "first_seen": "2026-08-21T06:40:06.643649+00:00",
@@ -22401,6 +22431,11 @@
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Research Assistant - Space Science Center - 410 Research Laboratory"
     },
+    "8afb11712122a108": {
+      "company": "Cisco",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "ASIC Test Engineer 2"
+    },
     "8afcf2cc33388d5a": {
       "company": "Tesla",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
@@ -23390,6 +23425,11 @@
       "company": "Insilico Logix",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Business Analyst / Data Analyst Entry Level"
+    },
+    "91977aca6ec98fa2": {
+      "company": "Citizens Financial Group",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Software Engineer"
     },
     "919d76e94b1b5600": {
       "company": "NVIDIA",
@@ -26086,6 +26126,11 @@
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Entry-level Microelectronics R&D Engineer"
     },
+    "a187f6b3aaa17a12": {
+      "company": "Thales",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Architecte logiciel - domaine Sonar F/H"
+    },
     "a1951538794d3432": {
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
@@ -27740,6 +27785,11 @@
       "company": "Coallia",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Agent Technique 2 H/F"
+    },
+    "acf6a36bbba13d4b": {
+      "company": "Alan",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Platform Engineer (x/f/m) - Tech Foundations"
     },
     "acfa961c05e5e776": {
       "company": "Apple",
@@ -29785,6 +29835,11 @@
       "company": "La Sécurité Sociale",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "CDI - Gestionnaire de comptes Middle Office Employeurs (57)"
+    },
+    "b8dd882546a1d8d0": {
+      "company": "Workday",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Software Development Engineer - Frontend Infrastructure"
     },
     "b8e6706147b55ac5": {
       "company": "Safran",
@@ -32025,6 +32080,11 @@
       "company": "UL Solutions",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Product Specialist - Materials & Plastics"
+    },
+    "c64470cbeb34de57": {
+      "company": "Novartis",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Technical Product Owner, Data Science & AI Platforms"
     },
     "c64ba57c44791020": {
       "company": "Cummins",
@@ -35955,6 +36015,11 @@
       "company": "Medpace",
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
       "title": "Python Intern - Summer 2027"
+    },
+    "dd481a5905cd9d44": {
+      "company": "Citizens Financial Group",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Data Engineer"
     },
     "dd4bb0b04c980458": {
       "company": "Argonne National Laboratory",
@@ -41270,6 +41335,11 @@
       "company": "International Rescue Committee (IRC)",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Data Integration & Reporting Intern"
+    },
+    "fbede36ed3c22917": {
+      "company": "Thales",
+      "first_seen": "2026-09-11T16:53:26.250913+00:00",
+      "title": "Ingénieur Développement Hardware F/H"
     },
     "fbee11373a2cd6b9": {
       "company": "Q2",
