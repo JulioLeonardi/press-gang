@@ -74,7 +74,8 @@ def gather_state() -> dict:
             first_seen = datetime.fromisoformat(str(meta.get("first_seen", "")))
             if first_seen.tzinfo is None:
                 first_seen = first_seen.replace(tzinfo=timezone.utc)
-            if first_seen >= cutoff:
+            # Seeded entries were recorded silently when a group was added.
+            if first_seen >= cutoff and not meta.get("seeded"):
                 new_week += 1
         except ValueError:
             continue

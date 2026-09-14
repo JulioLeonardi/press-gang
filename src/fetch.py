@@ -18,7 +18,7 @@ from datetime import datetime, timezone
 
 import requests
 
-from normalize import make_id, normalize_text, to_mmddyyyy
+from normalize import ats_key, make_id, normalize_text, to_mmddyyyy
 
 log = logging.getLogger(__name__)
 
@@ -65,6 +65,13 @@ def fetch_source(source: dict) -> list[dict]:
     except Exception as exc:  # noqa: BLE001 - one bad source must not kill the run
         log.warning("source %s: parse failed (%s) -- skipping", name, exc)
         return []
+
+    # ats_key collapses one job listed by several sources; seed_group is the
+    # unit main.py seeds silently the first time it appears. An adapter that
+    # knows better (one group per company board) sets them itself.
+    for posting in postings:
+        posting.setdefault("ats_key", ats_key(posting["url"]))
+        posting.setdefault("seed_group", name)
 
     if not postings:
         log.warning("source %s: parsed 0 postings (format may have changed)", name)

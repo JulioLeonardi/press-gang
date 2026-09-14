@@ -344,6 +344,86 @@ check("an absent require_title_patterns screens nothing (back-compat)",
       eu_titles(eu_row(title="Medical Science Liaison - Oncology")),
       ["Medical Science Liaison - Oncology"])
 
+# --- ats_key --------------------------------------------------------------
+from normalize import ats_key  # noqa: E402
+
+check("Greenhouse job-boards URL",
+      ats_key("https://job-boards.greenhouse.io/adyen/jobs/7938074"), "gh:7938074")
+check("Greenhouse legacy boards URL is the same key",
+      ats_key("https://boards.greenhouse.io/adyen/jobs/7938074?t=abc"), "gh:7938074")
+# How Aramente links N26: a careers-site URL with the Greenhouse id as a param.
+check("careers-site URL with gh_jid matches the Greenhouse key",
+      ats_key("https://n26.com/en-eu/careers/positions/8184721?gh_jid=8184721"), "gh:8184721")
+check("Ashby UUID is lowercased",
+      ats_key("https://jobs.ashbyhq.com/mollie/D056F390-1D70-408E-8F85-2360D41EAA84"),
+      "ashby:d056f390-1d70-408e-8f85-2360d41eaa84")
+check("Ashby application URL keys to the same job",
+      ats_key("https://jobs.ashbyhq.com/mollie/d056f390-1d70-408e-8f85-2360d41eaa84/application"),
+      "ashby:d056f390-1d70-408e-8f85-2360d41eaa84")
+check("Lever",
+      ats_key("https://jobs.lever.co/doctrine/0a426b04-3c62-424c-9e5c-8622780f62de"),
+      "lever:0a426b04-3c62-424c-9e5c-8622780f62de")
+check("SmartRecruiters API URL",
+      ats_key("https://api.smartrecruiters.com/v1/companies/noota/postings/744000126256349"),
+      "sr:744000126256349")
+check("SmartRecruiters public URL is the same key",
+      ats_key("https://jobs.smartrecruiters.com/Noota/744000126256349-backend-engineer"),
+      "sr:744000126256349")
+check("Recruitee keeps the company (slugs are per-company)",
+      ats_key("https://amiparis.recruitee.com/o/cdi-responsable-logistique-hf"),
+      "recruitee:amiparis/cdi-responsable-logistique-hf")
+check("Personio .de and .com agree",
+      ats_key("https://audeering.jobs.personio.de/job/1936168"),
+      ats_key("https://audeering.jobs.personio.com/job/1936168"))
+check("a URL with no ATS id has no key",
+      ats_key("https://amazon.jobs/en/jobs/2890123/software-development-engineer"), None)
+check("an empty URL has no key", ats_key(""), None)
+
+# --- dedupe + per-group seeding ----------------------------------------------
+from main import mark_seeded, split_new  # noqa: E402
+
+
+def posting(pid, key=None, group="simplify", title="Software Engineer"):
+    return {"id": pid, "ats_key": key, "seed_group": group, "company": "Acme", "title": title}
+
+
+def ids(postings):
+    return [p["id"] for p in postings]
+
+
+seeded_state = {"postings": {}, "seeded_groups": ["simplify", "aramente"]}
+
+new, unseeded = split_new([posting("a", "gh:1"), posting("b", "gh:1", group="aramente")], seeded_state)
+check("one job from two sources (same ats_key, different ids) notifies once", ids(new), ["a"])
+
+new, _ = split_new([posting("a", "gh:1"), posting("b", "gh:2")], seeded_state)
+check("same title, different ATS ids are two reqs, both notify", ids(new), ["a", "b"])
+
+# The regression a company+title fallback would cause: amazon.jobs URLs carry
+# no ATS id, and Amazon posts many reqs under one title.
+new, _ = split_new([posting("a"), posting("b")], seeded_state)
+check("keyless postings with different ids both notify", ids(new), ["a", "b"])
+
+state_with_key = {"postings": {"old": {"first_seen": "2026-09-01T00:00:00+00:00", "ats_key": "gh:9"}},
+                  "seeded_groups": ["simplify"]}
+new, _ = split_new([posting("new-id", "gh:9")], state_with_key)
+check("a job already notified under another id is seen via its ats_key", ids(new), [])
+
+new, unseeded = split_new([posting("a", group="simplify"), posting("c", group="ats/greenhouse/adyen")],
+                          seeded_state)
+check("a seeded group's match notifies", ids(new), ["a"])
+check("an unseeded group's match is held for silent seeding", ids(unseeded), ["c"])
+
+seed_state = {"postings": {}, "seeded_groups": ["simplify"]}
+changed = mark_seeded(seed_state, unseeded, {"simplify", "ats/greenhouse/adyen"}, "2026-09-14T00:00:00+00:00")
+check("seeding reports a state change", changed, True)
+check("seeded postings are flagged for heartbeat", seed_state["postings"]["c"].get("seeded"), True)
+check("the new group is now seeded", seed_state["seeded_groups"], ["ats/greenhouse/adyen", "simplify"])
+check("re-marking already-seeded groups is not a change",
+      mark_seeded(seed_state, [], {"simplify"}, "2026-09-14T00:00:00+00:00"), False)
+new, unseeded = split_new([posting("d", group="ats/greenhouse/adyen")], seed_state)
+check("after seeding, the group's next posting notifies", (ids(new), ids(unseeded)), (["d"], []))
+
 print()
 if failures:
     print(f"{len(failures)} FAILED")

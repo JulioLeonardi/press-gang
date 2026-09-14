@@ -88,6 +88,56 @@ def prune(state: dict, days: int) -> int:
     return len(stale)
 
 
+def split_new(matches: list[dict], state: dict) -> tuple[list[dict], list[dict]]:
+    """Unseen matches, split into (to notify, to record silently).
+
+    A posting is seen if its id OR its ats_key is already in state or earlier
+    in this run. The key is what catches one job arriving from two sources
+    under different ids and URLs. Matches from a seed_group not yet in
+    state["seeded_groups"] are that group's existing backlog -- a company board
+    added today would otherwise dump every open role into the channel -- so
+    they come back in the second list.
+    """
+    seen_ids = set(state["postings"])
+    seen_keys = {meta["ats_key"] for meta in state["postings"].values() if meta.get("ats_key")}
+    seeded_groups = set(state["seeded_groups"])
+    new, unseeded = [], []
+    for posting in matches:
+        key = posting.get("ats_key")
+        if posting["id"] in seen_ids or (key and key in seen_keys):
+            continue
+        seen_ids.add(posting["id"])
+        if key:
+            seen_keys.add(key)
+        (new if posting["seed_group"] in seeded_groups else unseeded).append(posting)
+    return new, unseeded
+
+
+def record(state: dict, posting: dict, now_iso: str, seeded: bool = False) -> None:
+    entry = {"first_seen": now_iso, "company": posting["company"], "title": posting["title"]}
+    if posting.get("ats_key"):
+        entry["ats_key"] = posting["ats_key"]
+    if seeded:
+        # Recorded without a notification; heartbeat leaves these out of
+        # "new this week" so adding a company doesn't look like a busy week.
+        entry["seeded"] = True
+    state["postings"][posting["id"]] = entry
+
+
+def mark_seeded(state: dict, unseeded: list[dict], groups: set[str], now_iso: str) -> bool:
+    """Record a new group's backlog silently and mark every fetched group seeded.
+
+    Only groups that actually returned postings are marked, so a board that
+    failed to fetch is still seeded silently on the run where it recovers.
+    Returns whether state changed.
+    """
+    for posting in unseeded:
+        record(state, posting, now_iso, seeded=True)
+    before = set(state["seeded_groups"])
+    state["seeded_groups"] = sorted(before | groups)
+    return bool(unseeded) or set(state["seeded_groups"]) != before
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Job alert bot")
     parser.add_argument("--dry-run", action="store_true",
@@ -117,6 +167,13 @@ def main() -> int:
 
     state = load_state()
     bootstrapping = args.reseed or not state.get("bootstrapped", False)
+    # State from before per-group seeding: every configured source has already
+    # been through the global bootstrap, so it counts as seeded.
+    if "seeded_groups" not in state:
+        state["seeded_groups"] = (
+            [source.get("name") for source in sources_config.get("sources", [])]
+            if state.get("bootstrapped") else []
+        )
 
     # --- fetch ---
     all_postings = []
@@ -132,32 +189,27 @@ def main() -> int:
     # --- filter ---
     matches = filter_postings(all_postings, locations_config, settings, sponsors_config)
 
-    # --- dedupe (cross-source too: same id from two repos collapses here) ---
-    seen_ids = set(state["postings"])
-    new_by_id: dict[str, dict] = {}
-    for posting in matches:
-        if posting["id"] not in seen_ids and posting["id"] not in new_by_id:
-            new_by_id[posting["id"]] = posting
-    new_postings = sorted(
-        new_by_id.values(), key=lambda p: p.get("date_posted", ""), reverse=True
-    )
+    # --- dedupe (cross-source too: same id or ats_key from two sources collapses here) ---
+    new_postings, unseeded = split_new(matches, state)
+    new_postings.sort(key=lambda p: p.get("date_posted", ""), reverse=True)
+    fetched_groups = {p["seed_group"] for p in all_postings}
     log.info("%d matches, %d new after dedupe", len(matches), len(new_postings))
+    if unseeded:
+        log.info("%d from groups seen for the first time, recorded silently: %s",
+                 len(unseeded), ", ".join(sorted({p["seed_group"] for p in unseeded})))
 
     now_iso = datetime.now(timezone.utc).isoformat()
 
     # --- bootstrap: record everything, notify about nothing ---
     if bootstrapping:
         log.info("BOOTSTRAP: seeding %d ids silently (no Discord messages sent)",
-                 len(new_postings))
+                 len(new_postings) + len(unseeded))
         if args.dry_run:
             log.info("[dry-run] state not written")
             return 0
-        for posting in new_postings:
-            state["postings"][posting["id"]] = {
-                "first_seen": now_iso,
-                "company": posting["company"],
-                "title": posting["title"],
-            }
+        for posting in new_postings + unseeded:
+            record(state, posting, now_iso)
+        state["seeded_groups"] = sorted(set(state["seeded_groups"]) | fetched_groups)
         state["bootstrapped"] = True
         prune(state, settings.get("prune_after_days", 90))
         save_state(state)
@@ -168,9 +220,11 @@ def main() -> int:
     if not new_postings:
         log.info("nothing new this run")
         if not args.dry_run:
+            changed = mark_seeded(state, unseeded, fetched_groups, now_iso)
             removed = prune(state, settings.get("prune_after_days", 90))
             if removed:
                 log.info("pruned %d stale ids", removed)
+            if removed or changed:
                 save_state(state)
         return 0
 
@@ -193,11 +247,8 @@ def main() -> int:
     # Only mark what actually went out. A failed batch stays unseen and is
     # retried next run rather than being silently lost.
     for posting in to_send[:sent]:
-        state["postings"][posting["id"]] = {
-            "first_seen": now_iso,
-            "company": posting["company"],
-            "title": posting["title"],
-        }
+        record(state, posting, now_iso)
+    mark_seeded(state, unseeded, fetched_groups, now_iso)
     if overflow:
         log.info("%d postings deferred to the next run", len(overflow))
 
