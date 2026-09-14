@@ -1,0 +1,37 @@
+{
+ "jobs": [
+  {
+   "id": 7882365,
+   "title": "Platform Engineer - Compute",
+   "location": {
+    "name": "Portugal"
+   },
+   "absolute_url": "https://careers.feedzai.com/job_description?gh_jid=7882365",
+   "first_published": "2026-08-06T07:08:43-04:00",
+   "updated_at": "2026-08-06T07:08:43-04:00",
+   "company_name": "Feedzai"
+  },
+  {
+   "id": 7893095,
+   "title": "Account Development Representative, DACH & CEE",
+   "location": {
+    "name": "Berlin, Berlin, Germany"
+   },
+   "absolute_url": "https://careers.feedzai.com/job_description?gh_jid=7893095",
+   "first_published": "2026-05-05T04:17:38-04:00",
+   "updated_at": "2026-08-04T11:25:37-04:00",
+   "company_name": "Feedzai"
+  },
+  {
+   "id": 7883079,
+   "title": "Account Development Representative, UK & Nordics",
+   "location": {
+    "name": "England, United Kingdom"
+   },
+   "absolute_url": "https://careers.feedzai.com/job_description?gh_jid=7883079",
+   "first_published": "2026-05-05T04:17:37-04:00",
+   "updated_at": "2026-08-04T11:25:17-04:00",
+   "company_name": "Feedzai"
+  }
+ ]
+}

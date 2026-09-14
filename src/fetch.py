@@ -52,6 +52,11 @@ def fetch_source(source: dict) -> list[dict]:
         if adapter == "eu_parquet":
             # Owns its own I/O: two files, and column-pruned range reads.
             postings = _fetch_eu_parquet(source, name)
+        elif adapter == "ats":
+            # One request per company board. Imported here because ats.py
+            # builds on this module's helpers.
+            from ats import fetch_ats
+            postings = fetch_ats(source)
         elif adapter in _TEXT_ADAPTERS:
             response = requests.get(source.get("url"), timeout=TIMEOUT, headers=HEADERS)
             response.raise_for_status()

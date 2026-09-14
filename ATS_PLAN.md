@@ -145,7 +145,19 @@ The Aramente-only options (`role_families`, `exclude_seniority`, `exclude_indust
 
 Each phase ends in a state that can ship on its own.
 
-### Phase 0: coverage script (decides the company list)
+### Phase 0: coverage script (decides the company list) — **done**
+
+**Results (2026-09-14)**, starting from the 46 companies in `companies_seed_list.md`:
+
+- **No public board:** 15 companies, including all the big-tech names, Klarna, Revolut, Zalando and Booking.com. No custom adapter was written: those scrapers would mean fighting search sites, and SimplifyJobs and Aramente already carry these companies.
+- **Same-name impostors:** 6 probe hits belonged to other companies (Google's was a sample board, Meta's Addis Ababa University, Uber's a "Test UAT" job) and were excluded. Wise's Greenhouse board is US field sales.
+- **Verified boards:** 26, ranked in `scripts/ats_candidates.yaml`. Real EU CS gain was ~50 open roles, mostly Feedzai (10), Grafana (6), Cabify (5) and SumUp (4).
+- **Doctolib:** it is on both Greenhouse and Ashby under different job ids. Only the Greenhouse board is safe to poll, because Aramente keys Doctolib by Greenhouse id.
+- **Recruitee and SmartRecruiters:** no parsers. bunq, the only Recruitee candidate, had 0 EU CS roles. The two SmartRecruiters companies (Wise, Delivery Hero) are already covered, and Wise has 258 keyless WTTJ links in Aramente.
+
+`config/companies.yaml` holds the 20 boards with at least one EU match.
+
+The original Phase 0 spec follows.
 
 `scripts/ats_coverage.py`, run locally and never in Actions:
 
@@ -181,7 +193,20 @@ Seed `companies.yaml` with every gap company and at most about 15 latency compan
 
 `scripts/backlog_dump.py` still dedupes by id only. It's a manual catch-up report, so it was left alone.
 
-### Phase 2: Greenhouse and Ashby adapters
+### Phase 2: Greenhouse, Ashby and Lever adapters — **done**
+
+Built: `src/ats.py` (Lever joined because two gap companies use it), an `adapter: ats` source, YAML anchors, three fixtures, and adapter tests.
+
+`screen_titles` lives in `ats.py` rather than being extracted from `eu_rows_to_postings`. Aramente's seniority-tag logic doesn't apply to ATS boards, and extracting it would have meant refactoring working code.
+
+**Exit (met):** a live dry run fetched 3,686 postings from the 20 boards. The title screen kept 502, and 121 matched after dedupe. All 121 were recorded silently, and the notify list was identical to the run without the source.
+
+**Open follow-ups:**
+
+- **Title noise:** ~20 of the source's 223 matches are non-CS roles that pass the shared title list ("Account Development Representative", "Junior Recipe Developer", "Product Financial Controller, Balance Platform"). The list is shared with Aramente, so tune it with the usual both-pools check.
+- **US matches:** the source adds ~70 US known-sponsor matches (30 from Stripe), mostly not new-grad. Decide whether it should be EU-only.
+
+The original Phase 2 spec follows.
 
 - `src/ats.py` with those two parsers, `screen_titles` extraction, `adapter: ats` in the dispatch, and anchors in `sources.yaml`.
 - `companies.yaml` with the Phase 0 companies on those two ATSs.

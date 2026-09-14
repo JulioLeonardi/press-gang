@@ -424,6 +424,55 @@ check("re-marking already-seeded groups is not a change",
 new, unseeded = split_new([posting("d", group="ats/greenhouse/adyen")], seed_state)
 check("after seeding, the group's next posting notifies", (ids(new), ids(unseeded)), (["d"], []))
 
+# --- ATS adapters (trimmed real responses in tests/fixtures/) -----------------
+import json  # noqa: E402
+
+from ats import _PARSERS  # noqa: E402
+
+FIXTURES = ROOT / "tests" / "fixtures"
+
+
+def parse_fixture(ats, file, company, board):
+    data = json.loads((FIXTURES / file).read_text(encoding="utf-8"))
+    return _PARSERS[ats](data, company, board)
+
+
+gh_jobs = parse_fixture("greenhouse", "greenhouse_feedzai.json", "Feedzai", "feedzai")
+check("greenhouse: every job parsed", len(gh_jobs), 3)
+check("greenhouse: key is the Greenhouse job id", gh_jobs[0]["ats_key"], "gh:7882365")
+check("greenhouse: key agrees with ats_key() on the job's own URL",
+      gh_jobs[0]["ats_key"], ats_key(gh_jobs[0]["url"]))
+check("greenhouse: seed group is per board", gh_jobs[0]["seed_group"], "ats/greenhouse/feedzai")
+check("greenhouse: source_repo names the ATS for the board page", gh_jobs[0]["source_repo"], "ats/greenhouse")
+check("greenhouse: company comes from companies.yaml", gh_jobs[0]["company"], "Feedzai")
+check("greenhouse: location name", gh_jobs[1]["location"], "Berlin, Berlin, Germany")
+# first_published 2026-05-05, updated_at 2026-08-04: an edit must not re-date the role.
+check("greenhouse: dated by first_published, not updated_at", gh_jobs[1]["date_posted"], "05052026")
+
+ab_jobs = parse_fixture("ashby", "ashby_mollie.json", "Mollie", "mollie")
+check("ashby: isListed false is dropped", [p["title"] for p in ab_jobs],
+      ["Application Engineer II", "Business Support Specialist - Dutch",
+       "Working student - Customer Success DACH (m/f/d)"])
+check("ashby: key is the job UUID", ab_jobs[0]["ats_key"], "ashby:3bcb16aa-833c-4aeb-a277-ab7603a176f9")
+check("ashby: key agrees with ats_key() on jobUrl", ab_jobs[0]["ats_key"], ats_key(ab_jobs[0]["url"]))
+check("ashby: publishedAt -> MMDDYYYY", ab_jobs[0]["date_posted"], "08042025")
+
+lv_jobs = parse_fixture("lever", "lever_pigment.json", "Pigment", "pigment")
+check("lever: every job parsed", len(lv_jobs), 3)
+check("lever: title comes from `text`", lv_jobs[0]["title"], "Data Engineer (Growth Team)")
+check("lever: key agrees with ats_key() on hostedUrl", lv_jobs[0]["ats_key"], ats_key(lv_jobs[0]["url"]))
+check("lever: millisecond createdAt -> MMDDYYYY", lv_jobs[0]["date_posted"], "02192026")
+
+ab_multi = _PARSERS["ashby"]({"jobs": [dict(json.loads((FIXTURES / "ashby_mollie.json").read_text(encoding="utf-8"))["jobs"][0],
+                                            secondaryLocations=[{"location": "Amsterdam"}])]}, "Mollie", "mollie")
+check("ashby: secondary locations are joined with ' | '", ab_multi[0]["location"], "Lisbon | Amsterdam")
+gh_semicolon = _PARSERS["greenhouse"]({"jobs": [dict(json.loads((FIXTURES / "greenhouse_feedzai.json").read_text(encoding="utf-8"))["jobs"][0],
+                                                     location={"name": "United States (Remote) ; Spain (Remote)"})]}, "Feedzai", "feedzai")
+check("';'-joined locations are split so the EU part can match past a US part",
+      gh_semicolon[0]["location"], "United States (Remote) | Spain (Remote)")
+check("... and filter_postings then keeps it on the Spain part",
+      [p["id"] for p in filter_postings(gh_semicolon, config, settings)], [gh_semicolon[0]["id"]])
+
 print()
 if failures:
     print(f"{len(failures)} FAILED")

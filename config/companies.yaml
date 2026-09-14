@@ -1,0 +1,48 @@
+# Company ATS boards polled directly by the `ats` source (src/ats.py).
+#
+# ats: greenhouse | ashby | lever
+# board: the slug in the board URL (job-boards.greenhouse.io/{board},
+#   jobs.ashbyhq.com/{board}, jobs.lever.co/{board}). Check it before adding:
+#   the API must return real postings under this company's name, since several
+#   slugs belong to unrelated companies (see scripts/ats_candidates.yaml).
+#
+# Adding a company: append a line, then run `python scripts/ats_coverage.py`
+# on it. Its open roles are recorded silently the first run it appears, so
+# only roles posted after that reach the channel.
+#
+# Chosen from `scripts/ats_coverage.py` on 2026-09-14: every candidate board
+# with at least one EU CS match. EU matches Aramente lacks are in brackets. The
+# rest are covered by Aramente under the same ats_key and are polled only to
+# hear about new roles within the hour.
+
+companies:
+  # --- Aramente doesn't track these at all ---
+  - {name: Feedzai, ats: greenhouse, board: feedzai}            # [10]
+  - {name: Grafana Labs, ats: greenhouse, board: grafanalabs}   # [6]
+  - {name: Cabify, ats: greenhouse, board: cabify}              # [5]
+  - {name: Pigment, ats: lever, board: pigment}                 # [3]
+  - {name: Job&Talent, ats: lever, board: jobandtalent}         # [3]
+  - {name: Typeform, ats: greenhouse, board: typeform}          # [1]
+  - {name: Talkdesk, ats: greenhouse, board: talkdesk2}         # [1]
+
+  # --- Partly covered by Aramente ---
+  - {name: SumUp, ats: greenhouse, board: sumup}                # [4], all posted this week
+  # 3 of Stripe's 7 SimplifyJobs rows link stripe.com with no job id, so a new
+  # US Stripe role may occasionally arrive twice.
+  - {name: Stripe, ats: greenhouse, board: stripe}              # [2]
+  - {name: Wolt, ats: greenhouse, board: wolt}                  # [2]
+  - {name: Datadog, ats: greenhouse, board: datadog}            # [2]
+  - {name: Spotify, ats: lever, board: spotify}                 # [2]
+  - {name: Adyen, ats: greenhouse, board: adyen}                # [1]
+  - {name: HelloFresh, ats: greenhouse, board: hellofresh}      # [1]
+  - {name: GitLab, ats: greenhouse, board: gitlab}              # [1]
+
+  # --- Fully covered: latency only ---
+  - {name: Celonis, ats: greenhouse, board: celonis}
+  - {name: N26, ats: greenhouse, board: n26}
+  # Doctolib is also on Ashby with the same roles under different ids. Aramente
+  # keys Doctolib by Greenhouse id, so polling the Ashby board would notify
+  # every role twice. Keep Greenhouse; switch only if the Greenhouse board dies.
+  - {name: Doctolib, ats: greenhouse, board: doctolib}
+  - {name: Mollie, ats: ashby, board: mollie}
+  - {name: Monzo, ats: greenhouse, board: monzo}

@@ -58,6 +58,7 @@ Multi-location postings qualify if *any one* location matches, so a "London | Mi
 | [SimplifyJobs/New-Grad-Positions](https://github.com/SimplifyJobs/New-Grad-Positions) | `simplify_json` | 12.9MB `listings.json` |
 | [vanshb03/New-Grad-2026](https://github.com/vanshb03/New-Grad-2026) | `markdown_table` | README pipe table |
 | [Aramente/eu-tech-jobs](https://github.com/Aramente/eu-tech-jobs) | `eu_parquet` | daily Parquet snapshot |
+| Company ATS boards in [config/companies.yaml](config/companies.yaml) | `ats` | Greenhouse / Ashby / Lever JSON, one request per board |
 
 A source that 404s or changes shape is logged and skipped; the others still run.
 
@@ -83,6 +84,20 @@ The two US repos are new-grad lists and between them produce **zero** EU matches
 - **The upstream `engineering` tag is not a software signal.** It covers 1KOMMA5°'s photovoltaic *Elektriker*, HelloFresh's *Mechatroniker Instandhaltung* and Trigo's Hungarian mechanical *Mérnök*. The positive screen therefore runs on tagged rows too, not just untagged ones — worth a further 55 drops.
 - **Four of its columns are dead.** `stack` and `languages` are empty on all 20,120 rows, `visa_sponsorship` is 100% null, and `remote_policy` is null on 92.8%. None are usable as filters, despite what the published schema suggests. Company `categories` is nearly as flat — 1,474 of 1,732 companies are just `tech`. The `visa_sponsorship` gap is harmless: these are EU-located roles, so they pass on location, not sponsorship.
 - **Consumer fashion/beauty brands are dropped.** The upstream repo carries ~400 of them for a separate landing page it runs — ~1,750 live jobs, mostly Paris-based, so they pass the EU location check. Its own public site filters them on the same `industry_tags`.
+
+### The `ats` adapter
+
+Polls company job boards directly ([src/ats.py](src/ats.py)). `eu-tech-jobs` already scrapes most of these same boards daily, so this adapter is worth it only for:
+
+- companies that source doesn't track (Feedzai, Grafana Labs, Cabify, Pigment…)
+- hearing about a new role within the hour instead of the next morning
+
+The measurements and the rejected candidates are in [ATS_PLAN.md](ATS_PLAN.md) and [scripts/ats_candidates.yaml](scripts/ats_candidates.yaml).
+
+- **Adding a company** is one line in `companies.yaml`. Run `python scripts/ats_coverage.py` first: it shows how many EU matches the board would add, and how many `eu-tech-jobs` already delivers.
+- **Check the slug returns that company's postings.** Several slugs belong to someone else: `recruitee/meta` is a university, `smartrecruiters/uber` is a test board.
+- **Company boards list every role**, so they go through the same `require_title_patterns` / `senior_title_patterns` as `eu-tech-jobs`. The config shares the lists via YAML anchors.
+- **Doctolib is on Greenhouse and Ashby at once** with different job ids. Poll the one `eu-tech-jobs` links to (Greenhouse), or every role arrives twice.
 
 ## The daily board
 
@@ -152,6 +167,7 @@ FY2024+ USCIS data exists only inside a Tableau dashboard with no CSV export, so
 - **URL and source id excluded** — the same job appears in multiple repos with different tracking URLs and different UUIDs. Keying on either notifies twice for one job. In testing this collapsed 7 cross-repo duplicates out of 68 matches.
 - **`Aramente/eu-tech-jobs` is the one exception**: it keys on the source's own id instead. Its `posted_at` is not stable — 1.2% of jobs present in both the 2026-08-18 and 2026-08-24 snapshots had the date bumped forward (welcometothejungle re-dates listings it re-promotes), and under the shared key every bump mints a new id and re-notifies a job already sent, ~24/day of pure duplicates. The rule above exists for cross-source collisions, and this source has none: run against both US repos through the real filter, the overlap was exactly **0** postings. Revisit if a source is ever added that spans both regions.
 - **Company suffixes, case, emoji and diacritics normalized**, so `Acme, Inc.` and `ACME` are one job.
+- **Same ATS job id = same job, whatever the id.** Each posting also carries an `ats_key`: the Greenhouse, Ashby, Lever, SmartRecruiters, Recruitee or Personio job id read from its URL. It still works when the URL is a careers-site link like `n26.com/...?gh_jid=8184721`. A posting whose id **or** `ats_key` has already been notified is skipped. This is what stops a role from arriving once from its company board and again from `eu-tech-jobs`. URLs with no ATS id (amazon.jobs, Workday, Welcome to the Jungle) fall back to the id alone. There is deliberately no company + title fallback: it would merge distinct reqs that share a title.
 - When a source publishes **no date**, the date the bot first saw the posting is used. Without that fallback the slot would be empty and a repost would silently collide with the original — the exact case the date is there to catch.
 
 ## First run
@@ -162,7 +178,9 @@ Every run afterward notifies only on new matches. To re-seed from scratch, run t
 
 `max_notifications_per_run` (default 60) caps a single run. If a source reformats and suddenly looks like 5,000 new jobs, you get 60 and the rest defer — not a channel flood.
 
-**Adding a source to an already-seeded state has the same problem as a first run**, and the cap doesn't save you — it only spreads it out. Adding `eu-tech-jobs` put 2,671 unseen matches in front of the bot, which at 60/run drains over ~44 hourly runs. Re-seed once so the existing pool counts as old news, and review it out-of-band:
+**Adding a source or a company board is handled automatically.** Every posting belongs to a seed group: the source name, or `ats/{ats}/{board}` for company boards. The first time a group appears, its current matches are recorded silently and marked `seeded` in state, and only roles posted after that reach the channel. The weekly heartbeat leaves seeded entries out of its "new this week" count. The groups already seen are listed in `seeded_groups` in `seen.json`.
+
+That wasn't always true. Adding `eu-tech-jobs` before per-group seeding put 2,671 unseen matches in front of the bot, which at 60/run drains over ~44 hourly runs. To review a newly added pool out-of-band anyway:
 
 ```bash
 python src/main.py --reseed          # record everything live, send nothing
