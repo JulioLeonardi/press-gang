@@ -27,8 +27,6 @@ companies:
 
   # --- Partly covered by Aramente ---
   - {name: SumUp, ats: greenhouse, board: sumup}                # [4], all posted this week
-  # 3 of Stripe's 7 SimplifyJobs rows link stripe.com with no job id, so a new
-  # US Stripe role may occasionally arrive twice.
   - {name: Stripe, ats: greenhouse, board: stripe}              # [2]
   - {name: Wolt, ats: greenhouse, board: wolt}                  # [2]
   - {name: Datadog, ats: greenhouse, board: datadog}            # [2]

@@ -2,7 +2,75 @@
 
 Adds direct polling of company applicant-tracking-system (ATS) boards (Greenhouse, Ashby, Recruitee, and later others) to the existing pipeline, without double-notifying roles that Aramente/eu-tech-jobs already delivers.
 
-This replaces the phased rollout in [SOURCES.md](SOURCES.md). That doc is written as though the bot were a blank slate. Most of its infrastructure already exists here, and its dedupe proposal conflicts with measured decisions in [src/fetch.py](src/fetch.py).
+This replaces the phased rollout in `SOURCES.md` (a local, gitignored design note). That doc is written as though the bot were a blank slate. Most of its infrastructure already exists here, and its dedupe proposal conflicts with measured decisions in [src/fetch.py](src/fetch.py).
+
+## Resume here (updated 2026-09-14)
+
+### Status
+
+Branch `feat/ats-polling`, not pushed or merged. Three commits on top of `master` at `658b96c`:
+
+| Commit | What |
+|---|---|
+| `2ad8304` | Phase 1: `ats_key` dedupe, silent per-group seeding |
+| `bc9059e` | Phases 0 + 2: `src/ats.py`, 20 boards in `config/companies.yaml`, coverage script |
+| `f8c6512` | Company boards EU-only; 24 new title exclusions |
+
+- `origin/master` is 79 commits ahead, all bot `chore: update seen.json`, touching only `state/seen.json`. This branch never touches that file, so the merge is clean.
+- The local `state/seen.json` is stale (2026-08-26). Any dry run against it reports ~1,100 "new" postings. That's expected and not a regression.
+- Tests pass: `python tests/test_core.py`.
+
+### Next steps, in order
+
+1. **Sync:** `git fetch origin && git merge origin/master` on the branch, re-run the tests and a dry run.
+2. **Ship:** push the branch, open a PR, merge to `master`. Only the user decides this; it hasn't been approved yet. What the first production run does:
+   - Marks the four configured source names in `seeded_groups`.
+   - Records each company board's current matches silently. Look for `N from groups seen for the first time, recorded silently`. There should be no Discord burst.
+   - Heartbeat excludes those `seeded` entries from "new this week".
+3. **Watch the channel for ~3 days.**
+   - Company-board roles should be only roles posted after the merge.
+   - If a role arrives twice, compare `ats_key(url)` for both links. A keyless one (Welcome to the Jungle, a custom careers page without `gh_jid`) is the known gap.
+
+### Open items (none blocking)
+
+- **Borderline titles still passing:** "Finance Systems Specialist", "Compliance Quality Assurance Specialist", "Salesforce Consultant", "AI Talent Pool". They were left in deliberately.
+- **Senior-title guard misses "Distinguished Engineer".** `senior_title_patterns` is shared with Aramente, so probe it the same way before adding.
+- **`scripts/backlog_dump.py` dedupes by id only.** It's a manual report, so this is cosmetic.
+- **Doctolib is mid-migration** (Greenhouse and Ashby both live). If `greenhouse/doctolib` starts 404ing, don't just switch to Ashby: Aramente keys Doctolib by Greenhouse id, so every role would arrive twice until Aramente follows. Re-run `scripts/ats_coverage.py` first.
+- **Deferred:** SmartRecruiters, Recruitee and Personio adapters (no candidate needs them), notification batching, and pruning latency-only companies after a month.
+
+### Decisions already made (don't re-open without new data)
+
+- **No company + title dedupe fallback.** It would merge distinct keyless reqs, e.g. Amazon's.
+- **No custom adapters for big-tech careers sites.** The US repos and Aramente already carry them.
+- **Company boards are EU-only.**
+- **Every new filter term is probed against the post-filter matches of all sources, and every removed title is read.** Bare words that hit CS roles are rejected, documented in the config, and pinned by a keep-test.
+
+### How to verify things
+
+```bash
+python tests/test_core.py                  # all checks
+python src/main.py --dry-run               # full pipeline, sends nothing, writes nothing
+python scripts/ats_coverage.py             # per-board EU matches vs Aramente coverage
+```
+
+- On Windows, prefix with `PYTHONIOENCODING=utf-8` when printing titles. The console codepage chokes on non-ASCII, and the dry-run log shows a harmless `UnicodeEncodeError` otherwise.
+- To compare old and new behaviour exactly, cache one fetch to JSON and run `main()` with `fetch_source` and `notify` monkeypatched, instead of doing two live runs.
+
+### Where things live
+
+| Location | What |
+|---|---|
+| `src/normalize.py` | `ats_key(url)` |
+| `src/main.py` | `split_new`, `record`, `mark_seeded`; `seeded_groups` migration |
+| `src/ats.py` | Board parsers, `screen_titles`, `eu_only` |
+| `src/filter.py` | `eu_only` handling |
+| `config/companies.yaml` | Polled boards |
+| `scripts/ats_candidates.yaml` | Every candidate, plus why the rejected ones were rejected |
+| `config/sources.yaml` | `ats` source, shared title-list anchors, new exclusions with their traps |
+| `tests/fixtures/` | Trimmed real Greenhouse/Ashby/Lever responses |
+
+Everything below is the original plan, annotated with results as phases finished.
 
 ## What we measured (2026-09-14)
 
