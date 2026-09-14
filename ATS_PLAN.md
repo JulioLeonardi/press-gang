@@ -16,13 +16,13 @@ Branch `feat/ats-polling`, not pushed or merged. Three commits on top of `master
 | `bc9059e` | Phases 0 + 2: `src/ats.py`, 20 boards in `config/companies.yaml`, coverage script |
 | `f8c6512` | Company boards EU-only; 24 new title exclusions |
 
-- `origin/master` is 79 commits ahead, all bot `chore: update seen.json`, touching only `state/seen.json`. This branch never touches that file, so the merge is clean.
-- The local `state/seen.json` is stale (2026-08-26). Any dry run against it reports ~1,100 "new" postings. That's expected and not a regression.
+- `origin/master` (79 bot `seen.json` commits) was merged in at `6e83a40`. The merge was clean, and `state/seen.json` is now current.
 - Tests pass: `python tests/test_core.py`.
+- Post-merge dry run: 2,611 matches, **1 new** (a Qualcomm role from SimplifyJobs), and 136 company-board matches from 19 groups recorded silently. `jobandtalent` doesn't seed yet because all 22 of its live roles are senior or non-CS (0 matches), which is the known empty-board edge case.
 
 ### Next steps, in order
 
-1. **Sync:** `git fetch origin && git merge origin/master` on the branch, re-run the tests and a dry run.
+1. ~~**Sync**~~ done (2026-09-14). If more bot commits land before shipping, merge `origin/master` again. They only touch `state/seen.json`.
 2. **Ship:** push the branch, open a PR, merge to `master`. Only the user decides this; it hasn't been approved yet. What the first production run does:
    - Marks the four configured source names in `seeded_groups`.
    - Records each company board's current matches silently. Look for `N from groups seen for the first time, recorded silently`. There should be no Discord burst.
