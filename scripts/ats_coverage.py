@@ -8,8 +8,7 @@ the Aramente source already delivers.
 
 Columns:
   jobs      postings on the board
-  eu        EU matches that would reach the channel
-  us        US matches (known sponsors); the US repos may already carry these
+  eu        EU matches that would reach the channel (company boards are EU-only)
   aramente  EU matches Aramente already delivers under the same ats_key
   new       EU matches Aramente lacks: the coverage gain
   week      EU matches first published in the last 7 days: the latency gain
@@ -63,17 +62,16 @@ def main() -> int:
 
     rows = []
     for company, postings in zip(candidates, boards):
-        matches = filter_postings(screen_titles(postings, options), locations, settings, sponsors)
-        eu = [p for p in matches if p["match_reason"].startswith("EU")]
+        eu = filter_postings(screen_titles(postings, options), locations, settings, sponsors)
         have = sum(p["ats_key"] in aramente_keys for p in eu)
         # date_posted is MMDDYYYY; reorder to compare. Undated never counts as recent.
         week = sum(bool(d := p["date_posted"]) and d[4:] + d[:4] >= week_ago for p in eu)
         rows.append((company["name"], f"{company['ats']}/{company['board']}", len(postings),
-                     len(eu), len(matches) - len(eu), have, len(eu) - have, week,
+                     len(eu), have, len(eu) - have, week,
                      keyless[normalize_company(company["name"])]))
 
-    rows.sort(key=lambda r: (r[6], r[3]), reverse=True)
-    header = ("company", "board", "jobs", "eu", "us", "aramente", "new", "week", "keyless")
+    rows.sort(key=lambda r: (r[5], r[3]), reverse=True)
+    header = ("company", "board", "jobs", "eu", "aramente", "new", "week", "keyless")
     print("  ".join(f"{h:>8}" if i > 1 else f"{h:<22}" for i, h in enumerate(header)))
     for row in rows:
         print("  ".join(f"{v:>8}" if i > 1 else f"{v:<22}" for i, v in enumerate(row)))

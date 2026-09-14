@@ -97,6 +97,7 @@ The measurements and the rejected candidates are in [ATS_PLAN.md](ATS_PLAN.md) a
 - **Adding a company** is one line in `companies.yaml`. Run `python scripts/ats_coverage.py` first: it shows how many EU matches the board would add, and how many `eu-tech-jobs` already delivers.
 - **Check the slug returns that company's postings.** Several slugs belong to someone else: `recruitee/meta` is a university, `smartrecruiters/uber` is a test board.
 - **Company boards list every role**, so they go through the same `require_title_patterns` / `senior_title_patterns` as `eu-tech-jobs`. The config shares the lists via YAML anchors.
+- **EU-only.** The sponsorship branch doesn't apply to company-board postings. Their US roles were mostly not new-grad, and the US repos already cover that side. A multi-location role still qualifies on its EU part.
 - **Doctolib is on Greenhouse and Ashby at once** with different job ids. Poll the one `eu-tech-jobs` links to (Greenhouse), or every role arrives twice.
 
 ## The daily board

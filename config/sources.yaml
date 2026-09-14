@@ -441,6 +441,47 @@ settings:
     - social media
     - brand manager
 
+    # Added with the company ATS boards (Sept 2026), which list every role a
+    # company has. Each term was probed against the full match pool of all four
+    # sources (2,666 matches) and removes no CS role. Phrases rather than bare
+    # words wherever the bare word was a trap:
+    #   "specialist" -> Devops / Network Security / Kubernetes Specialist
+    #   "consultant" -> Thales cybersecurity consultants
+    #   "agent"      -> 13 AI Agent engineering roles  (phrase: support agent)
+    #   "commerce"   -> 45 TikTok E-commerce new-grad roles
+    #   "strategy"   -> "Quantitative Strategy Developer New Grad"
+    #   "controller" -> "ASIC Design Engineer - Cache Controller"
+    #   "retail"     -> "Kotlin Backend Engineer - Retail Group"
+    #   "merchant"   -> "Kotlin/Java Developer (Merchant Response)"
+    #   "customer service" -> "Backend Software Engineer (Customer Service Platform)"
+    #   "compliance" -> "Security Analyst (compliance and controls)"
+    #   "tax", "finance", "hr", "payroll", "operations", "expert", "account",
+    #   "success", "enablement" -> each hits a real engineering title
+    - representative      # Account/Sales Development Representative
+    - representatives
+    - account specialist
+    - key accounts        # "key account" above is whole-word, so no plural match
+    - fleet development
+    - retail development
+    - solution consultant # presales graduate programs
+    - business analyst
+    - business partner
+    - marketing analyst
+    - people analytics
+    - procurement
+    - financial controller
+    - merchant security
+    - support agent
+    - customer service specialist
+    - onboarding specialist
+    - implementation specialist
+    - qc specialist       # food/manufacturing QA, not software QA
+    - recipe
+    - designer            # whole-word: "Design Engineer" is untouched
+    - designers
+    - advisor
+    - coordinator
+
   # Drop seen-ids first observed more than this many days ago.
   prune_after_days: 90
 

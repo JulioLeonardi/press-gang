@@ -224,6 +224,35 @@ for title in ["Quality Assurance Engineer - Development",             # not "ass
               "Machine Learning Engineer", "DevOps Engineer"]:
     check(f"non-CS terms do not touch {title!r}", excluded(title), False)
 
+# Added with the company ATS boards: the noise they let through.
+for title in ["Account Development Representative, DACH & CEE", "Junior Recipe Developer (all genders)",
+              "Product Financial Controller, Balance Platform", "Fleet Development Analyst",
+              "Fleet Development Success - Key Accounts Specialist", "Customer Support Agent- IT",
+              "Merchant Security Expert with German and English", "Marketing Analyst - Growth & Analytics (M/F/X)",
+              "Restaurant Onboarding Specialist - Data Validation", "Commerce Platform Account Specialist - Thessaloniki",
+              "Retail Development Associate", "Procurement Systems Analyst",
+              "Associate (AI) Solution Consultant (DACH) - Orbit Program", "Site QA/QC Specialist (f/m/x)",
+              "New Grad 2026: Associate Product Designer", "HQ -  AI Business Analyst"]:
+    check(f"drops non-CS role {title!r}", excluded(title), True)
+
+# And their traps: the bare word each phrase above was narrowed from.
+for title in ["Python AI Agent Engineer (Mid-level)",                        # not "agent"
+              "Software Engineer - Kubernetes Specialist", "Devops Specialist F/H",  # not "specialist"
+              "Consultant Cybersecurite OT (H/F)",                          # not "consultant"
+              "New Grad 2026: Software Engineer (Commerce Ads)",             # not "commerce"
+              "Quantitative Strategy Developer New Grad",                   # not "strategy"
+              "ASIC Design Engineer - Cache Controller",                    # not "controller"
+              "Kotlin Backend Engineer - Retail Group",                     # not "retail"
+              "Kotlin/Java Developer (Merchant Response)",                  # not "merchant"
+              "New Grad 2026: Backend Software Engineer (Customer Service Platform)",  # not "customer service"
+              "Security Analyst (compliance and controls)",                 # not "compliance"
+              "Software Engineer, Stripe Tax", "Finance Data Engineer",
+              "Fullstack Software Engineer (x/f/m) - Payroll & Benefits Platform for HR",
+              "IT Operations Engineer, Intelligent Platforms Alliance",
+              "Account Solution Engineer", "Customer Success Engineer",
+              "Analytics Engineer I - AI & Data Enablement"]:
+    check(f"new exclusions do not touch {title!r}", excluded(title), False)
+
 # --- eu_parquet row transform -----------------------------------------------
 # The transform only; _fetch_eu_parquet's HTTP range reads are not exercised.
 from fetch import eu_rows_to_postings  # noqa: E402
@@ -472,6 +501,19 @@ check("';'-joined locations are split so the EU part can match past a US part",
       gh_semicolon[0]["location"], "United States (Remote) | Spain (Remote)")
 check("... and filter_postings then keeps it on the Spain part",
       [p["id"] for p in filter_postings(gh_semicolon, config, settings)], [gh_semicolon[0]["id"]])
+
+# Company boards are EU-only. Amazon + unknown flag would pass as a known
+# sponsor from any other source.
+check("ATS postings are marked eu_only", gh_jobs[0].get("eu_only"), True)
+board_us = dict(gh_jobs[0], id="board-us", company="Amazon", location="Seattle, WA")
+board_multi = dict(gh_jobs[0], id="board-multi", company="Amazon", location="Seattle, WA | Berlin, Germany")
+repo_us = {k: v for k, v in board_us.items() if k != "eu_only"} | {"id": "repo-us"}
+check("eu_only: a US-only role is dropped, even at a known sponsor; the same role from a repo is kept",
+      [p["id"] for p in filter_postings([board_us, board_multi, repo_us], config, us_settings, sponsor_cfg)],
+      ["board-multi", "repo-us"])
+check("eu_only: a US part is skipped, not fatal -- the Berlin part still matches as EU",
+      [p["match_reason"] for p in filter_postings([dict(board_multi)], config, us_settings, sponsor_cfg)],
+      ["EU location"])
 
 print()
 if failures:

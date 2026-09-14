@@ -104,6 +104,10 @@ def _posting(ats: str, board: str, company: str, key: str, title: str,
         "active": True,
         "ats_key": key,
         "seed_group": f"ats/{ats}/{board}",
+        # Company boards list every level of role in every country. Their US
+        # roles were mostly not new-grad, and the US repos already cover
+        # US new-grad hiring, so only EU locations count here.
+        "eu_only": True,
     }
 
 

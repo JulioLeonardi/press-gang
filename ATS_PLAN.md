@@ -201,10 +201,13 @@ Built: `src/ats.py` (Lever joined because two gap companies use it), an `adapter
 
 **Exit (met):** a live dry run fetched 3,686 postings from the 20 boards. The title screen kept 502, and 121 matched after dedupe. All 121 were recorded silently, and the notify list was identical to the run without the source.
 
-**Open follow-ups:**
+**Follow-ups — done:**
 
-- **Title noise:** ~20 of the source's 223 matches are non-CS roles that pass the shared title list ("Account Development Representative", "Junior Recipe Developer", "Product Financial Controller, Balance Platform"). The list is shared with Aramente, so tune it with the usual both-pools check.
-- **US matches:** the source adds ~70 US known-sponsor matches (30 from Stripe), mostly not new-grad. Decide whether it should be EU-only.
+- **US matches → EU-only.** The source was adding ~70 US known-sponsor matches (30 from Stripe), mostly not new-grad. ATS postings now carry `eu_only`, and `filter_postings` skips their US location parts, so a "Seattle | Berlin" role still matches on Berlin.
+- **Title noise → 24 new exclusions** in `exclude_title_patterns`: `representative`, plus phrases like `fleet development`, `support agent` and `financial controller`.
+  - Each term was probed against the full match pool of all four sources. Together they remove 55 of 2,666 matches, all non-CS: 29 company-board, 26 from the other three sources.
+  - Bare words rejected as traps are recorded in the config and guarded by tests: `specialist`, `consultant`, `agent`, `commerce`, `strategy`, `controller` and others.
+  - With both changes, the company boards yield 136 EU matches, down from 223.
 
 The original Phase 2 spec follows.
 
