@@ -160,6 +160,10 @@ def filter_postings(
             # US takes precedence: many EU city names are also US cities
             # (Dublin CA, Berlin NH, Paris TX), so check US membership first.
             if matcher.is_us(part):
+                # Company boards (src/ats.py) are EU-only. A US part never
+                # qualifies, but another part of the same posting still can.
+                if posting.get("eu_only"):
+                    continue
                 flag = posting.get("sponsorship_flag", "unknown")
                 if flag == "no":
                     break  # explicit "no sponsorship" / citizenship required

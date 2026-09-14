@@ -225,9 +225,16 @@ def main() -> int:
 
     matches = filter_postings(postings, locations_config, settings, sponsors_config)
 
+    # One job listed by two sources shares an ats_key even when ids differ.
     by_id: dict[str, dict] = {}
+    keys: set[str] = set()
     for posting in matches:
-        by_id.setdefault(posting["id"], posting)
+        key = posting.get("ats_key")
+        if posting["id"] in by_id or (key and key in keys):
+            continue
+        by_id[posting["id"]] = posting
+        if key:
+            keys.add(key)
 
     selected = list(by_id.values())
     if args.max_age_days > 0:

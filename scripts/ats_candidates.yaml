@@ -1,0 +1,47 @@
+# Candidate boards for scripts/ats_coverage.py. Same shape as config/companies.yaml.
+#
+# Every board here was checked live on 2026-09-14: it returned real postings
+# under the right company name. Things found then and left out on purpose:
+#
+#   No public board found: Amazon, Google, Microsoft, Meta, Apple, Netflix,
+#     Uber, Bloomberg, SAP, Klarna, Revolut, Zalando, Booking.com, Glovo,
+#     Sourcegraph. (NVIDIA and Personio already reach Aramente via Workday and
+#     Welcome to the Jungle.)
+#   Same-name impostors: recruitee/google (sample board), recruitee/meta,
+#     recruitee/personio (sandbox), smartrecruiters/uber ("Test UAT"),
+#     greenhouse/traderepublic (a customer council), greenhouse/wise (US field sales).
+#   SmartRecruiters, no adapter: Wise, Delivery Hero. Aramente already has both,
+#     and 258 of Wise's Aramente links are keyless WTTJ URLs, so polling it would
+#     double-notify.
+#   Contentful: 4 roles, all UK/AU sales.
+#   bunq (recruitee/bunq): 14 roles, 0 EU CS matches. It was the only Recruitee
+#     candidate, so there is no Recruitee parser; re-add both if that changes.
+
+companies:
+  - {name: Adyen, ats: greenhouse, board: adyen}
+  - {name: Doctolib, ats: greenhouse, board: doctolib}
+  - {name: N26, ats: greenhouse, board: n26}
+  - {name: HelloFresh, ats: greenhouse, board: hellofresh}
+  - {name: SumUp, ats: greenhouse, board: sumup}
+  - {name: Monzo, ats: greenhouse, board: monzo}
+  - {name: Celonis, ats: greenhouse, board: celonis}
+  - {name: GitLab, ats: greenhouse, board: gitlab}
+  - {name: Typeform, ats: greenhouse, board: typeform}
+  - {name: Talkdesk, ats: greenhouse, board: talkdesk2}
+  - {name: Feedzai, ats: greenhouse, board: feedzai}
+  - {name: Cabify, ats: greenhouse, board: cabify}
+  - {name: Datadog, ats: greenhouse, board: datadog}
+  - {name: Grafana Labs, ats: greenhouse, board: grafanalabs}
+  - {name: Vercel, ats: greenhouse, board: vercel}
+  - {name: Stripe, ats: greenhouse, board: stripe}
+  - {name: Wolt, ats: greenhouse, board: wolt}
+  - {name: Mollie, ats: ashby, board: mollie}
+  - {name: Miro, ats: ashby, board: miro}
+  - {name: Back Market, ats: ashby, board: backmarket}
+  - {name: Deliveroo, ats: ashby, board: deliveroo}
+  # Doctolib answers on both Greenhouse and Ashby with near-identical counts,
+  # which usually means a migration in progress. Listed twice to compare.
+  - {name: Doctolib, ats: ashby, board: doctolib}
+  - {name: Spotify, ats: lever, board: spotify}
+  - {name: Pigment, ats: lever, board: pigment}
+  - {name: Job&Talent, ats: lever, board: jobandtalent}

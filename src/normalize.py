@@ -138,6 +138,36 @@ def _resolve_yearless(month: int, day: int, now: datetime) -> datetime | None:
     return None
 
 
+# The ATS's own job identifier, recognised in whatever URL a source links to.
+# Aramente links N26 through its careers site, but the Greenhouse id rides
+# along as ?gh_jid=, so the same job still yields the same key.
+_ATS_URL_PATTERNS = [
+    (re.compile(r"[?&]gh_jid=(\d+)"), "gh:{0}"),
+    (re.compile(r"greenhouse\.io/[^/?#]+/jobs/(\d+)"), "gh:{0}"),
+    (re.compile(r"jobs\.ashbyhq\.com/[^/?#]+/([0-9a-f-]{36})", re.IGNORECASE), "ashby:{0}"),
+    (re.compile(r"jobs\.lever\.co/[^/?#]+/([0-9a-f-]{36})", re.IGNORECASE), "lever:{0}"),
+    (re.compile(r"smartrecruiters\.com/v1/companies/[^/?#]+/postings/(\d+)"), "sr:{0}"),
+    (re.compile(r"jobs\.smartrecruiters\.com/[^/?#]+/(\d+)"), "sr:{0}"),
+    # Recruitee slugs are only unique within a company, so the company stays in.
+    (re.compile(r"//([^./]+)\.recruitee\.com/o/([^/?#]+)"), "recruitee:{0}/{1}"),
+    (re.compile(r"\.jobs\.personio\.(?:de|com)/job/(\d+)"), "personio:{0}"),
+]
+
+
+def ats_key(url: str) -> str | None:
+    """Cross-source dedupe key: the ATS job id in `url`, or None if there isn't one.
+
+    The same job reaches us through different URLs (a Greenhouse board link
+    from one source, a careers-site link from another), so this -- not the
+    URL -- is what says two postings are one job.
+    """
+    for pattern, template in _ATS_URL_PATTERNS:
+        match = pattern.search(url or "")
+        if match:
+            return template.format(*(g.lower() for g in match.groups()))
+    return None
+
+
 def make_id(company: str, title: str, date_mmddyyyy: str) -> str:
     """Stable dedupe key: normalized company + title + MMDDYYYY posting date.
 

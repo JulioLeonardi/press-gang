@@ -1,9 +1,10 @@
 # Source repos to watch.
 #
-# adapter: "simplify_json" | "markdown_table" | "eu_parquet"
+# adapter: "simplify_json" | "markdown_table" | "eu_parquet" | "ats"
 #   simplify_json  -> Simplify-style listings.json (list of posting objects)
 #   markdown_table -> README with a | Company | Role | Location | Link | Date | table
 #   eu_parquet     -> Aramente/eu-tech-jobs daily Parquet snapshot (see below)
+#   ats            -> company Greenhouse/Ashby/Lever boards from config/companies.yaml
 #
 # A failing source is logged and skipped; it never aborts the run.
 
@@ -79,7 +80,8 @@ sources:
       # were all tried and rejected -- see the note in fetch.py for what each
       # one dragged in. Matched whole-word against the normalized (lowercased,
       # de-accented) title, so "ai" does not fire inside "email".
-      require_title_patterns:
+      # &cs_title_patterns: the `ats` source below reuses this exact list.
+      require_title_patterns: &cs_title_patterns
         # --- English core ------------------------------------------------
         - software
         - engineer
@@ -231,7 +233,7 @@ sources:
 
       # Consulted only for rows with NO seniority tag. Whole-word against the
       # normalized title. This is the filter that actually moves the number.
-      senior_title_patterns:
+      senior_title_patterns: &senior_title_patterns
         - senior
         - sr
         - staff
@@ -258,6 +260,19 @@ sources:
         - decoration
         - textile
         - retail-luxury
+
+  # Company ATS boards polled directly (src/ats.py), one group per board in
+  # config/companies.yaml. A board's open roles are recorded silently the first
+  # time it appears, so adding a company never floods the channel. Roles
+  # Aramente also carries are deduped on the ATS job id (ats_key). See
+  # ATS_PLAN.md and scripts/ats_coverage.py for how companies are chosen.
+  - name: ats
+    adapter: ats
+    companies: config/companies.yaml
+    options:
+      # Shared with Aramente above via YAML anchors, so the two screens can't drift.
+      require_title_patterns: *cs_title_patterns
+      senior_title_patterns: *senior_title_patterns
 
   # NOTE: the two Summer2026-Internships repos (SimplifyJobs + vanshb03) were
   # dropped Aug 2026. exclude_title_patterns discarded ~1,850 of their rows per
@@ -425,6 +440,47 @@ settings:
     - charge de communication
     - social media
     - brand manager
+
+    # Added with the company ATS boards (Sept 2026), which list every role a
+    # company has. Each term was probed against the full match pool of all four
+    # sources (2,666 matches) and removes no CS role. Phrases rather than bare
+    # words wherever the bare word was a trap:
+    #   "specialist" -> Devops / Network Security / Kubernetes Specialist
+    #   "consultant" -> Thales cybersecurity consultants
+    #   "agent"      -> 13 AI Agent engineering roles  (phrase: support agent)
+    #   "commerce"   -> 45 TikTok E-commerce new-grad roles
+    #   "strategy"   -> "Quantitative Strategy Developer New Grad"
+    #   "controller" -> "ASIC Design Engineer - Cache Controller"
+    #   "retail"     -> "Kotlin Backend Engineer - Retail Group"
+    #   "merchant"   -> "Kotlin/Java Developer (Merchant Response)"
+    #   "customer service" -> "Backend Software Engineer (Customer Service Platform)"
+    #   "compliance" -> "Security Analyst (compliance and controls)"
+    #   "tax", "finance", "hr", "payroll", "operations", "expert", "account",
+    #   "success", "enablement" -> each hits a real engineering title
+    - representative      # Account/Sales Development Representative
+    - representatives
+    - account specialist
+    - key accounts        # "key account" above is whole-word, so no plural match
+    - fleet development
+    - retail development
+    - solution consultant # presales graduate programs
+    - business analyst
+    - business partner
+    - marketing analyst
+    - people analytics
+    - procurement
+    - financial controller
+    - merchant security
+    - support agent
+    - customer service specialist
+    - onboarding specialist
+    - implementation specialist
+    - qc specialist       # food/manufacturing QA, not software QA
+    - recipe
+    - designer            # whole-word: "Design Engineer" is untouched
+    - designers
+    - advisor
+    - coordinator
 
   # Drop seen-ids first observed more than this many days ago.
   prune_after_days: 90

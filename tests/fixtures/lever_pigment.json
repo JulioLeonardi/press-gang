@@ -1,0 +1,56 @@
+[
+ {
+  "id": "0aede960-d9cd-45c1-92e4-82e3cb3b2ae2",
+  "text": "Data Engineer (Growth Team)",
+  "categories": {
+   "commitment": "Full Time",
+   "department": "Business",
+   "location": "Paris",
+   "team": "Growth",
+   "allLocations": [
+    "Paris"
+   ]
+  },
+  "createdAt": 1771504539088,
+  "hostedUrl": "https://jobs.lever.co/pigment/0aede960-d9cd-45c1-92e4-82e3cb3b2ae2",
+  "applyUrl": "https://jobs.lever.co/pigment/0aede960-d9cd-45c1-92e4-82e3cb3b2ae2/apply",
+  "workplaceType": "hybrid",
+  "country": "FR"
+ },
+ {
+  "id": "15e7b82c-ebf3-477c-96b5-96a3b25e0663",
+  "text": "AI Deployment Strategist",
+  "categories": {
+   "commitment": "Full Time",
+   "department": "Professional Services",
+   "location": "Toronto",
+   "team": "Professional Services",
+   "allLocations": [
+    "Toronto"
+   ]
+  },
+  "createdAt": 1780928249924,
+  "hostedUrl": "https://jobs.lever.co/pigment/15e7b82c-ebf3-477c-96b5-96a3b25e0663",
+  "applyUrl": "https://jobs.lever.co/pigment/15e7b82c-ebf3-477c-96b5-96a3b25e0663/apply",
+  "workplaceType": "hybrid",
+  "country": "CA"
+ },
+ {
+  "id": "1a9ccf1f-c28d-4ed4-ab40-d093eb8fee63",
+  "text": "AI Deployment Strategist",
+  "categories": {
+   "commitment": "Full Time",
+   "department": "Professional Services",
+   "location": "San Francisco",
+   "team": "Professional Services",
+   "allLocations": [
+    "San Francisco"
+   ]
+  },
+  "createdAt": 1780928201370,
+  "hostedUrl": "https://jobs.lever.co/pigment/1a9ccf1f-c28d-4ed4-ab40-d093eb8fee63",
+  "applyUrl": "https://jobs.lever.co/pigment/1a9ccf1f-c28d-4ed4-ab40-d093eb8fee63/apply",
+  "workplaceType": "hybrid",
+  "country": "US"
+ }
+]

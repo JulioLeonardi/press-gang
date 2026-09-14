@@ -15,3 +15,8 @@ env/
 .DS_Store
 .idea/
 .vscode/
+
+# Local planning notes, not part of the bot.
+CLAUDE.md
+SOURCES.md
+companies_seed_list.md
