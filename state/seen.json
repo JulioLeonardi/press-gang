@@ -2106,6 +2106,11 @@
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
       "title": "Technical Escalations Engineer 2 (Network Monitoring) - EMEA"
     },
+    "0ccc7c29eb915794": {
+      "company": "Charles Schwab",
+      "first_seen": "2026-09-15T22:41:51.108154+00:00",
+      "title": "Associate Java Developer"
+    },
     "0cd229aa14afd1b1": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
@@ -5180,6 +5185,11 @@
       "company": "Clyde Companies",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Business Intelligence Intern"
+    },
+    "1e787387cbd8483f": {
+      "company": "Apple",
+      "first_seen": "2026-09-15T22:41:51.108154+00:00",
+      "title": "Silicon Prototyping Engineer"
     },
     "1e8051241c9a3fea": {
       "company": "Transdev",
@@ -19773,6 +19783,11 @@
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Digital ASIC Implementation Engineer"
     },
+    "74934b27d28957d2": {
+      "company": "Charles Schwab",
+      "first_seen": "2026-09-15T22:41:51.108154+00:00",
+      "title": "Senior Specialist - AI Model Validation"
+    },
     "7495600bdf54570b": {
       "company": "VirtualExpo",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
@@ -30511,6 +30526,11 @@
       "first_seen": "2026-09-09T17:01:05.885861+00:00",
       "title": "Security Engineer, Corporate Security"
     },
+    "b532c2816e53c377": {
+      "company": "Dominion Energy",
+      "first_seen": "2026-09-15T22:41:51.108154+00:00",
+      "title": "Financial Data & Technology Analyst"
+    },
     "b534cf62d47878a8": {
       "company": "Accenture France",
       "first_seen": "2026-09-11T12:34:25.224224+00:00",
@@ -39503,6 +39523,12 @@
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "Package Failure Analysis Engineer"
     },
+    "e737caad694a6dd3": {
+      "ats_key": "lever:8851c6af-6a0f-4fc2-8805-8d8b266d1dd3",
+      "company": "Toyota Research Institute",
+      "first_seen": "2026-09-15T22:41:51.108154+00:00",
+      "title": "Machine Learning Research Scientist - Mechanical Intuition in Multimodal Models"
+    },
     "e73e64e520178f7b": {
       "company": "Susquehanna International Group (SIG)",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
@@ -40544,6 +40570,11 @@
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Integrated Insights Business Partner"
+    },
+    "ed3abe48353d59d6": {
+      "company": "Apple",
+      "first_seen": "2026-09-15T22:41:51.108154+00:00",
+      "title": "Systems Software Engineer"
     },
     "ed3b6dc79d3d4ab1": {
       "company": "Thales",
