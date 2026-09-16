@@ -2406,6 +2406,11 @@
       "first_seen": "2026-09-10T14:47:14.337333+00:00",
       "title": "Electrical & Electronics Engineer"
     },
+    "0e99d4eadf781061": {
+      "company": "Procter & Gamble",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Digital Product Owner"
+    },
     "0e9baca79b4817fc": {
       "company": "NEXTON",
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
@@ -5095,6 +5100,11 @@
       "company": "Safran Aircraft Engines",
       "first_seen": "2026-09-05T11:36:03.514197+00:00",
       "title": "Ingénieur-e logiciel bancs de test F/H"
+    },
+    "1dda2b4a71bdf2e8": {
+      "company": "Stanley Black & Decker",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Associate Product Manager - Combo Kits - Craftsman"
     },
     "1de6e7608d9eaa50": {
       "company": "Thales",
@@ -10319,6 +10329,11 @@
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Engineer 1"
     },
+    "3beab7d7118dbcb1": {
+      "company": "Axcelis Technologies",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Software Applications Engineer 1"
+    },
     "3bed4924fb08b004": {
       "company": "Scaleway",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -12996,6 +13011,11 @@
       "company": "Apple",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "Systems Software Engineer"
+    },
+    "4ce254917049d7d1": {
+      "company": "T-Mobile",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Associate Engineer - Agentic AI"
     },
     "4ce3b88f0cc6c4a9": {
       "company": "Workday",
@@ -21444,6 +21464,11 @@
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "Responsable Pôle Recettes et Comptabilité H/F"
     },
+    "7e68580d93ad94f2": {
+      "company": "Cummins",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Vehicle Integration Systems Electronics Engineer"
+    },
     "7e72c338f98a003b": {
       "company": "Etched",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -22234,6 +22259,11 @@
       "company": "Pennsylvania State University",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Computing Software Specialist - Platform Observability"
+    },
+    "83e3fc02a75677ce": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Manageability Firmware Engineer"
     },
     "83e4914d9772bcb9": {
       "company": "Stamp (W25)",
@@ -25959,6 +25989,12 @@
       "company": "Infojini",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "GIS Intern Analyst"
+    },
+    "9a075c0dbebfb0c6": {
+      "ats_key": "gh:6193466004",
+      "company": "Truveta",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Software Engineer - Analytical Platform Services"
     },
     "9a2a261595b9c2bd": {
       "company": "TWC - Rosk x Brigad",
@@ -38689,6 +38725,11 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Ingénieur conception mécanique h/f"
     },
+    "e285747a84bdd7cf": {
+      "company": "AMD",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Engineering Lab Operator"
+    },
     "e28b387b209a989c": {
       "company": "Veeva Systems",
       "first_seen": "2026-09-02T10:34:08.176345+00:00",
@@ -40265,6 +40306,11 @@
       "company": "The Hartford",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Data Engineer Intern - Tech & Data Program"
+    },
+    "ebd75e2faaa6246d": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Data Engineer - Career Accelerator Program"
     },
     "ebdf4ce006ef5356": {
       "company": "Baker Hughes",
@@ -43153,6 +43199,12 @@
       "company": "Scortex",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "MLOps Engineer"
+    },
+    "fb233eb887394854": {
+      "ats_key": "ashby:8cb78937-ac30-4ab2-98d0-680228ea5e6f",
+      "company": "Cerebras",
+      "first_seen": "2026-09-16T01:02:58.564596+00:00",
+      "title": "Software Engineer - Kernel Reliability"
     },
     "fb25385bfc8c403a": {
       "company": "Asana",
