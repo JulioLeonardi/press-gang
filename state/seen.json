@@ -24651,6 +24651,12 @@
       "first_seen": "2026-09-05T11:36:03.514197+00:00",
       "title": "Data Engineer  F/H/X"
     },
+    "908cd970f7d3999e": {
+      "ats_key": "gh:8207750",
+      "company": "DRW",
+      "first_seen": "2026-09-17T03:17:06.381010+00:00",
+      "title": "Floor Trader"
+    },
     "908ebf7d5044e38c": {
       "company": "John Deere",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
@@ -30508,6 +30514,11 @@
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "QA Analyst"
     },
+    "b32b75117f426dab": {
+      "company": "Visa",
+      "first_seen": "2026-09-17T03:17:06.381010+00:00",
+      "title": "Associate Product Manager New Grad - Multiple Teams"
+    },
     "b335ad2d54887bcf": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -31352,6 +31363,11 @@
       "company": "mc2i",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "ServiceNow Consultant"
+    },
+    "b7c4b783e6f912f5": {
+      "company": "Charles Schwab",
+      "first_seen": "2026-09-17T03:17:06.381010+00:00",
+      "title": "Senior Risk Analytics and Modeling Specialist"
     },
     "b7c8e47be0ca639e": {
       "company": "IBM",
@@ -42969,6 +42985,11 @@
       "company": "Bertelsmann",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Data Center Installer"
+    },
+    "f7cce946c9fd6cae": {
+      "company": "Applied Materials",
+      "first_seen": "2026-09-17T03:17:06.381010+00:00",
+      "title": "AI Materials Research Engineer"
     },
     "f7dd4ecc12962f2f": {
       "company": "Gotion",
