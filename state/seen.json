@@ -4026,6 +4026,11 @@
       "first_seen": "2026-08-25T12:40:25.884588+00:00",
       "title": "Software Engineer 1"
     },
+    "1784577cb6634cbc": {
+      "company": "Adobe",
+      "first_seen": "2026-09-17T23:53:25.538457+00:00",
+      "title": "Applied Scientist"
+    },
     "1784f7a3e732ac6b": {
       "company": "Kombo",
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
@@ -4268,6 +4273,11 @@
       "company": "GlobalFoundries",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
       "title": "RF Technology Development Engineer Principal Engineer"
+    },
+    "190eec55c769aa69": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-17T23:53:25.538457+00:00",
+      "title": "ASIC Digital Design Engineer New Grad"
     },
     "191a275ae641ec13": {
       "company": "EY",
@@ -22401,6 +22411,11 @@
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Application Development Intern"
     },
+    "82b4878036e27f1d": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-17T23:53:25.538457+00:00",
+      "title": "AI Compiler Engineer New Grad"
+    },
     "82bc41e85de4ba6f": {
       "company": "AMD",
       "first_seen": "2026-08-21T06:40:06.643649+00:00",
@@ -34072,6 +34087,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Field Technician C"
     },
+    "c562a53c063f3d88": {
+      "company": "Cleveland Clinic",
+      "first_seen": "2026-09-17T23:53:25.538457+00:00",
+      "title": "Software Developer 1"
+    },
     "c5690b3e991dfd23": {
       "company": "Onto Innovation",
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
@@ -42414,6 +42434,11 @@
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "GIS and Data Analysis Assistant"
     },
+    "f30da2f23966368b": {
+      "company": "Toyota",
+      "first_seen": "2026-09-17T23:53:25.538457+00:00",
+      "title": "Associate SAP Data Analyst - Data and Analytics"
+    },
     "f314e91d1e08817b": {
       "company": "Innodata",
       "first_seen": "2026-09-12T00:52:44.972027+00:00",
@@ -43805,6 +43830,11 @@
       "company": "Cboe",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Associate Software Engineer - Web"
+    },
+    "facb47365141a3b0": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-17T23:53:25.538457+00:00",
+      "title": "AI Infrastructure & HBM Architecture Engineer New Grad"
     },
     "facb4e90b2675b07": {
       "company": "The Nuclear Company",
