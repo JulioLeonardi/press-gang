@@ -1705,6 +1705,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Hardware Engineer Intern"
     },
+    "09ddd71c237f0e56": {
+      "company": "AstraZeneca",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Workforce Data Specialist - French"
+    },
     "09f00f3573031cbf": {
       "company": "Atos",
       "first_seen": "2026-09-09T12:42:27.975721+00:00",
@@ -2458,6 +2463,11 @@
       "company": "GlobalFoundries",
       "first_seen": "2026-09-04T23:41:20.502615+00:00",
       "title": "Software Engineer - Cloud Platform"
+    },
+    "0e2e091bf14a3904": {
+      "company": "eXalt",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Data engineer Azure Databricks"
     },
     "0e3025ad2f33567d": {
       "company": "University of St. Thomas",
@@ -4503,6 +4513,11 @@
       "company": "Les Filles & Les Garçons de la Tech",
       "first_seen": "2026-09-08T13:17:37.660070+00:00",
       "title": "Administrateur.trice plateforme Kubernetes"
+    },
+    "19a8b073e7069e2a": {
+      "company": "Bpifrance",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Chargé de mission Adoption de l'IA des clients PME-ETI F/H"
     },
     "19b8b1439c8c5c3b": {
       "company": "opper",
@@ -9496,6 +9511,12 @@
       "company": "Synchrony Financial",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
       "title": "Data Analytics Intern"
+    },
+    "34f1fa94e1514623": {
+      "ats_key": "gh:8220473",
+      "company": "Datadog",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Developer Advocate - Service Management EMEA"
     },
     "34f822fff8e61f53": {
       "company": "Jabil",
@@ -14502,6 +14523,11 @@
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Business Intelligence Developer"
     },
+    "51766cce598bc7d4": {
+      "company": "Capgemini",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Responsable de projet IT"
+    },
     "51856efbbd406e15": {
       "company": "Thales",
       "first_seen": "2026-09-12T16:43:24.875958+00:00",
@@ -18108,6 +18134,11 @@
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
       "title": "Traffic and Revenue Engineer"
     },
+    "6666f62bae2a00ee": {
+      "company": "Capgemini",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Architecte Craft / Logiciel"
+    },
     "6667e5d02c67659b": {
       "company": "Thales",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
@@ -20407,6 +20438,11 @@
       "company": "Intersection",
       "first_seen": "2026-08-25T07:40:43.965301+00:00",
       "title": "Digital Field Technician - Night Shift"
+    },
+    "733d66ebfd829005": {
+      "company": "Capgemini",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Architecte Cloud"
     },
     "73593f48634f2056": {
       "company": "Elastic",
@@ -30347,6 +30383,11 @@
       "first_seen": "2026-09-11T12:34:25.224224+00:00",
       "title": "Architecte logiciel embarqué bas niveau"
     },
+    "abe462af6286d374": {
+      "company": "MARGO",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Commando C# – Front Office | Practice Capital Market Technologies MARGO"
+    },
     "abf12ed1e101f7df": {
       "company": "Linking Talents",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -32070,6 +32111,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Responsable de Lots Industrialisation (F/H)"
+    },
+    "b5a7ee5e2778449c": {
+      "company": "MARGO",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Développeur C++ - Front Office |  Practice SE MARGO"
     },
     "b5a94b4cbe0662cf": {
       "company": "Output Biosciences",
@@ -36786,6 +36832,11 @@
       "first_seen": "2026-09-10T00:48:48.107051+00:00",
       "title": "Machine Learning Systems Engineer - Data Labeling Engineering"
     },
+    "cee125376564f380": {
+      "company": "MARGO",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Développeur Java |  Practice SE MARGO"
+    },
     "cee217d31f88e75e": {
       "company": "Adyen",
       "first_seen": "2026-09-11T12:34:25.224224+00:00",
@@ -37751,6 +37802,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Backend Inference Runtime Engineer New Grad - AML Inference"
+    },
+    "d46f518b3b833811": {
+      "company": "Capgemini",
+      "first_seen": "2026-09-21T21:40:54.382063+00:00",
+      "title": "Architecte Data"
     },
     "d4704bab6ed39dc7": {
       "company": "Medable",
