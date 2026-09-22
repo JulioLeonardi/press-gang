@@ -6577,6 +6577,11 @@
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieur Capacity Planning Mainframe (z/OS) - Pôle Tech Foundation H/F"
     },
+    "2492b2e3e39518bd": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Compiler Engineer - Agentic Compilation Systems"
+    },
     "249416e969597657": {
       "company": "John Cockerill",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
@@ -9230,6 +9235,11 @@
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Quantitative Trader Intern"
     },
+    "33724b37ff40ffc8": {
+      "company": "ViaSat",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Systems Test Engineer"
+    },
     "337343fc20aa40ee": {
       "company": "METECS",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
@@ -11169,6 +11179,11 @@
       "company": "Tyson Foods",
       "first_seen": "2026-09-04T05:26:51.111189+00:00",
       "title": "IT Product Owner 1"
+    },
+    "3e4d384c3e8776bc": {
+      "company": "State Street",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Software Engineer Junior - REST API Development - Officer"
     },
     "3e507fcc875a9d00": {
       "company": "TikTok",
@@ -18160,6 +18175,11 @@
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
       "title": "Manufacturing Test Electronics"
     },
+    "668194f8a33e32bb": {
+      "company": "Super Micro Computer",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Hardware Design Engineer"
+    },
     "6682b4584dbaa6c3": {
       "company": "Jump Trading",
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
@@ -19440,6 +19460,12 @@
       "first_seen": "2026-09-20T13:55:15.459335+00:00",
       "title": "Administrateur systèmes et sécurité"
     },
+    "6e0347d53e0a51cd": {
+      "ats_key": "sr:3743990015538268",
+      "company": "AbbVie",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Associate AI Data Scientist 1 - FAiM Team"
+    },
     "6e085312735962d5": {
       "company": "Philips Health Technology Innovation Paris",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
@@ -19895,6 +19921,11 @@
       "company": "GE Healthcare",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Client Service Technician Apprentice"
+    },
+    "7093571d9ddd325e": {
+      "company": "Rockwell Automation",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Leadership Development Program - Product Engineering & Development"
     },
     "7094991ca584badb": {
       "company": "Salesforce",
@@ -26566,6 +26597,11 @@
       "first_seen": "2026-09-16T13:05:04.822696+00:00",
       "title": "GIS Engineer / Software Developer (Python, DevOps, DB Knowledge)"
     },
+    "96a0ed051e35680b": {
+      "company": "Apple",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Firmware Engineer - HID Bluetooth"
+    },
     "96a48dc39ef8d65e": {
       "company": "Roblox",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
@@ -30132,6 +30168,11 @@
       "first_seen": "2026-08-18T10:24:18.710632+00:00",
       "title": "Product Manager Intern - Business Integrity"
     },
+    "aa2e530e5881104b": {
+      "company": "Mass General Brigham",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Data Analyst - TMS"
+    },
     "aa391dbdd0617920": {
       "company": "Tesla",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
@@ -30146,6 +30187,11 @@
       "company": "Noom",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
       "title": "Agentic Engineer New Grad"
+    },
+    "aa42182ea840d609": {
+      "company": "Stryker",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Electrical Design Engineer"
     },
     "aa48a8bd62954002": {
       "company": "Neo4j",
@@ -35892,6 +35938,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Full-Stack Intern"
     },
+    "c9624e43949cefa4": {
+      "company": "F5",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Data Analyst 1"
+    },
     "c969793c0e92046a": {
       "company": "Thales",
       "first_seen": "2026-09-10T18:03:23.438210+00:00",
@@ -37020,6 +37071,11 @@
       "company": "NTT DATA",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
       "title": "Junior Cybersecurity System Engineer"
+    },
+    "cfb7d61b579212f3": {
+      "company": "Gannett Fleming",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Associate Software Developer"
     },
     "cfbf625158fbb628": {
       "company": "Notion",
@@ -43898,6 +43954,11 @@
       "company": "iFLIP4",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
       "title": "Back End Developer"
+    },
+    "f4ada6bb5190a881": {
+      "company": "Qualcomm",
+      "first_seen": "2026-09-22T05:49:54.568433+00:00",
+      "title": "Backend Software Engineer - Software Engineering"
     },
     "f4bea02edb21b8a0": {
       "company": "MARGO",
