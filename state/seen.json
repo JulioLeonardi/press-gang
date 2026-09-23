@@ -703,6 +703,16 @@
       "first_seen": "2026-08-26T08:39:03.715410+00:00",
       "title": "Chef de chantier GC F/H"
     },
+    "03daa6cfcd6572ad": {
+      "company": "Safran",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "EXTERNE - Ingénieur de recherche en IA F/H"
+    },
+    "03dc92403fb36539": {
+      "company": "NTT DATA",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Prácticas universitarias NTT DATA"
+    },
     "03e16fc212e6fd8c": {
       "company": "ByteDance",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
@@ -1062,6 +1072,12 @@
       "company": "RTX",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "FPGA Engineer 1 - Airborne RF Electronics Design"
+    },
+    "0622ed4a7c92284b": {
+      "ats_key": "gh:4918986101",
+      "company": "Nebius",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Detection Engineering & Response Engineer"
     },
     "0629e6a28967b974": {
       "company": "Matters",
@@ -2775,6 +2791,11 @@
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "AI Engineer"
     },
+    "0f6e38226bda27c7": {
+      "company": "Accenture France",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "AI Native Engineer"
+    },
     "0f7353d2c23e0627": {
       "company": "Crédit Agricole CIB",
       "first_seen": "2026-09-13T13:37:43.086111+00:00",
@@ -3338,6 +3359,11 @@
       "first_seen": "2026-09-09T12:42:27.975721+00:00",
       "title": "Développeur.se Fullstack Java / Web H/F"
     },
+    "12b144103e239f25": {
+      "company": "Linking Talents",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Gestionnaire ADV - SAP Anglais H/F"
+    },
     "12b1c8b05565ce87": {
       "company": "TikTok",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
@@ -3572,6 +3598,11 @@
       "company": "Altice USA",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Software Dev Engineer I"
+    },
+    "14214b34691c1edb": {
+      "company": "Safran",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Data Engineer AWS / Snowflake Expérimenté-e F/H"
     },
     "14255a703e1bbf57": {
       "company": "Webnet",
@@ -4190,6 +4221,11 @@
       "company": "T-Rex Solutions",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Web Developer"
+    },
+    "17beabba1f23d404": {
+      "company": "ArianeGroup",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "CDI - Data Engineer (F/H)"
     },
     "17c0f63e2bcaf22a": {
       "company": "Mapjects",
@@ -6009,6 +6045,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Investment Associate - Quantitative Research - Investment Solutions"
     },
+    "2148ded606726838": {
+      "company": "BPCE INFOGERANCE & TECHNOLOGIES",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Responsable Adjoint Sécurité Cloud & Containers (F/H)"
+    },
     "214c5c7834bc1dc1": {
       "company": "Invopop",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
@@ -6023,6 +6064,11 @@
       "company": "Openai",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Forward Deployed Security Engineer"
+    },
+    "2156754f4852dbf9": {
+      "company": "The Adecco Group",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Ingénieur DevOps H/F"
     },
     "216278adcad4ee61": {
       "company": "Relativity Space",
@@ -7201,6 +7247,11 @@
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Graduate Expert Engineer – Anaerobic Digestion"
     },
+    "27952ee66cd6789a": {
+      "company": "The Adecco Group",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Développeur backend Java - Cannes H/F"
+    },
     "279766182efea9b0": {
       "company": "TRUCKING PEOPLE",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
@@ -7954,6 +8005,12 @@
       "first_seen": "2026-09-08T17:43:54.715027+00:00",
       "title": "Product & Platform Engineering Analyst"
     },
+    "2bb48c5e554d30ad": {
+      "ats_key": "ashby:21ee6dd3-dcd0-425a-91e9-34a23ab3e434",
+      "company": "Openai",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Applied AI Engineer, Codex"
+    },
     "2bb825f08b9797ce": {
       "company": "Cosine",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
@@ -8178,6 +8235,11 @@
       "company": "SAFRAN POWER UNITS",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Ingénieur(e) Expérimenté(e) Performance Turbomachines F/H"
+    },
+    "2d17a944d0cbe429": {
+      "company": "ArianeGroup",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "CDI - Expert/ Experte Réseaux - Infrastructures Critiques"
     },
     "2d1a2e383ac3c97f": {
       "company": "TikTok",
@@ -8730,6 +8792,11 @@
       "company": "SIG",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "New Grad: Software Developer"
+    },
+    "30b00800e4b72c73": {
+      "company": "ArianeGroup",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "CDI - Ingénieur en Maitrise d'Œuvre et Développement Infrastructure (F/H)"
     },
     "30c6575c2e23a4e5": {
       "company": "Deloitte",
@@ -9800,6 +9867,11 @@
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Data Knowledge System Research Scientist Graduate - Data Platform-Global Live"
     },
+    "365e21416c3a09c3": {
+      "company": "Evaneos",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Platform Engineer (DevOps/SRE)"
+    },
     "3668f59103a2c5c1": {
       "company": "Texas A&M Transportation Institute",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
@@ -10462,6 +10534,11 @@
       "company": "Diversified Automation",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Software Engineering Co-op"
+    },
+    "39880293323e640f": {
+      "company": "Bouygues Telecom",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Architecte Cloud F/H"
     },
     "3989d4a7e24334f4": {
       "company": "ElevenLabs",
@@ -11218,6 +11295,11 @@
       "seeded": true,
       "title": "Analytics Engineer"
     },
+    "3df341dc383e9210": {
+      "company": "eXalt",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Administrateur Kubernetes"
+    },
     "3df7e3a03a682e95": {
       "company": "TransMarket Group",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
@@ -11448,6 +11530,11 @@
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "Algorithm Development Engineer"
     },
+    "3f2dbbdbc9ac86ab": {
+      "company": "Accenture France",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Junior AI Native Engineer"
+    },
     "3f39989fbc65c193": {
       "company": "TikTok",
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
@@ -11604,6 +11691,11 @@
       "company": "Accenture",
       "first_seen": "2026-09-01T22:58:42.327231+00:00",
       "title": "Associate Software Engineer - Pega"
+    },
+    "3fd400dad8ea6946": {
+      "company": "AMD",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "CPU Architecture and RTL Design Engineer"
     },
     "3fd641cb02781d1a": {
       "company": "Micron Technology",
@@ -13133,6 +13225,11 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Junior Product Engineer - Run / TMA"
     },
+    "49117936dd5bce8c": {
+      "company": "Capgemini",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Data Engineer confirmé"
+    },
     "49205f23b079b659": {
       "company": "eXalt",
       "first_seen": "2026-09-18T13:21:58.233313+00:00",
@@ -13924,6 +14021,11 @@
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Agent Technique H/F"
     },
+    "4dd266fbac2241f8": {
+      "company": "SUEZ",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Opérateur réseaux - H/F"
+    },
     "4dd5aa2ee2cf8691": {
       "company": "Anduril",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
@@ -14564,6 +14666,11 @@
       "first_seen": "2026-09-21T17:51:26.321619+00:00",
       "title": "Consultant expérimenté Data & AI Governance (F/H)"
     },
+    "50e96af7ebfe4efb": {
+      "company": "Safran",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Apprentissage outil logiciel de génération de procédures de test F/H"
+    },
     "50f13c5eb8069a2b": {
       "company": "B-HIVE",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -15077,6 +15184,11 @@
       "company": "Cigna Group",
       "first_seen": "2026-09-10T00:48:48.107051+00:00",
       "title": "Technology Development Program Associate - Data & Analytics Engineering Track"
+    },
+    "545d57f067a07a50": {
+      "company": "NTT DATA",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "¡Únete a NTT DATA!"
     },
     "545ded915a630c43": {
       "company": "M.C. Dean",
@@ -15597,6 +15709,12 @@
       "first_seen": "2026-08-25T01:03:30.610318+00:00",
       "title": "Machine Learning Engineer Graduate - E-Commerce Risk Control - PhD"
     },
+    "574f65469e04dc3a": {
+      "ats_key": "ashby:6a7cedbd-0a7c-4f3e-8389-55357ad444b3",
+      "company": "Openai",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Applied AI Engineer, Codex"
+    },
     "5752197fff5af494": {
       "ats_key": "gh:8816447002",
       "company": "Wayve",
@@ -16032,6 +16150,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "Data Modeling Analyst/Associate - Analytics Development Program"
     },
+    "59c95956cb8bda99": {
+      "company": "Capgemini",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Ingénieure / Ingénieur DevOps"
+    },
     "59d0e63dfb38831b": {
       "company": "Dynatrace",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
@@ -16168,6 +16291,11 @@
       "company": "Zoro",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
       "title": "Full Stack Software Developer"
+    },
+    "5a8af509c8b620d1": {
+      "company": "Business At Work part of Mantu",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Chef de Projet ERP (H/F)"
     },
     "5a8e0fa878182aaf": {
       "company": "Amentum",
@@ -16804,6 +16932,11 @@
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "AI Product Manager Graduate - Product Social"
     },
+    "5dedc72f7ec2a072": {
+      "company": "Wyll",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Ingénieur Cloud (Confirmé à Expert) - Multi-Cloud (AWS, GCP, Azure, Scaleway)"
+    },
     "5df052fd86e5f37d": {
       "company": "Onto Innovation",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
@@ -16913,6 +17046,12 @@
       "company": "AVI-SPL",
       "first_seen": "2026-08-20T09:30:37.108491+00:00",
       "title": "AV Support Technician"
+    },
+    "5e99db324d902409": {
+      "ats_key": "gh:8223398",
+      "company": "Mozilla",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Contract Software Engineer - WebCompat Tooling (Dashboards and Reporting), Firefox"
     },
     "5e9b402b80288f47": {
       "ats_key": "gh:7795949003",
@@ -18116,6 +18255,11 @@
       "company": "WEC Energy Group",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Energy Analytics Intern"
+    },
+    "6569e0a58c5e8e48": {
+      "company": "Maison MGA",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Chargé.e de déploiement IA"
     },
     "656b50a1ea26e034": {
       "company": "Illinois Tool Works",
@@ -19504,6 +19648,11 @@
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Repair Technician - Support I"
     },
+    "6cf6d56a7e3b9980": {
+      "company": "beta.gouv.fr",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Développeur/développeuse Full stack Django/react Suite territoriale"
+    },
     "6cfdd6beb3400ed7": {
       "company": "Renesas Electronics",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
@@ -20821,6 +20970,11 @@
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Calibration Technician"
     },
+    "74202e8d84fc4042": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Software Engineer - Test Infrastructure & Automation"
+    },
     "7425ebaf60864ce3": {
       "company": "RWS",
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
@@ -21407,6 +21561,11 @@
       "company": "Innodata",
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "Generative AI Associate"
+    },
+    "773ec931902cf846": {
+      "company": "Wyll",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Ingénieur DevOps (Confirmé à Expert) - Toulouse"
     },
     "77484e0a757eee84": {
       "company": "ByteDance",
@@ -22360,6 +22519,11 @@
       "first_seen": "2026-09-10T14:47:14.337333+00:00",
       "title": "Ingénieure / Ingénieur logiciel fullstack"
     },
+    "7ce5b40950d6d727": {
+      "company": "NTT DATA",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Technical Services Engineer"
+    },
     "7ce6f836aaa6ee65": {
       "company": "Thales",
       "first_seen": "2026-09-22T15:25:00.833736+00:00",
@@ -22394,6 +22558,12 @@
       "company": "Listen too",
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
       "title": "UX Researcher - Lille"
+    },
+    "7d034eacb17244b5": {
+      "ats_key": "lever:83324c9d-48f3-4383-85a8-127064fb13d9",
+      "company": "Oxylabs",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Product Owner (Proxy & Network Infrastructure)"
     },
     "7d0bb13941d60072": {
       "ats_key": "gh:8053277",
@@ -23799,6 +23969,11 @@
       "company": "Planbase",
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Founding Engineer"
+    },
+    "852340c715902ea0": {
+      "company": "Amentum Clean Energy France SAS",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Developpeur informatique industriel CDI Lyon"
     },
     "8523c3f420f2dee5": {
       "company": "Heraeus Group",
@@ -28119,6 +28294,16 @@
       "seeded": true,
       "title": "Software Engineer - Digital Trust"
     },
+    "9d5847dd5fe3c163": {
+      "company": "Crédit Agricole",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Data Analyst / Cibleur Marketing – CRM H/F"
+    },
+    "9d5d3d579b7f7cd2": {
+      "company": "VIPARIS",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Administrateur(trice) de Contenus Web H/F/NB"
+    },
     "9d69f7194f9f9faf": {
       "company": "Magazino",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
@@ -28333,6 +28518,11 @@
       "company": "Flatchr",
       "first_seen": "2026-09-10T18:03:23.438210+00:00",
       "title": "🚀 Fullstack Developer (Node.js / React) – AI-Augmented (H/F)"
+    },
+    "9eb0c4d91d8618b8": {
+      "company": "ArianeGroup",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "CDI - Concepteur / Développeur simulateur temps-réel (F/H)"
     },
     "9eb2743d1fa7ed53": {
       "company": "Travelers",
@@ -30029,6 +30219,11 @@
       "first_seen": "2026-09-04T05:26:51.111189+00:00",
       "title": "AI Molecular Dynamics Algorithm Researcher Graduate - Seed AI for Science - Atomistic AI"
     },
+    "a80aefbf114bed75": {
+      "company": "NTT DATA",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Prácticas universitarias NTT DATA"
+    },
     "a80ba9a5544c20cb": {
       "company": "Adobe",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
@@ -30704,6 +30899,12 @@
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Ingénieur cybersécurité produits F/H/X"
     },
+    "abda133e616da949": {
+      "ats_key": "sr:744000151020689",
+      "company": "Wise",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Network Engineer - Platform Integrations EMEA"
+    },
     "abe048b2be8a6bd1": {
       "company": "Capgemini",
       "first_seen": "2026-09-11T12:34:25.224224+00:00",
@@ -31141,6 +31342,12 @@
       "company": "Thales",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Ingénieur Développement C++ - Systèmes Critiques (H/F)"
+    },
+    "ae4f4832d1853dba": {
+      "ats_key": "ashby:566a5565-925c-4367-9912-6b64841beba2",
+      "company": "Openai",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Applied AI Engineer, Codex"
     },
     "ae565e06cc03a84d": {
       "company": "Worldwide TechServices",
@@ -32272,6 +32479,11 @@
       "first_seen": "2026-09-21T17:51:26.321619+00:00",
       "title": "GPU Performance Engineer – AI Kernels"
     },
+    "b4de35b2a4110525": {
+      "company": "Lemon Learning",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "AI Product Engineer"
+    },
     "b4deca794527ac56": {
       "company": "Cosine",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -33232,6 +33444,11 @@
       "first_seen": "2026-09-11T12:34:25.224224+00:00",
       "title": "Software Engineer Fullstack"
     },
+    "b96e2d5de0286c58": {
+      "company": "Orano",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Data Scientist F/H"
+    },
     "b971efc02979403d": {
       "company": "Wabtec",
       "first_seen": "2026-08-24T23:19:20.028808+00:00",
@@ -33379,6 +33596,11 @@
       "first_seen": "2026-09-15T00:14:23.337006+00:00",
       "seeded": true,
       "title": "Software Engineer II - Java/Python - Backend Platform Team (x/f/m)"
+    },
+    "ba59115b7ab28e27": {
+      "company": "The Adecco Group",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Développement Full-Stack - Solution IA générative H/F"
     },
     "ba6dcabb9c6daf54": {
       "company": "Belacom",
@@ -33959,6 +34181,11 @@
       "company": "UL Solutions",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Associate Data Scientist"
+    },
+    "bd735a899a9eac58": {
+      "company": "STEP Consulting",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Software Engineer – IA & Systèmes Complexes"
     },
     "bd75d1b89fe941f2": {
       "company": "Meridian Partners",
@@ -36071,6 +36298,11 @@
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Customer Service Representative"
     },
+    "c86c987b3613fcb1": {
+      "company": "FDJ UNITED",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Testeur QA - F/H - CDI"
+    },
     "c87fc73629d6dece": {
       "company": "Electronic Systems",
       "first_seen": "2026-08-18T09:28:37.729706+00:00",
@@ -36085,6 +36317,12 @@
       "company": "SRI International",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
       "title": "Materials Research Scientist/Engineer"
+    },
+    "c88cddab862f8e51": {
+      "ats_key": "gh:4861713101",
+      "company": "Kinexon",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Infrastructure Engineer (m/f/d)"
     },
     "c88ecdc196cc6d0a": {
       "company": "TikTok",
@@ -37494,6 +37732,11 @@
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Founding CEO - New Venture AI"
     },
+    "d03c415b7b1ea36c": {
+      "company": "STEP Consulting",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Data Scientist - Ingénieur IA / Agentic"
+    },
     "d03da8c0c360c171": {
       "company": "Leidos",
       "first_seen": "2026-08-17T16:22:38.774662+00:00",
@@ -38021,6 +38264,12 @@
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Software Engineer - Information Systems and Technology - Early Career"
     },
+    "d323d708b89261e2": {
+      "ats_key": "lever:79578084-f3bc-4aa2-98a5-bc0885bfb8dd",
+      "company": "BlaBlaCar",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Confirmed Backend Engineer - Care"
+    },
     "d32ce4ecb7a5f475": {
       "company": "B-HIVE",
       "first_seen": "2026-08-26T08:39:03.715410+00:00",
@@ -38115,6 +38364,11 @@
       "company": "RAVE Aerospace",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "Test Lab Technician 1"
+    },
+    "d3d47ce9626343b2": {
+      "company": "Capgemini",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Data Engineer"
     },
     "d3e646aa2f6eb066": {
       "company": "Salesforce",
@@ -39405,6 +39659,12 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Software Engineer"
     },
+    "da6a6ddc6c9134fd": {
+      "ats_key": "sr:744000151032479",
+      "company": "Brainlab",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Support Specialist  Imaging Systems - France"
+    },
     "da6a9f02cfeed7af": {
       "company": "Newmark Group",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
@@ -39875,6 +40135,11 @@
       "company": "Sopra Steria",
       "first_seen": "2026-09-12T13:50:34.116563+00:00",
       "title": "Chef/cheffe de projet IT - Services Financiers - Bordeaux"
+    },
+    "dcf5403ad5a82a1d": {
+      "company": "ArianeGroup",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "CDI - Administratrice / Administrateur Workplace Services"
     },
     "dcf837d55c22a4da": {
       "company": "Theodo GovTech",
@@ -41177,6 +41442,12 @@
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "Embedded Software Intern - Embedded Software Engineer - Optimus"
     },
+    "e3e52f379bee7450": {
+      "ats_key": "sr:744000151328250",
+      "company": "Deliveryhero",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Data Analyst I Courier RTO Global HQ"
+    },
     "e3eef8b0ab37175f": {
       "company": "Hilton Worldwide",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
@@ -41581,6 +41852,11 @@
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "ASIC Verification Engineer"
     },
+    "e616949179d45548": {
+      "company": "Atos",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Acheteur - IT Managed & Outsourced Services F/H"
+    },
     "e61b7201e5cb7716": {
       "company": "Theodo Data & AI",
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
@@ -41777,6 +42053,11 @@
       "first_seen": "2026-09-15T22:41:51.108154+00:00",
       "title": "Machine Learning Research Scientist - Mechanical Intuition in Multimodal Models"
     },
+    "e7397593f969b06e": {
+      "company": "Wyll",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Ingénieur Cloud (Confirmé à Expert) - Multi-Cloud (AWS, GCP, Azure, Scaleway) - Toulouse"
+    },
     "e73e64e520178f7b": {
       "company": "Susquehanna International Group (SIG)",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
@@ -41861,6 +42142,12 @@
       "company": "Travelers",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineer I (AI Driven)"
+    },
+    "e7eaf1afdc0e9b97": {
+      "ats_key": "gh:4981489101",
+      "company": "Nebius",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "AI Science Writer, Nebius Academy (Contract)"
     },
     "e7ec0b86e73d61f4": {
       "company": "Sopra Steria",
@@ -43067,6 +43354,11 @@
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "Ingénieur Soutien Technique Système RADAR (H/F)"
     },
+    "ee3451fa9ec75aa1": {
+      "company": "Capgemini",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Data engineer confirmé"
+    },
     "ee35226d88776d84": {
       "company": "Celonis",
       "first_seen": "2026-09-10T14:47:14.337333+00:00",
@@ -43086,6 +43378,11 @@
       "company": "Coherent",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Embedded Systems Software & FPGA Programmer"
+    },
+    "ee4c97f295a16240": {
+      "company": "The Adecco Group",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "AUTOMATION ENGINEER H/F"
     },
     "ee4cfce13f3210cb": {
       "company": "KLA Corporation",
@@ -44228,6 +44525,11 @@
       "company": "GE Aerospace",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Digital Technology Intern - Summer 2027"
+    },
+    "f3c9b2f745faba9e": {
+      "company": "Linking Talents",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Chef de Projets Infrastructure - Enseignement H/F"
     },
     "f3cb0a319b55c53a": {
       "company": "JF Group",
@@ -45956,6 +46258,11 @@
       "first_seen": "2026-09-22T15:25:00.833736+00:00",
       "title": "EMC System Engineer"
     },
+    "fd43f4d1bdf62ff7": {
+      "company": "Hexa",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "AI Applied Researcher @Pelagon"
+    },
     "fd4bc08be17aeff6": {
       "company": "Garmin",
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
@@ -46121,6 +46428,12 @@
       "company": "Twitch",
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Software Engineer"
+    },
+    "fe639def5c36f737": {
+      "ats_key": "gh:8223520",
+      "company": "Mozilla",
+      "first_seen": "2026-09-23T13:19:37.655268+00:00",
+      "title": "Contract Software Engineer - DOM Core Firefox/Gecko"
     },
     "fe685c0e0cac6e81": {
       "company": "Eaton",
