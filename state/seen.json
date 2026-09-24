@@ -933,6 +933,11 @@
       "first_seen": "2026-09-15T15:31:33.330184+00:00",
       "title": "Associate Design Evaluation Engineer"
     },
+    "0511746cda13599a": {
+      "company": "LexisNexis Risk Solutions",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Software Engineer New Grad"
+    },
     "0521082f9b8a43d3": {
       "company": "Amazon",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -1553,6 +1558,12 @@
       "company": "Presidency Solutions",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Software Developer"
+    },
+    "08c7b61d5375d9e5": {
+      "ats_key": "gh:8451764002",
+      "company": "Optiver",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Quantitative Researcher Graduate"
     },
     "08ca774e5bcd1d37": {
       "company": "MBition (Mercedes-Benz)",
@@ -3713,6 +3724,11 @@
       "company": "AstraZeneca",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Business Account Specialist  Hematología - Galicia"
+    },
+    "149a28243e14605a": {
+      "company": "Humana",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Data Engineer - Platform Innovation and Engineering"
     },
     "149b6b9e506c9f16": {
       "company": "Nebius",
@@ -11490,6 +11506,11 @@
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Specialist Business Analyst – Clinical Computation Platform"
     },
+    "3ef3243db89fd420": {
+      "company": "Plaid",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Software Engineer"
+    },
     "3eff7467039850bd": {
       "company": "Amgen",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
@@ -14220,6 +14241,12 @@
       "company": "Nokia",
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Assembly and Test Manufacturing Technician"
+    },
+    "4ecb19ce143d9f63": {
+      "ats_key": "ashby:259988fe-0389-461f-823c-36d81840d465",
+      "company": "Commure",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Software Engineer - Scribe AI"
     },
     "4ecd32e25222575d": {
       "company": "Adobe",
@@ -20445,6 +20472,11 @@
       "first_seen": "2026-08-21T07:39:40.698702+00:00",
       "title": "Full Stack Engineer"
     },
+    "715e788ed34fcfe6": {
+      "company": "Westinghouse Electric Company",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Computer Science Software Engineer"
+    },
     "71641b822fff142d": {
       "company": "Ludlum Measurements",
       "first_seen": "2026-08-21T15:28:46.858119+00:00",
@@ -21130,6 +21162,12 @@
       "company": "Thales",
       "first_seen": "2026-09-15T15:31:33.330184+00:00",
       "title": "Ingénieur développement logiciel - Traitement du signal F/H"
+    },
+    "74a3d8d2b906fae0": {
+      "ats_key": "gh:8003259003",
+      "company": "Klaviyo",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "AI Engineer 1"
     },
     "74ae40b702a0c937": {
       "company": "AstraZeneca",
@@ -25608,6 +25646,11 @@
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "ETF Quantitative Developer"
     },
+    "8e10cbb1e2ba1ff0": {
+      "company": "Amgen",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Associate AI Engineer - OI&A"
+    },
     "8e1ed20d36901b9c": {
       "company": "Feedier",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
@@ -26148,6 +26191,11 @@
       "company": "Sandhills Global",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Software Development Intern"
+    },
+    "9144ed053c27ab1c": {
+      "company": "State Street",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Junior SIEM Data Engineer"
     },
     "9145c1056cf67b04": {
       "company": "Trillium",
@@ -29238,6 +29286,11 @@
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
       "title": "Surgery Imaging Field Engineer 1"
     },
+    "a1c6f5d1116547dd": {
+      "company": "General Motors",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Software Engineer AV HIL Platform and Services – University Grad"
+    },
     "a1cc91eeeafdd04b": {
       "company": "McDonald's Corporation",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
@@ -30518,6 +30571,11 @@
       "company": "Coherent",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Systems Software Engineer - Test & Automation Infrastructure"
+    },
+    "a95eb586acddca59": {
+      "company": "American Express",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Senior Analyst - Data & Analytics - Enterprise Technology Services"
     },
     "a95ee9057643614f": {
       "company": "Pennsylvania State University",
@@ -36151,6 +36209,11 @@
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Electrical Technician 1 - Sperry Drilling"
     },
+    "c7b0ace215f9d9ea": {
+      "company": "Fermilab",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Quantum Computing Engineer 1"
+    },
     "c7b65c01d2d7a42a": {
       "company": "Applied Materials",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
@@ -40597,6 +40660,11 @@
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Software Engineer Graduate - AI Infrastructure Compute"
     },
+    "dee273127e09c7c4": {
+      "company": "American Express",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Data & Analytics Analyst - Enterprise Technology Services"
+    },
     "def869aba9785f33": {
       "company": "PKF Arsilon",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
@@ -44284,6 +44352,11 @@
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "Software Engineer, AI Systems Performance Modeling, Dojo"
     },
+    "f23bdb8ad74f77dc": {
+      "company": "Duke Energy",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "GIS Technologist"
+    },
     "f23d2cbbeb50afcb": {
       "company": "EDF",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
@@ -44580,6 +44653,11 @@
       "company": "GE Aerospace",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Digital Technology Intern - Summer 2027"
+    },
+    "f3c8dc7dc83e3478": {
+      "company": "Eaton",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Embedded Software Engineer - Research & Development Engineering"
     },
     "f3c9b2f745faba9e": {
       "company": "Linking Talents",
@@ -44964,6 +45042,11 @@
       "company": "Notion",
       "first_seen": "2026-09-23T01:13:52.648445+00:00",
       "title": "Software Engineer, Fullstack, Early Career"
+    },
+    "f5bbc1a3c448e9a3": {
+      "company": "Meta",
+      "first_seen": "2026-09-24T01:01:52.626179+00:00",
+      "title": "Rotational Product Manager"
     },
     "f5bbfa48d88fe7cc": {
       "company": "Thales",
