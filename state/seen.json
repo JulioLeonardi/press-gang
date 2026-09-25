@@ -11135,6 +11135,11 @@
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Engineer 1"
     },
+    "3bdc25d7d29a0b9f": {
+      "company": "Applied Materials",
+      "first_seen": "2026-09-25T23:46:55.772009+00:00",
+      "title": "Non-Technical Project/Program Manager New Grad"
+    },
     "3beab7d7118dbcb1": {
       "company": "Axcelis Technologies",
       "first_seen": "2026-09-16T01:02:58.564596+00:00",
@@ -12822,6 +12827,11 @@
       "first_seen": "2026-09-15T00:14:23.337006+00:00",
       "seeded": true,
       "title": "Engineering Data Analyst"
+    },
+    "4589d6d71ee006e8": {
+      "company": "Abbott",
+      "first_seen": "2026-09-25T23:46:55.772009+00:00",
+      "title": "Software Engineer 1 - Multiple Teams"
     },
     "45945e1a5bbe9a00": {
       "company": "Deloitte",
@@ -16420,6 +16430,11 @@
       "company": "Pennylane",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Technical Support Engineer W/M"
+    },
+    "5a0dec081bf6601b": {
+      "company": "Snap Finance",
+      "first_seen": "2026-09-25T23:46:55.772009+00:00",
+      "title": "Software Engineer - Applied AI"
     },
     "5a0eae555887c9c8": {
       "company": "Keysight Technologies",
@@ -20095,6 +20110,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "New Grad 2026: Machine Learning Engineer"
+    },
+    "6e2de0deac50a234": {
+      "company": "Charles Schwab",
+      "first_seen": "2026-09-25T23:46:55.772009+00:00",
+      "title": "Associate Software Development Engineer"
     },
     "6e39faf961e3bbae": {
       "company": "TikTok",
@@ -24683,6 +24703,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "AI Engineer Graduate - Client Architecture - 2027 Start"
     },
+    "86d30eb18f1a57ab": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-25T23:46:55.772009+00:00",
+      "title": "HBM Design Architect New Grad - MS or PhD"
+    },
     "86d45e2b408eddef": {
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -25345,6 +25370,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Graduate Research Scientist - Tiktok Recommendation-Agentic AI"
+    },
+    "8a76faef98ed581d": {
+      "company": "Intel",
+      "first_seen": "2026-09-25T23:46:55.772009+00:00",
+      "title": "Network Systems and Solutions Engineer"
     },
     "8a8537b420e10364": {
       "company": "Amentum",
@@ -31153,6 +31183,11 @@
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Field Service Engineer"
     },
+    "aa75f2311673f547": {
+      "company": "Nasdaq",
+      "first_seen": "2026-09-25T23:46:55.772009+00:00",
+      "title": "Data Analyst - Surveillance"
+    },
     "aa88ec6d7ef69cde": {
       "company": "Mollie",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
@@ -32272,6 +32307,11 @@
       "company": "Groupe Octime",
       "first_seen": "2026-09-08T13:17:37.660070+00:00",
       "title": "Ingénieur Data BI (H/F)"
+    },
+    "b0f8187bff679dec": {
+      "company": "American Electric Power",
+      "first_seen": "2026-09-25T23:46:55.772009+00:00",
+      "title": "Asset Analyst - TFS"
     },
     "b0fce7cfb4b75d59": {
       "company": "NRG Energy",
