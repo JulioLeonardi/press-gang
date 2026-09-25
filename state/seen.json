@@ -6072,6 +6072,11 @@
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "CoE Business Solutions Engineer - F/H"
     },
+    "2138b3095365a2ec": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Product Development Failure Analysis Engineer New Grad - HBM PYE"
+    },
     "213d96450c68da1a": {
       "company": "BlaBlaCar",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -7454,6 +7459,12 @@
       "company": "Mollie",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Enterprise Application Engineer"
+    },
+    "2872b27688b5390e": {
+      "ats_key": "sr:744000151689350",
+      "company": "Renesas Electronics",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Validation Engineer"
     },
     "28755033664bbb38": {
       "company": "AT&T",
@@ -12698,6 +12709,11 @@
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Embedded Software Engineer - Government Training"
     },
+    "4557ad9b942a478c": {
+      "company": "Kyndryl",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Associate Creative Technologist"
+    },
     "4558767befb3bdd2": {
       "company": "Safran",
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
@@ -12964,6 +12980,12 @@
       "company": "Duolingo",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad: Data Scientist"
+    },
+    "46c7aa90184a488d": {
+      "ats_key": "gh:5214784008",
+      "company": "Block",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Data Scientist - Payments"
     },
     "46d9be9e0aeeb74f": {
       "company": "Paccar",
@@ -19297,6 +19319,11 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "New Grad 2026: Site Reliability Engineer (Edge Services)"
     },
+    "69fcea924bbda084": {
+      "company": "Atlassian",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Machine Learning Engineer - 2027 Graduate"
+    },
     "69fd74f3ab58bec3": {
       "company": "Hermès",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
@@ -23485,6 +23512,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-16T20:17:59.830480+00:00",
       "title": "Student Researcher"
+    },
+    "814fa884ed0dd8c1": {
+      "company": "AMD",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Engineering Lab Operator"
     },
     "8163b91e4972e1aa": {
       "company": "Eureden",
@@ -27916,6 +27948,11 @@
       "first_seen": "2026-09-16T01:02:58.564596+00:00",
       "title": "Software Engineer - Analytical Platform Services"
     },
+    "9a18cd6a7bc97507": {
+      "company": "Atlassian",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Machine Learning Engineer"
+    },
     "9a1c05b4c0082aec": {
       "ats_key": "gh:5240240007",
       "company": "Tenstorrent",
@@ -31421,6 +31458,11 @@
       "seeded": true,
       "title": "Platform Engineer - Compute"
     },
+    "ad57fccee2e258e0": {
+      "company": "Adobe",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Software Engineer New Grad"
+    },
     "ad5cf23d97a6c1d6": {
       "company": "Applied Materials",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
@@ -32157,6 +32199,11 @@
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "CHEF DE PROJET EN CONDUITE D'OPERATIONS"
     },
+    "b15f25f8effb77e4": {
+      "company": "Charles Schwab",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Java Software Engineer"
+    },
     "b161e55f0eb3230f": {
       "company": "Shirley Ryan AbilityLab",
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
@@ -32278,6 +32325,12 @@
       "company": "JetBrains",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "C++/Kotlin Software Developer (RustRover Debugger)"
+    },
+    "b222b923c0ce4c60": {
+      "ats_key": "gh:7211012",
+      "company": "Pinterest",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "New Grad 2026: Software Engineer"
     },
     "b22dfc5efa26c073": {
       "company": "Meta",
@@ -33034,6 +33087,11 @@
       "company": "Wise",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
       "title": "Software Engineer - Java - Mitigation Requirements"
+    },
+    "b5eb8abba6c7b2e2": {
+      "company": "Adobe",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Product Manager"
     },
     "b5f39e5aacf47f76": {
       "company": "Entergy",
@@ -35998,6 +36056,11 @@
       "company": "Cleveland Clinic",
       "first_seen": "2026-09-17T23:53:25.538457+00:00",
       "title": "Software Developer 1"
+    },
+    "c5637c60a22c31cb": {
+      "company": "Adobe",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Machine Learning Engineer New Grad"
     },
     "c5690b3e991dfd23": {
       "company": "Onto Innovation",
@@ -46334,6 +46397,11 @@
       "company": "Vanguard",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Data Science Intern - Information Technology"
+    },
+    "fb705859b65e1355": {
+      "company": "Applied Materials",
+      "first_seen": "2026-09-25T00:17:56.134838+00:00",
+      "title": "Data Scientist New Grad - Bachelor's/Master's"
     },
     "fb815b207b78b8ef": {
       "company": "Northrop Grumman",
