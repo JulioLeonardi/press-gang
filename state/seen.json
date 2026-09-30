@@ -9121,6 +9121,11 @@
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
       "title": "CDI - Ingénieur en Maitrise d'Œuvre et Développement Infrastructure (F/H)"
     },
+    "30c17a2e53f2c9c9": {
+      "company": "Applied Materials",
+      "first_seen": "2026-09-30T07:54:47.210563+00:00",
+      "title": "Physicist/Scientist: FEP chamber Optics engineer"
+    },
     "30c6575c2e23a4e5": {
       "company": "Deloitte",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
@@ -10848,6 +10853,12 @@
       "company": "EquipmentShare",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Low Voltage Technician"
+    },
+    "3948400b738dab0c": {
+      "ats_key": "gh:8242377",
+      "company": "N26",
+      "first_seen": "2026-09-30T07:54:47.210563+00:00",
+      "title": "Data Analyst - Anti Financial Crime"
     },
     "39538619e5ff1d71": {
       "company": "NTT DATA",
@@ -14949,6 +14960,11 @@
       "company": "Apple",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "ASIC Design Engineer - Cache Controller"
+    },
+    "50063cd73dccccf0": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-09-30T07:54:47.210563+00:00",
+      "title": "Device Compact Modeling Engineer"
     },
     "50179e0c69c7300e": {
       "company": "Globus Medical",
@@ -26359,6 +26375,11 @@
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Junior Credit Management Analyst w/ Italian"
     },
+    "8d1c4bdde86dc11b": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-30T07:54:47.210563+00:00",
+      "title": "Software Engineer New Grad - DGX Cloud AI Infrastructure"
+    },
     "8d1c5f2ba57c4a90": {
       "ats_key": "gh:8092438",
       "company": "HelloFresh",
@@ -34586,6 +34607,11 @@
       "company": "F5",
       "first_seen": "2026-09-23T07:18:01.812060+00:00",
       "title": "Software Development Engineer 1 (AI)"
+    },
+    "b8e61addb71dca88": {
+      "company": "Applied Materials",
+      "first_seen": "2026-09-30T07:54:47.210563+00:00",
+      "title": "System Engineer New Grad - Material Characterization"
     },
     "b8e6706147b55ac5": {
       "company": "Safran",
