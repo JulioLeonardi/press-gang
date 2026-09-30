@@ -6747,6 +6747,11 @@
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Product Management Intern"
     },
+    "23b52fbb551255f6": {
+      "company": "Atlassian",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "Data Scientist Graduate"
+    },
     "23be996365208905": {
       "company": "Althéa",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
@@ -7446,6 +7451,11 @@
       "company": "Accenture France",
       "first_seen": "2026-09-28T18:24:37.036956+00:00",
       "title": "Quality Engineering Analyst F/H"
+    },
+    "2729862a60471090": {
+      "company": "Intel",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "Finance Data Scientist"
     },
     "272a6c97ec8ac36d": {
       "company": "Atos",
@@ -12997,6 +13007,11 @@
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "Wireless Engineering Intern - 6G Wireless Systems"
     },
+    "44cf9e859e35a2c5": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "System Design Engineer – New College Grad 2026"
+    },
     "44d0ddeb9a335af2": {
       "company": "AmNet Services",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
@@ -13334,6 +13349,11 @@
       "company": "Garmin",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "Software Engineer I - Embedded Software"
+    },
+    "46853ebc947a1ffe": {
+      "company": "Qualcomm",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "Verification Software Engineer - ASICS Engineering"
     },
     "468862801315119f": {
       "company": "Carrefour",
@@ -13994,6 +14014,11 @@
       "company": "Cohesity",
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Software Engineer New Grad"
+    },
+    "4a80392a537da7d5": {
+      "company": "Mastercard",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "Data Engineer 1"
     },
     "4a82932a46f4c988": {
       "company": "Mistral Ai",
@@ -21029,6 +21054,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Quantitative Researcher – PhD Graduate"
     },
+    "702a07b711629c66": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "ATD QEV Product Engineer"
+    },
     "702c162f7dcd6887": {
       "company": "Boerboel",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -25570,6 +25600,11 @@
       "company": "General Dynamics Mission Systems",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Embedded Software Engineer - HOH Fellows - Spouseworks Fellows"
+    },
+    "87d45249f52aeae1": {
+      "company": "KLA",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "Software Engineer 1"
     },
     "87dac776df276ebb": {
       "company": "Salesforce",
@@ -37400,6 +37435,11 @@
       "first_seen": "2026-09-19T11:53:37.450769+00:00",
       "title": "Chargé de Développement réseaux de chaleur - Caen F/H"
     },
+    "c61edbe01b94c391": {
+      "company": "Rivian",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "Attributes Method Engineer"
+    },
     "c62bb8c289f0dfc7": {
       "company": "SpaceX",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
@@ -41151,6 +41191,11 @@
       "company": "DE Shaw",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Software Developer Intern"
+    },
+    "d8ee0e36afb6af4b": {
+      "company": "Emerson Electric",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "Hardware Digital Engineer"
     },
     "d8eeccd433209d44": {
       "company": "GE Vernova",
@@ -47329,6 +47374,11 @@
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Yield & Quality Systems Senior Engineer"
     },
+    "f83213be2223ee2c": {
+      "company": "Oracle",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "Undergrad Software Engineer - Oracle Cloud Infrastructure"
+    },
     "f83deef721c95ca9": {
       "company": "EY",
       "first_seen": "2026-09-25T16:27:30.066658+00:00",
@@ -48365,6 +48415,11 @@
       "company": "CenturyLink",
       "first_seen": "2026-08-24T17:27:14.641023+00:00",
       "title": "Field Technician 1"
+    },
+    "fdab8f653044c4fa": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-30T23:25:42.557224+00:00",
+      "title": "Design Validation Product Engineer New Grad - Engineering - HIG HBM PSE Design Validation"
     },
     "fdc85a74d0bac41c": {
       "company": "Intel",
