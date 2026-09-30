@@ -6147,6 +6147,11 @@
       "first_seen": "2026-09-03T07:44:50.065300+00:00",
       "title": "Design Engineer - Software - Rise"
     },
+    "20fdbd87c02ad5c6": {
+      "company": "Analog Devices",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Engineer – Reliability Engineering"
+    },
     "21025b09aba72d77": {
       "company": "Mercury Insurance",
       "first_seen": "2026-08-21T20:21:44.821595+00:00",
@@ -6549,6 +6554,11 @@
       "company": "Iteris",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
       "title": "Traffic Operations Center Operator/Controller"
+    },
+    "22cd97cce2b5c006": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "HBM SoC Design Engineer/Architect New Grad - HBM SoC Design Engineer/Architect"
     },
     "22cecff485e970aa": {
       "ats_key": "ashby:cf34f80e-fe5c-454d-bc9a-4c59993ffda0",
@@ -13669,6 +13679,12 @@
       "company": "Capgemini",
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
       "title": "Data Engineer confirmé"
+    },
+    "491c067d33e7a5bd": {
+      "ats_key": "gh:4402649009",
+      "company": "Anthropic",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Claude Corps"
     },
     "49205f23b079b659": {
       "company": "eXalt",
@@ -22395,6 +22411,11 @@
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
       "title": "Software Developer  Java/ Node.JS (Web Development Team)"
     },
+    "77d006d50f2de290": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Applied Machine Learning Engineer - AI for VLSI Design"
+    },
     "77d1917c426e371f": {
       "company": "Medpace, Inc.",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
@@ -22579,6 +22600,11 @@
       "company": "23andMe",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Associate Product Manager / Product Manager"
+    },
+    "78d8a495aa11aee4": {
+      "company": "Texas A&M University System",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Postdoctoral Researcher - AI-Powered Multi-Agent System"
     },
     "78e94118750d6aac": {
       "company": "General Motors",
@@ -24192,6 +24218,12 @@
       "first_seen": "2026-09-19T11:53:37.450769+00:00",
       "title": "Développeur/euse Fullstack - .NET - Développement Régional - Clermont-Ferrand"
     },
+    "820f9114ca3dea65": {
+      "ats_key": "sr:744000152472854",
+      "company": "Intuitive Surgical",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Software Engineer"
+    },
     "821b453e3748a0fe": {
       "company": "Emerson Electric",
       "first_seen": "2026-09-16T07:10:17.044770+00:00",
@@ -24450,6 +24482,11 @@
       "company": "KLA",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Product Development Engineer - Multiple Teams"
+    },
+    "8387ea5477da3bfc": {
+      "company": "Stryker",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Electrical Design Engineer"
     },
     "8390f55e360f7f44": {
       "company": "WebFX",
@@ -25037,6 +25074,11 @@
       "company": "Naval Group [FR]",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "CDI - Ingénieur Systèmes de Télécommunication (H/F)"
+    },
+    "86649ac22c34dc46": {
+      "company": "NextEra Energy",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Associate Quantitative Analyst"
     },
     "8664de6cf39a1991": {
       "company": "Capgemini",
@@ -29335,6 +29377,11 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad: Software Engineer"
     },
+    "9dba80a5d9922044": {
+      "company": "ConocoPhillips",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Graduate Analyst - Trading Analytics 2027"
+    },
     "9dc4805a7075c2bf": {
       "company": "June",
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
@@ -29681,6 +29728,11 @@
       "company": "VINCI Construction",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Canalisateur chauffage urbain F/H"
+    },
+    "9f78d3506bc7b722": {
+      "company": "Capgemini",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Associate Data Engineer"
     },
     "9f7ff3bde7a6edfc": {
       "company": "Markon",
@@ -37191,6 +37243,11 @@
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Software Engineer - C++ or Python"
     },
+    "c69e97ce4ce79065": {
+      "company": "Qualcomm",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Verification Software Engineer - Software Engineering"
+    },
     "c6a2809410ace565": {
       "company": "Murphy Research",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
@@ -43543,6 +43600,11 @@
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Embedded Systems Intern"
     },
+    "e6e85bb7a4219d8c": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Research Scientist - Fundamental Generative AI"
+    },
     "e6ec34084b2afd04": {
       "company": "ARMIS",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
@@ -43906,6 +43968,11 @@
       "company": "Imfusion",
       "first_seen": "2026-09-16T13:05:04.822696+00:00",
       "title": "Technical Product Owner – C++ SDK & ImFusion Suite"
+    },
+    "e90fc66f9f0fb0b2": {
+      "company": "Panasonic Holdings",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "MTS 1 – Software Engineer - Embedded Systems & Linux"
     },
     "e910f980f9885d6d": {
       "company": "Florida Institute of Technology",
@@ -45699,6 +45766,11 @@
       "company": "RTX",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "FPGA Engineer 1"
+    },
+    "f1b88694c0ff8149": {
+      "company": "Broadcom",
+      "first_seen": "2026-09-30T01:01:34.000841+00:00",
+      "title": "Test Engineer - Ate"
     },
     "f1c05d3dcd55f2fc": {
       "company": "Just Eat Takeaway.com",
