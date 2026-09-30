@@ -9748,6 +9748,11 @@
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Data Analysis Intern"
     },
+    "33755026d136fa7f": {
+      "company": "Wells Fargo",
+      "first_seen": "2026-09-30T19:47:46.055690+00:00",
+      "title": "Engineering Associate - CIB Operations Technology"
+    },
     "3382052d4ab9ea2a": {
       "company": "Amgen",
       "first_seen": "2026-09-01T17:34:01.786468+00:00",
@@ -25199,6 +25204,12 @@
       "company": "The Hartford",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Software Engineer Intern - Tech & Data Program"
+    },
+    "86381975f67e423a": {
+      "ats_key": "gh:8175656",
+      "company": "Stripe",
+      "first_seen": "2026-09-30T19:47:46.055690+00:00",
+      "title": "Software Engineer, Security Business Enablement"
     },
     "8639a110e788b7eb": {
       "company": "Samsara",
