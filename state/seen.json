@@ -4999,6 +4999,11 @@
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "FPGA Engineer Intern"
     },
+    "1afa0916cdc0f1c0": {
+      "company": "ByteDance",
+      "first_seen": "2026-10-01T03:59:21.709067+00:00",
+      "title": "Software Engineer Graduate"
+    },
     "1b01705ac9263d98": {
       "company": "University of Virginia",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
@@ -5414,6 +5419,11 @@
       "company": "Replit",
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "Software Engineer Intern - Summer 2027"
+    },
+    "1d13b21e75b65e51": {
+      "company": "Amazon",
+      "first_seen": "2026-10-01T03:59:21.709067+00:00",
+      "title": "Cloud Hardware Development Engineer 1 – Early Career"
     },
     "1d1ac26ecc658cf6": {
       "company": "Apple",
@@ -8193,6 +8203,11 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Solution Engineer - German speaker"
+    },
+    "2ae6b600797eec03": {
+      "company": "Expedia Group",
+      "first_seen": "2026-10-01T03:59:21.709067+00:00",
+      "title": "Graduate Machine Learning Scientist - PhD"
     },
     "2ae943b74a14ce4c": {
       "company": "NVIDIA",
@@ -21593,6 +21608,11 @@
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
       "title": "Graduate Student Researcher - Mohney Group - Materials Science and Engineering"
     },
+    "727ebbd3c4d579c4": {
+      "company": "Procter & Gamble",
+      "first_seen": "2026-10-01T03:59:21.709067+00:00",
+      "title": "Analytics & Insights Manager"
+    },
     "7288bcff96720f7a": {
       "company": "Tower Health",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
@@ -31545,6 +31565,11 @@
       "company": "Apple",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Software Engineering Masters Intern"
+    },
+    "a7bd50e56306db1c": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-01T03:59:21.709067+00:00",
+      "title": "Machine Learning Engineer - Generative AI"
     },
     "a7c2afd951790041": {
       "company": "ByteDance",
