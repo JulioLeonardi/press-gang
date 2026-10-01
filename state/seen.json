@@ -12234,6 +12234,12 @@
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "ASIC Design Engineer New Grad"
     },
+    "4004884c4cc450f3": {
+      "ats_key": "gh:8620720002",
+      "company": "GitLab",
+      "first_seen": "2026-10-01T10:51:51.095192+00:00",
+      "title": "Backend Engineer (Ruby), AI Engineering: Agent Foundations"
+    },
     "400b3d4a1e5e79e8": {
       "company": "National Software Management",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
@@ -13359,6 +13365,12 @@
       "first_seen": "2026-09-15T00:14:23.337006+00:00",
       "seeded": true,
       "title": "Backend Engineer - Investments & Savings"
+    },
+    "467e4925c69bf475": {
+      "ats_key": "gh:8232358",
+      "company": "Stripe",
+      "first_seen": "2026-10-01T10:51:51.095192+00:00",
+      "title": "Software Engineer, Stripe Tax"
     },
     "467f4d5094ebbc16": {
       "company": "Garmin",
@@ -14810,6 +14822,11 @@
       "company": "Celonis",
       "first_seen": "2026-09-10T18:03:23.438210+00:00",
       "title": "Associate Applied (AI) Value Engineer (Benelux) - Orbit Program"
+    },
+    "4ea85d790210f90c": {
+      "company": "Emerson Electric",
+      "first_seen": "2026-10-01T10:51:51.095192+00:00",
+      "title": "Software Engineer - AI Enablement & Engineering Productivity"
     },
     "4eabafefbcb885fa": {
       "company": "The Boeing Company",
@@ -26369,6 +26386,11 @@
       "company": "GE Aerospace",
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
       "title": "Data Acquisition Technician"
+    },
+    "8bc6f322f4c69d61": {
+      "company": "Amazon",
+      "first_seen": "2026-10-01T10:51:51.095192+00:00",
+      "title": "Applied Scientist - International Seller Services"
     },
     "8bc7d26ddca6e79b": {
       "company": "Just Eat Takeaway.com",
@@ -39692,6 +39714,11 @@
       "first_seen": "2026-09-03T07:44:50.065300+00:00",
       "title": "CAD Automation and Mixed-Signal Simulation Engineer"
     },
+    "d1332b1fa4d95f21": {
+      "company": "Kyndryl",
+      "first_seen": "2026-10-01T10:51:51.095192+00:00",
+      "title": "Early Careers Consult Program - Data Operations Associate"
+    },
     "d1380277916e6ad3": {
       "company": "CACI",
       "first_seen": "2026-08-21T21:20:36.409958+00:00",
@@ -39952,6 +39979,11 @@
       "company": "Roblox",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Software Engineer, Builder Tools"
+    },
+    "d28d5b9baba7ab38": {
+      "company": "Kyndryl",
+      "first_seen": "2026-10-01T10:51:51.095192+00:00",
+      "title": "Data Analyst New Grad - Data Operations Associate"
     },
     "d28e87c8f6c1a7fd": {
       "company": "Cologix",
@@ -47890,6 +47922,12 @@
       "company": "Castleton Commodities International",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Data Engineering Intern"
+    },
+    "fa8ebae645fd7d30": {
+      "ats_key": "gh:8704363002",
+      "company": "GitLab",
+      "first_seen": "2026-10-01T10:51:51.095192+00:00",
+      "title": "Backend Engineer (Python),AI Engineering: Agent Foundations"
     },
     "fa99076f980639d3": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
