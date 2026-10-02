@@ -7094,6 +7094,11 @@
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Chef.fe d'équipe archiviste"
     },
+    "2539ce0b12ef9399": {
+      "company": "Apple",
+      "first_seen": "2026-10-02T01:58:24.224458+00:00",
+      "title": "Signal and Power Integrity Engineer - Signal Integrity/Power Integrity"
+    },
     "2544457b44520a4a": {
       "company": "Ameren",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
@@ -9833,6 +9838,12 @@
       "company": "NTT DATA",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "IT Field Support Engineer (L2)"
+    },
+    "33a596cafa090a8b": {
+      "ats_key": "gh:8140389",
+      "company": "Pinterest",
+      "first_seen": "2026-10-02T01:58:24.224458+00:00",
+      "title": "Master's University Graduate Data Scientist"
     },
     "33a7f9a14d2f81e9": {
       "company": "TikTok",
@@ -12937,6 +12948,12 @@
       "first_seen": "2026-09-17T14:39:13.296346+00:00",
       "title": "Consultant fonctionnel ERP (Finance)"
     },
+    "43f2631d145f6d07": {
+      "ats_key": "gh:8157351",
+      "company": "Pinterest",
+      "first_seen": "2026-10-02T01:58:24.224458+00:00",
+      "title": "Data Scientist New Grad"
+    },
     "43f51d3d0c5d21fc": {
       "company": "Groupement Mousquetaires",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
@@ -14021,6 +14038,12 @@
       "company": "NTT DATA",
       "first_seen": "2026-09-05T11:36:03.514197+00:00",
       "title": "Cybersecurity Software Engineer"
+    },
+    "4a0b6d74866dd815": {
+      "ats_key": "gh:7838591",
+      "company": "Pinterest",
+      "first_seen": "2026-10-02T01:58:24.224458+00:00",
+      "title": "University Grad Software Engineer"
     },
     "4a0efbd59ee0563b": {
       "company": "CACI",
@@ -18483,6 +18506,11 @@
       "company": "Amazon",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "System Development Engineer, Project Kuiper"
+    },
+    "61f9e9fc433b7223": {
+      "company": "Qualcomm",
+      "first_seen": "2026-10-02T01:58:24.224458+00:00",
+      "title": "Pre-Silicon Validation Engineer - ASICS Engineering"
     },
     "62016c93ca3576b8": {
       "company": "Alan",
@@ -24731,6 +24759,11 @@
       "company": "Chevron Corporation",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Information Technology Engineer - Software Engineer"
+    },
+    "8305f78f77f8d927": {
+      "company": "Amazon",
+      "first_seen": "2026-10-02T01:58:24.224458+00:00",
+      "title": "Software Development Engineer - Robotics"
     },
     "8320eac14bdb4255": {
       "company": "McDonald's",
