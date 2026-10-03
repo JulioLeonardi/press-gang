@@ -10955,6 +10955,11 @@
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "New Graduate - Network Engineer"
     },
+    "38bf9017f0a6b05e": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-03T00:07:52.942699+00:00",
+      "title": "Software Engineer"
+    },
     "38c9293a69bca86b": {
       "company": "Accenture",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
@@ -13565,6 +13570,11 @@
       "company": "Duolingo",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad: Data Scientist"
+    },
+    "46c6fcffb4eed2a6": {
+      "company": "Pennsylvania State University",
+      "first_seen": "2026-10-03T00:07:52.942699+00:00",
+      "title": "Research Assistant - Public Health Sciences"
     },
     "46c7aa90184a488d": {
       "ats_key": "gh:5214784008",
@@ -22761,6 +22771,11 @@
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Entry Level .NET Developer"
     },
+    "770eddbd4f203b2a": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-03T00:07:52.942699+00:00",
+      "title": "Research Scientist - Fundamental Generative AI"
+    },
     "7710bf5e29954985": {
       "company": "Tesla",
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
@@ -23050,6 +23065,11 @@
       "company": "Apple",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Camera Framework Tooling Engineer - Photo Capture - Camera & Photos"
+    },
+    "78b05ee3284d0f4e": {
+      "company": "Intuit",
+      "first_seen": "2026-10-03T00:07:52.942699+00:00",
+      "title": "Product Manager 2 - Rotational Product Management - Program"
     },
     "78b8878692994f84": {
       "company": "NTT DATA",
@@ -31090,6 +31110,11 @@
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Entry Level Software Engineer"
     },
+    "a2a8ed969916d2e9": {
+      "company": "The Home Depot",
+      "first_seen": "2026-10-03T00:07:52.942699+00:00",
+      "title": "Associate Data Scientist - Decision Analytics"
+    },
     "a2aa6b75a247e0d2": {
       "company": "DecisionPoint Corporation",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
@@ -35472,6 +35497,11 @@
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Multibody Dynamics Application Software Developer New Grad - Adams"
     },
+    "b987a7283863579f": {
+      "company": "Emerson Electric",
+      "first_seen": "2026-10-03T00:07:52.942699+00:00",
+      "title": "Software Solutions Development Program"
+    },
     "b98e9484ae0376b8": {
       "company": "TikTok",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -36492,6 +36522,11 @@
       "company": "Platform.sh",
       "first_seen": "2026-09-28T18:24:37.036956+00:00",
       "title": "Software Engineer"
+    },
+    "beafd3fac82e8035": {
+      "company": "Westinghouse Electric Company",
+      "first_seen": "2026-10-03T00:07:52.942699+00:00",
+      "title": "Engineer – AI Delivery - High-potential program"
     },
     "bebd41406f7bad40": {
       "company": "Hello Fresh",
@@ -40266,6 +40301,11 @@
       "company": "ProNexus",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Software Engineer Intern"
+    },
+    "d1c72be9b03f33d4": {
+      "company": "Westinghouse Electric Company",
+      "first_seen": "2026-10-03T00:07:52.942699+00:00",
+      "title": "Engineer – Robotics - High potential program"
     },
     "d1c8dfe617a42272": {
       "company": "NRG Energy",
@@ -46276,6 +46316,11 @@
       "company": "EDF",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Chargée/Chargé d'Affaires Robinetterie Nucléaire F/H"
+    },
+    "efc008dd51237fc0": {
+      "company": "Tesla",
+      "first_seen": "2026-10-03T00:07:52.942699+00:00",
+      "title": "Data Labeler"
     },
     "efc7db67dc03a2e6": {
       "company": "Sensiple",
