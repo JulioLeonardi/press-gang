@@ -8752,6 +8752,11 @@
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Ingénieur(e) Expérimenté(e) Performance Turbomachines F/H"
     },
+    "2d17a13b40afca2d": {
+      "company": "Nissan Global",
+      "first_seen": "2026-10-04T02:21:37.502125+00:00",
+      "title": "Researcher 1"
+    },
     "2d17a944d0cbe429": {
       "company": "ArianeGroup",
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
@@ -11277,6 +11282,11 @@
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
       "title": "Testeur / Ingénieur QA algorithmie F/H"
     },
+    "39c6faa0d6e535ad": {
+      "company": "KLA",
+      "first_seen": "2026-10-04T02:21:37.502125+00:00",
+      "title": "Software Engineer - AI/ML"
+    },
     "39c866ff2601bf29": {
       "company": "Oracle",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
@@ -12685,6 +12695,11 @@
       "first_seen": "2026-08-21T16:29:13.769073+00:00",
       "title": "AI Applied Research Intern"
     },
+    "414adbae8b7c6ecf": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-10-04T02:21:37.502125+00:00",
+      "title": "HPC Software Engineer"
+    },
     "414bf491c7c3fcc3": {
       "company": "TRIMEDX",
       "first_seen": "2026-08-22T10:19:23.703368+00:00",
@@ -13717,6 +13732,11 @@
       "company": "Micron Technology",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Realtime Defect Analysis Intern - Yield Technology"
+    },
+    "4716b97fe1514c1c": {
+      "company": "Danaher",
+      "first_seen": "2026-10-04T02:21:37.502125+00:00",
+      "title": "Desktop Software Engineer"
     },
     "472421a1251f64fe": {
       "company": "HighRadius",
@@ -21572,6 +21592,11 @@
       "company": "Campus Cyber",
       "first_seen": "2026-09-14T17:37:06.977279+00:00",
       "title": "Responsable accélération & croissance cyber"
+    },
+    "70c45cc46e2098ce": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-04T02:21:37.502125+00:00",
+      "title": "Research Scientist New Grad - Electronic Design Automation"
     },
     "70c6972519c8ca7a": {
       "company": "WallStreetQuants",
@@ -35775,6 +35800,11 @@
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "Software Engineer 1"
     },
+    "b9e34a438069be3c": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-10-04T02:21:37.502125+00:00",
+      "title": "Software Engineer - Metrology Systems"
+    },
     "b9e50b3451c00497": {
       "ats_key": "gh:8809617002",
       "company": "Wayve",
@@ -37018,6 +37048,11 @@
       "company": "EquipmentShare",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
       "title": "Telematics Installer"
+    },
+    "c022966a4fecb484": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-04T02:21:37.502125+00:00",
+      "title": "ASIC Verification Engineer – New College Grad 2026"
     },
     "c02b555c24b5436c": {
       "company": "RTX",
@@ -46675,6 +46710,12 @@
       "company": "Docaposte",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Opérateur technique multisites F/H"
+    },
+    "f0178dcaa02bd742": {
+      "ats_key": "gh:7592274",
+      "company": "Oscar Health",
+      "first_seen": "2026-10-04T02:21:37.502125+00:00",
+      "title": "Data Scientist 1"
     },
     "f026dfd0379eb61d": {
       "company": "Thales",
