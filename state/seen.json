@@ -839,6 +839,11 @@
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "Admissions Data Communications Assistant"
     },
+    "045986b1c81ab1f8": {
+      "company": "Intertek",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Medical Safety Engineer"
+    },
     "045b460760dde44b": {
       "company": "Flexcompute",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
@@ -2009,6 +2014,12 @@
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Produktionsmitarbeiter (m/w/d) im Bereich Oberflächentechnik"
     },
+    "0a8dc7ad130bdee1": {
+      "ats_key": "gh:8248317",
+      "company": "Nuro",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Software Engineer New Grad - Routing"
+    },
     "0a938a995372b219": {
       "company": "Hubs.is",
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
@@ -2226,6 +2237,12 @@
       "company": "Springs Window Fashions",
       "first_seen": "2026-08-22T15:17:12.322025+00:00",
       "title": "Product Management Competitive Product Assessment Intern - Summer 2027"
+    },
+    "0c07bc90a0eb4425": {
+      "ats_key": "gh:4711985006",
+      "company": "Accenture",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Full Stack Engineer"
     },
     "0c09d348db981b14": {
       "company": "KoBold Metals",
@@ -5573,6 +5590,11 @@
       "first_seen": "2026-10-01T03:59:21.709067+00:00",
       "title": "Cloud Hardware Development Engineer 1 – Early Career"
     },
+    "1d14737f8a9248c3": {
+      "company": "Mastercard",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Software Engineer 1"
+    },
     "1d1ac26ecc658cf6": {
       "company": "Apple",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -6632,6 +6654,11 @@
       "company": "HelloFresh",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
       "title": "Cloud Security Engineer (m,f,x)"
+    },
+    "2242c8467ce119b5": {
+      "company": "Medpace",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Entry Clinical Intelligence Analyst"
     },
     "22523cbc789d94ae": {
       "company": "SpaceX",
@@ -8650,6 +8677,11 @@
       "first_seen": "2026-09-18T13:21:58.233313+00:00",
       "title": "Développeur full-stack Ruby (Junior)"
     },
+    "2c0a4c7d63be6ff9": {
+      "company": "Capgemini",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Associate Software Engineer"
+    },
     "2c1aa10e2617c754": {
       "company": "Onto Innovation",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -9064,6 +9096,12 @@
       "company": "SpaceX",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
       "title": "Software Security New Grad - Starlink"
+    },
+    "2e9c4e7a3b4b950c": {
+      "ats_key": "lever:4bc04d86-bef3-40c8-a410-b0d0c41a683d",
+      "company": "Datalab USA",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Programmer Analyst - Marketing Analytics"
     },
     "2ea3227cc70a270b": {
       "company": "L3Harris Technologies",
@@ -22169,6 +22207,12 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Software Engineer - PostgresSQL"
     },
+    "71e7719cbfe7ff64": {
+      "ats_key": "gh:6217329004",
+      "company": "Truveta",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Software Engineer - Clinical Analytics"
+    },
     "71ebb67e7f1a080f": {
       "ats_key": "gh:8200764",
       "company": "Wolt",
@@ -23813,6 +23857,11 @@
       "company": "Groupement Mousquetaires",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "RESPONSABLE DE RAYON CHARCUTERIE FROMAGE ET TRAITEUR (H/F)"
+    },
+    "7a67ff34e433cb7b": {
+      "company": "Corning",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Software Engineer"
     },
     "7a7be224eb3600a7": {
       "company": "B-HIVE",
@@ -31516,6 +31565,11 @@
       "company": "MYTRAFFIC",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "GTM Engineer M/F"
+    },
+    "a1f60e9c56b0981c": {
+      "company": "NextEra Energy",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Associate Quantitative Analyst"
     },
     "a2021a38bea3ee72": {
       "company": "American Express",
@@ -39981,6 +40035,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Electronics Assembler"
     },
+    "cc3d0ba63d470246": {
+      "company": "Emerson Electric",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Electrical Design Engineer"
+    },
     "cc4b86c576423dc1": {
       "company": "WSP",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
@@ -44313,6 +44372,12 @@
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Machine Learning Engineer Intern - Ads Signal & Measurement"
     },
+    "e15ade4370a8602b": {
+      "ats_key": "gh:6217536004",
+      "company": "Truveta",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Principal Software Engineer - Clinical Analytics"
+    },
     "e165ec2eaf05d64c": {
       "company": "Naval Group [FR]",
       "first_seen": "2026-09-27T12:42:23.504397+00:00",
@@ -46552,6 +46617,11 @@
       "company": "Wells Fargo",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Quantitative Analytics Program - Multiple Teams"
+    },
+    "ecf5feace04c1bb1": {
+      "company": "Atlassian",
+      "first_seen": "2026-10-05T23:41:32.082571+00:00",
+      "title": "Data Engineer New Grad"
     },
     "ecf63a58fad67496": {
       "company": "Softheon",
