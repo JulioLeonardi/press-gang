@@ -1,0 +1,41 @@
+# Minimal clean bank. test_tailor_validate.py mutates copies of it to break
+# exactly one rule per check. Not real resume content.
+meta:
+  voices: [technical, impact]
+  max_chars: 220
+  category_keywords: [security]
+
+sections:
+  - id: acme
+    kind: experience
+    title: Backend Intern
+    stack: Python, Docker
+    min_bullets: 1
+    max_bullets: 2
+    bullets:
+      - id: acme_rls
+        fact: Wrote 106 Postgres RLS policies across 14 migrations.
+        facts_locked: ["106", "14", RLS, Postgres]
+        priority: 1
+        variants:
+          - id: acme_rls.technical
+            voice: technical
+            text: "Enforced authorization via 106 default-deny Postgres RLS policies across 14 migrations"
+            keywords: [PostgreSQL, Row-Level Security, authorization, security]
+          - id: acme_rls.impact
+            voice: impact
+            text: "Locked down tenant data with 106 database policies, rolled out over 14 migrations"
+            keywords: [security]
+      - id: acme_clf
+        fact: Trained a classifier at 82% accuracy.
+        facts_locked: ["82%"]
+        priority: 2
+        variants:
+          - id: acme_clf.technical
+            voice: technical
+            text: "Trained a window classifier on pose features at 82% holdout accuracy"
+            keywords: [classification, Docker]
+          - id: acme_clf.impact
+            voice: impact
+            text: "Cut manual review by training a classifier that is right 82% of the time"
+            keywords: [classification]

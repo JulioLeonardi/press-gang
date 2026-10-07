@@ -15,3 +15,14 @@ env/
 .DS_Store
 .idea/
 .vscode/
+
+# Resume tailoring. The repo is public, so anything holding personal data
+# (phone, email, bullet phrasings, stored answers) stays local; the Action gets
+# the bank through a secret. Generic files (aliases, taxonomy) are committed.
+RESUME_TAILORING.md
+*Resume.html
+*Resume.tex
+resume/bank.yaml
+resume/proposed.yaml
+resume/answers.yaml
+out/

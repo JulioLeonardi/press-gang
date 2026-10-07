@@ -1,0 +1,24 @@
+# Canonical term -> other spellings that mean the same thing.
+# Applied to bank keywords at load time and (later) to JD matching.
+# Matching is case-insensitive, so case-only variants are not listed.
+# Deliberately absent: "CV" (in EU postings it means a resume, not computer
+# vision) and "TS"/"JS" (too many false hits as bare tokens).
+PostgreSQL: [postgres, psql]
+Row-Level Security: [RLS, row level security]
+multi-tenant: [multitenant, multi-tenancy]
+Kubernetes: [k8s, kube]
+GitHub Actions: [gh actions]
+CI/CD: [continuous integration, continuous delivery, continuous deployment]
+REST: [RESTful, REST API]
+FastAPI: [fast api]
+Node.js: [node, nodejs]
+LLM: [LLMs, large language model, large language models]
+machine learning: [ML]
+scikit-learn: [sklearn]
+YOLO: [YOLOv8, YOLOv5, Ultralytics YOLO]
+webhooks: [webhook]
+idempotency: [idempotent]
+monorepo: [mono-repo]
+JSON schema: [JSON schemas, JSON output schemas]
+code review: [code reviews]
+microservices: [microservice]
