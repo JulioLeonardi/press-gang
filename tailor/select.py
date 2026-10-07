@@ -1,8 +1,9 @@
 """Pick sections, bullets and one variant per bullet to cover a JD's keywords.
 
 Exact branch-and-bound per voice; the best voice wins. Deterministic: options
-are tried in bank order (variants in id order) and only a strictly better
-score replaces the incumbent, so ties go to the first layout found.
+are tried in bank order and only a strictly better score replaces the
+incumbent, so ties go to the first layout found, and a bullet's first-listed
+variant is its default wording.
 """
 
 from __future__ import annotations
@@ -75,6 +76,16 @@ def _options(section: dict, voice: str, table, weights, exclude, lines) -> list[
     lo = section.get("min_bullets", 0)
     hi = section.get("max_bullets", len(bullets))
     order = {b["id"]: i for i, b in enumerate(bullets)}
+    # Variants with the same JD keywords and height can only tie, and ties go
+    # to the first listed, so the rest never need trying.
+    distinct = {}
+    for b in bullets:
+        seen, distinct[b["id"]] = set(), []
+        for v in b["variants"]:
+            key = (_variant_terms(v, table, weights), bullet_lines(v["text"], lines))
+            if v["voice"] == voice and key not in seen:
+                seen.add(key)
+                distinct[b["id"]].append(v)
 
     options = []
     for size in range(hi - len(required), -1, -1):     # fuller first
@@ -82,9 +93,7 @@ def _options(section: dict, voice: str, table, weights, exclude, lines) -> list[
             break
         for extra in combinations(optional, size):
             chosen = sorted([*required, *extra], key=lambda b: order[b["id"]])
-            per_bullet = [sorted((v for v in b["variants"] if v["voice"] == voice),
-                                 key=lambda v: v["id"]) for b in chosen]
-            for variants in product(*per_bullet):
+            for variants in product(*(distinct[b["id"]] for b in chosen)):
                 terms = Counter(t for v in variants for t in _variant_terms(v, table, weights))
                 options.append({
                     "picks": list(zip(chosen, variants)),
