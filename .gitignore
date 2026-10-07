@@ -29,3 +29,6 @@ out/
 
 # The browser extension. Kept local (the manifest key pins its ID).
 extension/
+
+# Local-only files: packed extension, its private key, loose resume PDFs.
+private/
