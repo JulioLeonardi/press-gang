@@ -189,7 +189,9 @@ def main(argv: list[str]) -> int:
         print("bank has errors; run python -m tailor.validate")
         return 1
     posting_id = argv[0] if argv else "base"
-    selection = select(bank, [], aliases)
+    from tailor.measure import line_counts  # measure imports this module
+
+    selection = select(bank, [], aliases, lines=line_counts(bank))
     print(render(bank, selection.layout, OUT_DIR / posting_id, selection.voice))
     return 0
 

@@ -20,7 +20,7 @@ Done so far: rollout steps 1–4. **Next: step 5 or 6** (see below). Steps 5–1
 
 - **Python:** use `C:\Python312\python.exe`. The default `python` (3.14) has no PyYAML.
 - **Tests** are plain scripts, not pytest, matching `tests/test_core.py`. Run all of them:
-  `python tests/test_tailor_validate.py`, `test_tailor_render.py`, `test_tailor_extract.py`, `test_tailor_select.py`, `test_core.py`.
+  `python tests/test_tailor_validate.py`, `test_tailor_render.py`, `test_tailor_extract.py`, `test_tailor_select.py`, `test_tailor_measure.py`, `test_core.py`.
 - **PDF tooling:** `pdflatex` is MiKTeX. Its auto-install setting is "ask", which hangs headless builds on a hidden dialog. If a package is missing, find it with `pdflatex --disable-installer` and install it with `miktex packages install <name>`. titlesec, marvosym and fancyhdr are already installed.
 - **Checking output:** `pdftotext -layout` and `pdftoppm -png` are on PATH. Compare a render with your PDF viewer or by diffing the extracted text.
 - **Shell quoting:** heredocs through the Bash tool mangle backslashes, which matters for LaTeX strings. Write such scripts to a file first.
@@ -37,6 +37,7 @@ Done so far: rollout steps 1–4. **Next: step 5 or 6** (see below). Steps 5–1
 | `tailor/validate.py` | yes | `python -m tailor.validate`. Also accepts a keyword if the section's `title`/`stack` states it, or an inflected form does (stem match). |
 | `tailor/render.py` | yes | `python -m tailor.render [posting_id]` renders the untailored base (selector with no keywords) to `out/{id}/Julio_Leonardi_Resume.pdf` + `selection.json`. `full_layout()` (every priority-1 section, all bullets) is the SWE resume; tests compare against it. |
 | `tailor/select.py` | yes | `select(bank, keywords, aliases, cap, exclude)` → `Selection(voice, layout, score, covered, uncovered)`. Branch-and-bound per voice, ~2 ms on the real bank. `weakest_filler()` picks the bullet to drop on overflow. |
+| `tailor/measure.py` | yes | `line_counts(bank)` → text → rendered line count, measured by pdflatex and cached in `out/line_cache.json`. Returns None without pdflatex. |
 | `tailor/__main__.py` | yes | `python -m tailor jd.txt [company] [posting_id]`: extract → select → render (one overflow retry) → explanation. |
 | `tailor/extract.py` | yes | `python -m tailor.extract jd.txt [company]`. `extract(jd, vocab, aliases, taxonomy, company)` returns `Keyword(term, weight, source, evidence)`. |
 | `tests/jds/expected.yaml` | yes | Expected terms per JD, plus a vocabulary list that stands in for the gitignored bank's keywords in CI. |
@@ -74,7 +75,7 @@ Done so far: rollout steps 1–4. **Next: step 5 or 6** (see below). Steps 5–1
 
 - **Step 5 (user-led):** the bank has one variant per bullet, so the selector only chooses bullets and sections today. Variants proposed into `resume/proposed.yaml` (never `bank.yaml`) would give it real choices. The uncovered lists from `python -m tailor tests/jds/*.txt` show what's missing. Recurring gaps: Go, JavaScript/frontend, distributed systems, CI/CD, testing, cloud. Only propose variants that make claims the user's facts support.
 - **Step 5 status (2026-10-06):** 7 technical variants are proposed in `resume/proposed.yaml` (gitignored), 4 of them with `confirm` questions. Waiting on the user to review them and move them into the bank. With all 7 merged, the lint is clean, every test JD scores higher and every one renders to 1 page. Gaps no fact supports: Go, Kubernetes, AWS, GCP, Azure, Terraform, Kafka, PyTorch, distributed systems, testing. GitHub Actions, GraphQL, NumPy and Jetpack Compose are in the skills block but no bullet says what they were used for; ask the user before writing variants for them. No `impact` variants yet: the spec says not to write them in bulk.
-- **Known selector weakness:** `LINE_CHARS = 115` doesn't predict wrapping. Drafts of 110–115 chars wrapped, while the bank's 112-char RLS bullet doesn't. A misprediction shows up as a render overflow. A real fix would measure each variant's width in one pdflatex run per bank version.
+- **Wrapping is measured, not guessed.** `tailor/measure.py` typesets each variant in the template and reads its line count; a wrapped line costs 12pt (0.857 bullet lines). Counts are cached per text in `out/line_cache.json`, so a new wording costs one ~0.6 s pdflatex run. Without pdflatex, `select` falls back to `LINE_CHARS`, which is unreliable at 108–115 chars. With 4 wrapping drafts added to the bank, the character guess overflowed on all 7 JDs; measured counts fit all 7 and still used the wrapped bullets.
 - **Step 6:** the FastAPI server can be built now. It wraps `tailor.__main__.tailor` + `explain`.
 
 ### Later steps (spec rollout)

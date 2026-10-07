@@ -25,7 +25,8 @@ PRIORITY_BONUS = {1: 0.03, 2: 0.02, 3: 0.01}
 # Technical Skills, minus Awards.
 ENTRY_LINES = {"experience": 2.31, "involvement": 2.31, "project": 1.44}
 HEADING_LINES = 1.71        # "Experience", "Projects", ...
-LINE_CHARS = 115            # longer bullets wrap to a second line
+WRAP_LINES = 12 / 14        # each extra line of a wrapped bullet
+LINE_CHARS = 115            # wrap guess when tailor.measure has no count
 _EPS = 1e-9
 
 
@@ -46,8 +47,10 @@ def _g(n: int) -> float:
     return _G[min(n, len(_G) - 1)]
 
 
-def _lines(text: str) -> int:
-    return -(-len(text) // LINE_CHARS)
+def bullet_lines(text: str, lines: dict[str, int] | None) -> float:
+    """Vertical cost of one bullet; `lines` is tailor.measure.line_counts()."""
+    wrapped = (lines or {}).get(text) or -(-len(text) // LINE_CHARS)
+    return 1 + (wrapped - 1) * WRAP_LINES
 
 
 def _variant_terms(variant: dict, table: dict[str, str], weights: dict[str, float]) -> frozenset:
@@ -55,7 +58,7 @@ def _variant_terms(variant: dict, table: dict[str, str], weights: dict[str, floa
                      if t in weights)
 
 
-def _options(section: dict, voice: str, table, weights, exclude) -> list[dict] | None:
+def _options(section: dict, voice: str, table, weights, exclude, lines) -> list[dict] | None:
     """Every legal bullet set with one variant each, in tie-break order.
 
     None if the voice has no variants here or an excluded bullet is required.
@@ -86,7 +89,7 @@ def _options(section: dict, voice: str, table, weights, exclude) -> list[dict] |
                 options.append({
                     "picks": list(zip(chosen, variants)),
                     "terms": terms,
-                    "lines": ENTRY_LINES[section["kind"]] + sum(_lines(v["text"]) for v in variants),
+                    "lines": ENTRY_LINES[section["kind"]] + sum(bullet_lines(v["text"], lines) for v in variants),
                     "bonus": sum(PRIORITY_BONUS[max(b.get("priority", 3), sp)] for b in chosen),
                 })
     return options
@@ -96,11 +99,11 @@ def _gain(terms: Counter, counts: Counter, weights: dict[str, float]) -> float:
     return sum(weights[t] * (_g(counts[t] + n) - _g(counts[t])) for t, n in terms.items())
 
 
-def _solve_voice(bank: dict, voice: str, weights, table, cap: int, exclude) -> tuple | None:
+def _solve_voice(bank: dict, voice: str, weights, table, cap: int, exclude, lines) -> tuple | None:
     budget = bank["meta"]["page_lines"]
     sections, choices = [], []
     for section in bank["sections"]:
-        opts = _options(section, voice, table, weights, exclude)
+        opts = _options(section, voice, table, weights, exclude, lines)
         mandatory = section.get("priority", 1) == 1
         if mandatory and not opts:
             return None
@@ -162,13 +165,14 @@ def _solve_voice(bank: dict, voice: str, weights, table, cap: int, exclude) -> t
 
 
 def select(bank: dict, keywords: list[Keyword], aliases: dict, cap: int = CAP,
-           exclude: frozenset = frozenset()) -> Selection:
-    """Best layout over all voices. `exclude` holds bullet ids that must not appear."""
+           exclude: frozenset = frozenset(), lines: dict[str, int] | None = None) -> Selection:
+    """Best layout over all voices. `exclude` holds bullet ids that must not appear;
+    `lines` maps bullet text to its measured line count (tailor.measure)."""
     table = alias_table(aliases)
     weights = {k.term: k.weight for k in keywords}
     winner = None
     for voice in bank["meta"]["voices"]:
-        solved = _solve_voice(bank, voice, weights, table, cap, exclude)
+        solved = _solve_voice(bank, voice, weights, table, cap, exclude, lines)
         if solved and (winner is None or solved[0] > winner[1][0] + _EPS):
             winner = (voice, solved)
     if winner is None:

@@ -11,6 +11,7 @@ from pathlib import Path
 
 from tailor.bank import ALIASES_PATH, BANK_PATH, load_yaml
 from tailor.extract import TAXONOMY_PATH, extract, vocabulary
+from tailor.measure import line_counts
 from tailor.render import OUT_DIR, PageOverflow, render
 from tailor.select import Selection, select, weakest_filler
 from tailor.validate import validate
@@ -18,14 +19,15 @@ from tailor.validate import validate
 
 def tailor(bank: dict, aliases: dict, keywords: list, out_dir: Path) -> tuple[Selection, Path]:
     """Select and render; on two pages, drop the weakest priority-3 bullet once and retry."""
-    selection = select(bank, keywords, aliases)
+    lines = line_counts(bank)
+    selection = select(bank, keywords, aliases, lines=lines)
     try:
         return selection, render(bank, selection.layout, out_dir, selection.voice)
     except PageOverflow:
         dropped = weakest_filler(selection, bank, keywords, aliases)
         if dropped is None:
             raise
-        selection = select(bank, keywords, aliases, exclude=frozenset({dropped}))
+        selection = select(bank, keywords, aliases, exclude=frozenset({dropped}), lines=lines)
         return selection, render(bank, selection.layout, out_dir, selection.voice)
 
 

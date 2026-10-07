@@ -18,7 +18,8 @@ sys.path.insert(0, str(ROOT))
 from tailor.bank import ALIASES_PATH, BANK_PATH, alias_table, canonical, load_yaml
 from tailor.extract import TAXONOMY_PATH, Keyword, extract, vocabulary
 from tailor.render import full_layout, render
-from tailor.select import CAP, ENTRY_LINES, HEADING_LINES, LINE_CHARS, select, weakest_filler
+from tailor.measure import line_counts
+from tailor.select import CAP, ENTRY_LINES, HEADING_LINES, bullet_lines, select, weakest_filler
 from tailor.validate import validate
 
 ALIASES = load_yaml(ALIASES_PATH)
@@ -53,11 +54,11 @@ def chosen(selection):
     return [b["variant_id"] for e in selection.layout for b in e["bullets"]]
 
 
-def violations(bank, selection, keywords):
+def violations(bank, selection, keywords, lines=None):
     """Every hard constraint the selection breaks, as readable strings."""
     sections = {s["id"]: s for s in bank["sections"]}
     variants = {v["id"]: (b, v) for s in bank["sections"] for b in s["bullets"] for v in b["variants"]}
-    found, held, lines, kinds = [], Counter(), 0.0, set()
+    found, held, used, kinds = [], Counter(), 0.0, set()
     for entry in selection.layout:
         section = sections[entry["section_id"]]
         ids = [b["variant_id"] for b in entry["bullets"]]
@@ -74,14 +75,14 @@ def violations(bank, selection, keywords):
             if v["voice"] != selection.voice:
                 found.append(f"{v['id']}: voice {v['voice']}")
             held.update({canonical(str(k), TABLE) for k in v["keywords"]})
-            lines += -(-len(v["text"]) // LINE_CHARS)
-        lines += ENTRY_LINES[section["kind"]] + (0 if section["kind"] in kinds else HEADING_LINES)
+            used += bullet_lines(v["text"], lines)
+        used += ENTRY_LINES[section["kind"]] + (0 if section["kind"] in kinds else HEADING_LINES)
         kinds.add(section["kind"])
     for s in bank["sections"]:
         if s.get("priority", 1) == 1 and s["id"] not in {e["section_id"] for e in selection.layout}:
             found.append(f"{s['id']}: mandatory section missing")
-    if lines > bank["meta"]["page_lines"] + 1e-9:
-        found.append(f"{lines:.2f} lines over budget")
+    if used > bank["meta"]["page_lines"] + 1e-9:
+        found.append(f"{used:.2f} lines over budget")
     # The cap may only be exceeded by bullets that have no way around it.
     forced = Counter()
     for s in bank["sections"]:
@@ -187,16 +188,18 @@ for name, spec in EXPECTED["jds"].items():
 # --- real bank ------------------------------------------------------------------------
 if BANK_PATH.exists() and shutil.which("pdflatex"):
     bank = load_yaml(BANK_PATH)
-    check("real bank, no JD: the SWE base resume", select(bank, [], ALIASES).layout, full_layout(bank))
+    lines = line_counts(bank)
+    check("real bank, no JD: the SWE base resume",
+          select(bank, [], ALIASES, lines=lines).layout, full_layout(bank))
     vocab = vocabulary(bank, ALIASES, TAXONOMY)
     with tempfile.TemporaryDirectory() as tmp:
         for name, spec in EXPECTED["jds"].items():
             jd = (ROOT / "tests" / "jds" / f"{name}.txt").read_text(encoding="utf-8")
             keys = extract(jd, vocab, ALIASES, TAXONOMY, spec["company"])
             start = time.perf_counter()
-            sel = select(bank, keys, ALIASES)
+            sel = select(bank, keys, ALIASES, lines=lines)
             elapsed = time.perf_counter() - start
-            check(f"real bank, {name}: constraints hold", violations(bank, sel, keys), [])
+            check(f"real bank, {name}: constraints hold", violations(bank, sel, keys, lines), [])
             check(f"real bank, {name}: under 200 ms", elapsed < 0.2, True)
             # render() raises PageOverflow on a second page.
             pdf = render(bank, sel.layout, Path(tmp) / name, sel.voice)
