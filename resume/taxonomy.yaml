@@ -1,0 +1,33 @@
+# Generic JD term -> specific terms it implies. Found generics add their
+# implied terms as "inferred" keywords at parent weight x factor (default 0.5).
+# Recall over precision: an inferred term with no matching bank variant scores
+# zero, and it can never put a word on the resume (only approved text can).
+cloud:
+  implies: [AWS, GCP, Azure, Docker, Kubernetes, Terraform]
+backend:
+  implies: [REST, GraphQL, SQL, PostgreSQL, microservices, FastAPI, NestJS]
+frontend:
+  implies: [React, TypeScript, JavaScript]
+full-stack:
+  implies: [React, TypeScript, NestJS, FastAPI, PostgreSQL]
+payments:
+  implies: [Stripe, idempotency, webhooks, billing]
+  factor: 0.7
+fintech:
+  implies: [payments, Stripe, billing]
+CI/CD:
+  implies: [GitHub Actions, Docker, testing]
+machine learning:
+  implies: [Python, pandas, NumPy, scikit-learn, model training]
+computer vision:
+  implies: [OpenCV, YOLO, PyTorch]
+distributed systems:
+  implies: [microservices, Kafka, async]
+event-driven:
+  implies: [Kafka, webhooks, async]
+relational databases:
+  implies: [PostgreSQL, MySQL, SQL]
+containerization:
+  implies: [Docker, Kubernetes]
+AI:
+  implies: [LLM, machine learning]

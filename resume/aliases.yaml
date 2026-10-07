@@ -1,8 +1,10 @@
 # Canonical term -> other spellings that mean the same thing.
 # Applied to bank keywords at load time and (later) to JD matching.
-# Matching is case-insensitive, so case-only variants are not listed.
+# Matching is case-insensitive, so case-only variants are not listed. The
+# exception is all-caps or 3-letter-or-shorter spellings ("JS", "Go", "REST"),
+# which JD matching treats case-sensitively so "go"/"rest" don't fire.
 # Deliberately absent: "CV" (in EU postings it means a resume, not computer
-# vision) and "TS"/"JS" (too many false hits as bare tokens).
+# vision) and "TS" (too many false hits as a bare token).
 PostgreSQL: [postgres, psql]
 Row-Level Security: [RLS, row level security]
 multi-tenant: [multitenant, multi-tenancy]
@@ -22,3 +24,13 @@ monorepo: [mono-repo]
 JSON schema: [JSON schemas, JSON output schemas]
 code review: [code reviews]
 microservices: [microservice]
+Go: [Golang]
+React: [React JS, ReactJS, React.js]
+JavaScript: [JS]
+Ruby on Rails: [Rails]
+Infrastructure as Code: [IaC, Infrastructure-as-Code]
+distributed systems: [distributed system, distributed computing]
+event-driven: [event driven]
+relational databases: [relational database]
+full-stack: [full stack, fullstack]
+containerization: [containers, containerized]
