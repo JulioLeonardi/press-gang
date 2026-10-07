@@ -8538,6 +8538,11 @@
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Data Scientist Intern - TikTok Shop User Product DS"
     },
+    "2b22452386316a1b": {
+      "company": "KLA",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Electrical Engineer"
+    },
     "2b239024ce9ff4b7": {
       "company": "The Nuclear Company",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
@@ -8663,6 +8668,11 @@
       "company": "Apple",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Hardware Technologies Engineering Intern"
+    },
+    "2bc35eb91e54ad59": {
+      "company": "Sierra Nevada Corporation",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Software Engineer 1"
     },
     "2bc92cbcdcbe40fc": {
       "company": "RTX",
@@ -10686,6 +10696,11 @@
       "company": "Databricks",
       "first_seen": "2026-09-17T14:39:13.296346+00:00",
       "title": "AI Forward Deployed Engineer - Sweden"
+    },
+    "36851dd1d3c2ec8c": {
+      "company": "Texas Capital Bank",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Associate Engineer"
     },
     "368cda8a97ffebbe": {
       "company": "RS2i",
@@ -25343,6 +25358,11 @@
       "first_seen": "2026-09-17T14:39:13.296346+00:00",
       "title": "Technical Support Engineer"
     },
+    "817a9a32457fab24": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "High Speed Serdes Validation Engineer"
+    },
     "817b83cf094352f8": {
       "company": "American Express",
       "first_seen": "2026-09-02T05:27:26.231700+00:00",
@@ -25990,6 +26010,11 @@
       "company": "One Brief",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Outcome Engineer - Early in Career Professional"
+    },
+    "84e8a5c55b338299": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Software Engineer"
     },
     "84f08846c176cb6c": {
       "company": "i3",
@@ -28129,6 +28154,11 @@
       "first_seen": "2026-09-29T17:34:13.015457+00:00",
       "title": "Customer Support Analyst, AI ML Application Support"
     },
+    "8fcebadf12e00157": {
+      "company": "Visa",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Software Engineer Operations and Infrastructure"
+    },
     "8fd0288ecff71756": {
       "company": "X Development",
       "first_seen": "2026-08-25T03:45:01.753920+00:00",
@@ -28379,6 +28409,11 @@
       "company": "NVIDIA",
       "first_seen": "2026-08-19T10:24:08.822599+00:00",
       "title": "Ph.D. Research Autonomous Vehicles Intern"
+    },
+    "910f86a9c9552bad": {
+      "company": "Capital One",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Manager – Product Management - Customer Core & Identity"
     },
     "911a6e5f9a5237d4": {
       "company": "TikTok",
@@ -29971,6 +30006,11 @@
       "first_seen": "2026-08-18T06:37:11.543032+00:00",
       "title": "Systems Engineer 1"
     },
+    "999316b187eecfa1": {
+      "company": "Qualcomm",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Video Design Engineer - Video Systems - HW Architecture"
+    },
     "999451eec7cea0c0": {
       "company": "Just Eat Takeaway.com",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
@@ -30249,6 +30289,11 @@
       "first_seen": "2026-09-18T13:21:58.233313+00:00",
       "title": "Développeur Full Stack"
     },
+    "9ae055f506ecaebe": {
+      "company": "Rambus",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Design Verification Engineer"
+    },
     "9ae4bf558516331e": {
       "company": "Aleph",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -30515,6 +30560,11 @@
       "company": "NTT DATA",
       "first_seen": "2026-09-10T14:47:14.337333+00:00",
       "title": "CICS Mainframe Systems Programmer"
+    },
+    "9c2a021e5c03ed1d": {
+      "company": "AstraZeneca",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Agentic AI Senior Engineer"
     },
     "9c32726229982f83": {
       "company": "Groupe SII",
@@ -37074,6 +37124,11 @@
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Software Engineer Intern - Recommendation Infra - Performance Efficiency"
     },
+    "bc2bb93ddc357964": {
+      "company": "Apple",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "CAD Engineer - Signoff Infrastructure"
+    },
     "bc30ddff1ffc0f65": {
       "company": "The Boeing Company",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
@@ -38647,6 +38702,11 @@
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Associate Design Verification Engineer"
     },
+    "c42e2c6a801fbe41": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "GPU PCIe and Boot Architect New Grad"
+    },
     "c432bc003e3e2735": {
       "company": "TikTok",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -38954,6 +39014,11 @@
       "company": "Thales",
       "first_seen": "2026-09-17T14:39:13.296346+00:00",
       "title": "Architecte IA (H/F)"
+    },
+    "c5a688c4cca4a2b9": {
+      "company": "Deloitte",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Data Scientist - AI and Data Science Engineer 1"
     },
     "c5a85f4f08368e01": {
       "company": "Garmin",
@@ -42996,6 +43061,12 @@
       "company": "Gartner",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Data Analyst Intern"
+    },
+    "d8d0c092416d6ff4": {
+      "ats_key": "gh:8249851",
+      "company": "Pure Storage",
+      "first_seen": "2026-10-07T02:02:50.110872+00:00",
+      "title": "Software Engineer New Grad"
     },
     "d8e201ac1e4739b2": {
       "ats_key": "gh:4840884101",
