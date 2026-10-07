@@ -12,14 +12,15 @@ Branch `feat/resume-tailoring`, off `master` at `658b96c`. It is independent of 
 |---|---|---|
 | `d912983` | 1 | Bank lint (`tailor/validate.py`), LaTeX render path (`tailor/render.py`), `resume/template.tex` |
 | `47c9bf0` | 2 + 4 | JD extraction (`tailor/extract.py`), `resume/taxonomy.yaml`, 7 real Greenhouse JDs in `tests/jds/` |
+| `cbd4d5b` | 3 | Selector (`tailor/select.py`), CLI (`python -m tailor`), `tests/test_tailor_select.py` + `tests/fixtures/bank/select.yaml` |
 
-Done so far: rollout steps 1, 2 and 4. **Next: step 3, the selector** (see below). Steps 5–10 are untouched.
+Done so far: rollout steps 1–4. **Next: step 5 or 6** (see below). Steps 5–10 are untouched.
 
 ### Environment gotchas
 
 - **Python:** use `C:\Python312\python.exe`. The default `python` (3.14) has no PyYAML.
 - **Tests** are plain scripts, not pytest, matching `tests/test_core.py`. Run all of them:
-  `python tests/test_tailor_validate.py`, `test_tailor_render.py`, `test_tailor_extract.py`, `test_core.py`.
+  `python tests/test_tailor_validate.py`, `test_tailor_render.py`, `test_tailor_extract.py`, `test_tailor_select.py`, `test_core.py`.
 - **PDF tooling:** `pdflatex` is MiKTeX. Its auto-install setting is "ask", which hangs headless builds on a hidden dialog. If a package is missing, find it with `pdflatex --disable-installer` and install it with `miktex packages install <name>`. titlesec, marvosym and fancyhdr are already installed.
 - **Checking output:** `pdftotext -layout` and `pdftoppm -png` are on PATH. Compare a render with your PDF viewer or by diffing the extracted text.
 - **Shell quoting:** heredocs through the Bash tool mangle backslashes, which matters for LaTeX strings. Write such scripts to a file first.
@@ -34,7 +35,9 @@ Done so far: rollout steps 1, 2 and 4. **Next: step 3, the selector** (see below
 | `resume/aliases.yaml`, `resume/taxonomy.yaml`, `resume/template.tex` | yes | Generic, no personal data. |
 | `tailor/bank.py` | yes | Loaders, `alias_table`, `canonical`, `spellings`. |
 | `tailor/validate.py` | yes | `python -m tailor.validate`. Also accepts a keyword if the section's `title`/`stack` states it, or an inflected form does (stem match). |
-| `tailor/render.py` | yes | `python -m tailor.render [posting_id]` writes `out/{id}/Julio_Leonardi_Resume.pdf` + `selection.json`. `full_layout()` is a **stand-in** for the selector: every priority-1 section, all bullets, technical voice. That reproduces the SWE resume exactly. |
+| `tailor/render.py` | yes | `python -m tailor.render [posting_id]` renders the untailored base (selector with no keywords) to `out/{id}/Julio_Leonardi_Resume.pdf` + `selection.json`. `full_layout()` (every priority-1 section, all bullets) is the SWE resume; tests compare against it. |
+| `tailor/select.py` | yes | `select(bank, keywords, aliases, cap, exclude)` → `Selection(voice, layout, score, covered, uncovered)`. Branch-and-bound per voice, ~2 ms on the real bank. `weakest_filler()` picks the bullet to drop on overflow. |
+| `tailor/__main__.py` | yes | `python -m tailor jd.txt [company] [posting_id]`: extract → select → render (one overflow retry) → explanation. |
 | `tailor/extract.py` | yes | `python -m tailor.extract jd.txt [company]`. `extract(jd, vocab, aliases, taxonomy, company)` returns `Keyword(term, weight, source, evidence)`. |
 | `tests/jds/expected.yaml` | yes | Expected terms per JD, plus a vocabulary list that stands in for the gitignored bank's keywords in CI. |
 
@@ -58,16 +61,19 @@ Done so far: rollout steps 1, 2 and 4. **Next: step 3, the selector** (see below
   - All-caps and ≤3-character spellings match case-sensitively ("Go", "REST", "JS").
   - Expansion is single-level. An exact hit always beats an inferred one.
 
-### Next: step 3, the selector
+### Selector decisions (step 3)
 
-Build `tailor/select.py` and `tailor/__main__.py` (`python -m tailor jd.txt [company]` → PDF + explanation), then swap `full_layout()` out of `render.main`.
+- **Length model:** costs measured with `\pagetotal` on the template, in bullet lines (14pt): bullet 1 (2 if over 115 chars), project heading 1.44, experience/involvement heading 2.31, section heading ("Projects") 1.71. The budget is `meta.page_lines: 37.4` in the bank, which I added; the SWE base uses 37.38. The fixed blocks (header, education, skills, awards) are outside the budget, so editing them means re-measuring. The method is in the selector's commit message. Every test JD's first-try layout renders to one page with 8–14pt to spare.
+- **Anti-stuffing cap applies only to the JD's keywords**, and a keyword's limit rises to the number of mandatory bullets that can't avoid it. **Raise this with the user.** Without that rule, any JD that mentions Postgres has no legal layout: usp_rls, usp_stripe and lintito_deploy are all priority 1 with one variant each. Side effect: when a JD says "machine learning", teebot_anomaly is dropped, because the two forced TeeBot bullets already hold the term. The user may prefer to retag, or to add variants without the term.
+- **Priority bonus** 0.03/0.02/0.01 for effective priority 1/2/3, where effective = the worse of bullet and section priority. With no JD this reproduces the SWE base exactly, and a swap must gain more coverage than the bonus it gives up.
+- **Section `priority` 1 means mandatory.** It defaults to 1 when absent. Optional sections can be left out entirely.
+- **Overflow fallback:** drop the selected effective-priority-3 bullet whose removal costs the least coverage, re-solve once, then error. Tested with a stubbed render. The real bank hasn't triggered it.
+- **Ties:** voices in `meta.voices` order; options with the fullest set of bullets first, bullets in bank order, variants in id order; only a strictly better score replaces the incumbent.
 
-- **The page has zero slack.** The SWE base fills one page exactly. Bullets run 94–112 characters and each renders on one line. Adding any bullet or entry overflows, and so does including priority-3 entries; `test_tailor_render.py` relies on that. The length model therefore has to budget lines: one per bullet, plus heading overhead per section entry. Verify by rendering, and on 2 pages drop the lowest-scoring priority-3 bullet and re-solve, per the spec.
-- **Voices:** solve per voice. Skip a voice that can't fill the sections it would include; `impact` currently covers nothing.
-- **Objective and constraints** come from spec §3: g(1)=1.0, g(2)=1.3, g(3+)=1.3, a priority bonus, the cap of 2 per keyword, section `min_bullets`/`max_bullets`, and priority-1 bullets wherever their section is included. It must be deterministic (tie-break on variant id order) and run in under 200 ms.
-- **Solver:** the plan was `pulp` (bundled CBC solver), with a tiny ε term for deterministic tie-breaks. With only 30 variants and one voice today, exhaustive search with pruning may be simpler. Measure before adding the dependency.
-- **Explanation output:** covered keywords with the variant covering each, uncovered keywords sorted by weight with `source`/`evidence`, and the score.
-- **Tests (spec "Testing"):** on every `tests/jds` JD, assert the constraints hold, run twice for identical output, check runtime. They need a fixture bank, since the real one is absent in CI. Extend `tests/fixtures/bank/valid.yaml` or add a second fixture.
+### Next: step 5 or 6
+
+- **Step 5 (user-led):** the bank has one variant per bullet, so the selector only chooses bullets and sections today. Variants proposed into `resume/proposed.yaml` (never `bank.yaml`) would give it real choices. The uncovered lists from `python -m tailor tests/jds/*.txt` show what's missing. Recurring gaps: Go, JavaScript/frontend, distributed systems, CI/CD, testing, cloud. Only propose variants that make claims the user's facts support.
+- **Step 6:** the FastAPI server can be built now. It wraps `tailor.__main__.tailor` + `explain`.
 
 ### Later steps (spec rollout)
 
