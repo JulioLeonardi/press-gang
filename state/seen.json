@@ -5954,6 +5954,11 @@
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "Power Platform Developer"
     },
+    "1e6d7a980cfa1670": {
+      "company": "Rivian",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Early Career Validation Engineer - Vehicle Hardware"
+    },
     "1e6ff9f29bca0cb4": {
       "company": "Clyde Companies",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -13493,6 +13498,11 @@
       "first_seen": "2026-09-17T14:39:13.296346+00:00",
       "title": "Consultant fonctionnel ERP (Finance)"
     },
+    "43d4a51d327202ad": {
+      "company": "Thales",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Quality engineer"
+    },
     "43f2631d145f6d07": {
       "ats_key": "gh:8157351",
       "company": "Pinterest",
@@ -17024,6 +17034,11 @@
       "company": "Northrop Grumman",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Electromechanical Engineer"
+    },
+    "5694098f95f55d83": {
+      "company": "Apple",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Screening and Integration Engineer - Watch Software, Sensing and Connectivity"
     },
     "56a145e609990c7e": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
@@ -22655,6 +22670,11 @@
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Electronic Security Systems Engineer"
     },
+    "728a5e491a910273": {
+      "company": "Salesforce",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Forward Deployed Engineer"
+    },
     "728dc9e486d044a0": {
       "company": "Capgemini",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
@@ -23605,6 +23625,11 @@
       "company": "Wyll",
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
       "title": "Ingénieur DevOps (Confirmé à Expert) - Toulouse"
+    },
+    "773ff04dfca98dee": {
+      "company": "AstraZeneca",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Scientist, Bioscience – Screening (Biochemical/Cell) Biology"
     },
     "7741582f88da8e40": {
       "company": "Accenture France",
@@ -28725,6 +28750,11 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Intégrateur atelier (H/F)"
     },
+    "91fccdb75384b8fc": {
+      "company": "Thales",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Administrateur SysOps & Réseau (H/F)"
+    },
     "920d03cceb1074f1": {
       "company": "triPica",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
@@ -30493,6 +30523,12 @@
       "company": "Innovation @PSL",
       "first_seen": "2026-09-18T13:21:58.233313+00:00",
       "title": "Développeur Full Stack"
+    },
+    "9adf7c1d311ab56c": {
+      "ats_key": "ashby:e9aa62bf-2c18-44c4-beb0-6a8e6ea257db",
+      "company": "Mollie",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Security Operations Engineer II"
     },
     "9ae055f506ecaebe": {
       "company": "Rambus",
@@ -38797,6 +38833,11 @@
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "New Grad: Front-End Engineer"
     },
+    "c38c6144ea6ccf47": {
+      "company": "Salesforce",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Forward Deployed Engineer - Public sector, Nonprofit and Education"
+    },
     "c3929a29fe5b3237": {
       "company": "Tesla",
       "first_seen": "2026-08-20T01:02:09.664623+00:00",
@@ -40512,6 +40553,11 @@
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
       "title": "Software Engineer II - Full Stack - Web Engineering"
     },
+    "cb7301f086fda17b": {
+      "company": "AstraZeneca",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Scientist, Bioscience – Cell & Mechanistic Biology"
+    },
     "cb73e043cd63cb78": {
       "company": "agap2IT",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
@@ -42190,6 +42236,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "CNO Analyst / Programmer Level 0 - TAP Engineering"
     },
+    "d38352ecefe5c61b": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Research Scientist PhD New Grad - Autonomous Systems and Physical AI Research"
+    },
     "d392e56404f9172b": {
       "company": "Isahit - Compte de tests",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
@@ -43743,6 +43794,11 @@
       "company": "JP Morgan Chase",
       "first_seen": "2026-09-23T07:18:01.812060+00:00",
       "title": "Market Risk Time Series Analytics Analyst/Associate"
+    },
+    "daba0658af315336": {
+      "company": "AstraZeneca",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Data Protection & Privacy Counsel for Poland & Central Europe"
     },
     "dabf503169a728ac": {
       "ats_key": "gh:7995575003",
@@ -46200,6 +46256,11 @@
       "company": "Atria Group",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Java Developer - Multiple Teams"
+    },
+    "e6ab7f2a1f7da48f": {
+      "company": "HP",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "PWI Customer Assurance SW Engineer"
     },
     "e6b07aee828d6ca4": {
       "company": "Block",
@@ -49153,6 +49214,11 @@
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Content Product New Grad - TikTok Local Services"
     },
+    "f4f22eedc4e07964": {
+      "company": "Apple",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Screening & Integration Engineer - Watch Software - Sensing & Connectivity"
+    },
     "f4f406a97850ca77": {
       "company": "Notion",
       "first_seen": "2026-08-21T16:29:13.769073+00:00",
@@ -50098,6 +50164,11 @@
       "company": "Crowe",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "AI Engineering Intern"
+    },
+    "f9ad26fd981e5ae2": {
+      "company": "Thales",
+      "first_seen": "2026-10-07T22:38:41.262136+00:00",
+      "title": "Administrateur Réseaux et Sécurité (H/F)"
     },
     "f9b15ca4aa1fd65f": {
       "company": "Adobe",
