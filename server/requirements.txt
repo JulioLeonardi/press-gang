@@ -1,0 +1,4 @@
+# Local tailoring server only (python -m server); the bot's Action doesn't need these.
+fastapi>=0.115
+uvicorn>=0.30
+httpx2>=2.13          # Starlette's TestClient, for tests/test_server.py
