@@ -1,0 +1,72 @@
+# Expected extraction per JD in this folder. The JDs are real Greenhouse
+# postings (raw `content` field), fetched 2026-10-06.
+#
+# vocabulary: stand-in for the bank's keywords (the real bank is gitignored),
+#   plus trap terms (R, C++, Go) that must only fire where they truly appear.
+#   test_tailor_extract.py adds aliases.yaml and taxonomy.yaml terms.
+# exact:    terms that must be found in the JD text itself
+# inferred: terms that must come only from taxonomy expansion
+# absent:   terms that must not be found at all
+# weights:  exact weights pinned where the section logic is the point
+vocabulary: [Agile, AI, algorithms, Android, anomaly detection, API, async, authorization,
+             automation, backend, billing, classification, code review, computer vision,
+             Docker, FastAPI, full-stack, Git, GitHub, GPU, idempotency, JSON schema, Kotlin,
+             LLM, machine learning, microservices, mobile, monorepo, multi-tenant, MySQL,
+             NestJS, object-oriented programming, payments, PHP, Playwright, PostgreSQL,
+             Python, rate limiting, React, Row-Level Security, SaaS, scalability, security,
+             SQL, Stripe, TypeScript, UI, version control, webhooks, YAML, R, C++]
+
+jds:
+  # Fintech, new grad. "At Stripe we embrace..." must not count as Stripe experience.
+  stripe_new_grad:
+    company: Stripe
+    exact: [AI, Go, JavaScript, code review, backend, frontend]
+    absent: [Stripe]
+    weights: {code review: 0.5, Go: 1.0}       # code review is under "Preferred qualifications"
+
+  # German market, "(x/f/m)" title, stack under "About our tech environment"
+  # (not "About us" boilerplate), "fintech ... would be a plus" inline.
+  doctolib_fullstack_berlin:
+    company: Doctolib
+    exact: [Kotlin, React, TypeScript, Python, Ruby on Rails, full-stack, backend, frontend,
+            security, cloud]
+    absent: [R, Go]
+    inferred: [Stripe]                        # via "fintech", never from the text
+    weights: {Kotlin: 0.7, fintech: 0.5}
+
+  # Vague cloud: "comfortable with modern cloud and data infrastructure", no
+  # provider named. Expansion must supply the specifics.
+  datadog_ai_research:
+    company: Datadog
+    exact: [cloud, Python, PyTorch, Go, C++, machine learning, distributed systems,
+            containerization, GPU]
+    inferred: [AWS, GCP, Kubernetes, Docker]
+    absent: [R]
+
+  # Cloud-heavy platform role; "relational, NoSQL and graphs" must not hit SQL.
+  feedzai_platform_compute:
+    company: Feedzai
+    exact: [Go, Kubernetes, Docker, AWS, GCP, Terraform, CI/CD, Infrastructure as Code, cloud]
+    inferred: [Azure]
+    absent: [SQL]
+
+  # Fintech backend. The intro's "reliability isn't a nice-to-have" must not
+  # open a nice-to-have section; Kotlin is required.
+  sumup_kotlin_transfers:
+    company: SumUp
+    exact: [Kotlin, Go, Kafka, PostgreSQL, Kubernetes, AWS, microservices, event-driven,
+            relational databases, distributed systems, code review, payments]
+    weights: {Kotlin: 1.37}
+
+  # Inline bold headers; "continuous delivery" is CI/CD; only "Ruby", never Rails.
+  cabify_backend_ai:
+    company: Cabify
+    exact: [Go, AI, LLM, algorithms, distributed systems, backend, CI/CD]
+    absent: [Ruby on Rails, Kotlin]
+
+  # Heavy "Nice To Have" section holding the whole tech list; "Physical
+  # Requirements" footer is not a requirements section.
+  talkdesk_swe2:
+    company: Talkdesk
+    exact: [Kotlin, React, Git, object-oriented programming, Agile, backend, frontend, testing]
+    weights: {Kotlin: 0.5, React: 0.5, Git: 0.5, object-oriented programming: 1.0}

@@ -1,0 +1,39 @@
+# Canonical term -> other spellings that mean the same thing.
+# Applied to bank keywords at load time and (later) to JD matching.
+# Matching is case-insensitive, so case-only variants are not listed. The
+# exception is all-caps or 3-letter-or-shorter spellings ("JS", "Go", "REST"),
+# which JD matching treats case-sensitively so "go"/"rest" don't fire.
+# Deliberately absent: "CV" (in EU postings it means a resume, not computer
+# vision) and "TS" (too many false hits as a bare token).
+PostgreSQL: [postgres, psql]
+Row-Level Security: [RLS, row level security]
+multi-tenant: [multitenant, multi-tenancy]
+Kubernetes: [k8s, kube]
+GitHub Actions: [gh actions]
+CI/CD: [continuous integration, continuous delivery, continuous deployment]
+REST: [RESTful, REST API]
+FastAPI: [fast api]
+Node.js: [node, nodejs]
+LLM: [LLMs, large language model, large language models]
+machine learning: [ML]
+scikit-learn: [sklearn]
+YOLO: [YOLOv8, YOLOv5, Ultralytics YOLO]
+webhooks: [webhook]
+idempotency: [idempotent]
+monorepo: [mono-repo]
+JSON schema: [JSON schemas, JSON output schemas]
+code review: [code reviews]
+microservices: [microservice]
+Go: [Golang]
+React: [React JS, ReactJS, React.js]
+JavaScript: [JS]
+Ruby on Rails: [Rails]
+Infrastructure as Code: [IaC, Infrastructure-as-Code]
+distributed systems: [distributed system, distributed computing]
+event-driven: [event driven]
+relational databases: [relational database]
+full-stack: [full stack, fullstack]
+containerization: [containers, containerized]
+object-oriented programming: [object-oriented design, OOP]
+algorithms: [algorithm, algorithm development]
+scalability: [scalable]

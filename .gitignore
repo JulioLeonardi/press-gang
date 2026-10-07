@@ -16,7 +16,19 @@ env/
 .idea/
 .vscode/
 
-# Local planning notes, not part of the bot.
-CLAUDE.md
-SOURCES.md
-companies_seed_list.md
+# Resume tailoring. The repo is public, so anything holding personal data
+# (phone, email, bullet phrasings, stored answers) stays local; the Action gets
+# the bank through a secret. Generic files (aliases, taxonomy) are committed.
+RESUME_TAILORING.md
+*Resume.html
+*Resume.tex
+resume/bank.yaml
+resume/proposed.yaml
+resume/answers.yaml
+out/
+
+# The browser extension. Kept local (the manifest key pins its ID).
+extension/
+
+# Local-only files: packed extension, its private key, loose resume PDFs.
+private/
