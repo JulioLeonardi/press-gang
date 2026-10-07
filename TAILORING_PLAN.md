@@ -73,6 +73,8 @@ Done so far: rollout steps 1–4. **Next: step 5 or 6** (see below). Steps 5–1
 ### Next: step 5 or 6
 
 - **Step 5 (user-led):** the bank has one variant per bullet, so the selector only chooses bullets and sections today. Variants proposed into `resume/proposed.yaml` (never `bank.yaml`) would give it real choices. The uncovered lists from `python -m tailor tests/jds/*.txt` show what's missing. Recurring gaps: Go, JavaScript/frontend, distributed systems, CI/CD, testing, cloud. Only propose variants that make claims the user's facts support.
+- **Step 5 status (2026-10-06):** 7 technical variants are proposed in `resume/proposed.yaml` (gitignored), 4 of them with `confirm` questions. Waiting on the user to review them and move them into the bank. With all 7 merged, the lint is clean, every test JD scores higher and every one renders to 1 page. Gaps no fact supports: Go, Kubernetes, AWS, GCP, Azure, Terraform, Kafka, PyTorch, distributed systems, testing. GitHub Actions, GraphQL, NumPy and Jetpack Compose are in the skills block but no bullet says what they were used for; ask the user before writing variants for them. No `impact` variants yet: the spec says not to write them in bulk.
+- **Known selector weakness:** `LINE_CHARS = 115` doesn't predict wrapping. Drafts of 110–115 chars wrapped, while the bank's 112-char RLS bullet doesn't. A misprediction shows up as a render overflow. A real fix would measure each variant's width in one pdflatex run per bank version.
 - **Step 6:** the FastAPI server can be built now. It wraps `tailor.__main__.tailor` + `explain`.
 
 ### Later steps (spec rollout)
