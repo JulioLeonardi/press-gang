@@ -1,0 +1,126 @@
+# Selection fixture: two voices, an optional (priority 3) section, and a page
+# budget that only fits it if two bullets make room. Not real resume content.
+meta:
+  voices: [technical, impact]
+  max_chars: 220
+  # acme (7.02) + widget (5.15) = 12.17; side costs 2.44, so it fits only
+  # after dropping one acme bullet and widget_ml.
+  page_lines: 13.0
+  category_keywords: [API, CI/CD]
+
+sections:
+  - id: acme
+    kind: experience
+    title: Backend Intern
+    org: Acme
+    dates: May 2026 – July 2026
+    min_bullets: 2
+    max_bullets: 3
+    bullets:
+      - id: acme_db
+        fact: Designed 12 PostgreSQL tables behind a Python service.
+        facts_locked: ["12", PostgreSQL]
+        priority: 1
+        variants:
+          - id: acme_db.impact
+            voice: impact
+            text: "Cut query latency by moving 12 tables to PostgreSQL"
+            keywords: [PostgreSQL, latency]
+          - id: acme_db.technical
+            voice: technical
+            text: "Designed 12 PostgreSQL tables behind a Python service"
+            keywords: [PostgreSQL, Python]
+      - id: acme_api
+        fact: Built an internal API serving 3 teams.
+        facts_locked: ["3"]
+        priority: 2
+        variants:
+          - id: acme_api.impact
+            voice: impact
+            text: "Unblocked 3 internal teams with a self-serve API"
+            keywords: [API]
+          - id: acme_api.technical
+            voice: technical
+            text: "Built a FastAPI service in Docker serving 3 internal teams"
+            keywords: [FastAPI, Docker]
+          - id: acme_api.technical_rest
+            voice: technical
+            text: "Shipped a REST API in Python serving 3 internal teams"
+            keywords: [REST, Python]
+      - id: acme_ci
+        fact: Added CI that runs tests on every pull request.
+        priority: 2
+        variants:
+          - id: acme_ci.impact
+            voice: impact
+            text: "Caught regressions before merge with checks on every pull request"
+            keywords: [CI/CD]
+          - id: acme_ci.technical
+            voice: technical
+            text: "Added GitHub Actions CI running Python tests on every pull request"
+            keywords: [GitHub Actions, Python, testing]
+
+  - id: widget
+    kind: project
+    title: Widget
+    dates: 2025
+    min_bullets: 1
+    max_bullets: 2
+    bullets:
+      - id: widget_core
+        fact: Wrote an Android app with offline sync.
+        priority: 1
+        variants:
+          - id: widget_core.impact
+            voice: impact
+            text: "Shipped an Android app that field staff use offline"
+            keywords: [Android]
+          - id: widget_core.technical
+            voice: technical
+            text: "Wrote a Kotlin Android app with offline sync"
+            keywords: [Kotlin, Android]
+      - id: widget_ml
+        fact: Trained a classifier on sensor data.
+        priority: 3
+        variants:
+          - id: widget_ml.impact
+            voice: impact
+            text: "Flagged faulty sensors automatically with a trained classifier"
+            keywords: [classification]
+          - id: widget_ml.technical
+            voice: technical
+            text: "Trained a Python classifier on sensor data"
+            keywords: [Python, classification]
+
+  - id: side
+    kind: project
+    title: Side Project
+    dates: 2024
+    priority: 3
+    min_bullets: 1
+    max_bullets: 2
+    bullets:
+      - id: side_go
+        fact: Built a deploy tool for Kubernetes.
+        priority: 1
+        variants:
+          - id: side_go.impact
+            voice: impact
+            text: "Cut deploy time with a command-line deploy tool for Kubernetes"
+            keywords: [Kubernetes]
+          - id: side_go.technical
+            voice: technical
+            text: "Built a Go CLI that deploys Kubernetes manifests"
+            keywords: [Go, Kubernetes]
+      - id: side_ui
+        fact: Built a deploy status dashboard.
+        priority: 3
+        variants:
+          - id: side_ui.impact
+            voice: impact
+            text: "Gave the team a live dashboard of deploy status"
+            keywords: [dashboards]
+          - id: side_ui.technical
+            voice: technical
+            text: "Built a React dashboard for deploy status"
+            keywords: [React]

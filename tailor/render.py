@@ -1,6 +1,6 @@
 """Layout -> one-page PDF, refusing any bullet that isn't verbatim from the bank.
 
-Run: python -m tailor.render [posting_id]
+Run: python -m tailor.render [posting_id]   (the untailored base resume)
 """
 
 from __future__ import annotations
@@ -17,6 +17,7 @@ from pathlib import Path
 import yaml
 
 from tailor.bank import ALIASES_PATH, BANK_PATH, ROOT, load_yaml
+from tailor.select import select
 from tailor.validate import validate
 
 TEMPLATE_PATH = ROOT / "resume" / "template.tex"
@@ -49,7 +50,7 @@ def _href(url: str, inner: str) -> str:
 
 
 def full_layout(bank: dict, voice: str = "technical") -> list[dict]:
-    """Stand-in until select.py exists: every priority-1 section, all bullets."""
+    """Every priority-1 section, all bullets: the SWE base resume. Tests compare against it."""
     layout = []
     for section in bank["sections"]:
         if section.get("priority") != 1:
@@ -182,13 +183,14 @@ def render(bank: dict, layout: list[dict], out_dir: Path, voice: str) -> Path:
 
 
 def main(argv: list[str]) -> int:
-    bank = load_yaml(BANK_PATH)
-    errors, _ = validate(bank, load_yaml(ALIASES_PATH))
+    bank, aliases = load_yaml(BANK_PATH), load_yaml(ALIASES_PATH)
+    errors, _ = validate(bank, aliases)
     if errors:
         print("bank has errors; run python -m tailor.validate")
         return 1
     posting_id = argv[0] if argv else "base"
-    print(render(bank, full_layout(bank), OUT_DIR / posting_id, "technical"))
+    selection = select(bank, [], aliases)
+    print(render(bank, selection.layout, OUT_DIR / posting_id, selection.voice))
     return 0
 
 
