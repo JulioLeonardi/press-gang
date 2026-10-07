@@ -224,6 +224,35 @@ for title in ["Quality Assurance Engineer - Development",             # not "ass
               "Machine Learning Engineer", "DevOps Engineer"]:
     check(f"non-CS terms do not touch {title!r}", excluded(title), False)
 
+# Added with the company ATS boards: the noise they let through.
+for title in ["Account Development Representative, DACH & CEE", "Junior Recipe Developer (all genders)",
+              "Product Financial Controller, Balance Platform", "Fleet Development Analyst",
+              "Fleet Development Success - Key Accounts Specialist", "Customer Support Agent- IT",
+              "Merchant Security Expert with German and English", "Marketing Analyst - Growth & Analytics (M/F/X)",
+              "Restaurant Onboarding Specialist - Data Validation", "Commerce Platform Account Specialist - Thessaloniki",
+              "Retail Development Associate", "Procurement Systems Analyst",
+              "Associate (AI) Solution Consultant (DACH) - Orbit Program", "Site QA/QC Specialist (f/m/x)",
+              "New Grad 2026: Associate Product Designer", "HQ -  AI Business Analyst"]:
+    check(f"drops non-CS role {title!r}", excluded(title), True)
+
+# And their traps: the bare word each phrase above was narrowed from.
+for title in ["Python AI Agent Engineer (Mid-level)",                        # not "agent"
+              "Software Engineer - Kubernetes Specialist", "Devops Specialist F/H",  # not "specialist"
+              "Consultant Cybersecurite OT (H/F)",                          # not "consultant"
+              "New Grad 2026: Software Engineer (Commerce Ads)",             # not "commerce"
+              "Quantitative Strategy Developer New Grad",                   # not "strategy"
+              "ASIC Design Engineer - Cache Controller",                    # not "controller"
+              "Kotlin Backend Engineer - Retail Group",                     # not "retail"
+              "Kotlin/Java Developer (Merchant Response)",                  # not "merchant"
+              "New Grad 2026: Backend Software Engineer (Customer Service Platform)",  # not "customer service"
+              "Security Analyst (compliance and controls)",                 # not "compliance"
+              "Software Engineer, Stripe Tax", "Finance Data Engineer",
+              "Fullstack Software Engineer (x/f/m) - Payroll & Benefits Platform for HR",
+              "IT Operations Engineer, Intelligent Platforms Alliance",
+              "Account Solution Engineer", "Customer Success Engineer",
+              "Analytics Engineer I - AI & Data Enablement"]:
+    check(f"new exclusions do not touch {title!r}", excluded(title), False)
+
 # --- eu_parquet row transform -----------------------------------------------
 # The transform only; _fetch_eu_parquet's HTTP range reads are not exercised.
 from fetch import eu_rows_to_postings  # noqa: E402
@@ -343,6 +372,148 @@ check("the screen is whole-word: 'it' does not fire inside 'Recruitment'",
 check("an absent require_title_patterns screens nothing (back-compat)",
       eu_titles(eu_row(title="Medical Science Liaison - Oncology")),
       ["Medical Science Liaison - Oncology"])
+
+# --- ats_key --------------------------------------------------------------
+from normalize import ats_key  # noqa: E402
+
+check("Greenhouse job-boards URL",
+      ats_key("https://job-boards.greenhouse.io/adyen/jobs/7938074"), "gh:7938074")
+check("Greenhouse legacy boards URL is the same key",
+      ats_key("https://boards.greenhouse.io/adyen/jobs/7938074?t=abc"), "gh:7938074")
+# How Aramente links N26: a careers-site URL with the Greenhouse id as a param.
+check("careers-site URL with gh_jid matches the Greenhouse key",
+      ats_key("https://n26.com/en-eu/careers/positions/8184721?gh_jid=8184721"), "gh:8184721")
+check("Ashby UUID is lowercased",
+      ats_key("https://jobs.ashbyhq.com/mollie/D056F390-1D70-408E-8F85-2360D41EAA84"),
+      "ashby:d056f390-1d70-408e-8f85-2360d41eaa84")
+check("Ashby application URL keys to the same job",
+      ats_key("https://jobs.ashbyhq.com/mollie/d056f390-1d70-408e-8f85-2360d41eaa84/application"),
+      "ashby:d056f390-1d70-408e-8f85-2360d41eaa84")
+check("Lever",
+      ats_key("https://jobs.lever.co/doctrine/0a426b04-3c62-424c-9e5c-8622780f62de"),
+      "lever:0a426b04-3c62-424c-9e5c-8622780f62de")
+check("SmartRecruiters API URL",
+      ats_key("https://api.smartrecruiters.com/v1/companies/noota/postings/744000126256349"),
+      "sr:744000126256349")
+check("SmartRecruiters public URL is the same key",
+      ats_key("https://jobs.smartrecruiters.com/Noota/744000126256349-backend-engineer"),
+      "sr:744000126256349")
+check("Recruitee keeps the company (slugs are per-company)",
+      ats_key("https://amiparis.recruitee.com/o/cdi-responsable-logistique-hf"),
+      "recruitee:amiparis/cdi-responsable-logistique-hf")
+check("Personio .de and .com agree",
+      ats_key("https://audeering.jobs.personio.de/job/1936168"),
+      ats_key("https://audeering.jobs.personio.com/job/1936168"))
+check("a URL with no ATS id has no key",
+      ats_key("https://amazon.jobs/en/jobs/2890123/software-development-engineer"), None)
+check("an empty URL has no key", ats_key(""), None)
+
+# --- dedupe + per-group seeding ----------------------------------------------
+from main import mark_seeded, split_new  # noqa: E402
+
+
+def posting(pid, key=None, group="simplify", title="Software Engineer"):
+    return {"id": pid, "ats_key": key, "seed_group": group, "company": "Acme", "title": title}
+
+
+def ids(postings):
+    return [p["id"] for p in postings]
+
+
+seeded_state = {"postings": {}, "seeded_groups": ["simplify", "aramente"]}
+
+new, unseeded = split_new([posting("a", "gh:1"), posting("b", "gh:1", group="aramente")], seeded_state)
+check("one job from two sources (same ats_key, different ids) notifies once", ids(new), ["a"])
+
+new, _ = split_new([posting("a", "gh:1"), posting("b", "gh:2")], seeded_state)
+check("same title, different ATS ids are two reqs, both notify", ids(new), ["a", "b"])
+
+# The regression a company+title fallback would cause: amazon.jobs URLs carry
+# no ATS id, and Amazon posts many reqs under one title.
+new, _ = split_new([posting("a"), posting("b")], seeded_state)
+check("keyless postings with different ids both notify", ids(new), ["a", "b"])
+
+state_with_key = {"postings": {"old": {"first_seen": "2026-09-01T00:00:00+00:00", "ats_key": "gh:9"}},
+                  "seeded_groups": ["simplify"]}
+new, _ = split_new([posting("new-id", "gh:9")], state_with_key)
+check("a job already notified under another id is seen via its ats_key", ids(new), [])
+
+new, unseeded = split_new([posting("a", group="simplify"), posting("c", group="ats/greenhouse/adyen")],
+                          seeded_state)
+check("a seeded group's match notifies", ids(new), ["a"])
+check("an unseeded group's match is held for silent seeding", ids(unseeded), ["c"])
+
+seed_state = {"postings": {}, "seeded_groups": ["simplify"]}
+changed = mark_seeded(seed_state, unseeded, {"simplify", "ats/greenhouse/adyen"}, "2026-09-14T00:00:00+00:00")
+check("seeding reports a state change", changed, True)
+check("seeded postings are flagged for heartbeat", seed_state["postings"]["c"].get("seeded"), True)
+check("the new group is now seeded", seed_state["seeded_groups"], ["ats/greenhouse/adyen", "simplify"])
+check("re-marking already-seeded groups is not a change",
+      mark_seeded(seed_state, [], {"simplify"}, "2026-09-14T00:00:00+00:00"), False)
+new, unseeded = split_new([posting("d", group="ats/greenhouse/adyen")], seed_state)
+check("after seeding, the group's next posting notifies", (ids(new), ids(unseeded)), (["d"], []))
+
+# --- ATS adapters (trimmed real responses in tests/fixtures/) -----------------
+import json  # noqa: E402
+
+from ats import _PARSERS  # noqa: E402
+
+FIXTURES = ROOT / "tests" / "fixtures"
+
+
+def parse_fixture(ats, file, company, board):
+    data = json.loads((FIXTURES / file).read_text(encoding="utf-8"))
+    return _PARSERS[ats](data, company, board)
+
+
+gh_jobs = parse_fixture("greenhouse", "greenhouse_feedzai.json", "Feedzai", "feedzai")
+check("greenhouse: every job parsed", len(gh_jobs), 3)
+check("greenhouse: key is the Greenhouse job id", gh_jobs[0]["ats_key"], "gh:7882365")
+check("greenhouse: key agrees with ats_key() on the job's own URL",
+      gh_jobs[0]["ats_key"], ats_key(gh_jobs[0]["url"]))
+check("greenhouse: seed group is per board", gh_jobs[0]["seed_group"], "ats/greenhouse/feedzai")
+check("greenhouse: source_repo names the ATS for the board page", gh_jobs[0]["source_repo"], "ats/greenhouse")
+check("greenhouse: company comes from companies.yaml", gh_jobs[0]["company"], "Feedzai")
+check("greenhouse: location name", gh_jobs[1]["location"], "Berlin, Berlin, Germany")
+# first_published 2026-05-05, updated_at 2026-08-04: an edit must not re-date the role.
+check("greenhouse: dated by first_published, not updated_at", gh_jobs[1]["date_posted"], "05052026")
+
+ab_jobs = parse_fixture("ashby", "ashby_mollie.json", "Mollie", "mollie")
+check("ashby: isListed false is dropped", [p["title"] for p in ab_jobs],
+      ["Application Engineer II", "Business Support Specialist - Dutch",
+       "Working student - Customer Success DACH (m/f/d)"])
+check("ashby: key is the job UUID", ab_jobs[0]["ats_key"], "ashby:3bcb16aa-833c-4aeb-a277-ab7603a176f9")
+check("ashby: key agrees with ats_key() on jobUrl", ab_jobs[0]["ats_key"], ats_key(ab_jobs[0]["url"]))
+check("ashby: publishedAt -> MMDDYYYY", ab_jobs[0]["date_posted"], "08042025")
+
+lv_jobs = parse_fixture("lever", "lever_pigment.json", "Pigment", "pigment")
+check("lever: every job parsed", len(lv_jobs), 3)
+check("lever: title comes from `text`", lv_jobs[0]["title"], "Data Engineer (Growth Team)")
+check("lever: key agrees with ats_key() on hostedUrl", lv_jobs[0]["ats_key"], ats_key(lv_jobs[0]["url"]))
+check("lever: millisecond createdAt -> MMDDYYYY", lv_jobs[0]["date_posted"], "02192026")
+
+ab_multi = _PARSERS["ashby"]({"jobs": [dict(json.loads((FIXTURES / "ashby_mollie.json").read_text(encoding="utf-8"))["jobs"][0],
+                                            secondaryLocations=[{"location": "Amsterdam"}])]}, "Mollie", "mollie")
+check("ashby: secondary locations are joined with ' | '", ab_multi[0]["location"], "Lisbon | Amsterdam")
+gh_semicolon = _PARSERS["greenhouse"]({"jobs": [dict(json.loads((FIXTURES / "greenhouse_feedzai.json").read_text(encoding="utf-8"))["jobs"][0],
+                                                     location={"name": "United States (Remote) ; Spain (Remote)"})]}, "Feedzai", "feedzai")
+check("';'-joined locations are split so the EU part can match past a US part",
+      gh_semicolon[0]["location"], "United States (Remote) | Spain (Remote)")
+check("... and filter_postings then keeps it on the Spain part",
+      [p["id"] for p in filter_postings(gh_semicolon, config, settings)], [gh_semicolon[0]["id"]])
+
+# Company boards are EU-only. Amazon + unknown flag would pass as a known
+# sponsor from any other source.
+check("ATS postings are marked eu_only", gh_jobs[0].get("eu_only"), True)
+board_us = dict(gh_jobs[0], id="board-us", company="Amazon", location="Seattle, WA")
+board_multi = dict(gh_jobs[0], id="board-multi", company="Amazon", location="Seattle, WA | Berlin, Germany")
+repo_us = {k: v for k, v in board_us.items() if k != "eu_only"} | {"id": "repo-us"}
+check("eu_only: a US-only role is dropped, even at a known sponsor; the same role from a repo is kept",
+      [p["id"] for p in filter_postings([board_us, board_multi, repo_us], config, us_settings, sponsor_cfg)],
+      ["board-multi", "repo-us"])
+check("eu_only: a US part is skipped, not fatal -- the Berlin part still matches as EU",
+      [p["match_reason"] for p in filter_postings([dict(board_multi)], config, us_settings, sponsor_cfg)],
+      ["EU location"])
 
 print()
 if failures:

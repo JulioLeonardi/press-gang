@@ -1,0 +1,53 @@
+{
+ "apiVersion": "1",
+ "jobs": [
+  {
+   "id": "3bcb16aa-833c-4aeb-a277-ab7603a176f9",
+   "title": "Application Engineer II",
+   "location": "Lisbon",
+   "secondaryLocations": [],
+   "isListed": true,
+   "isRemote": null,
+   "workplaceType": null,
+   "publishedAt": "2025-08-04T15:52:27.363+00:00",
+   "jobUrl": "https://jobs.ashbyhq.com/mollie/3bcb16aa-833c-4aeb-a277-ab7603a176f9",
+   "applyUrl": "https://jobs.ashbyhq.com/mollie/3bcb16aa-833c-4aeb-a277-ab7603a176f9/application"
+  },
+  {
+   "id": "d056f390-1d70-408e-8f85-2360d41eaa84",
+   "title": "Business Support Specialist - Dutch",
+   "location": "Maastricht",
+   "secondaryLocations": [],
+   "isListed": true,
+   "isRemote": null,
+   "workplaceType": null,
+   "publishedAt": "2026-06-24T07:40:12.278+00:00",
+   "jobUrl": "https://jobs.ashbyhq.com/mollie/d056f390-1d70-408e-8f85-2360d41eaa84",
+   "applyUrl": "https://jobs.ashbyhq.com/mollie/d056f390-1d70-408e-8f85-2360d41eaa84/application"
+  },
+  {
+   "id": "39d74606-d1ef-4cf9-9bbf-95434b5402ce",
+   "title": "Working student - Customer Success DACH (m/f/d)",
+   "location": "Munich",
+   "secondaryLocations": [],
+   "isListed": true,
+   "isRemote": null,
+   "workplaceType": null,
+   "publishedAt": "2026-08-13T11:11:03.265+00:00",
+   "jobUrl": "https://jobs.ashbyhq.com/mollie/39d74606-d1ef-4cf9-9bbf-95434b5402ce",
+   "applyUrl": "https://jobs.ashbyhq.com/mollie/39d74606-d1ef-4cf9-9bbf-95434b5402ce/application"
+  },
+  {
+   "id": "00000000-0000-4000-8000-000000000000",
+   "title": "Application Engineer II (unlisted copy)",
+   "location": "Lisbon",
+   "secondaryLocations": [],
+   "isListed": false,
+   "isRemote": null,
+   "workplaceType": null,
+   "publishedAt": "2025-08-04T15:52:27.363+00:00",
+   "jobUrl": "https://jobs.ashbyhq.com/mollie/3bcb16aa-833c-4aeb-a277-ab7603a176f9",
+   "applyUrl": "https://jobs.ashbyhq.com/mollie/3bcb16aa-833c-4aeb-a277-ab7603a176f9/application"
+  }
+ ]
+}
