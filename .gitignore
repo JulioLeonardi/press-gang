@@ -26,3 +26,6 @@ resume/bank.yaml
 resume/proposed.yaml
 resume/answers.yaml
 out/
+
+# The browser extension. Kept local (the manifest key pins its ID).
+extension/

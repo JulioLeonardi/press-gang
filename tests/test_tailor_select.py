@@ -19,7 +19,7 @@ from tailor.bank import ALIASES_PATH, BANK_PATH, alias_table, canonical, load_ya
 from tailor.extract import TAXONOMY_PATH, Keyword, extract, vocabulary
 from tailor.render import full_layout, render
 from tailor.measure import line_counts
-from tailor.select import CAP, ENTRY_LINES, HEADING_LINES, bullet_lines, select, weakest_filler
+from tailor.select import CAP, ENTRY_LINES, HEADING_LINES, bullet_lines, match, select, weakest_filler
 from tailor.validate import validate
 
 ALIASES = load_yaml(ALIASES_PATH)
@@ -143,6 +143,18 @@ check("weakest_filler treats a priority-1 bullet in a priority-3 section as fill
 sel = select(FIXTURE, [], ALIASES, exclude={"widget_ml"})
 check("weakest_filler returns None when no priority-3 bullet is selected",
       weakest_filler(sel, FIXTURE, [], ALIASES), None)
+
+# Core: Go covered, Rust not -> 50%. Named: 1.5 of 2.5 -> 60%. 0.6*50 + 0.4*60 = 54.
+keys = kw(Go=1.0, Rust=1.0, Python=0.5)
+check("match: core requirements count 60%",
+      match(select(FIXTURE, keys, ALIASES), keys), {"percent": 54, "band": "weak", "named": 60, "core": 50})
+keys = kw(Go=1.0, Kubernetes=1.0) + [Keyword("Terraform", 0.5, "inferred", "cloud -> Terraform")]
+check("match: an inferred keyword the JD never named doesn't count",
+      match(select(FIXTURE, keys, ALIASES), keys)["percent"], 100)
+keys = kw(Python=0.5)
+check("match: with no core keywords, the named coverage is the match",
+      match(select(FIXTURE, keys, ALIASES), keys), {"percent": 100, "band": "strong", "named": 100, "core": None})
+check("match: a JD naming nothing in the bank has no match", match(select(FIXTURE, [], ALIASES), []), None)
 
 # --- two-page fallback (render stubbed: no pdflatex needed) ---------------------------
 import tailor.__main__ as cli  # noqa: E402

@@ -13,7 +13,7 @@ from tailor.bank import ALIASES_PATH, BANK_PATH, load_yaml
 from tailor.extract import TAXONOMY_PATH, extract, vocabulary
 from tailor.measure import line_counts
 from tailor.render import OUT_DIR, PageOverflow, render
-from tailor.select import Selection, select, weakest_filler
+from tailor.select import Selection, match, select, weakest_filler
 from tailor.validate import validate
 
 
@@ -33,7 +33,10 @@ def tailor(bank: dict, aliases: dict, keywords: list, out_dir: Path) -> tuple[Se
 
 def explain(selection: Selection, keywords: list) -> list[str]:
     weights = {k.term: k.weight for k in keywords}
-    lines = [f"score {selection.score}  voice {selection.voice}", "", "covered:"]
+    m = match(selection, keywords)
+    lines = [f"match {m['percent']}% ({m['band']}): core {m['core']}%, all named {m['named']}%"
+             if m else "match: the JD names nothing in the bank",
+             f"score {selection.score}  voice {selection.voice}", "", "covered:"]
     for term in sorted(selection.covered, key=lambda t: (-weights[t], t)):
         lines.append(f"  {weights[term]:6.3f}  {term:28}  {', '.join(selection.covered[term])}")
     lines += ["", "uncovered:"]

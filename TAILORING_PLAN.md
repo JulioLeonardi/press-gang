@@ -89,6 +89,7 @@ _Updated 2026-10-06._
 - **Anti-stuffing cap is 2.** It counts only the JD's keywords. A keyword's limit rises to the number of mandatory bullets that can't avoid it; otherwise any JD mentioning Postgres would have no legal layout.
 - **Ties:** voices go in `meta.voices` order and fuller layouts come first. Bullets and **variants are tried in bank order**, so the first-listed variant is the default. The user chose this over the spec's "variant id order". Variants with the same JD keywords and the same height are deduplicated to the first one listed. That's exact, and it keeps a solve at 2–9 ms.
 - **Overflow:** drop the priority-3 bullet whose removal costs the least coverage, re-solve once, then error.
+- **Match percentage** (`select.match()`, the user's apply/skip signal; the raw score depends on JD length and isn't comparable across JDs): weighted coverage of the JD's `exact` keywords only, since inferred ones are tools the JD never named. Core = exact keywords with weight ≥ 0.9. `percent = 0.6·core + 0.4·named`, or `named` alone when there's no core. Bands: ≥75 strong, ≥55 fair, else weak. The user delegated these weights to Claude (2026-10-06). The bands are a judgment from 8 JDs and should be recalibrated against which applications get responses. Returned by `/tailor` as `match`, printed by the CLI, and shown in the popup.
 
 ### Extraction
 
@@ -124,7 +125,7 @@ Spec §7. Chrome MV3, loaded unpacked, never published. It's a thin client: **no
 4. **Fixed extension id:** pin it with a manifest `key`, then put the id in `.env` as `TAILOR_EXTENSION_ID`. The token is entered once on an options page.
 5. **Then the per-ATS content scripts:** Greenhouse, Lever, Ashby, Workday and SmartRecruiters, with all selectors in one config file. Reuse what the source adapters in `src/` already know about each ATS.
 
-Open question to ask the user: should `extension/` be tracked? It holds no personal data unless the manifest `key` is considered sensitive.
+**Ruling (2026-10-06): `extension/` stays untracked** (gitignored). Items 1–4 are built there: `api.js` (the only code that calls the server), `popup/`, `options/` (token in `chrome.storage.local`), and `viewer/` (a tab that fetches the PDF with the token, since a blob URL made in the popup dies with it). The pinned ID is `leiccjhbgcencmnplapcpgmcagnkodjk`; the private key was discarded, as an unpacked extension needs only the public `key`. `.env` now holds `TAILOR_TOKEN` and that ID. Checked from Node against the live server: health, tailor, PDF fetch, CORS preflight (extension origin allowed, others rejected), wrong/missing token and server down. Not yet checked inside Chrome by the user.
 
 ## Later steps
 

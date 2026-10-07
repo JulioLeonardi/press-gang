@@ -217,3 +217,31 @@ def weakest_filler(selection: Selection, bank: dict, keywords: list[Keyword], al
             loss = sum(weights[t] * (_g(held[t]) - _g(held[t] - 1)) for t in terms)
             candidates.append((loss, variant["id"], bullet["id"]))
     return min(candidates)[2] if candidates else None
+
+
+# Match percentage, for deciding whether to apply. Only keywords the JD names
+# count: an inferred one ("cloud -> Terraform") is a tool the JD never asked
+# for. "Core" is what sits under the requirements header (weight 1.0) or
+# repeats often enough to reach 0.9.
+CORE_WEIGHT = 0.9
+CORE_SHARE = 0.6
+# (floor, label), checked in order. A judgment call from 8 JDs, not calibrated.
+MATCH_BANDS = [(75, "strong"), (55, "fair"), (0, "weak")]
+
+
+def match(selection: Selection, keywords: list[Keyword]) -> dict | None:
+    """{percent, band, core, named}: weighted coverage of the JD's named keywords,
+    with core requirements counting 60%. None when the JD names nothing in the bank."""
+    def coverage(ks):
+        total = sum(k.weight for k in ks)
+        return 100 * sum(k.weight for k in ks if k.term in selection.covered) / total if total else None
+
+    named = [k for k in keywords if k.source == "exact"]
+    named_pct = coverage(named)
+    if named_pct is None:
+        return None
+    core_pct = coverage([k for k in named if k.weight >= CORE_WEIGHT])
+    percent = round(named_pct if core_pct is None else CORE_SHARE * core_pct + (1 - CORE_SHARE) * named_pct)
+    band = next(label for floor, label in MATCH_BANDS if percent >= floor)
+    return {"percent": percent, "band": band, "named": round(named_pct),
+            "core": None if core_pct is None else round(core_pct)}

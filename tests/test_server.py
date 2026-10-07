@@ -94,6 +94,7 @@ with tempfile.TemporaryDirectory() as tmp:
     check("tailor: covers the JD from the bank", sorted(body["covered"]), ["Go", "Kubernetes", "PostgreSQL"])
     check("tailor: keywords carry source and evidence",
           sorted(body["keywords"][0]), ["evidence", "source", "term", "weight"])
+    check("tailor: returns the match percentage", (body["match"]["percent"], body["match"]["band"]), (100, "strong"))
     check("tailor: not cached the first time", body["cached"], False)
 
     again = client.post("/tailor", headers=AUTH,

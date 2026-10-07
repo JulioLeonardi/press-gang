@@ -23,7 +23,7 @@ import tailor.__main__ as cli
 from tailor.bank import ALIASES_PATH, BANK_PATH, load_yaml
 from tailor.extract import TAXONOMY_PATH, extract, vocabulary
 from tailor.render import OUT_DIR, PageOverflow
-from tailor.select import NoLayout
+from tailor.select import NoLayout, match
 from tailor.validate import validate
 
 _PDF_ID = re.compile(r"[0-9a-f]{16}")
@@ -113,6 +113,7 @@ def create_app(token: str, extension_id: str | None = None,
             "id": key,
             "bank_version": b.version,
             "score": selection.score,
+            "match": match(selection, keywords),
             "voice": selection.voice,
             "keywords": [asdict(k) for k in keywords],
             "covered": selection.covered,
