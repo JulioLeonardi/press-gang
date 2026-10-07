@@ -2,13 +2,13 @@
 
 Status of the resume tailoring system specified in `RESUME_TAILORING.md`. The spec is the user's own, is gitignored, and is local only. Read it before this file. This file records where the build stands, the decisions behind it, and what comes next.
 
-_Updated 2026-10-06._
+_Updated 2026-10-07._
 
 ## Start here
 
 - **Branch:** `feat/resume-tailoring`, off `master`. It's pushed and open as **PR #2** (https://github.com/JulioLeonardi/press-gang/pull/2). It's independent of PR #1 (`feat/ats-polling`).
-- **Done:** spec rollout steps 1–6: bank lint, render, extraction, selector, taxonomy, the user's new variants, and the local server.
-- **Next:** **step 7, the Chrome MV3 extension.** The brief is below.
+- **Done:** spec rollout steps 1–6 (bank lint, render, extraction, selector, taxonomy, the user's new variants, the local server), the match percentage, and the first half of step 7: the extension popup with the paste and selection fallback. The user tailored a real Amazon posting through it in Chrome.
+- **Next:** **the rest of step 7: per-ATS content scripts.** See "What's missing" below.
 - **Check the build before changing anything.** Every test script should end with `all checks passed`:
 
   ```
@@ -36,7 +36,9 @@ _Updated 2026-10-06._
 | `resume/proposed.yaml` | **no** | 7 proposals, all already merged into the bank. Safe to empty. |
 | `SWE Resume.tex`, `Master Resume.tex` (+ `.html`) | **no** | The user's sources. SWE is the one-page base resume; Master is the full set of bullets the bank draws from. |
 | `RESUME_TAILORING.md` | **no** | The spec. |
-| `.env` | **no** | `TAILOR_TOKEN` (required by the server) and `TAILOR_EXTENSION_ID` (set in step 7). Real environment variables override it. |
+| `.env` | **no** | `TAILOR_TOKEN` (required by the server) and `TAILOR_EXTENSION_ID=leiccjhbgcencmnplapcpgmcagnkodjk`. Real environment variables override it. |
+| `extension/` | **no** | The Chrome MV3 extension, loaded unpacked. See step 7 below. |
+| `private/` | **no** | Local-only files: the user's packed `extension.crx` and its `extension.pem` private key, and loose resume PDFs. Never commit. |
 | `out/` | **no** | Rendered PDFs (`out/{id}/`) and `line_cache.json`. Nothing prunes it. |
 | `resume/aliases.yaml`, `taxonomy.yaml`, `template.tex` | yes | Generic: no personal data. |
 | `tailor/bank.py` | yes | Loaders, `alias_table`, `canonical`, `spellings`. |
@@ -111,21 +113,36 @@ _Updated 2026-10-06._
 - **Errors:** no layout, or an overflow after the retry, returns 422. pdflatex runs behind a lock.
 - **Timing:** about 0.75 s for a fresh JD and about 80 ms for a cached one.
 
-## Next: step 7, the browser extension
+## Step 7, the browser extension
 
-Spec §7. Chrome MV3, loaded unpacked, never published. It's a thin client: **no selection or extraction logic in JS.**
+Spec §7. Chrome MV3, loaded unpacked, never published. It's a thin client: **no selection or extraction logic in JS.** `extension/` is **untracked** (the user's ruling, 2026-10-06), so its code exists only on this machine.
 
-1. **Input fallback first:** a popup with "use selected text" and a paste box. This must always work.
-2. **Popup output:**
-   - The score.
-   - The covered keywords.
-   - The top uncovered keywords, each with its `source` and `evidence`.
-   - A PDF preview and download. Fetch the PDF with the token header, then open it as a blob URL.
-3. **Server down:** show a clear message with the exact command, `C:\Python312\python.exe -m server`.
-4. **Fixed extension id:** pin it with a manifest `key`, then put the id in `.env` as `TAILOR_EXTENSION_ID`. The token is entered once on an options page.
-5. **Then the per-ATS content scripts:** Greenhouse, Lever, Ashby, Workday and SmartRecruiters, with all selectors in one config file. Reuse what the source adapters in `src/` already know about each ATS.
+### Built (2026-10-06)
 
-**Ruling (2026-10-06): `extension/` stays untracked** (gitignored). Items 1–4 are built there: `api.js` (the only code that calls the server), `popup/`, `options/` (token in `chrome.storage.local`), and `viewer/` (a tab that fetches the PDF with the token, since a blob URL made in the popup dies with it). The pinned ID is `leiccjhbgcencmnplapcpgmcagnkodjk`; the private key was discarded, as an unpacked extension needs only the public `key`. `.env` now holds `TAILOR_TOKEN` and that ID. Checked from Node against the live server: health, tailor, PDF fetch, CORS preflight (extension origin allowed, others rejected), wrong/missing token and server down. Not yet checked inside Chrome by the user.
+| File | What it does |
+|---|---|
+| `manifest.json` | Permissions `activeTab`, `scripting`, `storage`; host permission for `http://127.0.0.1:8765/*` only. The `key` pins the ID to `leiccjhbgcencmnplapcpgmcagnkodjk`. The key pair that made it was discarded: unpacked loading needs only the public key. |
+| `api.js` | The only code that calls the server. `call()` adds the token and raises `ServerDown`, `NoToken` or `ApiError`. Holds `SERVER` and `START_COMMAND`. |
+| `popup/` | Paste box, "Use selected text" (`executeScript` reading `getSelection()`), optional company field. Shows the match percentage colored by band, then core and named coverage and the raw score, the covered keywords, and the top 8 uncovered by weight with `source` and `evidence`. The last result is kept in `chrome.storage.session`, because Preview opens a tab and that closes the popup. |
+| `viewer/` | A tab that fetches the PDF with the token and shows it in an iframe. A blob URL made in the popup dies with the popup. |
+| `options/` | Token entry (`chrome.storage.local`) plus a "Save and test" against `/health`. |
+
+Checked from Node against the live server: health, tailor, PDF fetch, CORS preflight (the extension origin is allowed, other origins are rejected), wrong token, missing token, and server down. The user then ran a real tailor in Chrome. **Not yet seen in Chrome:** the match percentage display, added after that run. It needs a server restart and an extension reload.
+
+**The packed `.crx` in `private/` is a trap.** Chrome's "Pack extension" generated a new `.pem`, so an installed `.crx` may get a different ID from the manifest `key`. CORS would then block it. Load `extension/` unpacked instead.
+
+### What's missing
+
+1. **Per-ATS JD extraction** (spec §7, the main remaining work). The aim is that the popup fills in the JD, company and title on its own when the tab is a known ATS, and falls back to paste or selection otherwise.
+   - **Approach:** keep it thin. Put one `extension/ats.js` config of `{name, url pattern, description selector, company selector, title selector}`. When the popup opens, it `executeScript`s a small reader into the active tab with the entry that matches the URL. `activeTab` already covers this, so no `content_scripts` entries or extra host permissions are needed. If you need always-on content scripts instead, say why.
+   - **URL patterns are already written** on the PR #1 branch: `git show feat/ats-polling:src/normalize.py`, `_ATS_URL_PATTERNS`. They cover Greenhouse (`greenhouse.io/<board>/jobs/<id>` and `?gh_jid=` on company sites), Ashby (`jobs.ashbyhq.com`), Lever (`jobs.lever.co`) and SmartRecruiters (`jobs.smartrecruiters.com`). **Workday** (`*.myworkdayjobs.com`) isn't in that list. It's a single-page app, so the reader may need to wait for the description to render. PR #1's `src/ats.py` has the board APIs, which are useful for checking that the page text matches the API's text.
+   - **Selectors must be taken from live pages.** Don't guess them. Open one real posting per ATS (`companies_seed_list.md` has candidate boards) and record what works. Greenhouse postings embedded on company sites (`gh_jid=`) render inside an iframe, so `executeScript` needs `allFrames` or a target frame.
+   - **Company:** prefill it, because the extractor drops the employer's own name from keywords. On most ATS URLs, the board slug or page header gives it.
+   - **Testing:** the repo's tests can't reach `extension/`, which is untracked. Keep a few saved posting HTML pages under `private/` and check each reader against them with Node and a DOM shim, or check by hand in Chrome. Record which you chose here.
+2. **Amazon** (`amazon.jobs`) isn't an ATS in the spec, but it's the posting the user tested with. Ask the user whether to add it to the config.
+3. **Hand-check in Chrome** after (1): each ATS fills the box; an unknown site falls back cleanly; with the server stopped, the popup shows the start command.
+
+When those are done, step 7 is complete. Update "Start here" and move on to step 8.
 
 ## Later steps
 
@@ -142,3 +159,7 @@ Spec §7. Chrome MV3, loaded unpacked, never published. It's a thin client: **no
 - **Header-less boilerplate inherits the previous section's weight.** Example: Talkdesk's "Forbes Cloud 100" blurb scores "cloud" at 0.5.
 - **"React JS" also counts as a JavaScript hit,** through the `JS` alias.
 - **Possible taxonomy addition:** `relational databases` implying PostgreSQL, MySQL and SQL. SumUp asks for it at weight 1.0.
+- **Match bands are uncalibrated** (75/55, from 8 JDs). Revisit once the user knows which applications got responses.
+- **Bank cosmetics, reported to the user and not changed.** TeeBot's and the AV team's dates use `-` where the rest use `–`. Stack lines say `Fast API` and `numpy` where the skills block says `FastAPI` and `NumPy`. The bank's header comment still says "DRAFT", and the `max_chars` comment says "calibrate once rendering works". These are the user's text: ask before editing.
+- **`resume/proposed.yaml`** has nothing left to merge and can be emptied.
+- **Employer culture blurbs leak keywords.** Amazon's "a culture of learning and mentorship" scored `mentorship` at 0.7. This is the same issue as the header-less boilerplate above.
