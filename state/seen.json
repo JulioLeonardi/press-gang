@@ -655,6 +655,12 @@
       "first_seen": "2026-09-07T13:57:10.044343+00:00",
       "title": "Ingénieur logiciel junior - F/H"
     },
+    "0382789e55086b4b": {
+      "ats_key": "ashby:5ca0fa74-9e43-4468-8f1c-0a3aa0a993ec",
+      "company": "Snowflake",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "Software Engineer - Customer Experience Engineering"
+    },
     "038411a3a4fff6e5": {
       "company": "Candid Health",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
@@ -5373,6 +5379,11 @@
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
       "title": "AI Prompt Engineer"
     },
+    "1b77c1a058b8cdc0": {
+      "company": "Analog Devices",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "Associate Analog Design Engineer"
+    },
     "1b8699fb2376bd23": {
       "company": "xAI",
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
@@ -6943,10 +6954,21 @@
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
       "title": "Associate Systems Modeling & Simulation Engineer/Systems Modeling & Simulation Engineer - Test & Evaluation"
     },
+    "231103c733442a67": {
+      "ats_key": "gh:5242854007",
+      "company": "Lucid Motors",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "Software Engineer - ADAS Behavior Planning and Integration"
+    },
     "2314dd89b9a9cf66": {
       "company": "Elis",
       "first_seen": "2026-09-24T13:09:01.062570+00:00",
       "title": "Data Analyst H/F"
+    },
+    "2315f083b5764c5e": {
+      "company": "Uber",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "PhD Software Engineer 2"
     },
     "231a9f320f6795cd": {
       "company": "Crédit Agricole",
@@ -9214,6 +9236,12 @@
       "company": "NTT DATA",
       "first_seen": "2026-09-05T11:36:03.514197+00:00",
       "title": "System Engineer – Data & Cloud Security"
+    },
+    "2e275734f58dc31a": {
+      "ats_key": "ashby:31d09081-f5e7-45e4-b561-1c53d0ca9200",
+      "company": "Anyscale",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "New Grad 2026: Software Engineer"
     },
     "2e337999ea01c504": {
       "company": "Motorola",
@@ -11950,6 +11978,12 @@
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Research Intern - Deep Learning"
     },
+    "3b2c843cfe0cef9f": {
+      "ats_key": "gh:8242623",
+      "company": "Roblox",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "Senior Machine Learning Engineer - PhD Early Career"
+    },
     "3b2f1173656b6e28": {
       "company": "Mizuho Securities USA",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
@@ -12080,6 +12114,11 @@
       "company": "Applied Materials",
       "first_seen": "2026-09-25T23:46:55.772009+00:00",
       "title": "Non-Technical Project/Program Manager New Grad"
+    },
+    "3be319541badf47d": {
+      "company": "Uber",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "Graduate Software Engineer 2"
     },
     "3beab7d7118dbcb1": {
       "company": "Axcelis Technologies",
@@ -18928,6 +18967,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Business Intelligence Analyst"
     },
+    "5efc9ee814c448be": {
+      "company": "ByteDance",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "New Grad 2026: Site Reliability Engineer (Edge Services)"
+    },
     "5f0e403d138c438d": {
       "company": "Sopra Steria",
       "first_seen": "2026-09-19T11:53:37.450769+00:00",
@@ -19215,6 +19259,11 @@
       "company": "Solar Turbines",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Entry Level Engineer Rotation - Solutions Platforms Engineering"
+    },
+    "60ab4229eb1bd827": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "AI Engineer"
     },
     "60ac639b5076dfe8": {
       "company": "Apple",
@@ -24106,6 +24155,11 @@
       "company": "Voyager Technologies",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Accelerated Physics Simulation Engineer - Agentic Computational Engineering"
+    },
+    "787b5336b62463ad": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "Engineer 1 - Product/Test"
     },
     "78847a72d0cf7255": {
       "company": "Eureden",
@@ -30264,6 +30318,11 @@
       "company": "B-HIVE",
       "first_seen": "2026-10-03T11:32:21.660547+00:00",
       "title": "Dessinateur-projeteur réseaux électriques / instrumentation"
+    },
+    "982daa4bfaea9412": {
+      "company": "Adobe",
+      "first_seen": "2026-10-09T02:44:38.403379+00:00",
+      "title": "New Grad 2026: AI Context Engineer"
     },
     "983063f46f9f4a4d": {
       "company": "Toyota Research Institute",
