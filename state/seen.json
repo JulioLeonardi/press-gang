@@ -4749,6 +4749,12 @@
       "first_seen": "2026-09-16T13:05:04.822696+00:00",
       "title": "Data Engineer expérimenté F/H"
     },
+    "187060ef4b18b82f": {
+      "ats_key": "gh:8861748002",
+      "company": "GitLab",
+      "first_seen": "2026-10-09T21:28:52.271480+00:00",
+      "title": "People Systems Engineer"
+    },
     "187163f2e6f19440": {
       "company": "Capital Health",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
@@ -23473,6 +23479,12 @@
       "company": "Charles Schwab",
       "first_seen": "2026-09-15T22:41:51.108154+00:00",
       "title": "Senior Specialist - AI Model Validation"
+    },
+    "7493e41a2a41d8c7": {
+      "ats_key": "gh:8178879",
+      "company": "Stripe",
+      "first_seen": "2026-10-09T21:28:52.271480+00:00",
+      "title": "Software Engineer, Operator Tooling"
     },
     "7495600bdf54570b": {
       "company": "VirtualExpo",
