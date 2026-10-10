@@ -433,6 +433,11 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Data Engineer, Analytics"
     },
+    "021949c5b86b0626": {
+      "company": "TikTok",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Machine Learning Engineer Graduate - Conversational AI"
+    },
     "0221368bedfbe2fb": {
       "company": "Decathlon",
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
@@ -690,6 +695,11 @@
       "company": "Naïve",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "Software Engineer Intern"
+    },
+    "03995918021a01de": {
+      "company": "Argonne National Laboratory",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Postdoctoral Researcher - AI for Earth System Sciences"
     },
     "0399bd5ca78e65d2": {
       "company": "Thales",
@@ -2805,6 +2815,11 @@
       "company": "Uline",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Software Development Intern"
+    },
+    "0e5df033008d0107": {
+      "company": "TikTok",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Research Scientist New Grad - Conversational AI"
     },
     "0e784ee42c6c5ac5": {
       "company": "Pima County",
@@ -8230,6 +8245,12 @@
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Directeur d'exploitation métaux H/F"
     },
+    "28a8e3e4f4bd67d5": {
+      "ats_key": "ashby:05f68d15-22d1-4e53-8b43-683467e79f4d",
+      "company": "Neko Health",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "AI Acceleration Specialist"
+    },
     "28aaaefb255345fa": {
       "company": "Accenture",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
@@ -9035,6 +9056,11 @@
       "company": "Vanderbilt University",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "Investment Analyst"
+    },
+    "2cb4564a0efaf9d6": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Principal Engineer - Device Engineering"
     },
     "2cbc4190c69bb6ef": {
       "company": "NTT DATA",
@@ -10367,6 +10393,11 @@
       "company": "NTT DATA",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "IT Field Support Engineer (L2)"
+    },
+    "33a41dc92a7ec764": {
+      "company": "Fannie Mae",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Business Intelligence & AI Solutions Analyst - Single Family"
     },
     "33a596cafa090a8b": {
       "ats_key": "gh:8140389",
@@ -13056,6 +13087,11 @@
       "first_seen": "2026-10-02T15:20:22.219515+00:00",
       "title": "QA Specialist – 12 Month FTC"
     },
+    "4054714c8fdbed72": {
+      "company": "Stryker",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Software Engineering - R&D Engineering Development Program"
+    },
     "405a02678d16cb2a": {
       "company": "Susquehanna International Group (SIG)",
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
@@ -13923,6 +13959,11 @@
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Responsable qualité fournisseurs et métrologie F/H"
     },
+    "450929fbca0d8fc5": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "CAD Engineer New Grad"
+    },
     "45093d6e86a3ae98": {
       "company": "Kingfisher",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
@@ -14138,6 +14179,11 @@
       "company": "Naval Group [FR]",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "CDI - Ingénieur(e) initié(e) systèmes embarqués Armes (H/F)"
+    },
+    "45e3a1ba187d5504": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Systems Engineer"
     },
     "45e9fb1513b6cce1": {
       "company": "Johns Hopkins Applied Physics Laboratory",
@@ -21703,6 +21749,11 @@
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieur Cloud SRE H/F"
     },
+    "6c2bc49183db7829": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Design Manual Publishing & Ground Rule Validation Engineer New Grad"
+    },
     "6c2cff0a518e485f": {
       "company": "Thales",
       "first_seen": "2026-09-20T13:55:15.459335+00:00",
@@ -28222,6 +28273,11 @@
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Senior Machine Learning Engineer - Economist"
     },
+    "8c76893eb0a603e6": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Engineer 1 - Test"
+    },
     "8c865504200c745d": {
       "company": "Hoffman Construction",
       "first_seen": "2026-08-24T23:19:20.028808+00:00",
@@ -30653,6 +30709,11 @@
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "AI Agent Designer"
     },
+    "994aa982bb1a6e1b": {
+      "company": "Vizient",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Associate Software Engineer"
+    },
     "994c956e97cb857f": {
       "company": "Argonne National Laboratory",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
@@ -30976,6 +31037,11 @@
       "company": "Menasha Corporation",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Application Engineer Intern"
+    },
+    "9ac45acf81811be4": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Software Engineer"
     },
     "9ac83cf17500a249": {
       "company": "5 Degrés",
@@ -31391,6 +31457,11 @@
       "company": "Veepee",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
       "title": "BPO - Supply X AI Specialist"
+    },
+    "9c9a6f93837f20fd": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Software Engineer New Grad"
     },
     "9c9da262cd52ec5b": {
       "ats_key": "gh:4731637005",
@@ -34822,6 +34893,12 @@
       "company": "AstraZeneca",
       "first_seen": "2026-08-30T01:00:31.565111+00:00",
       "title": "Data Health Population Specialist"
+    },
+    "ad99e3411ea6f69c": {
+      "ats_key": "sr:3743990016021726",
+      "company": "Lifted Solutions",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Flexible Work - Help Improve AI - English Speakers"
     },
     "ad9df0ae8821a6d5": {
       "company": "Procter & Gamble",
@@ -38522,6 +38599,11 @@
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Field Data Collection Technician"
     },
+    "beac0752798df646": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Hardware Design Validation Engineer New Grad - Memory Subsystem"
+    },
     "beae467f8554c7b4": {
       "ats_key": "gh:8844069002",
       "company": "Platform.sh",
@@ -38879,6 +38961,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Machine Learning Engineer Graduate - E-Commerce Recommendation Foundation"
+    },
+    "c0c09872e1c57329": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Engineer 1 - Design"
     },
     "c0c4b95ca60cf073": {
       "company": "HADDAD BRANDS EUROPE",
@@ -42889,6 +42976,11 @@
       "company": "University of Texas at Austin",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Technology Intern - Texas Immersive Institute - Moody College of Communication"
+    },
+    "d39716e2514875f7": {
+      "company": "Nordstrom",
+      "first_seen": "2026-10-10T01:29:41.870674+00:00",
+      "title": "Engineer 1 - Supply Chain"
     },
     "d3a10ae5e098fb9b": {
       "company": "Greenheck Group",
