@@ -922,6 +922,11 @@
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Chinese UMR Annotator - Uniform Meaning Representation"
     },
+    "047921250ea6c853": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "Software Engineer"
+    },
     "04807a2954164550": {
       "company": "GlobalFoundries",
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
@@ -2226,6 +2231,12 @@
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Data Analyst"
     },
+    "0b63a3328e85c6bd": {
+      "ats_key": "gh:4721109006",
+      "company": "Accenture",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "System Architect"
+    },
     "0b6581f4ed6e184a": {
       "ats_key": "ashby:9ddb1bd1-3ee0-4350-88f7-3710057b8c93",
       "company": "Openai",
@@ -2806,6 +2817,11 @@
       "company": "MARGO",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Fullstack Developer (.NET & Angular) | Cloud-Native Focus"
+    },
+    "0e270b2fc4e0dd7c": {
+      "company": "Duke Energy",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "Associate Software Engineer - iGrid"
     },
     "0e2a079cdedc25b9": {
       "company": "B-HIVE",
@@ -4312,6 +4328,11 @@
       "company": "Focal Systems",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
       "title": "Data Quality Analyst (AI Model Data Analyst)"
+    },
+    "1597bba49aec354a": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "Deep Learning Software Engineer New Grad - TensorRT Performance"
     },
     "1598589193d8ea4a": {
       "company": "Procter & Gamble",
@@ -6473,6 +6494,12 @@
       "company": "Texas Instruments",
       "first_seen": "2026-09-10T00:48:48.107051+00:00",
       "title": "Software Engineer - Career Accelerator Program"
+    },
+    "20563e89db5baa2e": {
+      "ats_key": "gh:8881612002",
+      "company": "Duolingo",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "AI Research Engineer New Grad"
     },
     "206d2d75ee62e6b6": {
       "company": "Google",
@@ -12442,6 +12469,11 @@
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Responsable systèmes embarqués navals - domaine GNC/Navigation autonome - F/H"
     },
+    "3cbc7fb9166595af": {
+      "company": "General Motors",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "Semiconductors and Compute Platforms Researcher - Compute Platforms & SoC/MCU Semiconductor Systems Researcher"
+    },
     "3cc6ddb71dacca0b": {
       "company": "Geo Owl",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
@@ -16829,6 +16861,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Machine Learning Engineer Graduate - Multiple Teams"
+    },
+    "5293f8f4b1a8a665": {
+      "company": "Cummins",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "Product Manager"
     },
     "52972765df1dbe23": {
       "company": "Bpifrance",
@@ -21233,6 +21270,12 @@
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "CHARGE DE RELATIONS CLIENT"
+    },
+    "685ede3762570cb8": {
+      "ats_key": "gh:4739771005",
+      "company": "Astera Labs",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "Analog Mixed Signal Engineer"
     },
     "6867b27bf7d5f533": {
       "company": "ByteDance",
@@ -27012,6 +27055,11 @@
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Investment Analyst"
     },
+    "85212085114777a2": {
+      "company": "Analog Devices",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "Research Science Engineering"
+    },
     "8521643a6d59befb": {
       "company": "Teledyne",
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
@@ -30603,6 +30651,11 @@
       "first_seen": "2026-10-06T11:45:21.196040+00:00",
       "title": "Electrical Design Engineer Graduate"
     },
+    "971463f120ccee9b": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "Software Engineering"
+    },
     "971680c1e46343ef": {
       "company": "Naval Group [FR]",
       "first_seen": "2026-09-19T11:53:37.450769+00:00",
@@ -31234,6 +31287,12 @@
       "company": "Thales",
       "first_seen": "2026-10-06T17:52:31.595856+00:00",
       "title": "Java developper Back-End (F/H)"
+    },
+    "9a26ae289815f47d": {
+      "ats_key": "sr:3743990016054796",
+      "company": "AbbVie",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "Associate Engineer - Technology 1"
     },
     "9a275059546dc0c3": {
       "company": "Micron Technology",
@@ -31930,6 +31989,11 @@
       "company": "Codeage",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Web Developer Intern - Wordpress and Woocommerce"
+    },
+    "9d4652de4c417406": {
+      "company": "General Motors",
+      "first_seen": "2026-10-12T23:27:46.490107+00:00",
+      "title": "AI/Machine Learning Researcher"
     },
     "9d4a6a05a5225ae8": {
       "ats_key": "gh:8020521",
