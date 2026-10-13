@@ -4502,6 +4502,12 @@
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
       "title": "Product Manager"
     },
+    "16b164f3a436a440": {
+      "ats_key": "gh:4742217005",
+      "company": "Astera Labs",
+      "first_seen": "2026-10-13T05:20:25.786752+00:00",
+      "title": "Analog/Mixed Signal System Test Engineer"
+    },
     "16b45d390a03fc49": {
       "company": "ByteDance",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
@@ -4906,6 +4912,12 @@
       "company": "Apple",
       "first_seen": "2026-09-10T14:47:14.337333+00:00",
       "title": "Software Engineer - Apple Ads"
+    },
+    "18ae7a9c3f60c3f2": {
+      "ats_key": "gh:8209480002",
+      "company": "Aurora Innovation",
+      "first_seen": "2026-10-13T05:20:25.786752+00:00",
+      "title": "Software Engineer 1"
     },
     "18b299d73a73a738": {
       "ats_key": "gh:8207808",
@@ -20660,6 +20672,12 @@
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
       "title": "Vehicle Software Intern - Torque Path & Chassis Controls"
     },
+    "658aa245c33640b8": {
+      "ats_key": "ashby:1b1cac37-a29c-46b2-ad1a-a946d1e87d41",
+      "company": "Lambda",
+      "first_seen": "2026-10-13T05:20:25.786752+00:00",
+      "title": "Cloud Support Engineer I (Support Response)"
+    },
     "658afd7d3f336289": {
       "company": "Modjo",
       "first_seen": "2026-09-19T11:53:37.450769+00:00",
@@ -26377,6 +26395,11 @@
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
       "title": "Applied Data Solutions Program - Machine Learning"
     },
+    "81ddf047303b7b01": {
+      "company": "Tesla",
+      "first_seen": "2026-10-13T05:20:25.786752+00:00",
+      "title": "Infrastructure & DevOps Engineer, AI Hardware"
+    },
     "81e2bb675eef81c1": {
       "company": "AstraZeneca",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
@@ -28148,6 +28171,11 @@
       "company": "Hyster-Yale Materials Handling",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "Technical Specialist 1"
+    },
+    "8a244510166d592f": {
+      "company": "KLA",
+      "first_seen": "2026-10-13T05:20:25.786752+00:00",
+      "title": "Product Development Engineer"
     },
     "8a2928bc0a6211ce": {
       "company": "NVIDIA",
@@ -31625,6 +31653,11 @@
       "company": "ElevenLabs",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Enterprise Solutions Engineer - Belgium"
+    },
+    "9b84921ac6d0a708": {
+      "company": "TikTok",
+      "first_seen": "2026-10-13T05:20:25.786752+00:00",
+      "title": "Research Scientist Graduate"
     },
     "9b8c59a298e47fad": {
       "company": "The Product Crew",
@@ -39689,6 +39722,11 @@
       "company": "Pennsylvania State University",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Artificial Intelligence / Machine Learning Verification and Validation Engineer - Information Science Division - All-Domain Analytics and Signatures Office"
+    },
+    "c198d4f43cfe7d4d": {
+      "company": "Tesla",
+      "first_seen": "2026-10-13T05:20:25.786752+00:00",
+      "title": "Verification Infrastructure & DevOps Engineer, AI Hardware"
     },
     "c19b47316e24675b": {
       "company": "PNC Financial Services",
@@ -48201,6 +48239,11 @@
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "AI Engineering Intern"
     },
+    "e99426cb11e26c4e": {
+      "company": "TikTok",
+      "first_seen": "2026-10-13T05:20:25.786752+00:00",
+      "title": "Research Scientist New Grad"
+    },
     "e9955f7a3f8800c8": {
       "company": "SIMPLON",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
@@ -52786,6 +52829,11 @@
       "company": "KBR",
       "first_seen": "2026-08-24T23:19:20.028808+00:00",
       "title": "Junior Software Engineer"
+    },
+    "ff314f4efedb2a1f": {
+      "company": "Regeneron Pharmaceuticals",
+      "first_seen": "2026-10-13T05:20:25.786752+00:00",
+      "title": "Associate IOPS AI Engineer"
     },
     "ff39282cb57e9a40": {
       "company": "Galadrim",
