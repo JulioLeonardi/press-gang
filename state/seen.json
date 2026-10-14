@@ -13358,6 +13358,11 @@
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "Triage Associate 1"
     },
+    "40887a0231581dfe": {
+      "company": "Jabil",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Electronic Engineer 2"
+    },
     "40968a71147f50e1": {
       "company": "Netsmart",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -16563,6 +16568,11 @@
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Responsable IT usines F/H/X"
     },
+    "50bd4ab15dc74962": {
+      "company": "Sierra Space",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Software Engineer 1 - Flight Software"
+    },
     "50c1ba61b9ac1431": {
       "company": "Capgemini",
       "first_seen": "2026-09-14T17:37:06.977279+00:00",
@@ -17136,6 +17146,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "Machine Learning Engineer Graduate - Performance Monetization"
+    },
+    "53d7c5cf45f6221b": {
+      "company": "KLA",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Software Engineer 1"
     },
     "53d813187a570256": {
       "company": "Sandhills Global",
@@ -18780,6 +18795,11 @@
       "company": "Starburst",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Security Engineer"
+    },
+    "5c0bd3f54779a24e": {
+      "company": "Boston Scientific",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Data Scientist - Data Science & Business Intelligence"
     },
     "5c0d697dfd3a2d0c": {
       "company": "The Adecco Group",
@@ -24247,6 +24267,12 @@
       "first_seen": "2026-09-10T14:47:14.337333+00:00",
       "title": "z/OS Mainframe Systems Programmer"
     },
+    "75e0348011ac9140": {
+      "ats_key": "sr:3743990016088967",
+      "company": "AbbVie",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Integration Engineer"
+    },
     "75e7abcf0dbb7908": {
       "company": "Allphins",
       "first_seen": "2026-10-13T20:03:04.574066+00:00",
@@ -24756,6 +24782,12 @@
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Graduate Research Scientist - Infrastructure System Lab - PhD"
     },
+    "786f50885bd323ad": {
+      "ats_key": "sr:744000155345139",
+      "company": "Intuitive Surgical",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Data Scientist"
+    },
     "786f7ee8ad3619d7": {
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
@@ -25118,6 +25150,12 @@
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "RESPONSABLE DE RAYON CHARCUTERIE FROMAGE ET TRAITEUR (H/F)"
     },
+    "7a66425b5296c19a": {
+      "ats_key": "gh:4740701005",
+      "company": "Astera Labs",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Digital Design Engineer New Grad"
+    },
     "7a67ff34e433cb7b": {
       "company": "Corning",
       "first_seen": "2026-10-05T23:41:32.082571+00:00",
@@ -25264,6 +25302,11 @@
       "company": "JP Morgan Chase",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Software Engineer Intern - Software Engineer Program"
+    },
+    "7b3f8a5eff545f5f": {
+      "company": "Meta",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "ASIC Engineer New Grad - Performance Architecture and Modeling"
     },
     "7b400be50e3b99f6": {
       "company": "Susquehanna International Group (SIG)",
@@ -25976,6 +26019,11 @@
       "company": "Decathlon",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "MAGASINIER.E H/F TEMPS PARTIEL DE 7 A 21H"
+    },
+    "7e97d12f5647af2a": {
+      "company": "Medpace",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Junior Business Intelligence Analyst"
     },
     "7e9eee9ece762b18": {
       "company": "Monolithic Power Systems",
@@ -28664,6 +28712,11 @@
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "Electrical Assembly B"
+    },
+    "8bc5fc8f0cccc325": {
+      "company": "State Street",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Data Analyst/Data Engineer - Senior Associate"
     },
     "8bc6d7b4fb13af4e": {
       "company": "GE Aerospace",
@@ -36899,6 +36952,11 @@
       "company": "Applied Intuition",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Research Engineer New Grad"
+    },
+    "b3f50ba6169a08d0": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Formal Verification Engineer New Grad"
     },
     "b3fc3cc3892a81ae": {
       "company": "General Motors",
@@ -45458,6 +45516,11 @@
       "first_seen": "2026-09-10T14:47:14.337333+00:00",
       "title": "Chef-fe de projet adoption IA agentique expérimenté-e F/H"
     },
+    "dacbcf01d163ba5c": {
+      "company": "Kyndryl",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Forward Deployed Engineer"
+    },
     "dacbf641b8eec9c5": {
       "company": "Meritis",
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
@@ -47672,6 +47735,11 @@
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "C++ Software Developer – Trading Strategy Execution"
     },
+    "e543e380be3b8910": {
+      "company": "Southwest Airlines",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Operations Research Developer"
+    },
     "e5472bb37b7b508c": {
       "company": "N26",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
@@ -49507,6 +49575,11 @@
       "company": "Anthropic",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Anthropic Fellows Program, ML Systems & Reinforcement Learning"
+    },
+    "ee40f401b2ebda8c": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-10-14T00:07:02.068474+00:00",
+      "title": "Software Engineer - Embedded Software/Firmware Development - Embedded Image Processing"
     },
     "ee491827656d7495": {
       "company": "Coherent",
