@@ -635,6 +635,11 @@
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
       "title": "Machine Learning Engineer"
     },
+    "0341894f52b8f749": {
+      "company": "Amazon",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Post-Silicon Systems Validation Engineer 1"
+    },
     "034f0c167855f6bd": {
       "company": "AECOM",
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
@@ -1254,6 +1259,11 @@
       "company": "eXalt",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
       "title": "Ingénieur(e) Python / IA"
+    },
+    "063fa9b386463b6f": {
+      "company": "Analog Devices",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Associate Software Engineer"
     },
     "06404a4c003c797c": {
       "company": "Doctolib",
@@ -9922,6 +9932,11 @@
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Quantitative Researcher New Grad"
     },
+    "3040eca553fc0789": {
+      "company": "Qualcomm",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Compiler Toolchain Engineer - Compiler Toolchain Software"
+    },
     "304a0621951324b1": {
       "company": "La Sécurité Sociale",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
@@ -11193,6 +11208,12 @@
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Data Analyst - Data & Analytics"
     },
+    "36260ffe4b00ec1d": {
+      "ats_key": "gh:6224827004",
+      "company": "Truveta",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Software Engineer - Security & Trust"
+    },
     "3626589ee6fea4f8": {
       "company": "Capgemini",
       "first_seen": "2026-09-09T12:42:27.975721+00:00",
@@ -11584,6 +11605,11 @@
       "company": "NVIDIA",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Software R&D Engineer New Grad - VLSI Physical Design"
+    },
+    "37dd700b6f7418c2": {
+      "company": "TikTok",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Research Engineer New Grad - Realtime Codec Optimizations-Video Codec"
     },
     "37ddc5cfcacb247d": {
       "company": "Tesla",
@@ -17028,6 +17054,11 @@
       "first_seen": "2026-09-24T13:09:01.062570+00:00",
       "title": "Gouvernance &amp; Qualité des Données​ F/H"
     },
+    "529b12047888efce": {
+      "company": "American Electric Power",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "TSOE Tools & Analytics Engineer"
+    },
     "529bb933500a72bb": {
       "company": "Crédit Agricole",
       "first_seen": "2026-10-14T16:28:17.759792+00:00",
@@ -19565,6 +19596,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Business Intelligence Analyst"
     },
+    "5efa502ced63f40a": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Superconducting Circuit Quantum Engineer"
+    },
     "5efc9ee814c448be": {
       "company": "ByteDance",
       "first_seen": "2026-10-09T02:44:38.403379+00:00",
@@ -19656,6 +19692,11 @@
       "company": "Trexquant",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Quantitative Researcher - Early Career"
+    },
+    "5fa165f7ee5ae674": {
+      "company": "TikTok",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Software Engineer Graduate - Data Ecosystem - 2027 Start"
     },
     "5fa8c6c3cf322249": {
       "company": "Thales",
@@ -28479,6 +28520,11 @@
       "first_seen": "2026-10-07T17:12:55.364544+00:00",
       "title": "Mid DevOps Engineer"
     },
+    "89f1a604acf19d47": {
+      "company": "Intel",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "CPU Validation Engineer"
+    },
     "8a02223a4edd0441": {
       "company": "Finto",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
@@ -29421,6 +29467,11 @@
       "company": "Horizon Technologies",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "MuleSoft Developer"
+    },
+    "8eb71d13267f9e12": {
+      "company": "Salesforce",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Software Engineering AMTS/MTS – College Grad"
     },
     "8ebbf0697380e4ea": {
       "company": "Huntington Ingalls Industries",
@@ -36645,6 +36696,11 @@
       "seeded": true,
       "title": "Backend Engineer (Golang) - Transfers Europe"
     },
+    "b1645d3274a1e76a": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Packaging Engineer - PhD"
+    },
     "b17a6d31b79c7aba": {
       "company": "Johns Hopkins Applied Physics Laboratory",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
@@ -42176,6 +42232,12 @@
       "first_seen": "2026-09-04T10:31:37.516686+00:00",
       "title": "Graduate Research Scientist - Multiple Teams"
     },
+    "ca6d1ce6d41dc830": {
+      "ats_key": "gh:8248373",
+      "company": "Waymo",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Field Safety Engineer"
+    },
     "ca750f2e2580473d": {
       "company": "Apple",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -42722,6 +42784,11 @@
       "company": "Tesla",
       "first_seen": "2026-09-07T02:44:49.382617+00:00",
       "title": "Data Engineer, Energy Service Engineering"
+    },
+    "cccc42f208595416": {
+      "company": "Salesforce",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Software Engineering AMTS College Grad"
     },
     "cccd223d150214d6": {
       "company": "Samsung",
@@ -44805,6 +44872,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Video/Image AI/ML Software Engineer Intern - Multimedia"
     },
+    "d661bdf37866448d": {
+      "company": "Amgen",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "Commercial Data and Analytics Data Scientist - Obesity"
+    },
     "d6627ca6f3b4db2c": {
       "company": "Vital Lyfe",
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
@@ -45601,6 +45673,11 @@
       "company": "Cadence Design Systems",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Software Intern"
+    },
+    "da387632c46cfd38": {
+      "company": "Keysight Technologies",
+      "first_seen": "2026-10-14T23:38:52.001938+00:00",
+      "title": "R&D Software Engineer - Electronic Measurement Systems"
     },
     "da40bce050174c28": {
       "company": "Welo Global",
