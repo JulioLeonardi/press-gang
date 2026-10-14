@@ -5867,6 +5867,12 @@
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "Software Engineer Intern - Summer 2027"
     },
+    "1d10bca725340447": {
+      "ats_key": "lever:dad6777e-77e7-4885-b8cc-751ad141df6a",
+      "company": "Pigment",
+      "first_seen": "2026-10-14T11:07:42.548841+00:00",
+      "title": "Junior Backend Engineer"
+    },
     "1d13b21e75b65e51": {
       "company": "Amazon",
       "first_seen": "2026-10-01T03:59:21.709067+00:00",
@@ -15910,6 +15916,12 @@
       "first_seen": "2026-09-09T12:42:27.975721+00:00",
       "title": "Data Analytics Engineer"
     },
+    "4d90409bc534a04d": {
+      "ats_key": "ashby:49a04ef0-16c4-42b3-a0bd-6b80ca6d5c02",
+      "company": "Mollie",
+      "first_seen": "2026-10-14T11:07:42.548841+00:00",
+      "title": "Machine Learning Platform Engineer I"
+    },
     "4da592f16727de00": {
       "company": "Tesla",
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
@@ -22018,6 +22030,12 @@
       "first_seen": "2026-08-19T14:29:22.950665+00:00",
       "title": "Software Engineer Intern - Aeronautics Systems"
     },
+    "6b27d045ca381f2a": {
+      "ats_key": "gh:8231178",
+      "company": "Stripe",
+      "first_seen": "2026-10-14T11:07:42.548841+00:00",
+      "title": "Software Engineer, Storage Integrations"
+    },
     "6b2dd2dacdf50526": {
       "company": "RATP Digital & Innovation",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
@@ -24471,6 +24489,11 @@
       "first_seen": "2026-08-22T11:17:38.706195+00:00",
       "title": "Software Engineer - Traction Control - Chassis Controls"
     },
+    "76b47fb054bc3490": {
+      "company": "Capgemini",
+      "first_seen": "2026-10-14T11:07:42.548841+00:00",
+      "title": "Associate Application Consultant"
+    },
     "76b8569745d9e074": {
       "company": "Varsity Brands",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
@@ -24716,6 +24739,11 @@
       "company": "Capgemini",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Consultante / Consultant fonctionnel - Expert S4HANA SAP SD"
+    },
+    "781239d79c2b8e0a": {
+      "company": "Google",
+      "first_seen": "2026-10-14T11:07:42.548841+00:00",
+      "title": "Research Engineer"
     },
     "78124d32de842292": {
       "company": "Wolt",
@@ -45783,6 +45811,11 @@
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "Ingénieur d'affaires IT confirmé - CDI (H/F)"
     },
+    "dbf4b06cd440da27": {
+      "company": "Jabil",
+      "first_seen": "2026-10-14T11:07:42.548841+00:00",
+      "title": "AI and Data Solutions Developer - Global Supply Chain"
+    },
     "dbf8b95bbbe43cf6": {
       "company": "Wabtec",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
@@ -48097,6 +48130,11 @@
       "company": "RTX",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Software Engineer 1"
+    },
+    "e6de533f04825f96": {
+      "company": "Garmin",
+      "first_seen": "2026-10-14T11:07:42.548841+00:00",
+      "title": "EMC Engineer 1"
     },
     "e6de5ad6a0d813e8": {
       "company": "N26",
