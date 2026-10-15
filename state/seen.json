@@ -2828,6 +2828,11 @@
       "first_seen": "2026-10-03T11:32:21.660547+00:00",
       "title": "Référent IT Site - H/F"
     },
+    "0df624a91f4f62ba": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-15T03:03:40.949105+00:00",
+      "title": "VLSI Engineer 1"
+    },
     "0dfb84e7a11c382b": {
       "company": "AHEAD",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -13381,6 +13386,11 @@
       "first_seen": "2026-08-17T14:23:25.090008+00:00",
       "title": "Data Quality Monitoring Engineer"
     },
+    "403d621abc371019": {
+      "company": "Google",
+      "first_seen": "2026-10-15T03:03:40.949105+00:00",
+      "title": "Software Engineer II, Early Career, Google Cloud AI Catalyst Program"
+    },
     "4041a4d489effdb5": {
       "company": "Advyzon",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
@@ -17936,6 +17946,12 @@
       "company": "Aldoria",
       "first_seen": "2026-10-02T15:20:22.219515+00:00",
       "title": "Space Situational Awareness (SSA) Engineer"
+    },
+    "5736da2d9bed41aa": {
+      "ats_key": "lever:49900d1b-1074-4372-82b0-a5f33c038a8c",
+      "company": "PlusAI",
+      "first_seen": "2026-10-15T03:03:40.949105+00:00",
+      "title": "Senior Machine Learning Engineer - Perception"
     },
     "57395c17ce89152c": {
       "company": "Mini-Circuits",
@@ -27552,6 +27568,11 @@
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Hardware Engineering Intern"
     },
+    "85773546b900fa8b": {
+      "company": "TikTok",
+      "first_seen": "2026-10-15T03:03:40.949105+00:00",
+      "title": "New Grad 2026: Machine Learning Engineer"
+    },
     "857e6fc72ea4231a": {
       "company": "Applied Materials",
       "first_seen": "2026-08-22T02:50:56.543781+00:00",
@@ -27783,6 +27804,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-22T02:50:56.543781+00:00",
       "title": "Software Engineer Intern"
+    },
+    "86785987f329583e": {
+      "company": "Tesla",
+      "first_seen": "2026-10-15T03:03:40.949105+00:00",
+      "title": "Frontend Software Engineer, Energy Charging"
     },
     "8679c4a7007beaf0": {
       "company": "Resilience Care",
@@ -48626,6 +48652,11 @@
       "company": "Sopra Steria",
       "first_seen": "2026-09-06T11:55:59.030411+00:00",
       "title": "Développeur/se Full Stack – Défense et Sécurité – Brest"
+    },
+    "e82d60ff157fd57c": {
+      "company": "Emerson Electric",
+      "first_seen": "2026-10-15T03:03:40.949105+00:00",
+      "title": "EMC Engineer"
     },
     "e83381c42601d489": {
       "company": "Thales",
