@@ -2430,6 +2430,11 @@
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "PCBA Soldering Technician"
     },
+    "0c1cf87b3cf1908e": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Validation Engineer"
+    },
     "0c1feb4dfcd0ff20": {
       "company": "ArianeGroup",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
@@ -5763,6 +5768,11 @@
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
       "title": "Web Designer and Developer"
     },
+    "1c29bb69800e1130": {
+      "company": "Qualcomm",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "ASIC Engineer - ASIC Engineering"
+    },
     "1c3cda4e96cadee7": {
       "company": "Freddie Mac",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
@@ -6371,6 +6381,11 @@
       "company": "Dropbox",
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
       "title": "Infrastructure Software Engineer, Metadata Core"
+    },
+    "1ef17e1e16cbaa11": {
+      "company": "Analog Devices",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Design Evaluation Engineer"
     },
     "1ef86c0d7db9f484": {
       "company": "DiliTrust",
@@ -7625,6 +7640,11 @@
       "company": "Appian",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Software Engineer Intern"
+    },
+    "24a2932cb988acd8": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Software Engineer 3"
     },
     "24a30d2d1a0b4840": {
       "company": "Ohio State University",
@@ -18595,6 +18615,11 @@
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "Ingénieure / Ingénieur DevOps - Grade B"
     },
+    "599e0161422c4975": {
+      "company": "Qualcomm",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "DSP Micro-Architect RTL Engineer - ASIC Engineering"
+    },
     "59ae767160643709": {
       "company": "Palantir",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
@@ -18796,6 +18821,11 @@
       "company": "HPR",
       "first_seen": "2026-08-21T16:29:13.769073+00:00",
       "title": "FPGA Engineering Intern"
+    },
+    "5a95fcad2ff02d58": {
+      "company": "State Street",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Quantitative Analyst"
     },
     "5a9766086cae00f8": {
       "company": "Simpson Strong-Tie",
@@ -19832,6 +19862,12 @@
       "company": "Thales",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "HR Process Support Specialist – French Speaker"
+    },
+    "5f9b0e811c021ae0": {
+      "ats_key": "ashby:40659fe7-545e-4b08-b6d7-2567b18b9ed3",
+      "company": "Quora",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Machine Learning Engineer New Grad"
     },
     "5fa0f5d801826fb1": {
       "company": "Trexquant",
@@ -22547,6 +22583,12 @@
       "company": "Altametris",
       "first_seen": "2026-09-28T18:24:37.036956+00:00",
       "title": "Data Scientist"
+    },
+    "6c6c550ea0e5d083": {
+      "ats_key": "gh:8017340003",
+      "company": "Affirm",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Software Engineer 1 - Fullstack - Search"
     },
     "6c76af330d93a3e7": {
       "company": "Universal Health Services",
@@ -35181,6 +35223,11 @@
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Software Engineer II - EDR Workflows - Security"
     },
+    "a8cd620a4cfcf23c": {
+      "company": "Cisco",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Software Engineer"
+    },
     "a8cf4ad83d4f27be": {
       "company": "La Poste Groupe",
       "first_seen": "2026-09-19T11:53:37.450769+00:00",
@@ -37136,6 +37183,11 @@
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Forward Deployed Engineer"
     },
+    "b27a4b0d19f298fd": {
+      "company": "Apple",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Graphics Software Content Engineer"
+    },
     "b27eee3f11f8be30": {
       "company": "Nationwide Children's Hospital",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
@@ -37660,6 +37712,12 @@
       "company": "Amgen",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Cyber Threat Intelligence Analyst"
+    },
+    "b4bc93ba0fe41318": {
+      "ats_key": "gh:8264811",
+      "company": "Qualtrics",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Software Engineer 1"
     },
     "b4c6ebfe835da838": {
       "company": "ByteDance",
@@ -40549,6 +40607,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "People & Data Operations Specialist – French Speaker"
+    },
+    "c1aee6a45a1ee832": {
+      "company": "Intel",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Microarchitecture and Design Engineer - AI SoC"
     },
     "c1b4139506d2ae0f": {
       "company": "Mind Robotics",
@@ -44479,6 +44542,12 @@
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Electrical Assembler"
     },
+    "d3ac6ad0a3d1790a": {
+      "ats_key": "sr:744000155825610",
+      "company": "Renesas Electronics",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Graduate Validation Engineer"
+    },
     "d3b0b55ce2376060": {
       "company": "Northrop Grumman",
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
@@ -47548,6 +47617,11 @@
       "company": "SUEZ",
       "first_seen": "2026-10-03T11:32:21.660547+00:00",
       "title": "Agent réseau assainissement - H/F"
+    },
+    "e16e0bb33159da9a": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-16T00:03:21.204692+00:00",
+      "title": "Computer Engineer New Grad - Central Engineering"
     },
     "e18412b70b5c93e3": {
       "company": "Accenture France",
