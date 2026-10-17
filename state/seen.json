@@ -1144,6 +1144,11 @@
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Data Engineering Co-op - Open to Northeastern students only"
     },
+    "0594f1bea6930720": {
+      "company": "Safran",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Digital Factory - Team Leader Digit .Net/Angular F/H"
+    },
     "059ab3d510257487": {
       "company": "TikTok",
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
@@ -6367,6 +6372,12 @@
       "company": "Lawrence Livermore National Laboratory (LLNL)",
       "first_seen": "2026-08-16T20:17:59.830480+00:00",
       "title": "Operations Research Postdoctoral Researcher"
+    },
+    "1ec4f7544d50b768": {
+      "ats_key": "personio:2846161",
+      "company": "Magazino",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Automation & Safety Software Engineer (w/m/d)"
     },
     "1ec5773be0996d3e": {
       "company": "Neuralink",
@@ -13098,6 +13109,11 @@
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Software Development Engineer Intern - Network Automation - 2027 Summer"
     },
+    "3e1aaa3d498a754f": {
+      "company": "OVHcloud",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Cooling R&D Engineer H/F/N"
+    },
     "3e217d99e8550584": {
       "company": "Susquehanna International Group (SIG)",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
@@ -13461,6 +13477,11 @@
       "company": "Etched",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "PD Intern"
+    },
+    "3f94e26e834dc2f2": {
+      "company": "Linking Talents",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Responsable des Opérations IT - Infras - H/F"
     },
     "3f978e0551f50ce3": {
       "company": "Welo Global",
@@ -20224,6 +20245,11 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Concepteur niveau 2 (H/F)"
     },
+    "60c4e1905a422cc1": {
+      "company": "SUEZ",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "RESPONSABLE TRAVAUX RESEAUX - H/F"
+    },
     "60c9105a0e20ef99": {
       "company": "Atos",
       "first_seen": "2026-09-20T13:55:15.459335+00:00",
@@ -22759,6 +22785,11 @@
       "company": "Rivian and Volkswagen Group Technologies",
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "Android Developer Intern"
+    },
+    "6cc7426beb24f1f6": {
+      "company": "SUEZ",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Responsable DevOps IT/OT (H/F)"
     },
     "6ccfb73cede815c0": {
       "company": "GoDaddy",
@@ -26100,6 +26131,11 @@
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Technology - Development - Design"
     },
+    "7c81be1a1bebb50c": {
+      "company": "Workday",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Software Development engineer"
+    },
     "7c858cb7223c9325": {
       "ats_key": "gh:7681706",
       "company": "Feedzai",
@@ -28855,6 +28891,11 @@
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "AI Commercial Strategy & Activation Co-op - AI Strike Team"
     },
+    "898cfb288c068cf2": {
+      "company": "Alma",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Mobile Engineer - React Native"
+    },
     "898ec6dc11f33b62": {
       "company": "ADT",
       "first_seen": "2026-08-24T14:38:02.195646+00:00",
@@ -30882,6 +30923,12 @@
       "company": "EXL",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Data Engineer"
+    },
+    "941960f1a670eaf4": {
+      "ats_key": "sr:744000156025390",
+      "company": "Gcore",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "DevOps Engineer/SRE (Cloud IaaS)"
     },
     "941abdbd6ec072b3": {
       "company": "Freddie Mac",
@@ -34749,6 +34796,12 @@
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-10-11T16:31:36.778015+00:00",
       "title": "Investigateur cyber"
+    },
+    "a54064315806ba48": {
+      "ats_key": "sr:744000155982369",
+      "company": "Wise",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Fullstack Engineer - Treasury Money Movement"
     },
     "a54ea5c249be3b47": {
       "company": "Susquehanna International Group (SIG)",
@@ -39243,6 +39296,11 @@
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Junior Software Engineer - AI-Forward"
     },
+    "ba13cac9984a5233": {
+      "company": "Crédit Agricole",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Data Controller (DM Quality & Control) H/F"
+    },
     "ba2109d25bc9b807": {
       "company": "Novartis",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
@@ -40610,6 +40668,11 @@
       "company": "Maven Securities",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Trading Analyst - Python"
+    },
+    "c05ba1f40a93ff55": {
+      "company": "Apprentis d'Auteuil",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Chef De Projet développement du réseau pastoral H/F"
     },
     "c06039c6252c03f4": {
       "ats_key": "gh:7369512",
@@ -44113,6 +44176,11 @@
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Founding CEO - New Venture AI"
     },
+    "d032067869eae7bd": {
+      "company": "Atos",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Développeur d'application H/F"
+    },
     "d03c415b7b1ea36c": {
       "company": "STEP Consulting",
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
@@ -46042,6 +46110,12 @@
       "company": "GE Vernova",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Digital Technology Intern"
+    },
+    "d8f54222d7e8e1af": {
+      "ats_key": "sr:744000155965149",
+      "company": "Deliveryhero",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Android Engineer I, Local Shops - Quick Commerce"
     },
     "d8fcd50731ca2309": {
       "company": "Micron Technology",
@@ -48337,6 +48411,11 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Founding AI Engineer"
     },
+    "e37d07e53bf1e99a": {
+      "company": "AstraZeneca",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Data Engineer, Medical Data Foundation"
+    },
     "e384d5d6044aab0a": {
       "company": "ByteDance",
       "first_seen": "2026-09-19T01:06:11.492022+00:00",
@@ -49714,6 +49793,11 @@
       "company": "Mayflower",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Penetration Tester (Web & API)"
+    },
+    "ea30ea86f245d941": {
+      "company": "EDF",
+      "first_seen": "2026-10-17T11:20:14.802850+00:00",
+      "title": "Développeur Power Platform Confirmé (F/H)"
     },
     "ea327d30b0cd6a45": {
       "company": "ByteDance",
