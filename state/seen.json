@@ -2954,6 +2954,11 @@
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "Research Scientist Intern - E-commerce Recommendation - LLM Applications"
     },
+    "0e5104a70905d601": {
+      "company": "iSoftStone",
+      "first_seen": "2026-10-19T22:50:41.665169+00:00",
+      "title": "Junior Full Stack Software Engineer"
+    },
     "0e558a38e9cc4e48": {
       "company": "Apple",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -12157,6 +12162,11 @@
       "first_seen": "2026-10-03T00:07:52.942699+00:00",
       "title": "Software Engineer"
     },
+    "38c325f9901077ad": {
+      "company": "HP Inc.",
+      "first_seen": "2026-10-19T22:50:41.665169+00:00",
+      "title": "Software Applications Engineer"
+    },
     "38c9293a69bca86b": {
       "company": "Accenture",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
@@ -17308,6 +17318,11 @@
       "company": "Capgemini",
       "first_seen": "2026-09-21T21:40:54.382063+00:00",
       "title": "Responsable de projet IT"
+    },
+    "517c568c6ea52c57": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-19T22:50:41.665169+00:00",
+      "title": "Technical Product Marketing Engineer - Robotics Simulation"
     },
     "51856efbbd406e15": {
       "company": "Thales",
@@ -36013,6 +36028,11 @@
       "first_seen": "2026-09-11T12:34:25.224224+00:00",
       "title": "Data Scientist F/H"
     },
+    "a9a41203a9b1f818": {
+      "company": "Akamai Technologies",
+      "first_seen": "2026-10-19T22:50:41.665169+00:00",
+      "title": "Software Engineer"
+    },
     "a9aa5be06ed909d7": {
       "company": "LineUP7",
       "first_seen": "2026-10-16T15:10:32.005909+00:00",
@@ -44605,6 +44625,12 @@
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Sourcing Deputy (m/f/d)"
     },
+    "d0215923f9f19fae": {
+      "ats_key": "gh:8016485003",
+      "company": "Celonis",
+      "first_seen": "2026-10-19T22:50:41.665169+00:00",
+      "title": "Applied Value Engineer"
+    },
     "d0284fc5e23892b5": {
       "company": "Chicago Trading Company",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -47984,6 +48010,11 @@
       "company": "Bosch Home Comfort",
       "first_seen": "2026-08-19T19:21:53.032708+00:00",
       "title": "Electrochemistry Modeling Intern"
+    },
+    "df7a4dbdd520ee12": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-19T22:50:41.665169+00:00",
+      "title": "AI/ML Systems Engineer New Grad"
     },
     "df7a61be60d37239": {
       "company": "TikTok",
