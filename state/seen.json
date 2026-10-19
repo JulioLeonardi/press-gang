@@ -12377,6 +12377,12 @@
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Telematics Installer"
     },
+    "39d9a6bc977b5fab": {
+      "ats_key": "ashby:a47018ac-0a29-4ba0-88cf-9616fdb03b71",
+      "company": "Mollie",
+      "first_seen": "2026-10-19T12:02:03.158592+00:00",
+      "title": "Analytics Engineer"
+    },
     "39e5809e86d772b7": {
       "company": "Openai",
       "first_seen": "2026-09-01T17:34:01.786468+00:00",
@@ -22589,6 +22595,12 @@
       "company": "Stripe",
       "first_seen": "2026-10-14T11:07:42.548841+00:00",
       "title": "Software Engineer, Storage Integrations"
+    },
+    "6b2b3ace262a1cb2": {
+      "ats_key": "gh:8891301002",
+      "company": "GitLab",
+      "first_seen": "2026-10-19T12:02:03.158592+00:00",
+      "title": "Backend Engineer (Ruby), Create: Change Record"
     },
     "6b2dd2dacdf50526": {
       "company": "RATP Digital & Innovation",
@@ -35371,6 +35383,12 @@
       "company": "Thales",
       "first_seen": "2026-10-18T14:16:50.953537+00:00",
       "title": "Ingénieur Systèmes - Traitement du signal / Algorithmie F/H"
+    },
+    "a7792c5907722b3d": {
+      "ats_key": "gh:8285365",
+      "company": "HelloFresh",
+      "first_seen": "2026-10-19T12:02:03.158592+00:00",
+      "title": "Product Engineer - Web / React Native, Customer Service (all genders)"
     },
     "a77dcff6c9ffaeb6": {
       "company": "L3Harris Technologies",
