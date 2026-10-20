@@ -2230,6 +2230,11 @@
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Engineering Development Program"
     },
+    "0ae0dca3bb31d482": {
+      "company": "Magna",
+      "first_seen": "2026-10-20T18:18:42.227012+00:00",
+      "title": "Junior AI Engineer"
+    },
     "0b0f3b37f207c4e1": {
       "company": "Link Consulting",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -17925,6 +17930,12 @@
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "Software Engineer Intern - Traffic Infrastructure"
     },
+    "547ba8549fbe096a": {
+      "ats_key": "gh:8267102",
+      "company": "Stripe",
+      "first_seen": "2026-10-20T18:18:42.227012+00:00",
+      "title": "Integration Engineer"
+    },
     "547d16d8f39e76d6": {
       "company": "Hudson River Trading",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
@@ -21738,6 +21749,12 @@
       "company": "Keysight Technologies",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Wireless Protocol Software Engineer - Layer 2 - Radio Link Control"
+    },
+    "665304307ce0ccaa": {
+      "ats_key": "lever:94474b0b-a64a-4816-adb4-73037fcd8b97",
+      "company": "Pigment",
+      "first_seen": "2026-10-20T18:18:42.227012+00:00",
+      "title": "Technical Content Engineer"
     },
     "665341e7a4927b9b": {
       "company": "Northrop Grumman",
@@ -27941,6 +27958,11 @@
       "first_seen": "2026-09-21T17:51:26.321619+00:00",
       "title": "Development Engineer Production (m/f/d) Focus Hardware"
     },
+    "8399252253fa6e7e": {
+      "company": "Texas A&M University System",
+      "first_seen": "2026-10-20T18:18:42.227012+00:00",
+      "title": "Programmer 1"
+    },
     "839b580d011de4e9": {
       "company": "TikTok",
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
@@ -28413,6 +28435,12 @@
       "company": "Adobe",
       "first_seen": "2026-09-23T07:18:01.812060+00:00",
       "title": "AI Forward Deployed Engineer"
+    },
+    "85a9d76b1469f193": {
+      "ats_key": "gh:8749950002",
+      "company": "GitLab",
+      "first_seen": "2026-10-20T18:18:42.227012+00:00",
+      "title": "Backend Engineer (Ruby), Plan: Spec-Driven Development"
     },
     "85ac1e8a767cf5ac": {
       "company": "MP DATA",
