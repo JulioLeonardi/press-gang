@@ -12635,6 +12635,11 @@
       "first_seen": "2026-10-04T15:07:17.071664+00:00",
       "title": "Ingénieur développement mécanique F/H"
     },
+    "3ac12fd1dadd1382": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-20T01:32:15.999098+00:00",
+      "title": "Software Engineer New Grad"
+    },
     "3aca268d7ff49a89": {
       "company": "Intuitive Surgical",
       "first_seen": "2026-08-25T10:27:59.122738+00:00",
@@ -19696,6 +19701,11 @@
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "ANIMATEUR EN SANTE ET SECURITE AU TRAVAIL"
     },
+    "5d23c3bcce7bcefc": {
+      "company": "Amazon",
+      "first_seen": "2026-10-20T01:32:15.999098+00:00",
+      "title": "Software Engineer – Early Career"
+    },
     "5d24c67d05825c45": {
       "company": "BlackRock",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
@@ -20295,6 +20305,11 @@
       "company": "Rivet Industries",
       "first_seen": "2026-08-25T01:03:30.610318+00:00",
       "title": "Software Engineer Intern - XR Team - Fall 2026"
+    },
+    "600942b36d1e78c4": {
+      "company": "NRG Energy",
+      "first_seen": "2026-10-20T01:32:15.999098+00:00",
+      "title": "Data Science Analyst - Agentic AI Developer"
     },
     "6017d99f00794bfa": {
       "company": "TikTok",
@@ -29144,6 +29159,12 @@
       "first_seen": "2026-09-30T14:34:52.226311+00:00",
       "title": "Marketing Automation Platform Specialist (m/f/d)"
     },
+    "895042528eea4ee6": {
+      "ats_key": "lever:7f832927-5c83-4fe9-9e7a-52de0fea57dd",
+      "company": "Bloom & Wild Group",
+      "first_seen": "2026-10-20T01:32:15.999098+00:00",
+      "title": "Junior Full Stack Engineer"
+    },
     "895720b4e48d9aa0": {
       "company": "Crédit Agricole CIB",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
@@ -29462,6 +29483,11 @@
       "company": "Alan",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Compliance Ops Builder"
+    },
+    "8ab181b6b055c289": {
+      "company": "Electronic Arts",
+      "first_seen": "2026-10-20T01:32:15.999098+00:00",
+      "title": "Software Engineer 1"
     },
     "8ab2351e2add6baf": {
       "company": "ByteDance",
@@ -33675,6 +33701,11 @@
       "first_seen": "2026-09-21T17:51:26.321619+00:00",
       "title": "Ingénieure / Ingénieur réseaux"
     },
+    "9efe1d3ca93e50ae": {
+      "company": "Apple",
+      "first_seen": "2026-10-20T01:32:15.999098+00:00",
+      "title": "Software Engineer - IS&T"
+    },
     "9eff5fec407b94d8": {
       "ats_key": "lever:1fa9ddfd-be43-4c1a-8f9d-76b1f12b0456",
       "company": "Oxylabs",
@@ -37070,6 +37101,11 @@
       "company": "Hewlett Packard Enterprise",
       "first_seen": "2026-10-06T11:45:21.196040+00:00",
       "title": "AI Workflow Specialist Graduate"
+    },
+    "ae90607c7692e7d9": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-20T01:32:15.999098+00:00",
+      "title": "Service Product Manager New Grad - Product Line Management"
     },
     "ae907a2539f59378": {
       "company": "Northrop Grumman",
@@ -49560,6 +49596,11 @@
       "company": "Quantcast",
       "first_seen": "2026-08-19T01:01:59.073134+00:00",
       "title": "Software Engineer - Cloud Infrastructure"
+    },
+    "e66a50e9d6dab637": {
+      "company": "Citi",
+      "first_seen": "2026-10-20T01:32:15.999098+00:00",
+      "title": "Angular Developer / Frontend Engineer"
     },
     "e67403babb4797a3": {
       "company": "Northrop Grumman",
