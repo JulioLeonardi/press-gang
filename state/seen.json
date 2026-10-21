@@ -2002,6 +2002,11 @@
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "Java Developer"
     },
+    "09c94f219d8f44ee": {
+      "company": "Docusign",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Software Engineer"
+    },
     "09c9fc848d20ef62": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -2220,6 +2225,12 @@
       "first_seen": "2026-08-20T01:02:09.664623+00:00",
       "title": "New Grad 2026: Software Engineer"
     },
+    "0ab8f60a617abc4b": {
+      "ats_key": "gh:8903193002",
+      "company": "iCapital Network",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Alternative Data Management Analyst"
+    },
     "0acbc3242dbebd4d": {
       "company": "Kraaft",
       "first_seen": "2026-09-15T15:31:33.330184+00:00",
@@ -2343,6 +2354,11 @@
       "company": "Gulf Management",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
       "title": "Software Engineer & Business Systems Intern"
+    },
+    "0b93c241ed73482a": {
+      "company": "Bank of America",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Risk Analysis Analyst"
     },
     "0b998f26ea6052e3": {
       "company": "Four Seasons",
@@ -4812,6 +4828,11 @@
       "first_seen": "2026-08-26T08:39:03.715410+00:00",
       "title": "Architecte BIM Modeleur F/H"
     },
+    "173769a57905e622": {
+      "company": "Keysight Technologies",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Quantum Physicist - Neutral Atom Platforms"
+    },
     "1741acdb9de2ed3d": {
       "company": "General Astronautics",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
@@ -4891,6 +4912,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Backend Software Engineer Graduate - Risk & Response"
+    },
+    "17a2752067072088": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Member of Technical Staff - Platform"
     },
     "17a46048dbbf59d4": {
       "company": "Specter Aerospace",
@@ -7084,6 +7110,11 @@
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
       "title": "Radio Engineer"
     },
+    "21a3937cecb55057": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Algorithm Developer New Grad"
+    },
     "21abc844a8afea8b": {
       "company": "Replit",
       "first_seen": "2026-08-21T16:29:13.769073+00:00",
@@ -8875,6 +8906,11 @@
       "company": "Mapjects",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Java Developer Intern"
+    },
+    "2953f36fb6452d69": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Software Engineer"
     },
     "29545862d1f44101": {
       "company": "AcreTrader",
@@ -12881,6 +12917,12 @@
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Ingénieur Développement Logiciel ADA/C (F/H)"
     },
+    "3ba31e753f36b099": {
+      "ats_key": "gh:7340628",
+      "company": "Qualtrics",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Software Engineer I, Digital Experience"
+    },
     "3bb66fd14e30b7e3": {
       "company": "ByteDance",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
@@ -15439,6 +15481,11 @@
       "company": "Crédit Agricole",
       "first_seen": "2026-09-15T15:31:33.330184+00:00",
       "title": "Data Officer (DM Entities) H/F"
+    },
+    "4824e10464ec2d63": {
+      "company": "Intuit",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Software Engineer 1"
     },
     "48259f3360bc6d9d": {
       "company": "Argonne National Laboratory",
@@ -20910,6 +20957,11 @@
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Product Development Engineer"
     },
+    "6246a7b733f56485": {
+      "company": "Zebra Technologies",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Software Engineer"
+    },
     "6247f9795d9ba6b4": {
       "company": "Deloitte",
       "first_seen": "2026-09-02T05:27:26.231700+00:00",
@@ -23442,6 +23494,12 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Artificial Intelligence Software Engineer - Development Infrastructure"
+    },
+    "6e848b383d7ccfad": {
+      "ats_key": "ashby:5494e6a1-a973-46af-b9f3-57208eb91b52",
+      "company": "Quora",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Full Stack Software Engineer New Grad"
     },
     "6e873564cb6e8e97": {
       "company": "Thales",
@@ -26573,6 +26631,11 @@
       "first_seen": "2026-08-25T07:40:43.965301+00:00",
       "title": "Immunization & Community Health Intern - Prevention and Health Promotion"
     },
+    "7ccc27bcdd45133b": {
+      "company": "Adobe",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Software Development Engineer"
+    },
     "7ccf2c7f49d8dbf7": {
       "company": "Basikon",
       "first_seen": "2026-09-25T16:27:30.066658+00:00",
@@ -28145,6 +28208,11 @@
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
       "title": "Data Science Analyst - Agentic AI Developer"
     },
+    "845d9b8ef6f11bd9": {
+      "company": "PNC Financial Services",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Business Analytics Specialist - Data, Modeling & Analytics"
+    },
     "8463a8a8a6963c4a": {
       "company": "Omnicell",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
@@ -29173,6 +29241,12 @@
       "first_seen": "2026-09-16T13:05:04.822696+00:00",
       "title": "Engineer - Inspection & Packaging"
     },
+    "88ee2a1b9678b484": {
+      "ats_key": "gh:6224936004",
+      "company": "SambaNova Systems",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "AI Performance Engineer New Grad"
+    },
     "88f24ccd08673982": {
       "company": "Deloitte Luxembourg",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
@@ -29647,6 +29721,11 @@
       "company": "Apple",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "AIML Resident - Data Operations Capacity Planning & Analytics"
+    },
+    "8ad878068ff57405": {
+      "company": "Mass General Brigham",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Statistical Programmer/Data Analyst"
     },
     "8ae6d718ab478235": {
       "company": "Intel",
@@ -36066,6 +36145,11 @@
       "first_seen": "2026-09-21T17:51:26.321619+00:00",
       "title": "AP Data Analysis & Continuous Improvement Specialist"
     },
+    "a8c8c87d7a4e2d3f": {
+      "company": "Humana",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Software Engineer 2"
+    },
     "a8cbdb9c92ac2682": {
       "company": "Elastic",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
@@ -37683,6 +37767,12 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Technical Support Engineer - Portuguese and/or Spanish"
+    },
+    "b0280e6ba51d2019": {
+      "ats_key": "gh:8284812",
+      "company": "AQR Capital Management",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Software Engineer"
     },
     "b03965eb76915201": {
       "company": "National Laboratory of the Rockies",
@@ -44739,6 +44829,11 @@
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Internal Controller"
     },
+    "cf6f17d620db0727": {
+      "company": "Intel",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "SoC Design Verification Engineer"
+    },
     "cf7167b0bd757516": {
       "company": "National Laboratory of the Rockies",
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
@@ -48379,6 +48474,12 @@
       "company": "Freedom Technology Solutions Group",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Junior Systems Engineer"
+    },
+    "dfcfb13f92af11b6": {
+      "ats_key": "sr:744000156658124",
+      "company": "Intuitive Surgical",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Full-Stack Engineer"
     },
     "dfcfbb949fc75ca5": {
       "company": "Decagon",
@@ -52058,6 +52159,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Investment & Trading Intern"
     },
+    "f0bd2fe815ff32c1": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Quantum Systems Stability & Sensitivity Engineer"
+    },
     "f0beacc8f0306662": {
       "company": "Applied Materials",
       "first_seen": "2026-08-16T20:17:59.830480+00:00",
@@ -52698,6 +52804,11 @@
       "company": "Vista Equity Partners",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "Agentic Factory Consultant"
+    },
+    "f36916425eb86081": {
+      "company": "Guidehouse",
+      "first_seen": "2026-10-21T01:14:55.692905+00:00",
+      "title": "Intelligence Analyst"
     },
     "f36cd591421eca21": {
       "company": "RTX",
