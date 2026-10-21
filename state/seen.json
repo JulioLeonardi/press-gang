@@ -13551,6 +13551,11 @@
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Full-Stack Engineer, AI Studio"
     },
+    "3f07ad902c43f959": {
+      "company": "Qualcomm",
+      "first_seen": "2026-10-21T07:00:34.040888+00:00",
+      "title": "ASIC Engineer - ASIC Engineering"
+    },
     "3f0d075b2211d23d": {
       "company": "Qualcomm",
       "first_seen": "2026-10-04T15:07:17.071664+00:00",
@@ -32088,6 +32093,11 @@
       "first_seen": "2026-09-16T23:32:13.108988+00:00",
       "title": "Post-silicon Validation and Debug Engineer"
     },
+    "96a93b47cbd1e9ba": {
+      "company": "Amazon",
+      "first_seen": "2026-10-21T07:00:34.040888+00:00",
+      "title": "Software Development Engineer 1 - AI/ML Network Infrastructure"
+    },
     "96a96894b55041de": {
       "company": "Genuine Parts Company",
       "first_seen": "2026-08-21T12:39:14.804973+00:00",
@@ -32605,6 +32615,12 @@
       "company": "Gartner",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Associate Data Analyst - Insights and Product Analytics"
+    },
+    "99181f53b841339e": {
+      "ats_key": "sr:744000156404329",
+      "company": "Renesas Electronics",
+      "first_seen": "2026-10-21T07:00:34.040888+00:00",
+      "title": "Application Engineer"
     },
     "9918fb66933c08f8": {
       "company": "TikTok",
@@ -34733,6 +34749,11 @@
       "company": "Liksi",
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "Architecte Logiciel Java – futur(e) expert(e) IAM (H/F)"
+    },
+    "a20a5aa9d915bf34": {
+      "company": "Axos Bank",
+      "first_seen": "2026-10-21T07:00:34.040888+00:00",
+      "title": "Data Engineer"
     },
     "a20d84f766fc75f6": {
       "company": "Legora",
@@ -38006,6 +38027,11 @@
       "company": "Texas Instruments",
       "first_seen": "2026-10-14T23:38:52.001938+00:00",
       "title": "Packaging Engineer - PhD"
+    },
+    "b171d859ee1adfbc": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-21T07:00:34.040888+00:00",
+      "title": "Software Engineer New Grad - Agent Performance Modeling"
     },
     "b17a6d31b79c7aba": {
       "company": "Johns Hopkins Applied Physics Laboratory",
@@ -54784,6 +54810,11 @@
       "company": "Generac",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
       "title": "Firmware Engineering Intern"
+    },
+    "fc7820c359031eab": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-21T07:00:34.040888+00:00",
+      "title": "Power Architect"
     },
     "fc884ea8c43b302c": {
       "company": "GlobalFoundries",
