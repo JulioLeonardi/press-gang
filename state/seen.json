@@ -287,6 +287,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Research Intern"
     },
+    "011c339a222a7135": {
+      "company": "Motorola Solutions",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Embedded Software Engineer"
+    },
     "012aa686dd26833b": {
       "company": "NRG Energy",
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
@@ -1515,6 +1520,11 @@
       "company": "La Sécurité Sociale",
       "first_seen": "2026-09-16T13:05:04.822696+00:00",
       "title": "Développeur DevOps - F/H"
+    },
+    "074f1334efa815f8": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Physicist/Scientist 3"
     },
     "07542d82766f414e": {
       "company": "Thales",
@@ -5854,6 +5864,11 @@
       "company": "Welo Global",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
       "title": "Data Labeling Analyst - Speech & Voice AI Analyst - Italian Speakers"
+    },
+    "1c1357c81763cf6f": {
+      "company": "Etsy",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Software Engineer 1 - Marketplace Makers"
     },
     "1c1638c42c7a7137": {
       "company": "Momentive",
@@ -14647,6 +14662,11 @@
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
       "title": "Electrical Engineer New Grad - DRAM Design Engineering"
     },
+    "43a9faba07746a0f": {
+      "company": "Vizient",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Associate Software Engineer"
+    },
     "43ad09d097a481a0": {
       "company": "BPCE Solutions informatiques",
       "first_seen": "2026-09-14T17:37:06.977279+00:00",
@@ -15764,6 +15784,11 @@
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "CloudOps Engineer - Evinova"
     },
+    "493b6ed081c2122f": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "AI Software Engineer New Grad"
+    },
     "493bc610b2410890": {
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
@@ -16221,6 +16246,11 @@
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Collectibles - Software Engineer"
     },
+    "4b9505abdfe1b537": {
+      "company": "Compassion International",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Software Support Specialist"
+    },
     "4b9550b6e65c4bba": {
       "company": "Bureaudestalents",
       "first_seen": "2026-09-22T15:25:00.833736+00:00",
@@ -16571,6 +16601,11 @@
       "company": "GlobalFoundries",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
       "title": "Electrical Test Engineer New Grad - Wafer Test"
+    },
+    "4d4e0bce7da4dbbb": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "High-Performance LLM Training Engineer New Grad"
     },
     "4d5893634edf1656": {
       "company": "United Launch Alliance",
@@ -19821,6 +19856,12 @@
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Security Software Engineer Project Intern - Product Security - 2026 Start"
     },
+    "5c993baafff13277": {
+      "ats_key": "gh:8039471003",
+      "company": "Affirm",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Analyst – Early Career - Full Stack"
+    },
     "5cadacada66ca7f2": {
       "company": "Micron Technology",
       "first_seen": "2026-08-17T14:23:25.090008+00:00",
@@ -21631,6 +21672,11 @@
       "company": "Adyen",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Java Software Engineer - Payments"
+    },
+    "6537a52314ec6a28": {
+      "company": "Qualcomm",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "IPS Hardware Support Engineer - Support Engineering"
     },
     "6550122eeddcc44d": {
       "company": "RegDesk",
@@ -26993,6 +27039,11 @@
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Recruitment Business Partner France, Italy, Spain & Global Health (H/F)"
     },
+    "7da43f5a6141b602": {
+      "company": "Apple",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "SoC Physical Design Engineer - Place and Route"
+    },
     "7da86edff65d48a6": {
       "company": "Argonne National Laboratory",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
@@ -27531,6 +27582,11 @@
       "company": "Modjo",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Front-end Engineer"
+    },
+    "805cf1b6be4ffb97": {
+      "company": "Apple",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Software Engineer - SoC Level Validation Engineer"
     },
     "8061cc36df6164be": {
       "company": "ConocoPhillips",
@@ -30667,6 +30723,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Software Engineer (Edge Platform)"
+    },
+    "8e84b194ec5bd39d": {
+      "company": "Akamai Technologies",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Software Engineer 1"
     },
     "8e8c73490770651e": {
       "company": "VTG",
@@ -34067,6 +34128,11 @@
       "company": "Vertiv",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Sales Data Analytics Intern - Summer 2027"
+    },
+    "9e8c5c8d34fb696d": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Test Engineer 1 - Test"
     },
     "9e997486498385b8": {
       "company": "Salesforce",
@@ -38405,6 +38471,11 @@
       "company": "Atos",
       "first_seen": "2026-09-09T12:42:27.975721+00:00",
       "title": "Ingénieur DevOps (F/H)"
+    },
+    "b2690d7c708cd286": {
+      "company": "ByteDance",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Research Scientist"
     },
     "b26b179bceace65a": {
       "company": "MBition (Mercedes-Benz)",
@@ -42963,6 +43034,11 @@
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "Software Engineer - Business Funds Risk"
     },
+    "c62fd2eaaa7d9858": {
+      "company": "Chewy",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Software Engineer 1"
+    },
     "c636ed0b7a883d26": {
       "company": "Twitch Interactive, Inc.",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
@@ -47229,6 +47305,12 @@
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
       "title": "Responsable Automatisme et Informatique Industrielle (A2I) - H/F"
     },
+    "d9039551f934ecb3": {
+      "ats_key": "gh:8906750002",
+      "company": "Twitch",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Software Engineer 1"
+    },
     "d903c0d119303a9d": {
       "company": "Lucis",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
@@ -48727,6 +48809,11 @@
       "company": "Apple",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "CPU Design Verification Engineer"
+    },
+    "dfb47307e7aaf8cf": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-22T00:25:06.751532+00:00",
+      "title": "Validation Engineer"
     },
     "dfb4db316a2d029f": {
       "company": "United Smart Tech",
