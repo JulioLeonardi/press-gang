@@ -17906,6 +17906,12 @@
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Software Engineer Intern"
     },
+    "53696ebfee2151ac": {
+      "ats_key": "gh:8276205",
+      "company": "Adyen",
+      "first_seen": "2026-10-22T11:06:35.877691+00:00",
+      "title": "People Technology Data Engineer"
+    },
     "5369adbb8401978d": {
       "company": "Sopra Steria",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
@@ -26998,6 +27004,12 @@
       "company": "Socomec",
       "first_seen": "2026-10-05T17:49:28.419181+00:00",
       "title": "Ingénieur développement électronique F/H/X"
+    },
+    "7d63098b476ab22a": {
+      "ats_key": "gh:8280899",
+      "company": "HelloFresh",
+      "first_seen": "2026-10-22T11:06:35.877691+00:00",
+      "title": "Software Engineer - Marketing Automation (all genders)"
     },
     "7d6dd6bd9359e2cf": {
       "company": "Domino's",
@@ -43815,6 +43827,11 @@
       "first_seen": "2026-09-18T13:21:58.233313+00:00",
       "title": "Release Engineer"
     },
+    "c91ca931d38dc6a5": {
+      "company": "Intel",
+      "first_seen": "2026-10-22T11:06:35.877691+00:00",
+      "title": "CPU Performance Architect"
+    },
     "c92c8f4532cd7cff": {
       "company": "Meyer Distributing",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
@@ -45207,6 +45224,11 @@
       "first_seen": "2026-09-19T11:53:37.450769+00:00",
       "title": "Ingénieur Cybersécurité – Expert Google SecOps H/F"
     },
+    "cfa79f79db8057cc": {
+      "company": "Amazon",
+      "first_seen": "2026-10-22T11:06:35.877691+00:00",
+      "title": "Software Development Engineer 1 - AI/ML Network Infrastructure"
+    },
     "cfa7dcd4303f9e5d": {
       "company": "MACIF",
       "first_seen": "2026-09-22T15:25:00.833736+00:00",
@@ -46197,6 +46219,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Backend Inference Runtime Engineer New Grad - AML Inference"
+    },
+    "d46aade72488261a": {
+      "company": "Amazon",
+      "first_seen": "2026-10-22T11:06:35.877691+00:00",
+      "title": "Robotics Embedded Software Development Engineer"
     },
     "d46f518b3b833811": {
       "company": "Capgemini",
@@ -47739,6 +47766,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Software Engineer Graduate - Inference Infrastructure"
+    },
+    "daddfb4d2cf05446": {
+      "company": "Cruise Planners",
+      "first_seen": "2026-10-22T11:06:35.877691+00:00",
+      "title": "Data & AI Engineer"
     },
     "dadf10be6dcab079": {
       "company": "Garmin",
