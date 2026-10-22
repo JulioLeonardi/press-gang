@@ -1118,6 +1118,11 @@
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Data Analyst-Level I"
     },
+    "054ab08b012e2083": {
+      "company": "Becton Dickinson",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "R&D Hardware Electrical Engineer 1"
+    },
     "05512c1d19d71f31": {
       "ats_key": "sr:744000155933009",
       "company": "Deliveryhero",
@@ -15864,6 +15869,11 @@
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
       "title": "Geologist Graduate - Geoscience Engineering"
     },
+    "4968358ec620c697": {
+      "company": "Intel",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "SoC Debug Engineer"
+    },
     "496a44d6cc2ac0c2": {
       "company": "Savencia IT & Digital Services",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
@@ -20894,6 +20904,11 @@
       "first_seen": "2026-09-03T22:14:16.788642+00:00",
       "title": "Entry Level Software Engineer - C++"
     },
+    "61283139e0414ae3": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "DRAM Product Development Engineer New Grad"
+    },
     "612a573aa051df8f": {
       "company": "Thales",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -25482,6 +25497,11 @@
       "company": "JP Morgan Chase",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "Pricing Analytics Solutions Associate"
+    },
+    "75b90d3aaa949582": {
+      "company": "Cleveland Clinic",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "Healthcare Reporting Analyst 1"
     },
     "75c343ef04ada9c9": {
       "company": "KLA Corporation",
@@ -34045,6 +34065,11 @@
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "Robot Perception/ML Engineer (w/m/d) Autonomous Mobile Robots"
     },
+    "9d6c060ae7cbddd4": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "Memory Design Engineer New Grad - Engineer - Ddeg Ip Development"
+    },
     "9d71c04d36304fd4": {
       "company": "Detroit Lions",
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
@@ -41609,6 +41634,11 @@
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Cartography Technician 1"
     },
+    "bed23cf20b0a2347": {
+      "company": "Intel",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "SoC Design Verification Engineer"
+    },
     "bed674a179a29c4e": {
       "company": "Rollout",
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
@@ -43414,6 +43444,11 @@
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Data Scientist - Data Scientist"
     },
+    "c71a2f87f0d193d3": {
+      "company": "Qualcomm",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "ASIC Design Engineer - Multiple Teams"
+    },
     "c71b1f9adaa21482": {
       "company": "Tesla",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
@@ -43651,6 +43686,11 @@
       "company": "iad",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Digital Support Specialist (m/f/d)"
+    },
+    "c801a11f95a8c776": {
+      "company": "Flexera",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "Senior Software Engineer"
     },
     "c80be5e6302e85e5": {
       "company": "Deloitte",
@@ -49851,6 +49891,11 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Founding AI Engineer"
     },
+    "e379a987d743cbdf": {
+      "company": "Thermo Fisher Scientific",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "Data Engineer"
+    },
     "e37d07e53bf1e99a": {
       "company": "AstraZeneca",
       "first_seen": "2026-10-17T11:20:14.802850+00:00",
@@ -52800,6 +52845,11 @@
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "Electronics Design Engineer Intern - Reliability Electronics Design Engineer - Energy Engineering"
     },
+    "f0ffd3b308e960a1": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "DRAM Design Engineer New Grad"
+    },
     "f0ffd93df3268e8e": {
       "company": "Lesaffre",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
@@ -55419,6 +55469,11 @@
       "company": "AstraZeneca",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Business Analyst - FP&A Commercial"
+    },
+    "fc95c3c212bede3e": {
+      "company": "Motorola Solutions",
+      "first_seen": "2026-10-22T23:52:25.015370+00:00",
+      "title": "Entry Level Control Hardware Development Engineer"
     },
     "fc9a7591d81fff59": {
       "company": "Argonne National Laboratory",
