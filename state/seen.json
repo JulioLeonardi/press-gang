@@ -392,6 +392,11 @@
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Snr FPGA Design Engineer (3)"
     },
+    "019ab6b8c98b02f6": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Algorithm Developer (Master's)"
+    },
     "01aefa0b13fc9077": {
       "company": "ByteDance",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
@@ -1996,6 +2001,12 @@
       "company": "Amazon",
       "first_seen": "2026-10-19T00:46:25.485691+00:00",
       "title": "Systems Development Engineer, Network Operations OISL"
+    },
+    "0996feb6c41b7ee1": {
+      "ats_key": "lever:90329118-d9b7-4b96-acdf-13377e3196ac",
+      "company": "Palantir",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Software Engineer, Query Engines"
     },
     "0997882028c0bd0a": {
       "company": "DT Professional Services",
@@ -3723,6 +3734,11 @@
       "first_seen": "2026-09-05T11:36:03.514197+00:00",
       "title": "Responsable Activités Gestion Cybersécurité F/H"
     },
+    "115cceb8feed89bd": {
+      "company": "NRG Energy",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Data Science Analyst - Agentic AI Developer"
+    },
     "116656141d4c95bd": {
       "ats_key": "gh:7866308",
       "company": "N26",
@@ -4271,6 +4287,11 @@
       "company": "Novartis",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Tehnolog proizvodnih procesov II (m/ž/d)"
+    },
+    "1457fddf69abce81": {
+      "company": "Mastercard",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Software Engineer I"
     },
     "1459adc08bd05e5d": {
       "company": "Tesla",
@@ -7382,6 +7403,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "Electronic Manufacturing Specialist - Electronic Manufacturing Services / Operator"
     },
+    "226e0205eae7b3bb": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Silicon Co-Design Engineer New Grad"
+    },
     "2276cbcc1af83e26": {
       "company": "Salesforce",
       "first_seen": "2026-10-22T16:35:04.687019+00:00",
@@ -7580,6 +7606,11 @@
       "company": "FormFactor",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Supply Chain Data Engineer"
+    },
+    "236359ae9d76365e": {
+      "company": "Cisco",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Attack Surface Management Security Engineer I"
     },
     "236505e1079d3ca4": {
       "company": "Tesla",
@@ -8673,6 +8704,11 @@
       "company": "Groupement Mousquetaires",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Chef d'Equipe Maintenance H/F"
+    },
+    "27e5650fd7e53ebe": {
+      "company": "Motorola Solutions",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Embedded Software Engineer"
     },
     "27ec9891ca57ecbc": {
       "company": "Micron Technology",
@@ -11917,6 +11953,11 @@
       "first_seen": "2026-09-25T16:27:30.066658+00:00",
       "title": "Consultant(e) débutant(e) en projets de transformation métier et IT, secteur Tech (H/F)"
     },
+    "371219fa74e17f6c": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Software Development Engineer 1 Early Career - Annapurna Labs"
+    },
     "3712ed9c81eeeb9d": {
       "company": "We Are Social",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
@@ -14164,6 +14205,11 @@
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Machine Learning Engineer New Grad - E-Commerce Search"
     },
+    "411548470aabba15": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Software Engineer"
+    },
     "41201c2b216247dd": {
       "company": "Job Link Group",
       "first_seen": "2026-09-24T13:09:01.062570+00:00",
@@ -14537,6 +14583,11 @@
       "company": "Sinclair",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Meteorologist"
+    },
+    "42cdff7b9cf23887": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "System Development Engineer - Region Reliability Engineering"
     },
     "42e364c8abe845a4": {
       "company": "Liksi",
@@ -15513,6 +15564,11 @@
       "company": "Bial-X",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Data Engineer Databricks - Paris"
+    },
+    "477f5bc660893932": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Software Engineer, Agent Performance Modeling (Master's)"
     },
     "4784c0f6f17c7121": {
       "company": "HelloFresh",
@@ -20597,6 +20653,11 @@
       "company": "Apple",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "SoC Physical Design Engineer - PnR"
+    },
+    "5fb5ccbdda026894": {
+      "company": "Intel",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "IP Design Verification Engineer"
     },
     "5fc3ddef877781df": {
       "company": "Adobe",
@@ -30715,6 +30776,11 @@
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Machinery Silencing Technician Intern"
     },
+    "8de2d0fa4c995194": {
+      "company": "Electronic Arts",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "New Grad 2027: Software Engineer 1"
+    },
     "8de31a4e4f2e1601": {
       "company": "Temporis Experts & Cadres",
       "first_seen": "2026-10-04T15:07:17.071664+00:00",
@@ -33292,6 +33358,11 @@
       "company": "Micron Technology",
       "first_seen": "2026-09-19T15:18:19.555826+00:00",
       "title": "Design Engineer New Grad"
+    },
+    "9a29012598aad27b": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "ASIC Engineer Early Career"
     },
     "9a2a261595b9c2bd": {
       "company": "TWC - Rosk x Brigad",
@@ -37722,6 +37793,11 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Member of Technical Staff"
     },
+    "ae1d269d68ec02e5": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "New Grad 2027: Software Engineer"
+    },
     "ae208a4afe693381": {
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
@@ -38590,6 +38666,11 @@
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Entry-Level Java Developer - Java"
     },
+    "b2030c1f6c924ece": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "ASIC Engineer - Project Leo"
+    },
     "b207e8c922656abd": {
       "company": "Thales",
       "first_seen": "2026-09-05T11:36:03.514197+00:00",
@@ -39232,6 +39313,11 @@
       "first_seen": "2026-10-16T00:03:21.204692+00:00",
       "title": "Software Engineer 1"
     },
+    "b4c413166f841cc7": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Cloud Hardware Development Engineer – Early Career"
+    },
     "b4c6ebfe835da838": {
       "company": "ByteDance",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
@@ -39388,6 +39474,11 @@
       "company": "Animaj",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "Graphic Designer (mid) with AI Creative Tools Experience"
+    },
+    "b55886b5d6fae633": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Business Intelligence Analyst I"
     },
     "b55b685de400427f": {
       "company": "Sharp DX (ex Apsia)",
@@ -41144,6 +41235,11 @@
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Software Engineer 1"
     },
+    "bca4276cb3388aef": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Design Verification Engineer"
+    },
     "bca59904eb27c085": {
       "company": "Retell AI",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
@@ -41434,6 +41530,11 @@
       "company": "Amazon",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Software Dev Engineer"
+    },
+    "bdf412c249f8bd89": {
+      "company": "Thorlabs",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Data Analyst 1"
     },
     "bdfa9be80a5f40dc": {
       "company": "Apple",
@@ -41943,6 +42044,11 @@
       "company": "Curtiss-Wright Corporation",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Graduate Engineer"
+    },
+    "c0473174e831f33d": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Software Development Engineer - Prime Video Personalization & Discovery"
     },
     "c04ddaa50a0e08bf": {
       "company": "Maven Securities",
@@ -44522,6 +44628,11 @@
       "first_seen": "2026-09-25T16:27:30.066658+00:00",
       "title": "MS Engineer (L1)"
     },
+    "cbca01717e5f5346": {
+      "company": "Citi",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Angular Developer / Frontend Engineer"
+    },
     "cbcbff77bca24b8d": {
       "company": "AstraZeneca",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
@@ -46473,6 +46584,11 @@
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Web Scraping Engineer - Python (Mid/Senior)"
     },
+    "d48e2d1043d25553": {
+      "company": "Guidehouse",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Technical Associate Application Developer"
+    },
     "d48e6a5ee2aa8182": {
       "company": "Amazon",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
@@ -46673,6 +46789,11 @@
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Associate Product Manager"
     },
+    "d54ded7a80223686": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "New Grad 2027: AI/ML Systems Engineer"
+    },
     "d54e50d189e63cc3": {
       "company": "Atos",
       "first_seen": "2026-09-02T18:27:00.115446+00:00",
@@ -46702,6 +46823,11 @@
       "company": "Apple",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "PLL Design Engineer"
+    },
+    "d566e8890a09ef0c": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Software Development Engineer - Embedded Systems"
     },
     "d567a539c93bc05d": {
       "company": "BlaBlaCar",
@@ -46974,6 +47100,11 @@
       "company": "Systems Planning and Analysis (SPA)",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "AV Specialist"
+    },
+    "d676fcc3293db403": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "New Grad 2027: AI Software Engineer"
     },
     "d67e8cd1a328c5f6": {
       "company": "Prior Labs",
@@ -49795,6 +49926,11 @@
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Software Engineer New Grad - Hardware Tools and Methodology"
     },
+    "e2e58ec32fcea513": {
+      "company": "ResMed",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Associate Android Developer"
+    },
     "e2e6d580c50c465d": {
       "company": "Adyen",
       "first_seen": "2026-09-05T11:36:03.514197+00:00",
@@ -50150,6 +50286,11 @@
       "company": "Palantir",
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Software Engineer New Grad"
+    },
+    "e4a0a4a7cd93ee5d": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "ASIC Formal Verification Engineer 1"
     },
     "e4b18cd32443fbc3": {
       "company": "Liberty Mutual",
@@ -50828,6 +50969,11 @@
       "company": "Travelers",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineer I (AI Driven)"
+    },
+    "e7e9b3c613c2f2a1": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "Front-End Engineer"
     },
     "e7eaf1afdc0e9b97": {
       "ats_key": "gh:4981489101",
@@ -52535,6 +52681,11 @@
       "company": "Eurofins",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
       "title": "Field Service Engineer 1/2"
+    },
+    "ef9901b604a3e09a": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-23T03:15:46.989626+00:00",
+      "title": "New Grad 2027: High-Performance LLM Training Engineer (Master's)"
     },
     "efa1f4ffbd206da9": {
       "company": "skiils",
