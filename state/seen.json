@@ -1149,6 +1149,11 @@
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "SoC Physical Design Engineer - Top Level"
     },
+    "05650b0f22a0ba6d": {
+      "company": "Nokia",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "Staff Product Test Capability Engineer"
+    },
     "05653c0c60dcef34": {
       "company": "Savannah River Mission Completion",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -3358,6 +3363,11 @@
       "company": "Qblox",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "DevOps Engineer"
+    },
+    "0f5d96bcb67e0b46": {
+      "company": "Apple",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "Software Engineer"
     },
     "0f5fbff8d33d83ec": {
       "company": "Harvey",
@@ -13247,6 +13257,11 @@
       "first_seen": "2026-08-25T06:40:15.629625+00:00",
       "title": "Data Scientist Co-op"
     },
+    "3c37f0af58897636": {
+      "company": "Visa",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "Software Engineer"
+    },
     "3c64bd4c4d248d46": {
       "company": "Neoptim",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
@@ -14708,6 +14723,12 @@
       "company": "Metiga",
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Chef de projet Efficacité Energétique (H/F)"
+    },
+    "42f9d43383752bd3": {
+      "ats_key": "gh:8911684002",
+      "company": "GitLab",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "Intermediate Fullstack Engineer (Ruby/Vue.js), Growth"
     },
     "42ffdcbff1a9b721": {
       "company": "Rocket Companies",
@@ -17478,6 +17499,11 @@
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Operater (m/ž/d)"
+    },
+    "503f06de319693ac": {
+      "company": "Pennsylvania State University",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "Service Systems Engineering Research Assistant"
     },
     "5048e1d23a358e18": {
       "company": "HP",
@@ -21020,6 +21046,12 @@
       "company": "NTT DATA",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "IT System Engineer - Storage (m/w/d)"
+    },
+    "60ca53f4ec4a15e9": {
+      "ats_key": "gh:8014814003",
+      "company": "Hunter Douglas",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "Product Specialist"
     },
     "60d8d76c1f1a8ed0": {
       "company": "Lumafield",
@@ -36885,6 +36917,11 @@
       "first_seen": "2026-09-19T11:53:37.450769+00:00",
       "title": "Spécialiste Industrialisation IT F/H"
     },
+    "a8d0aed15b888c67": {
+      "company": "Lowe's",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "Associate Analyst-Digital - Launchpad"
+    },
     "a8d1c4a0a3bb3d3f": {
       "company": "Chicago Trading Company",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -37047,6 +37084,11 @@
       "company": "Esri",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "C++ Software Engineer I, Maps SDKs"
+    },
+    "a9b4779715ddc31b": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "New Grad 2027: Software Engineer"
     },
     "a9bfd7db75842310": {
       "company": "NVIDIA",
@@ -38037,6 +38079,12 @@
       "company": "Vanguard",
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
       "title": "Technology Leadership Program - Data & Analytics - Analyst"
+    },
+    "ae45c6fc33829a40": {
+      "ats_key": "sr:744000157479969",
+      "company": "AECOM",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "Entry-Level Environmental Statistician"
     },
     "ae4a8573d7f9aee8": {
       "company": "Northrop Grumman",
@@ -46924,6 +46972,12 @@
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Administrateur Système et Sécurité  F/H"
+    },
+    "d4eda44dc55ec1b8": {
+      "ats_key": "gh:8264454",
+      "company": "Appian",
+      "first_seen": "2026-10-23T18:52:40.191739+00:00",
+      "title": "Associate Product Engineer"
     },
     "d4f0671f12db615b": {
       "company": "Tyson Foods",
