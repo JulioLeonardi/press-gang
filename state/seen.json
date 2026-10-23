@@ -11030,6 +11030,11 @@
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Quantitative Trading Intern"
     },
+    "32ebfdaa22150485": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-23T09:04:33.162473+00:00",
+      "title": "Software Engineer (Master's)"
+    },
     "32ef1574041288fa": {
       "company": "Hilton Worldwide",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
@@ -11317,6 +11322,12 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Data Science Intern - TikTok Live"
+    },
+    "340c4ad435fe903e": {
+      "ats_key": "lever:66b495eb-aaf9-4bf9-a759-41854534add7",
+      "company": "Palantir",
+      "first_seen": "2026-10-23T09:04:33.162473+00:00",
+      "title": "New Grad 2027: Forward Deployed Software Engineer, Warp Speed"
     },
     "341195ad0a817678": {
       "company": "Western Digital",
@@ -31596,6 +31607,11 @@
       "first_seen": "2026-09-18T13:21:58.233313+00:00",
       "title": "Responsable de comptes Cybersécurité - Secteur financier F/H"
     },
+    "921d69c88acf9a67": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T09:04:33.162473+00:00",
+      "title": "New Grad 2027: Software Development Engineer 1, Annapurna Labs"
+    },
     "9220ec2854f5f919": {
       "company": "Springs Window Fashions",
       "first_seen": "2026-08-22T15:17:12.322025+00:00",
@@ -40642,6 +40658,12 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Payroll Services Expert with French"
     },
+    "ba27de80ebaa974d": {
+      "ats_key": "gh:8038707003",
+      "company": "Doctolib",
+      "first_seen": "2026-10-23T09:04:33.162473+00:00",
+      "title": "Technical Solution Engineer - Interoperabilität (x/f/m)"
+    },
     "ba2e4f19d0d8f4a5": {
       "company": "Slip Robotics",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
@@ -41310,6 +41332,11 @@
       "company": "Finzzle groupe",
       "first_seen": "2026-10-13T20:03:04.574066+00:00",
       "title": "Gestionnaire Support & Accompagnement Réseau H/F"
+    },
+    "bcf4175a40a2c430": {
+      "company": "Guidehouse",
+      "first_seen": "2026-10-23T09:04:33.162473+00:00",
+      "title": "New Grad 2027: Technical Associate Application Developer"
     },
     "bcff1dc51a742a0c": {
       "company": "Key Consulting",
