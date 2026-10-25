@@ -1073,6 +1073,12 @@
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Undergraduate Researcher - Cee"
     },
+    "04cf53a86b76ebad": {
+      "ats_key": "gh:8543115002",
+      "company": "Graphcore",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "Software Engineer - Triton"
+    },
     "04d5ce8577f696c0": {
       "company": "TikTok",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
@@ -3890,6 +3896,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Product Owner Graduate - TikTok Local Services"
+    },
+    "11add0b251e8e7f4": {
+      "company": "OVHcloud",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "SRE Cloud Databases (AI Ops) H/F/N"
     },
     "11b577a7c3687652": {
       "company": "Invisible Technologies AI",
@@ -8100,6 +8111,11 @@
       "company": "KAYAK",
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Associate Software Engineer"
+    },
+    "24bc058caa9bdfa8": {
+      "company": "OVHcloud",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "Fullstack Engineer - Public Cloud F/H/N"
     },
     "24c235261a20f3b5": {
       "company": "TikTok",
@@ -18466,6 +18482,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "Machine Learning Engineer Graduate - Performance Monetization"
     },
+    "53cbef1bf77748e5": {
+      "company": "Capgemini",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "Ingénieure / Ingénieur DevSecOps"
+    },
     "53d7c5cf45f6221b": {
       "company": "KLA",
       "first_seen": "2026-10-14T00:07:02.068474+00:00",
@@ -25430,6 +25451,11 @@
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
       "title": "Government Health Consulting Informatics Intern - College Program"
     },
+    "73138dc0992b77b0": {
+      "company": "Crédit Agricole",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "Network Management Analyst (Non-IT) H/F"
+    },
     "732f7ed69ecd55bf": {
       "company": "Intersection",
       "first_seen": "2026-08-25T07:40:43.965301+00:00",
@@ -27186,6 +27212,11 @@
       "company": "Webnet",
       "first_seen": "2026-10-13T20:03:04.574066+00:00",
       "title": "Développeur Javascript/Typescript H/F"
+    },
+    "7b3a2d846e0a3eb4": {
+      "company": "EDF",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "Chargé de portefeuille - réseaux de chaleur H/F F/H"
     },
     "7b3e0120b08ae818": {
       "company": "JP Morgan Chase",
@@ -35255,6 +35286,11 @@
       "seeded": true,
       "title": "Backend Engineer - Cards"
     },
+    "9fba91b476a4a88f": {
+      "company": "EDF",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "Implémentation de courbes de charge dans un code scientifique python F/H"
+    },
     "9fbb06f6f91f0377": {
       "company": "Trane Technologies",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
@@ -35865,6 +35901,11 @@
       "company": "DRW",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "FPGA Developer"
+    },
+    "a22d8e29e156c338": {
+      "company": "Dougs",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "Software Engineer Fullstack - Cross-functional Team H/F"
     },
     "a22e1ac59cb0ce80": {
       "company": "Fidelity Investments",
@@ -37889,6 +37930,11 @@
       "company": "Link Consulting",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Ingénieur IVVQ embarqué (H/F)"
+    },
+    "ab93f1bd98a78196": {
+      "company": "Dell Technologies",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "AI Performance Engineer"
     },
     "ab993285876e931a": {
       "company": "Contentsquare",
@@ -44263,6 +44309,11 @@
       "company": "FAST Enterprises",
       "first_seen": "2026-08-17T15:21:52.123639+00:00",
       "title": "Implementation Intern"
+    },
+    "c6eebd8cf1449fbd": {
+      "company": "University of Arkansas",
+      "first_seen": "2026-10-25T14:46:21.130176+00:00",
+      "title": "Research Analyst"
     },
     "c6fa653664be9488": {
       "company": "Hardin Design",
