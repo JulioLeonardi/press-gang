@@ -595,6 +595,11 @@
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Entry Level Semiconductor Install Technician"
     },
+    "02bf825d77312472": {
+      "company": "Palantir",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad: Forward Deployed Software Engineer, Commercial"
+    },
     "02c9d0c1674a5918": {
       "company": "TikTok",
       "first_seen": "2026-09-04T05:26:51.111189+00:00",
@@ -1320,6 +1325,11 @@
       "company": "Susquehanna International Group",
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
       "title": "Quantitative Strategy Developer New Grad"
+    },
+    "0608573a02e65878": {
+      "company": "American Express",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Software Engineer I, Enterprise Technology Services"
     },
     "060a29595e29a404": {
       "company": "Charles Schwab",
@@ -4583,6 +4593,11 @@
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
       "title": "Vietnamese Voice Recording Specialist - Voice Recording"
     },
+    "14a6219c2258e7f6": {
+      "company": "Belvedere Trading",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Quantitative Trader"
+    },
     "14a904c0943cafbb": {
       "company": "Onto Innovation",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -5635,6 +5650,11 @@
       "company": "Les Parents Zens",
       "first_seen": "2026-09-25T16:27:30.066658+00:00",
       "title": "Développeur Fullstack - Laferté Sur Amance - CDI H/F"
+    },
+    "19eeff99509fe1f6": {
+      "company": "Palantir",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad: Forward Deployed Infrastructure Engineer, US Government"
     },
     "19ef6f1cfde3e38c": {
       "company": "NVIDIA",
@@ -8013,6 +8033,11 @@
       "first_seen": "2026-09-01T17:34:01.786468+00:00",
       "title": "Software Engineer, New Grad"
     },
+    "23f52e0929546767": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "Mixed Signal Design Engineer"
+    },
     "23f57f6b70ab4785": {
       "company": "The Nuclear Company",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
@@ -8075,6 +8100,11 @@
       "company": "National Laboratory of the Rockies",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
       "title": "Postdoctoral Researcher - Statistical Learning and Modeling"
+    },
+    "2422fc0aa0c9e90d": {
+      "company": "Palantir",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad: Privacy & Civil Liberties Engineer"
     },
     "243aea438f250dc5": {
       "company": "Vanguard",
@@ -8156,6 +8186,11 @@
       "company": "Crédit Agricole",
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieur Capacity Planning Mainframe (z/OS) - Pôle Tech Foundation H/F"
+    },
+    "248f17e479d8a018": {
+      "company": "Susquehanna International Group",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Trading System Engineer"
     },
     "2490d331dd959f8b": {
       "company": "Septeo",
@@ -12657,6 +12692,11 @@
       "first_seen": "2026-08-21T06:40:06.643649+00:00",
       "title": "Machine Learning Intern/Co-op - Artificial Intelligence"
     },
+    "37fe5c9fed43b8ed": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "ASIC Design Engineer"
+    },
     "38058766d701cbd7": {
       "company": "Emory Healthcare",
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
@@ -13165,6 +13205,11 @@
       "company": "Webnet",
       "first_seen": "2026-10-08T17:11:13.730521+00:00",
       "title": "Développeur front-end Next.js / React TypeScript"
+    },
+    "39e92d225ed2dc8d": {
+      "company": "Honeywell",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Future IT Leaders (U.S. Person)"
     },
     "3a0450e032df2e0e": {
       "company": "Jobs for Humanity",
@@ -16831,6 +16876,11 @@
       "company": "Thales",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "Communication System Engineer"
+    },
+    "4af5bdb600ea9030": {
+      "company": "Fortinet",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad: Verification Engineer"
     },
     "4b02d8408037fb42": {
       "company": "NTT DATA",
@@ -23979,6 +24029,11 @@
       "first_seen": "2026-10-26T21:18:57.839615+00:00",
       "title": "Software Engineer"
     },
+    "6b166117e72798bd": {
+      "company": "Roblox",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Software Engineer"
+    },
     "6b2283fc7b2c882e": {
       "company": "Salesforce",
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
@@ -25690,6 +25745,11 @@
       "company": "Neo4j",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Software Engineer - Core Database (Kernel)"
+    },
+    "729a8e9141e600d7": {
+      "company": "Palantir",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad: Software Engineer, Production Infrastructure"
     },
     "729e95f08806b552": {
       "company": "Lila Sciences",
@@ -29150,6 +29210,11 @@
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
       "title": "Field Service Technician"
     },
+    "82a05b326981750b": {
+      "company": "Chicago Trading Company",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Associate Engineer"
+    },
     "82a0d56233f93dc5": {
       "company": "Polaris",
       "first_seen": "2026-08-24T17:27:14.641023+00:00",
@@ -29627,6 +29692,11 @@
       "company": "Micron Technology",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "New College Grad - Design Engineer - Hbm"
+    },
+    "8491b919802c5a46": {
+      "company": "Intel",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "SoC Design Verification Engineer (Master's)"
     },
     "8497c2b8b7265ab6": {
       "company": "SYXPERIANE",
@@ -32560,6 +32630,11 @@
       "first_seen": "2026-10-04T15:07:17.071664+00:00",
       "title": "Front-End Engineer"
     },
+    "91b31c1ad1e9d2e5": {
+      "company": "Palantir",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad: Software Engineer, Infrastructure"
+    },
     "91c1566ead3b3124": {
       "company": "Meritis",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
@@ -34694,6 +34769,11 @@
       "company": "Deloitte",
       "first_seen": "2026-09-28T18:24:37.036956+00:00",
       "title": "Consultant junior audit IT - Marseille (F/H)"
+    },
+    "9b3605363861e5b0": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "Software Engineer"
     },
     "9b3b5344d277dcbc": {
       "company": "GE Healthcare",
@@ -39360,6 +39440,11 @@
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
       "title": "Software Engineer Intern"
     },
+    "afa934c34abc2b78": {
+      "company": "American Express",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Cybersecurity Analyst, Enterprise Technology Services"
+    },
     "afadeebe4b358eab": {
       "company": "Edgewater IT",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
@@ -39593,6 +39678,11 @@
       "company": "Sajix",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Python Developer"
+    },
+    "b0b896367d051bef": {
+      "company": "Old Mission",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Quantitative Trader (August Start)"
     },
     "b0be5cb84c2d7026": {
       "ats_key": "gh:4436912009",
@@ -41053,6 +41143,11 @@
       "company": "Figure",
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
       "title": "Firmware Intern"
+    },
+    "b6acd140bda85003": {
+      "company": "Palantir",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad: Forward Deployed Software Engineer, Intel, US Government"
     },
     "b6b1a3ece17e9d58": {
       "ats_key": "gh:8114573",
@@ -42712,6 +42807,11 @@
       "company": "STEP Consulting",
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
       "title": "Software Engineer – IA & Systèmes Complexes"
+    },
+    "bd75ba5316c0f3b0": {
+      "company": "Applied Intuition",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Research Engineer (Master's)"
     },
     "bd75d1b89fe941f2": {
       "company": "Meridian Partners",
@@ -47161,6 +47261,11 @@
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Repair Services Associate - Support I"
     },
+    "d0a4f22c86f96322": {
+      "company": "Susquehanna International Group",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Quantitative Strategy Developer"
+    },
     "d0ac84fba2d3480f": {
       "company": "Qualcomm",
       "first_seen": "2026-09-01T01:36:14.974477+00:00",
@@ -49377,6 +49482,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "AI Product Engineer, Math"
     },
+    "d9e3c2c97ff8bfbb": {
+      "company": "Veeva Systems",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Data Analyst, Marketing Analytics"
+    },
     "d9e7f4d219e70945": {
       "company": "Qualtrics",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
@@ -49486,6 +49596,11 @@
       "company": "Beetween",
       "first_seen": "2026-10-08T17:11:13.730521+00:00",
       "title": "Chargé(e) de projet web & création de sites (no-code) – Bac+2/3"
+    },
+    "da59d8fca3c31ad3": {
+      "company": "University of Pennsylvania",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "Predoctoral Research Specialist - Rodney White Center for Financial Research - Wharton School"
     },
     "da67bd9d3988ac67": {
       "company": "Isahit - Compte de tests",
@@ -50104,6 +50219,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Ingénieur Développement Logiciel F/H"
+    },
+    "dd20b7dfac5f5479": {
+      "company": "Old Mission",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Quantitative Trader (February Start)"
     },
     "dd297f344ab18c55": {
       "company": "BTI Solutions",
@@ -50828,6 +50948,11 @@
       "first_seen": "2026-10-01T17:15:27.331879+00:00",
       "title": "Cyber Security Engineer — Infrastructure & AI Platform Security (w/m/d)"
     },
+    "e02453143dceedcd": {
+      "company": "Fortinet",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad: AI Automation Engineer"
+    },
     "e02b316bea2202e6": {
       "company": "Nasdaq",
       "first_seen": "2026-10-04T19:00:31.855684+00:00",
@@ -51213,6 +51338,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "High Power Laser & Particle Accelerator Postdoctoral Scholar - BELLA Center"
     },
+    "e1ca0cb78b775e45": {
+      "company": "Old Mission",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Software Engineer (August Start)"
+    },
     "e1d879055baab923": {
       "company": "NRG Energy",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
@@ -51591,6 +51721,11 @@
       "company": "Deloitte",
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Tech Packages Analyst - Government & Public Services"
+    },
+    "e3597a254b69a57c": {
+      "company": "Applied Intuition",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Embedded Software Engineer"
     },
     "e379298f5c6d846c": {
       "company": "Sonia",
@@ -53838,6 +53973,11 @@
       "first_seen": "2026-09-05T11:36:03.514197+00:00",
       "title": "Software Engineer Fullstack - Compte Pro H/F"
     },
+    "ed7f1abd4d055136": {
+      "company": "Honeywell",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Future IT Leaders"
+    },
     "ed829022f6b31743": {
       "company": "Micron Technology",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -54160,6 +54300,11 @@
       "company": "NVIDIA",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "GPU Verification Engineer New Grad"
+    },
+    "eef9d3d417de17f0": {
+      "company": "Appian",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "New Grad 2027: Associate Application Engineer"
     },
     "ef05512eb703cf0c": {
       "company": "NVIDIA",
@@ -55420,6 +55565,11 @@
       "company": "AbbVie",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Associate Software Engineer 1"
+    },
+    "f421ca29898034d1": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-27T07:14:54.716406+00:00",
+      "title": "ASIC Verification Engineer New Grad - Memory Management"
     },
     "f42b3b4734c7d2da": {
       "company": "Apple",
