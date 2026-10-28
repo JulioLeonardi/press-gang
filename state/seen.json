@@ -377,6 +377,11 @@
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Radio Frequency Engineering Intern"
     },
+    "0178cb572263b624": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-28T21:33:13.635701+00:00",
+      "title": "New Grad 2027: ASIC Verification Engineer, Memory Management"
+    },
     "017e64c32317f265": {
       "company": "Anduril",
       "first_seen": "2026-08-19T02:53:50.075198+00:00",
@@ -17673,6 +17678,11 @@
       "first_seen": "2026-10-22T00:25:06.751532+00:00",
       "title": "High-Performance LLM Training Engineer New Grad"
     },
+    "4d5365e2e21d6b22": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-28T21:33:13.635701+00:00",
+      "title": "New Grad 2027: ASIC Design Engineer"
+    },
     "4d5893634edf1656": {
       "company": "United Launch Alliance",
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
@@ -20946,6 +20956,11 @@
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Software Engineer Intern - Ads Measurement Signal and Privacy"
     },
+    "5c459de7db51a56d": {
+      "company": "General Motors",
+      "first_seen": "2026-10-28T21:33:13.635701+00:00",
+      "title": "Software Verification Engineer, AV Platform"
+    },
     "5c47a37813a6bf75": {
       "company": "Capgemini",
       "first_seen": "2026-10-26T16:27:12.253470+00:00",
@@ -21245,6 +21260,11 @@
       "first_seen": "2026-09-03T22:14:16.788642+00:00",
       "title": "US Commercial Infrastructure Management Graduate - Global Procurement"
     },
+    "5d8596f127bfc234": {
+      "company": "Tesla",
+      "first_seen": "2026-10-28T21:33:13.635701+00:00",
+      "title": "Software Security Engineer, Energy Product Software"
+    },
     "5d8a7c47a0087b7c": {
       "company": "AstraZeneca",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
@@ -21391,6 +21411,11 @@
       "company": "Onto Innovation",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
       "title": "Senior Software Engineer"
+    },
+    "5df2f09de09d112d": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-28T21:33:13.635701+00:00",
+      "title": "New Grad 2027: ASIC Verification Engineer"
     },
     "5df3fa296d86c8b0": {
       "company": "BP",
@@ -24281,6 +24306,11 @@
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "New Grad 2026: Software Engineer Graduate Open Platform"
     },
+    "6a84f9c216291839": {
+      "company": "Tesla",
+      "first_seen": "2026-10-28T21:33:13.635701+00:00",
+      "title": "Software Integration Engineer, Cell Software"
+    },
     "6a928f6bf330049f": {
       "company": "WeFiiT",
       "first_seen": "2026-09-02T18:27:00.115446+00:00",
@@ -24804,6 +24834,11 @@
       "company": "beta.gouv.fr",
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
       "title": "Développeur/développeuse Full stack Django/react Suite territoriale"
+    },
+    "6cfb439a4476fb41": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-28T21:33:13.635701+00:00",
+      "title": "Formal Verification Engineer"
     },
     "6cfdd6beb3400ed7": {
       "company": "Renesas Electronics",
@@ -34290,6 +34325,11 @@
       "company": "Thales",
       "first_seen": "2026-10-21T12:52:24.235759+00:00",
       "title": "Architecte Solution Data F/H"
+    },
+    "970f177b8d86d21b": {
+      "company": "Tesla",
+      "first_seen": "2026-10-28T21:33:13.635701+00:00",
+      "title": "Software Engineer, Manufacturing Test"
     },
     "970fccd7eed0332b": {
       "company": "Realtor.com",
@@ -58987,6 +59027,11 @@
       "company": "American Express",
       "first_seen": "2026-10-26T21:18:57.839615+00:00",
       "title": "New Grad 2027: Software Engineer I, Enterprise Technology Services"
+    },
+    "fff856f849ed43d9": {
+      "company": "ByteDance",
+      "first_seen": "2026-10-28T21:33:13.635701+00:00",
+      "title": "Site Reliability Engineer (Data Infrastructure)"
     }
   },
   "seeded_groups": [
