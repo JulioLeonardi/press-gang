@@ -6202,6 +6202,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Software Engineer - Evals"
     },
+    "1b88c5e51abcc490": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-29T07:58:21.327775+00:00",
+      "title": "AI Enabled Device Modeling"
+    },
     "1b9354e8fc9f240b": {
       "company": "XAnge",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
@@ -38342,6 +38347,11 @@
       "first_seen": "2026-09-12T13:50:34.116563+00:00",
       "title": "DEVELOPPEUR FULL STACK E"
     },
+    "a7cb7cee7ea53405": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-29T07:58:21.327775+00:00",
+      "title": "GPU Verification Engineer"
+    },
     "a7e61d90cbf2c8ad": {
       "company": "Cisco",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
@@ -46739,6 +46749,12 @@
       "first_seen": "2026-10-02T15:20:22.219515+00:00",
       "title": "Software Engineer"
     },
+    "cb326f6d7a4c1862": {
+      "ats_key": "gh:8065317",
+      "company": "Akuna Capital",
+      "first_seen": "2026-10-29T07:58:21.327775+00:00",
+      "title": "Junior Quantitative Researcher"
+    },
     "cb3e6a85bdfcb1fe": {
       "company": "Vertiv",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
@@ -52556,6 +52572,12 @@
       "first_seen": "2026-10-22T23:52:25.015370+00:00",
       "title": "Data Engineer"
     },
+    "e37ccd719c44dd93": {
+      "ats_key": "gh:8065211",
+      "company": "Akuna Capital",
+      "first_seen": "2026-10-29T07:58:21.327775+00:00",
+      "title": "Junior Quantitative Researcher - Harvard"
+    },
     "e37d07e53bf1e99a": {
       "company": "AstraZeneca",
       "first_seen": "2026-10-17T11:20:14.802850+00:00",
@@ -57433,6 +57455,12 @@
       "company": "Tower Research Capital",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
       "title": "Quantitative Trader"
+    },
+    "f88fa4efce2a03fd": {
+      "ats_key": "gh:8065051",
+      "company": "Akuna Capital",
+      "first_seen": "2026-10-29T07:58:21.327775+00:00",
+      "title": "Junior Quantitative Developer & Strategist"
     },
     "f8943996053a79bc": {
       "company": "NXP Semiconductors",
