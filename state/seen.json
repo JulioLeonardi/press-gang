@@ -477,6 +477,11 @@
       "first_seen": "2026-08-26T08:39:03.715410+00:00",
       "title": "Chef de chantier gros oeuvre VILLAS DE LUXE H/F"
     },
+    "01ed6c61eef83386": {
+      "company": "Motorola Solutions",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Software Engineer - Java / Python"
+    },
     "01f365305c9839ed": {
       "company": "Capgemini",
       "first_seen": "2026-10-02T15:20:22.219515+00:00",
@@ -8801,6 +8806,11 @@
       "first_seen": "2026-08-21T02:58:59.617439+00:00",
       "title": "Data Science Intern - College to Corporate IT"
     },
+    "263d8becb93f2b70": {
+      "company": "Barclays",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Full Stack Developer"
+    },
     "263fb2c65dbdd27d": {
       "company": "Sunday Robotics",
       "first_seen": "2026-08-20T09:30:37.108491+00:00",
@@ -12219,6 +12229,11 @@
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Applied Reinforcement Learning Engineer - Whole Body Controls - Optimus"
     },
+    "350e3df2b4232898": {
+      "company": "Apple",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Custom CAD Engineer"
+    },
     "351aa74df8ea341e": {
       "company": "Fidelity Investments",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
@@ -13727,6 +13742,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
       "title": "Machine Learning Engineer Intern - Data-Global E-Commerce-Search"
+    },
+    "3b233616daafef74": {
+      "company": "Bank of America",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Risk Analysis Analyst"
     },
     "3b2aaf723cc27540": {
       "company": "pony.ai",
@@ -16260,6 +16280,11 @@
       "company": "Twilio",
       "first_seen": "2026-10-09T16:56:17.185718+00:00",
       "title": "Technical Support Engineer 2"
+    },
+    "4695a8f41d9f4940": {
+      "company": "Apple",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Physical Design Methodology CAD Engineer"
     },
     "46a5a483b0a5992a": {
       "company": "Copart",
@@ -29967,6 +29992,11 @@
       "first_seen": "2026-09-27T12:42:23.504397+00:00",
       "title": "CDI - Architecte Logiciel Drones C++ (H/F)"
     },
+    "83d07b143dc248d4": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Test Engineer - TMG"
+    },
     "83d279edd9af0d79": {
       "company": "ASM International",
       "first_seen": "2026-08-16T20:17:59.830480+00:00",
@@ -30226,6 +30256,11 @@
       "company": "Dream Catcher Sales",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "BDR Outbound Enterprise - IA / SaaS B2B - H/F"
+    },
+    "84cd8b53172d3022": {
+      "company": "Nextdoor",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "New Grad 2026: Machine Learning Engineer, Machine Learning"
     },
     "84db40b14998bfe1": {
       "company": "Mayflower",
@@ -31790,6 +31825,11 @@
       "company": "GitLab",
       "first_seen": "2026-09-26T14:03:24.878236+00:00",
       "title": "Distinguished Engineer, Core DevOps"
+    },
+    "8b34e26726f0d60a": {
+      "company": "Marsh",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Data Analyst"
     },
     "8b366239dd1c086c": {
       "company": "Safran",
@@ -38989,6 +39029,11 @@
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Installer"
     },
+    "ab02d0085ecbcfc3": {
+      "company": "Intel",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Compiler Engineer for AI DSLs"
+    },
     "ab06ddf68a89d589": {
       "company": "Capgemini",
       "first_seen": "2026-10-02T15:20:22.219515+00:00",
@@ -44492,6 +44537,11 @@
       "company": "TikTok",
       "first_seen": "2026-10-24T00:14:48.514295+00:00",
       "title": "Research Scientist New Grad - TikTok Recommendation"
+    },
+    "c1eb80584d36646c": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Silicon Photonics Device Engineer"
     },
     "c1f451ade13cb163": {
       "company": "Bureaudestalents",
@@ -51111,6 +51161,11 @@
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Responsable technique Java"
     },
+    "dd9842ba5c90cf21": {
+      "company": "T-Mobile",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Associate Product Manager - App"
+    },
     "dda41a322f6791b1": {
       "company": "NVIDIA",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
@@ -55884,6 +55939,11 @@
       "first_seen": "2026-09-17T14:39:13.296346+00:00",
       "title": "Junior Data Analyst - Customer Identity"
     },
+    "f1ffd853cdec9f15": {
+      "company": "AMD",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Distributed Systems Software Engineer - Collectives"
+    },
     "f2081b552c48e79d": {
       "company": "NTT DATA",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
@@ -56225,6 +56285,11 @@
       "company": "RTX",
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Embedded Software Engineer 1"
+    },
+    "f36d8d2847fba9e8": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Product Engineer"
     },
     "f372320b91346fa7": {
       "company": "Qualcomm",
@@ -57092,6 +57157,11 @@
       "company": "Prosidian Consulting",
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
       "title": "Application Systems Analyst 1"
+    },
+    "f71155d0ce056032": {
+      "company": "Amazon",
+      "first_seen": "2026-10-29T01:30:15.294107+00:00",
+      "title": "Software Developer Engineer - Product Knowledge Store"
     },
     "f71e2a247310c9c6": {
       "company": "Qobra",
