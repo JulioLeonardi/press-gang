@@ -4570,6 +4570,12 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Software Dev Engineer I"
     },
+    "141ae919a226d6ac": {
+      "ats_key": "gh:8924924002",
+      "company": "Capital on Tap",
+      "first_seen": "2026-10-30T18:57:42.442185+00:00",
+      "title": "Frontend Software Engineer"
+    },
     "14214b34691c1edb": {
       "company": "Safran",
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
@@ -24921,6 +24927,11 @@
       "company": "Thales",
       "first_seen": "2026-10-21T12:52:24.235759+00:00",
       "title": "Communication System Engineer"
+    },
+    "6c1886f2245af285": {
+      "company": "Pennsylvania State University",
+      "first_seen": "2026-10-30T18:57:42.442185+00:00",
+      "title": "Materials Research and Development Engineer"
     },
     "6c2bc49183db7829": {
       "company": "GlobalFoundries",
@@ -46537,6 +46548,12 @@
       "company": "iad",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Digital Support Specialist (m/f/d)"
+    },
+    "c801501597641fe7": {
+      "ats_key": "gh:8336819",
+      "company": "Stripe",
+      "first_seen": "2026-10-30T18:57:42.442185+00:00",
+      "title": "Blockchain Security Engineer, Bridge"
     },
     "c801a11f95a8c776": {
       "company": "Flexera",
