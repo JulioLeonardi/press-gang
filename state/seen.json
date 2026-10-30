@@ -11545,6 +11545,11 @@
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Product Installation Engineer"
     },
+    "31e1debed952445b": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Data Scientist - AI for Business Functions"
+    },
     "31ef0d4148f798a6": {
       "company": "NTT DATA",
       "first_seen": "2026-10-28T16:57:36.917107+00:00",
@@ -11715,6 +11720,11 @@
       "company": "Listen too",
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
       "title": "Développeur.se Full Stack - Lille"
+    },
+    "32bc388751a8f710": {
+      "company": "Intelliforce-IT Solutions Group",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Junior Software Engineer - Prime"
     },
     "32bdcc56fe2367a2": {
       "company": "Thales",
@@ -14539,6 +14549,12 @@
       "company": "StoneX Group",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Operations Analyst 1 - Trading Operations"
+    },
+    "3e9810de07a3ab1e": {
+      "ats_key": "lever:67982bee-811b-453b-8596-b53c13f7a78d",
+      "company": "Zoox",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Contract Student Worker - Software Engineer"
     },
     "3ea57d9fdb7a2e5e": {
       "company": "Twitch",
@@ -27388,6 +27404,11 @@
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Forecast Data Scientist / Prévisionniste Data F/H"
     },
+    "76f1164bf775cd65": {
+      "company": "Analog Devices",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Associate System Platforms Engineer - FPGA - Software"
+    },
     "770be927b03fe1ca": {
       "company": "Lucca",
       "first_seen": "2026-09-05T14:31:15.355513+00:00",
@@ -34086,6 +34107,11 @@
       "first_seen": "2026-10-27T23:27:05.266498+00:00",
       "title": "Product Owner, Agentic Platform & Enterprise Interfaces"
     },
+    "94d02f95304e295c": {
+      "company": "Amazon",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Software Development Engineer"
+    },
     "94d150d3e965f156": {
       "company": "Gens de Confiance",
       "first_seen": "2026-10-22T16:35:04.687019+00:00",
@@ -37911,6 +37937,11 @@
       "first_seen": "2026-08-18T08:32:44.073927+00:00",
       "title": "Software Developer 1"
     },
+    "a4ec15e6a192504d": {
+      "company": "Exelixis",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Associate Engineer - AI and Agentics"
+    },
     "a4f0a8511367fc68": {
       "company": "CenturyLink",
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
@@ -38089,6 +38120,11 @@
       "company": "Crate Io",
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
       "title": "Speculative Application"
+    },
+    "a591d3ad34e280de": {
+      "company": "Argonne National Laboratory",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Robotics Software Developer Postbaccalaureate Appointee - Rapid Prototyping Laboratory"
     },
     "a5a3112ef6f22b91": {
       "company": "TikTok",
@@ -42234,6 +42270,11 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Intern – Corp IT - Grid Operations Applications"
     },
+    "b778bfd4493bf22c": {
+      "company": "Amazon",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Applied Scientist - North America Sort Centers - Amazon Transportation Services"
+    },
     "b77a390607dad320": {
       "company": "Klaviyo",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
@@ -45296,6 +45337,11 @@
       "company": "Palantir",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
       "title": "Forward Deployed Software Engineer Intern - Defense Tech"
+    },
+    "c4076b9961bf55fa": {
+      "company": "Exelixis",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Associate AI and Agentic Engineer"
     },
     "c40a9e9cd20b2efb": {
       "company": "Intuit",
@@ -48430,6 +48476,11 @@
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Associate Integration and Test Engineering"
+    },
+    "d113aacf1fef4246": {
+      "company": "Amazon",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Software Privacy Engineer - Multiple Teams"
     },
     "d11a612d075e7867": {
       "company": "American Electric Power",
@@ -56855,6 +56906,11 @@
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Customer Solutions Analyst Intern - Ovip"
     },
+    "f47ccf0b47e031b6": {
+      "company": "Coherent",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "Data Analyst - Project Management Support"
+    },
     "f47ff37a3d9f3d5e": {
       "company": "L2TMedia",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
@@ -59045,6 +59101,11 @@
       "company": "ClickHouse",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Cloud Security Engineer"
+    },
+    "fe529c9b92a239d4": {
+      "company": "Zoom",
+      "first_seen": "2026-10-30T00:34:31.010287+00:00",
+      "title": "AI Engineer"
     },
     "fe53238be87b1dee": {
       "company": "Wyetech",
