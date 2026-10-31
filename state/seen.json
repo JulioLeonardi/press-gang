@@ -5066,6 +5066,11 @@
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "Ingénieur d’Etudes et Développement Systèmes Embarqués F/H"
     },
+    "1630d02aaf718c69": {
+      "company": "Analog Devices",
+      "first_seen": "2026-10-31T08:14:03.718628+00:00",
+      "title": "Analog Design Engineer"
+    },
     "16389b14fea5807d": {
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-25T03:45:01.753920+00:00",
@@ -14005,6 +14010,11 @@
       "first_seen": "2026-10-27T23:27:05.266498+00:00",
       "title": "Hardware Architecte Display Backend (F/H)"
     },
+    "3b59210b96ddea79": {
+      "company": "Broadcom",
+      "first_seen": "2026-10-31T08:14:03.718628+00:00",
+      "title": "New Grad: Physical Design Engineer, ASIC Products Division (APD) (Master's)"
+    },
     "3b5c21b5d2bda571": {
       "company": "SpaceX",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -14186,6 +14196,11 @@
       "company": "Visa",
       "first_seen": "2026-10-23T18:52:40.191739+00:00",
       "title": "Software Engineer"
+    },
+    "3c5424acd2267214": {
+      "company": "Amazon",
+      "first_seen": "2026-10-31T08:14:03.718628+00:00",
+      "title": "Hardware Development Engineer 1 - Drone Engineering"
     },
     "3c64bd4c4d248d46": {
       "company": "Neoptim",
@@ -33571,6 +33586,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Machine Learning Scientist Intern - Recommendation"
+    },
+    "911c018a802111cc": {
+      "company": "Broadcom",
+      "first_seen": "2026-10-31T08:14:03.718628+00:00",
+      "title": "Physical Design Engineer, ASIC Products Division (Master's)"
     },
     "911e9e5efa8905cd": {
       "company": "ByteDance",
