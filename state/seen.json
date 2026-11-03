@@ -1898,6 +1898,12 @@
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
       "title": "Research Assistant - Center for Indian Country Development"
     },
+    "07e922a6dc7fe8c8": {
+      "ats_key": "gh:8325652",
+      "company": "Qualtrics",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Software Engineer 1 - XMD"
+    },
     "07f2d000761a5852": {
       "company": "Intel",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
@@ -3156,6 +3162,11 @@
       "company": "Exotec",
       "first_seen": "2026-10-01T17:15:27.331879+00:00",
       "title": "Ingénieur.e R&D Logiciel Java"
+    },
+    "0d7a6894b05778e8": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Design Verification Engineer"
     },
     "0d7f1ab6930e8640": {
       "company": "Resilience Care",
@@ -9718,6 +9729,11 @@
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Formateur•rice Data / Python & développement IA"
     },
+    "282628536d666dd2": {
+      "company": "Amazon",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Software Development Engineer, AWS Data Services"
+    },
     "28281f671b092a02": {
       "company": "eXalt",
       "first_seen": "2026-10-19T18:58:32.864665+00:00",
@@ -13960,6 +13976,11 @@
       "first_seen": "2026-08-25T06:40:15.629625+00:00",
       "title": "Python Software Engineer Co-op"
     },
+    "39a267c0ec0bbd3d": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Software Engineer IC2"
+    },
     "39a80528b0238fbd": {
       "company": "Nordstrom",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -14976,6 +14997,11 @@
       "company": "The Adecco Group",
       "first_seen": "2026-10-05T17:49:28.419181+00:00",
       "title": "Ingénieur Système Embarqué (H/F)"
+    },
+    "3e4b72d8e2001947": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Software Engineering IC2"
     },
     "3e4d384c3e8776bc": {
       "company": "State Street",
@@ -16970,6 +16996,11 @@
       "company": "Copart",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Software Engineer Intern"
+    },
+    "46b2d6e89ecb3a6f": {
+      "company": "Equifax",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "New Grad 2027: Data Analytics Rotational Development Associate"
     },
     "46b36765a133f8a1": {
       "ats_key": "gh:7662738003",
@@ -22396,6 +22427,12 @@
       "first_seen": "2026-08-18T12:38:43.249448+00:00",
       "title": "Analyst Student Worker"
     },
+    "5e417d681cd1f168": {
+      "ats_key": "gh:8334245",
+      "company": "Qualtrics",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Software Development Engineer 1 - Data Platform"
+    },
     "5e4689603aab8918": {
       "company": "The Adecco Group",
       "first_seen": "2026-10-01T17:15:27.331879+00:00",
@@ -25438,6 +25475,11 @@
       "company": "General Motors",
       "first_seen": "2026-10-26T21:18:57.839615+00:00",
       "title": "Software Engineer, AV HIL Platform and Services"
+    },
+    "6b00579f5bcbf78e": {
+      "company": "Apple",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Cellular Power Optimization Software Engineer - Wireless Technologies & Ecosystems"
     },
     "6b02dc76cb209188": {
       "company": "John Deere",
@@ -30649,6 +30691,11 @@
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Site Reliability Engineer (m/f/d)"
     },
+    "80f40b6f05e5f287": {
+      "company": "Fortinet",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Embedded Software Developer"
+    },
     "80f750be98016467": {
       "company": "Boond",
       "first_seen": "2026-10-02T15:20:22.219515+00:00",
@@ -32319,6 +32366,11 @@
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Quantitative Developer Intern"
     },
+    "87fb36873d169078": {
+      "company": "Amazon",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Software Development Engineer, Robotics"
+    },
     "88046a6e9aa9b0b8": {
       "company": "TikTok",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
@@ -33268,6 +33320,11 @@
       "company": "The Home Depot",
       "first_seen": "2026-08-21T18:31:55.450328+00:00",
       "title": "Co-op Intern"
+    },
+    "8bbcbfe5881daac8": {
+      "company": "ASML",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "System Integration and Test Engineer"
     },
     "8bbd7961cd36bdc1": {
       "company": "Argonne National Laboratory",
@@ -38916,6 +38973,11 @@
       "first_seen": "2026-10-08T17:11:13.730521+00:00",
       "title": "Field Deployment Engineer, Northern Europe"
     },
+    "a39d18c2176c067f": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "New Grad 2027: Design Verification Engineer"
+    },
     "a39d1b59b391ba05": {
       "company": "E-Space",
       "first_seen": "2026-08-20T06:39:37.392740+00:00",
@@ -39629,6 +39691,12 @@
       "company": "NVIDIA",
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
       "title": "System and Scheduling Architect - GPU"
+    },
+    "a67eda3f9ee288c3": {
+      "ats_key": "sr:3743990016565806",
+      "company": "AbbVie",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "AI Engineer"
     },
     "a67eff58ffebeb44": {
       "company": "datashake",
@@ -43304,6 +43372,12 @@
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Conducteur de ligne H/F"
     },
+    "b5be41d618845f56": {
+      "ats_key": "sr:3743990016568546",
+      "company": "AbbVie",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Associate Device Software Engineer"
+    },
     "b5c175c68bd21ec2": {
       "company": "Marlabs",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
@@ -43941,6 +44015,11 @@
       "first_seen": "2026-09-15T00:14:23.337006+00:00",
       "seeded": true,
       "title": "Technical Support Engineer"
+    },
+    "b86045cf498499ec": {
+      "company": "Applied Materials",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Computer Vision/Machine Learning/Deep Learning Algorithm Developer"
     },
     "b8657d28c6e23612": {
       "company": "NTT DATA",
@@ -48250,6 +48329,12 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Full-Stack Intern"
     },
+    "c95e00b92faae098": {
+      "ats_key": "gh:6240727004",
+      "company": "Truveta",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Software Engineer - Data Fulfillment"
+    },
     "c9624e43949cefa4": {
       "company": "F5",
       "first_seen": "2026-09-22T05:49:54.568433+00:00",
@@ -49967,6 +50052,11 @@
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Forward Deployed Engineer | Data Science, Earth Observation, Agriculture"
     },
+    "d0d3f784a6e61738": {
+      "company": "Intel",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Memory Design Engineer"
+    },
     "d0d5cfe1ef4c1549": {
       "company": "Citizen Health",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -50379,6 +50469,11 @@
       "company": "Pennsylvania State University",
       "first_seen": "2026-10-24T00:14:48.514295+00:00",
       "title": "Data Extraction Programming"
+    },
+    "d2852b42fb9a0509": {
+      "company": "Broadcom",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Test Engineer - Ate"
     },
     "d285c9952db7f633": {
       "company": "Figma",
@@ -51634,6 +51729,11 @@
       "company": "Smarter Agent",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
       "title": "Junior Data Engineer - Multiple Teams"
+    },
+    "d74fd5719c88e6c5": {
+      "company": "Capgemini",
+      "first_seen": "2026-11-03T01:58:34.435897+00:00",
+      "title": "Full Stack Developer"
     },
     "d75209f1468f10a7": {
       "company": "SumUp",
