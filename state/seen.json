@@ -6379,6 +6379,11 @@
       "first_seen": "2026-10-01T03:59:21.709067+00:00",
       "title": "Software Engineer Graduate"
     },
+    "1afe542f7a7bf08d": {
+      "company": "Keysight Technologies",
+      "first_seen": "2026-11-03T09:16:42.974144+00:00",
+      "title": "IC Test Engineer"
+    },
     "1b01705ac9263d98": {
       "company": "University of Virginia",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
@@ -12731,6 +12736,11 @@
       "company": "eXalt",
       "first_seen": "2026-10-19T18:58:32.864665+00:00",
       "title": "Développeur Java (H/F) - @eXalt Azur"
+    },
+    "34d79535c37f837f": {
+      "company": "Micron Technology",
+      "first_seen": "2026-11-03T09:16:42.974144+00:00",
+      "title": "New Grad: Engineer, Edge Systems Architecture"
     },
     "34d97ea3cc877541": {
       "company": "Adyen",
@@ -32954,6 +32964,11 @@
       "company": "Boston Scientific",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Software Engineer 1 - Engineering"
+    },
+    "8a5c3d5ac411480a": {
+      "company": "Micron Technology",
+      "first_seen": "2026-11-03T09:16:42.974144+00:00",
+      "title": "Engineer New Grad - Edge Systems Architecture"
     },
     "8a68ab8dc31bed7e": {
       "company": "OZITEM",
@@ -56846,6 +56861,11 @@
       "company": "Adobe",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Software Development Engineer"
+    },
+    "ecd36b8328e04d4b": {
+      "company": "Apple",
+      "first_seen": "2026-11-03T09:16:42.974144+00:00",
+      "title": "Silicon Photonics Process Integration Engineer"
     },
     "ecd3d11e964a8c59": {
       "company": "L3Harris Technologies",
