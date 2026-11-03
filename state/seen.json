@@ -3511,6 +3511,11 @@
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
       "title": "SAP MM Consultant"
     },
+    "0e8fbf439ac7342d": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Ingénieur Logiciel DevOps - F/H"
+    },
     "0e93a839dab200f3": {
       "company": "TikTok",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
@@ -11076,6 +11081,11 @@
       "company": "Groupement Mousquetaires",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Coordinateur Agréage H/F"
+    },
+    "2d94fe3d5c50bfc6": {
+      "company": "Workday",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Applied AI Engineer"
     },
     "2d9582fa5445d376": {
       "ats_key": "gh:8750629002",
@@ -22278,6 +22288,11 @@
       "first_seen": "2026-09-04T23:41:20.502615+00:00",
       "title": "Associate Software Engineer - AI"
     },
+    "5d3b20baca23dfe2": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "RF HW Development Engineer [Belgium relocation]"
+    },
     "5d44e358d4992623": {
       "company": "MyUnisoft",
       "first_seen": "2026-10-06T17:52:31.595856+00:00",
@@ -26469,6 +26484,11 @@
       "company": "Nebius",
       "first_seen": "2026-09-30T14:34:52.226311+00:00",
       "title": "Automation Engineer (Customer Service)"
+    },
+    "6ee36e7b086cba8b": {
+      "company": "Workday",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Forward Deployed Engineer"
     },
     "6ee6e93abb56f223": {
       "company": "Tesla",
@@ -30695,6 +30715,11 @@
       "first_seen": "2026-08-21T07:39:40.698702+00:00",
       "title": "Leadership Program Engineering - Embedded Software"
     },
+    "8013822ad85fee52": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Ingénieur Cybersécurité Infrastructure  (F/H)"
+    },
     "80153d5b4e7ec05a": {
       "company": "Oracle",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -31911,6 +31936,11 @@
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Senior Field Applications Engineer"
     },
+    "8558dff7e216e449": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Ingénieur Développement Algorithmes de Navigation SBAS H/F"
+    },
     "856354b4fc4a1bd9": {
       "company": "Ekimetrics",
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
@@ -32570,6 +32600,11 @@
       "company": "EDF",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Responsable Outillage et Conformité Cyber du SI F/H"
+    },
+    "880a54ab232e3bec": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "[S3NS] Scrum Master (SI Administration) (H/F)"
     },
     "880e5b3e1bf29980": {
       "company": "Lawrence Berkeley National Laboratory",
@@ -33301,6 +33336,11 @@
       "company": "Mass General Brigham",
       "first_seen": "2026-10-21T01:14:55.692905+00:00",
       "title": "Statistical Programmer/Data Analyst"
+    },
+    "8ade558386e7da72": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "GPU System and Scheduling Architect (Master's)"
     },
     "8ae6d718ab478235": {
       "company": "Intel",
@@ -34399,6 +34439,11 @@
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Mixed Signal Engineer Intern"
     },
+    "8fc00749ca3e957a": {
+      "company": "Workday",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Forward Deployed Engineer (FDE), Software Development"
+    },
     "8fc030db62b8ab8e": {
       "ats_key": "gh:8130859",
       "company": "Canonical",
@@ -34756,6 +34801,11 @@
       "company": "The Walt Disney Company",
       "first_seen": "2026-08-24T14:38:02.195646+00:00",
       "title": "Show Control Hardware Intern"
+    },
+    "912fed2832cbcac9": {
+      "company": "LexisNexis Risk Solutions",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "New Grad 2027: Tech Accelerate Program"
     },
     "913a7bd2e0713e9a": {
       "company": "Microsoft",
@@ -38385,6 +38435,11 @@
       "first_seen": "2026-10-05T17:49:28.419181+00:00",
       "title": "Architecte Solution Réseau Coeur Mobile"
     },
+    "a0384857716d6324": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Dév logiciel bancs de mesure"
+    },
     "a03c1be1ba4caaf9": {
       "ats_key": "gh:5431020008",
       "company": "New Relic",
@@ -40716,6 +40771,11 @@
       "company": "Campus Cyber",
       "first_seen": "2026-09-24T13:09:01.062570+00:00",
       "title": "Administrateur(trice) Systèmes, Réseaux et Sécurité (H/F)"
+    },
+    "a9e6c23bce91cd1a": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Junior Network Security Engineer"
     },
     "a9e93580f5b5b316": {
       "company": "Amgen",
@@ -43870,6 +43930,11 @@
       "first_seen": "2026-09-19T01:06:11.492022+00:00",
       "title": "Agentic Engineer New Grad"
     },
+    "b6b688a5f62aef25": {
+      "company": "Amazon",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "New Grad 2027: Software Development Engineer (Embedded Systems)"
+    },
     "b6c0c290747fc9e6": {
       "company": "Resilience Care",
       "first_seen": "2026-09-29T17:34:13.015457+00:00",
@@ -44115,6 +44180,11 @@
       "company": "Charles Schwab",
       "first_seen": "2026-09-17T03:17:06.381010+00:00",
       "title": "Senior Risk Analytics and Modeling Specialist"
+    },
+    "b7c870fc1cd25ab6": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "IVVQM Logiciel Bord (H/F)"
     },
     "b7c8e47be0ca639e": {
       "company": "IBM",
@@ -54537,6 +54607,11 @@
       "first_seen": "2026-10-24T00:14:48.514295+00:00",
       "title": "Principal Engineer Device Engineering"
     },
+    "e178f166917e099a": {
+      "company": "Salesforce",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Software Engineering SMTS"
+    },
     "e18412b70b5c93e3": {
       "company": "Accenture France",
       "first_seen": "2026-09-09T12:42:27.975721+00:00",
@@ -59804,6 +59879,11 @@
       "first_seen": "2026-10-24T14:14:03.842877+00:00",
       "title": "Clinical Application Leader IGT-Systems"
     },
+    "f70bcae3174836b7": {
+      "company": "KLA",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Software Engineer (Master's)"
+    },
     "f70fa99692eccda7": {
       "company": "Prosidian Consulting",
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
@@ -59959,6 +60039,11 @@
       "company": "Applied Materials",
       "first_seen": "2026-09-17T03:17:06.381010+00:00",
       "title": "AI Materials Research Engineer"
+    },
+    "f7dd4a26f0205022": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Ingénieur Développement Algorithmes de Navigation GNSS et Traitement du Signal"
     },
     "f7dd4ecc12962f2f": {
       "company": "Gotion",
@@ -60326,6 +60411,11 @@
       "company": "TERACT",
       "first_seen": "2026-10-03T11:32:21.660547+00:00",
       "title": "Chef de projet Géomarketing et Data territoriale F/H"
+    },
+    "f97ed6e0459d6705": {
+      "company": "Thales",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Ingénieur Logiciel DevSecOps - F/H"
     },
     "f98ae22be6285697": {
       "company": "NTT DATA",
@@ -60791,6 +60881,12 @@
       "company": "Applied Materials",
       "first_seen": "2026-09-25T00:17:56.134838+00:00",
       "title": "Data Scientist New Grad - Bachelor's/Master's"
+    },
+    "fb78a79f0b4192cd": {
+      "ats_key": "lever:c2e4daa7-510f-4a30-ad85-a043481d85ac",
+      "company": "Spotify",
+      "first_seen": "2026-11-03T22:51:26.824862+00:00",
+      "title": "Backend Engineer - Subscriptions"
     },
     "fb815b207b78b8ef": {
       "company": "Northrop Grumman",
