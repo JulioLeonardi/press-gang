@@ -76,6 +76,11 @@
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "AI Vision Research Engineer Graduate - PhD"
     },
+    "005440dee6dcd1be": {
+      "company": "Amazon",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Software Developer Engineer 1 - Security Platform"
+    },
     "00552000c5f02bcf": {
       "company": "Thales",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
@@ -4911,6 +4916,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Software Engineer Intern - Vehicle UI Development"
+    },
+    "145c9372d3dd04ab": {
+      "company": "Vizient",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Associate Software Engineer"
     },
     "145d80181259606d": {
       "company": "Ford Motor Company",
@@ -12076,6 +12086,11 @@
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Java Developer – Entry Level"
     },
+    "31a4cfff9e0a826d": {
+      "company": "Cisco",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Software Engineer Full Stack / Backend 1"
+    },
     "31a86fe67f88a521": {
       "company": "OZITEM",
       "first_seen": "2026-10-05T17:49:28.419181+00:00",
@@ -13212,6 +13227,11 @@
       "company": "Evaneos",
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
       "title": "Platform Engineer (DevOps/SRE)"
+    },
+    "3664d496fe5e31dc": {
+      "company": "Cisco",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Software Engineer Full Stack / Backend 1"
     },
     "3668f59103a2c5c1": {
       "company": "Texas A&M Transportation Institute",
@@ -16764,6 +16784,11 @@
       "company": "Interdigital",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "Wireless Engineering Intern - 6G Wireless Systems"
+    },
+    "44cd8a477b662c13": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Engineer 1 - Software"
     },
     "44cf9e859e35a2c5": {
       "company": "NVIDIA",
@@ -28979,6 +29004,11 @@
       "first_seen": "2026-10-14T16:28:17.759792+00:00",
       "title": "Analytics Engineer H/F"
     },
+    "77f05773c5cccb86": {
+      "company": "Paccar",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Associate System Integration and Test Engineer"
+    },
     "77f3508fa3d46b0d": {
       "company": "Truveta",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -29058,6 +29088,11 @@
       "company": "Eridanis",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "Data Engineer"
+    },
+    "78437db34fbbda25": {
+      "company": "GE Healthcare",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Firmware Engineer"
     },
     "78488b7702371926": {
       "company": "Hermès",
@@ -33545,6 +33580,11 @@
       "first_seen": "2026-11-03T22:51:26.824862+00:00",
       "title": "GPU System and Scheduling Architect (Master's)"
     },
+    "8ae44c53abfc6396": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Engineer 1 - Design"
+    },
     "8ae6d718ab478235": {
       "company": "Intel",
       "first_seen": "2026-10-04T15:07:17.071664+00:00",
@@ -36642,6 +36682,12 @@
       "company": "Applied Intuition",
       "first_seen": "2026-09-17T14:39:13.296346+00:00",
       "title": "Electrical Systems Integration Engineer New Grad - December 2026"
+    },
+    "984e597b8abc5dbe": {
+      "ats_key": "gh:8931343002",
+      "company": "Twitch",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Software Development Engineer 1 - Security Platform"
     },
     "9857d0ef4efdb1f3": {
       "company": "Apple",
@@ -46327,6 +46373,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Founding Software Engineer"
     },
+    "bedb9a0dcd26bbe1": {
+      "company": "Guidewire",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Software Engineer"
+    },
     "bee3d0bfa1134a66": {
       "company": "Micron Technology",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
@@ -46662,6 +46713,11 @@
       "company": "Apprentis d'Auteuil",
       "first_seen": "2026-10-17T11:20:14.802850+00:00",
       "title": "Chef De Projet développement du réseau pastoral H/F"
+    },
+    "c05fa93474e7aaa9": {
+      "company": "Target",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Technology Leadership Program"
     },
     "c06039c6252c03f4": {
       "ats_key": "gh:7369512",
@@ -48933,6 +48989,11 @@
       "first_seen": "2026-10-22T11:06:35.877691+00:00",
       "title": "CPU Performance Architect"
     },
+    "c927277d395ceadc": {
+      "company": "Sony",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Associate Data Analyst"
+    },
     "c92c8f4532cd7cff": {
       "company": "Meyer Distributing",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
@@ -49101,6 +49162,11 @@
       "first_seen": "2026-09-15T00:14:23.337006+00:00",
       "seeded": true,
       "title": "Associate Applied (AI) Value Engineer (DACH) - Orbit Program"
+    },
+    "ca20ee9a8d7a9fc2": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Software Engineer"
     },
     "ca2f4e54c7f265c9": {
       "company": "NTT DATA",
@@ -53324,6 +53390,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "New Grad 2026: Software Engineer Graduate (Foundation Platform)"
+    },
+    "daed1934b14e0402": {
+      "company": "Keysight Technologies",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Software Engineer-Semiconductor Technology - C#/.NET"
     },
     "daed66846f20974f": {
       "ats_key": "gh:7985189003",
@@ -58396,6 +58467,11 @@
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "High Risk Assessment Specialist"
     },
+    "effe68c0d2d3c2ba": {
+      "company": "Emerson Electric",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Embedded Software Engineer - AI - Web"
+    },
     "f0042db679970e2e": {
       "company": "Cigna Group",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
@@ -60573,6 +60649,11 @@
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Software Product Manager"
     },
+    "f8954ca7adb17700": {
+      "company": "Keysight Technologies",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "R&D Software Engineer - Sampling Oscilloscope Applications - DevOps"
+    },
     "f8983eb0e79a857e": {
       "company": "Iron Mountain",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -61061,6 +61142,11 @@
       "company": "Dust",
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
       "title": "Software Engineer, Frontend"
+    },
+    "fa78ba4054ba2b83": {
+      "company": "Cisco",
+      "first_seen": "2026-11-05T07:40:20.470569+00:00",
+      "title": "Software Engineer Full Stack / Backend I"
     },
     "fa79159a27dfdfeb": {
       "company": "Datadog",
