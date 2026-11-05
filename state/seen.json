@@ -1008,6 +1008,12 @@
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "DV Intern"
     },
+    "04243f36726117f1": {
+      "ats_key": "gh:8355189",
+      "company": "Datadog",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "Technical Escalations Engineer 2 (Alerting) - EMEA"
+    },
     "042951785a1c3253": {
       "company": "Montenson",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
@@ -5432,6 +5438,12 @@
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "New Grad Electrical Engineer - Computer Engineer - Engineering Automation"
     },
+    "1687a060aed58067": {
+      "ats_key": "ashby:62563a8a-9712-4b3f-9865-9da9d3584257",
+      "company": "Back Market",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "Experienced Software Engineer - Seller Care"
+    },
     "1690de7728044b23": {
       "company": "Linking Talents",
       "first_seen": "2026-09-12T13:50:34.116563+00:00",
@@ -7171,6 +7183,12 @@
       "company": "Ramp",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "New Grad 2026: Software Engineer - Backend"
+    },
+    "1d964e295b3e6a7b": {
+      "ats_key": "gh:8177273003",
+      "company": "Celonis",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "TUM Project Study – AI-Powered Learning Content Creator"
     },
     "1d9a0b80630ad345": {
       "company": "Basecamp",
@@ -18535,6 +18553,11 @@
       "company": "RTX",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Software Engineer 1"
+    },
+    "4c21e83bfb88e0e7": {
+      "company": "AstraZeneca",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "Clinical Research Associate (m/w/d) – Zelltherapie - Region Norddeutschland"
     },
     "4c5b7f906fdf6611": {
       "company": "Cofidis",
@@ -32340,6 +32363,11 @@
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Senior Field Applications Engineer"
     },
+    "85541909ff96e3ea": {
+      "company": "StubHub",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "New Grad: Software Engineer I, Consumer Experience"
+    },
     "8558dff7e216e449": {
       "company": "Thales",
       "first_seen": "2026-11-03T22:51:26.824862+00:00",
@@ -33467,6 +33495,12 @@
       "company": "Fortinet",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Software Developer New Grad"
+    },
+    "89d89eee07804943": {
+      "ats_key": "ashby:35d21c5b-907d-4be4-a7fb-6e7bf85d4dbc",
+      "company": "Dust",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "Revenue AI Operations"
     },
     "89d9a54016b0666c": {
       "company": "Qualcomm",
@@ -40200,6 +40234,11 @@
       "first_seen": "2026-10-26T16:27:12.253470+00:00",
       "title": "New Grad 2027: Software Engineer"
     },
+    "a54709ba3911356a": {
+      "company": "Workday",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "Site Reliability Engineer - Multicloud Platform"
+    },
     "a54ea5c249be3b47": {
       "company": "Susquehanna International Group (SIG)",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
@@ -40885,6 +40924,11 @@
       "company": "The Boeing Company",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Embedded Software Engineer"
+    },
+    "a8482afbd9e5c283": {
+      "company": "Salesforce",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "Account Solution Engineer - Data Foundations (Informatica & Mulesoft)"
     },
     "a848481d34c5f18d": {
       "company": "ByteDance",
@@ -42538,6 +42582,12 @@
       "company": "Stage",
       "first_seen": "2026-09-09T12:42:27.975721+00:00",
       "title": "Information Security Associate"
+    },
+    "af04b8e1ede61508": {
+      "ats_key": "ashby:ff97882a-40f2-47e7-818c-3191e7cd0b4f",
+      "company": "Legora",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "Software Engineering - Product"
     },
     "af0b4671dcd078eb": {
       "company": "Toshiba Global Commerce",
@@ -47909,6 +47959,11 @@
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "Responsable Développement Commercial et Captures (projets spatiaux institutionnel & défense) - F/H"
     },
+    "c4365369b8da2de6": {
+      "company": "Abbott",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "Software Test Engineer"
+    },
     "c4393f8fa0cb4dfa": {
       "ats_key": "gh:8204407",
       "company": "Twilio",
@@ -52763,6 +52818,11 @@
       "company": "Hudson River Trading",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "New Grad 2026: Algorithm Developer"
+    },
+    "d77f477598a095c2": {
+      "company": "Amazon",
+      "first_seen": "2026-11-05T22:30:51.759298+00:00",
+      "title": "New Grad 2027: Software Development Engineer, Amazon Leo"
     },
     "d78097cbc37072ff": {
       "company": "Axos Bank",
