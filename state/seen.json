@@ -1955,6 +1955,11 @@
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Deployment Strategist"
     },
+    "07f9432832745620": {
+      "company": "AMD",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "Senior Software Engineer"
+    },
     "07fcd5541c8164e1": {
       "company": "Pacific Northwest National Laboratory",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
@@ -4476,6 +4481,11 @@
       "company": "NTT DATA",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
       "title": "Junior Core Network Engineer"
+    },
+    "125707b086e10cda": {
+      "company": "University of Chicago",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "Research Professional"
     },
     "12575e91eebd0123": {
       "company": "Société Générale",
@@ -7609,6 +7619,11 @@
       "company": "Amazon.com Services LLC",
       "first_seen": "2026-10-31T01:58:31.118827+00:00",
       "title": "New Grad 2027: Software Development Engineer (Database)"
+    },
+    "1f5a5eca128c957d": {
+      "company": "Fortinet",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "Software Engineer – Cloud Platform (FortiSIEM)"
     },
     "1f5a8d89644ea89a": {
       "company": "Safran",
@@ -14436,6 +14451,12 @@
       "company": "Vanguard",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Data Analyst - Data & Analytics - Technology Leadership Program"
+    },
+    "3a09cbe5ba099405": {
+      "ats_key": "gh:8353516",
+      "company": "Stripe",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "Backend Engineer, Internationalisation"
     },
     "3a0b5414ec25550e": {
       "company": "Tesla",
@@ -31749,6 +31770,11 @@
       "first_seen": "2026-09-16T07:10:17.044770+00:00",
       "title": "Software Engineer"
     },
+    "822a3316918355d7": {
+      "company": "Globus Medical",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "Associate Product Manager"
+    },
     "822d4f67f99821be": {
       "company": "Thales",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
@@ -32627,6 +32653,11 @@
       "company": "AstraZeneca",
       "first_seen": "2026-09-14T17:37:06.977279+00:00",
       "title": "Thesis Work, 30/60 Credits - Advancing AI-Driven Mechanism-of-Action Prediction from Cell Painting Images: Expanding the DeepPheno Platform"
+    },
+    "85a7b4e84625250c": {
+      "company": "Charles Schwab",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "Associate Software Engineer"
     },
     "85a9b40bcdb85765": {
       "company": "Adobe",
@@ -38723,6 +38754,11 @@
       "company": "Back Market",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Global Personnel Administration, HR Ops specialist"
+    },
+    "9ea122e3e1ae25b5": {
+      "company": "Charles Schwab",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "Junior Software Developer"
     },
     "9eab213621e7fdea": {
       "company": "Flatchr",
@@ -58626,6 +58662,11 @@
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Medical Coordinator - 12 months Career Starter Program"
     },
+    "edf0579dd5361291": {
+      "company": "Dominion Energy",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "Associate Business Performance Analyst - Contact Intelligence"
+    },
     "edf75b9cdf985a59": {
       "company": "Amazon",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
@@ -60434,6 +60475,11 @@
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Product Engineer"
     },
+    "f4cfbcdf5bab77c5": {
+      "company": "BP",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "New Grad 2027: Digital – Data & AI and Digital Engineering"
+    },
     "f4d00288187dd0a5": {
       "company": "Amazon",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
@@ -61916,6 +61962,11 @@
       "company": "Safran",
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "Leader technique développeur applications R&D F/H"
+    },
+    "fabd86006f116f2b": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-11-06T23:37:52.102252+00:00",
+      "title": "Campus Switching Product Manager New Grad"
     },
     "fabde97eacbdc028": {
       "company": "Delabie [FR]",
