@@ -13163,6 +13163,11 @@
       "first_seen": "2026-09-22T15:25:00.833736+00:00",
       "title": "Solutions Engineer"
     },
+    "35ac48c2c9beb030": {
+      "company": "TikTok",
+      "first_seen": "2026-11-06T11:46:43.976485+00:00",
+      "title": "Research Engineer - Agentic Video Editing"
+    },
     "35b5a3e6be689429": {
       "company": "Crédit Agricole CIB",
       "first_seen": "2026-10-24T14:14:03.842877+00:00",
@@ -29062,6 +29067,11 @@
       "company": "CALYXIA",
       "first_seen": "2026-11-04T18:26:01.324600+00:00",
       "title": "Administrateur ERP H/F"
+    },
+    "77468aaf367dd2f4": {
+      "company": "Lovelytics",
+      "first_seen": "2026-11-06T11:46:43.976485+00:00",
+      "title": "Advance Program Data Associate"
     },
     "77484e0a757eee84": {
       "company": "ByteDance",
@@ -62174,6 +62184,11 @@
       "first_seen": "2026-09-15T00:14:23.337006+00:00",
       "seeded": true,
       "title": "Platform Engineer"
+    },
+    "fcf4f852d76c5bdd": {
+      "company": "Amazon",
+      "first_seen": "2026-11-06T11:46:43.976485+00:00",
+      "title": "Software Development Engineer - SoC Hardware Abstraction Layer"
     },
     "fcfc00bdf67b5694": {
       "company": "Tesla",
