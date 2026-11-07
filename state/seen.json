@@ -497,6 +497,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Product Management Intern"
     },
+    "01cc7c73d1cf4e33": {
+      "company": "Intel",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Software Performance Engineer"
+    },
     "01d3402146681cf9": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -16703,6 +16708,11 @@
       "first_seen": "2026-10-06T11:45:21.196040+00:00",
       "title": "Data & Analytics Consultant"
     },
+    "436aa50d1d9e03a6": {
+      "company": "Chewy",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Software Engineer 1 - Full Stack - Promotions"
+    },
     "437006613d0c3519": {
       "company": "Octopus Energy France",
       "first_seen": "2026-10-01T17:15:27.331879+00:00",
@@ -18301,6 +18311,11 @@
       "company": "Kingfisher",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "Software Engineer"
+    },
+    "4a56052509dae677": {
+      "company": "Cisco",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Software Engineer Embedded Systems I"
     },
     "4a568f60261a2bab": {
       "company": "Atos",
@@ -20300,6 +20315,11 @@
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Consultant(e) Stratégie & Gouvernance Data"
     },
+    "52bbfb3a6fe0f984": {
+      "company": "Salesforce",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "AI Product Associate Analyst - Early Talent"
+    },
     "52bc3e6dae6d5f97": {
       "company": "HiPay",
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
@@ -21644,6 +21664,11 @@
       "company": "Cigna Group",
       "first_seen": "2026-08-24T14:38:02.195646+00:00",
       "title": "Healthcare Policy & Regulated Markets Intern"
+    },
+    "58704956b3abd270": {
+      "company": "Abbott",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Electrical Engineer 1 Neuromodulation"
     },
     "58735683c229a8cb": {
       "company": "TikTok",
@@ -26359,6 +26384,11 @@
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Graduate Fellow - AI & Knowledge Management"
     },
+    "6bbeda0a72153c27": {
+      "company": "Amazon",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Systems Development Engineer - AWS Commerce Platform-ADC"
+    },
     "6bc43aaa3bead354": {
       "company": "Citadel Securities",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -27352,6 +27382,12 @@
       "company": "The Walt Disney Company",
       "first_seen": "2026-08-19T21:21:30.125750+00:00",
       "title": "Product Software Engineer 1"
+    },
+    "701250b499cc5407": {
+      "ats_key": "sr:3743990016715126",
+      "company": "AbbVie",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Associate Software Engineer 1"
     },
     "70162ef0c736dc71": {
       "company": "The Boeing Company",
@@ -28838,6 +28874,12 @@
       "company": "The Brattle Group",
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
       "title": "Data and AI Engineer"
+    },
+    "758c16d9ccde7851": {
+      "ats_key": "sr:3743990016714871",
+      "company": "AbbVie",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Associate Engineer - Technology 1"
     },
     "759a4d6d6924f081": {
       "company": "Viridien",
@@ -31625,6 +31667,11 @@
       "company": "Eureden",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Saisonnier pour la collecte de maïs H/F"
+    },
+    "8168be3cec5d5bbb": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Reliability Engineer 1"
     },
     "8168c89936fc647a": {
       "company": "Just Eat Takeaway.com",
@@ -36297,6 +36344,11 @@
       "company": "Rainmaker",
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Machine Learning Fellow - Machine Learning"
+    },
+    "94ae750dab4a1322": {
+      "company": "Cisco",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "ASIC DFT Engineer I"
     },
     "94b0dfd2d4ab59dd": {
       "company": "Salesforce",
@@ -49760,6 +49812,11 @@
       "first_seen": "2026-09-28T18:24:37.036956+00:00",
       "title": "Ingénieur commercial grands comptes secteur réseaux-énergie F/H"
     },
+    "ca14df22df0938aa": {
+      "company": "Capgemini",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Associate Application Consultant"
+    },
     "ca18cb2fe4b5a7b0": {
       "ats_key": "gh:7819725003",
       "company": "Celonis",
@@ -49806,6 +49863,11 @@
       "company": "ByteDance",
       "first_seen": "2026-09-04T10:31:37.516686+00:00",
       "title": "Graduate Research Scientist - Multiple Teams"
+    },
+    "ca680ce7bf008e7e": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Software Engineer"
     },
     "ca6d1ce6d41dc830": {
       "ats_key": "gh:8248373",
@@ -56198,6 +56260,11 @@
       "first_seen": "2026-09-19T01:06:11.492022+00:00",
       "title": "Graduate Software Engineer - AI Compute"
     },
+    "e38a0a6121352def": {
+      "company": "Tesla",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Associate Data Engineer - Manufacturing Planning Systems - Semi"
+    },
     "e393937a3aa98539": {
       "company": "Procter & Gamble (P&G)",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -56978,6 +57045,11 @@
       "company": "Atria Group",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Java Developer - Multiple Teams"
+    },
+    "e6916e515be842d8": {
+      "company": "Wells Fargo",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Software Engineer"
     },
     "e6ab7f2a1f7da48f": {
       "company": "HP",
@@ -58139,6 +58211,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Research Scientist Graduate - Distributed NoSQL Database Systems"
+    },
+    "ec0543caf7bdab3b": {
+      "company": "Intel",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "New Grad 2027: Software Performance Engineer (Master's)"
     },
     "ec0680ec3c4afb93": {
       "company": "Sierra Nevada Corporation",
@@ -59564,6 +59641,11 @@
       "company": "Lawrence Livermore National Laboratory (LLNL)",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Computing Undergraduate Student Intern"
+    },
+    "f1518f20e0d21cf6": {
+      "company": "ViaSat",
+      "first_seen": "2026-11-07T04:30:28.378933+00:00",
+      "title": "Associate Embedded Software Engineer"
     },
     "f15c0f9bac60dfc2": {
       "company": "NTT DATA",
