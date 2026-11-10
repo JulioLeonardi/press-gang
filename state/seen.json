@@ -507,6 +507,11 @@
       "first_seen": "2026-11-07T04:30:28.378933+00:00",
       "title": "Software Performance Engineer"
     },
+    "01cf6af6d559f4f1": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Software Engineer"
+    },
     "01d3402146681cf9": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -10026,6 +10031,11 @@
       "company": "B-HIVE",
       "first_seen": "2026-08-26T08:39:03.715410+00:00",
       "title": "Projeteur Synthèse EXE F/H"
+    },
+    "27c5be7bf764c597": {
+      "company": "Wolverine Trading",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "C++ Software Engineer New Grad"
     },
     "27c89ef266f19286": {
       "company": "Salesforce",
@@ -23542,6 +23552,11 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Campus Crypto Researcher"
     },
+    "5f48c1fe831e775e": {
+      "company": "Thales",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Data Engineer Databricks"
+    },
     "5f5fa0cf6a908bb9": {
       "company": "Eliza",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
@@ -27620,6 +27635,11 @@
       "company": "Cerebras",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Software Engineer New Grad"
+    },
+    "6f9bf0d433d37c41": {
+      "company": "Cummins",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Electronic Systems Engineer - Software"
     },
     "6fa2798251533c12": {
       "company": "Numberly",
@@ -37002,6 +37022,11 @@
       "first_seen": "2026-10-11T16:31:36.778015+00:00",
       "title": "RESPONSABLE SYSTEME SECURITE INFORMATIQUE /TRAITANT HOMOLOGATIONS"
     },
+    "95ac60ca745d50ec": {
+      "company": "Kyndryl",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Associate Data Engineer"
+    },
     "95ad10c2b53b45fe": {
       "company": "Sogelink",
       "first_seen": "2026-10-01T17:15:27.331879+00:00",
@@ -40513,6 +40538,11 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Machine Learning Infrastructure Simulation Engineer, Optimus"
     },
+    "a32128d63cffb077": {
+      "company": "Kyndryl",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Early Career Consult Program - Associate Data Engineer"
+    },
     "a337e6cd0bd3fbcd": {
       "company": "Mesotech International",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
@@ -42822,6 +42852,11 @@
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Deployment Strategist - Public sector, Nonprofit and Education"
     },
+    "acb3028f3c97ec5e": {
+      "company": "Broadcom",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "DFT Engineer"
+    },
     "acb6a499e71da4b1": {
       "company": "AARP",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
@@ -45029,6 +45064,11 @@
       "company": "GE Vernova",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Digital Technology Development Program - US 2027"
+    },
+    "b5470c3da0a7113a": {
+      "company": "Adobe",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Data Science Engineer New Grad"
     },
     "b54ddc7278710fab": {
       "company": "TRISKELL Consulting",
@@ -49925,6 +49965,12 @@
       "first_seen": "2026-10-23T14:38:58.143135+00:00",
       "title": "Architecte cloud Kubernetes F/H"
     },
+    "c8145e8e6158d422": {
+      "ats_key": "sr:744000160723419",
+      "company": "AECOM",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Software Developer 1"
+    },
     "c814a8cf6016fa2a": {
       "company": "Just Eat Takeaway.com",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
@@ -50261,6 +50307,12 @@
       "company": "Meyer Distributing",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "Junior Full Stack Developer"
+    },
+    "c93a9e4b2ede777b": {
+      "ats_key": "sr:744000160693897",
+      "company": "Intuitive Surgical",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Planning Analyst"
     },
     "c93b979e578206b0": {
       "company": "VINCI Construction",
@@ -52703,6 +52755,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Vehicle Software Intern - Vehicle Software Engineer-Diagnostic User Interface"
+    },
+    "d3375c683027472d": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Software Engineering"
     },
     "d33f2dfdee77eb0d": {
       "company": "Thales",
@@ -55224,6 +55281,11 @@
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Broadband Technician 1 - Nana Net"
     },
+    "dcc37488047c8885": {
+      "company": "Wolverine Trading",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "New Grad: C++ Software Engineer"
+    },
     "dcc5a8b5e7167171": {
       "company": "Two Six Technologies",
       "first_seen": "2026-08-25T10:27:59.122738+00:00",
@@ -57196,6 +57258,11 @@
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Associate Technician"
     },
+    "e46375ba01c69c52": {
+      "company": "Guidehouse",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Data Scientist - Consultant - Utilities"
+    },
     "e46a1e762f283886": {
       "company": "Sogelink",
       "first_seen": "2026-11-03T17:29:53.993274+00:00",
@@ -58863,6 +58930,11 @@
       "company": "RLI",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Product Management Intern"
+    },
+    "ebce92d60d8097bc": {
+      "company": "Thales",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "Responsable d’Architecture Logiciel Embarqué - F/H"
     },
     "ebcf4742a15e75af": {
       "company": "The Hartford",
@@ -60982,6 +61054,11 @@
       "company": "RoboForce",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "AI Resident"
+    },
+    "f380c12e4be63fd4": {
+      "company": "Adobe",
+      "first_seen": "2026-11-10T01:51:49.864495+00:00",
+      "title": "New Grad 2027: Data Engineer"
     },
     "f38107b6a91334d2": {
       "company": "Vroomly",
