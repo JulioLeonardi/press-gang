@@ -8898,6 +8898,11 @@
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
       "title": "ADAS Development Engineer"
     },
+    "2383533f1fa131f8": {
+      "company": "Amazon",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "Software Development Engineer Early Career - Amazon Dedicated Cloud"
+    },
     "238df86435b87950": {
       "company": "N26",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
@@ -11898,6 +11903,11 @@
       "company": "Atos",
       "first_seen": "2026-11-03T17:29:53.993274+00:00",
       "title": "Consultant cybersécurité H/F"
+    },
+    "2f613e86e4997724": {
+      "company": "Atlassian",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "New Grad 2027: Machine Learning Engineer"
     },
     "2f63d9056b157cd3": {
       "company": "Eluvio",
@@ -20872,6 +20882,11 @@
       "first_seen": "2026-10-24T14:14:03.842877+00:00",
       "title": "Context Engineer - AI & Automation Engineering"
     },
+    "538f877a1f13cb6b": {
+      "company": "Nuro",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "New Grad: Software Engineer, AI Platform"
+    },
     "539c2581e24e88cf": {
       "company": "Safran Aircraft Engines",
       "first_seen": "2026-11-07T17:22:52.121070+00:00",
@@ -22627,6 +22642,12 @@
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Technology, Operations, Digital and Data Development Program Associate - Operations - Digital"
     },
+    "5af3fb4b19c6d27b": {
+      "ats_key": "gh:8891698002",
+      "company": "GitLab",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "Threat Research Engineer, Security Factory: Threat Research"
+    },
     "5af409fa0bc8396f": {
       "company": "Stoke Space",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -23508,6 +23529,12 @@
       "company": "Voyager Technologies",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Machine Learning Engineer - Associate"
+    },
+    "5e6070e8a9fffefa": {
+      "ats_key": "gh:8365003",
+      "company": "Talkdesk",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "Governance, Risk and Compliance Analyst (Information Security)"
     },
     "5e63b1c4ab15fc13": {
       "company": "Sopra Steria",
@@ -25091,6 +25118,11 @@
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
       "title": "Software Engineer"
     },
+    "6525373cee06551a": {
+      "company": "Apple",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "Darwin Runtime Engineer - Core OS"
+    },
     "6526b3326bd7db07": {
       "company": "TikTok",
       "first_seen": "2026-09-03T22:14:16.788642+00:00",
@@ -25292,6 +25324,11 @@
       "company": "Black Box",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Data Center Cabling Technician 1"
+    },
+    "65d3da0e6d037078": {
+      "company": "Salesforce",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "Software Engineering AMTS - College Grad"
     },
     "65da27ccb89e915d": {
       "company": "Adobe",
@@ -30484,6 +30521,11 @@
       "first_seen": "2026-10-29T15:05:02.806317+00:00",
       "title": "V.I.E. Development and Structured Export Finance (m/f/d)"
     },
+    "79e23994b35e4d1e": {
+      "company": "Atlassian",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "New Grad 2027: Data Scientist (Master's)"
+    },
     "79e832db9c14a7e7": {
       "company": "Lawrence Livermore National Laboratory (LLNL)",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
@@ -32162,6 +32204,11 @@
       "company": "BPCE Financement",
       "first_seen": "2026-09-25T16:27:30.066658+00:00",
       "title": "Data Scientist (F/H)"
+    },
+    "80d85c084035479f": {
+      "company": "Intel",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "Junior CPU Verification Engineer"
     },
     "80e11a7952f139e0": {
       "company": "Celonis",
@@ -47149,6 +47196,12 @@
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Aftersales Operations Coordinator"
     },
+    "bc03330f2ea34c8b": {
+      "ats_key": "gh:8364921",
+      "company": "Talkdesk",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "Customer Trust Analyst (Information Security)"
+    },
     "bc06591b7b4e77bf": {
       "company": "Specter Aerospace",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
@@ -51209,6 +51262,11 @@
       "company": "HumanSignal (Label Studio)",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Data Collection Contributor"
+    },
+    "cbf449f0f9fa0861": {
+      "company": "Atlassian",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "New Grad 2027: Data Engineer"
     },
     "cbf7245a6dff43bf": {
       "company": "OVHcloud",
@@ -58592,6 +58650,11 @@
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "CDI- Concepteur Infrastructure Numérique - H/F"
     },
+    "e88ca3dd90529953": {
+      "company": "Pinterest",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "New Grad 2027: Machine Learning Engineer (Master's)"
+    },
     "e88eb8fd139e29ec": {
       "company": "Kingfisher",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
@@ -59177,6 +59240,11 @@
       "company": "Dougs",
       "first_seen": "2026-09-26T14:03:24.878236+00:00",
       "title": "Software Engineer Fullstack - Cross-functional Team H/F"
+    },
+    "eb44b483bfa23517": {
+      "company": "Astera Labs",
+      "first_seen": "2026-11-11T10:15:58.297198+00:00",
+      "title": "New Grad: Data Analyst"
     },
     "eb4827b622886df2": {
       "company": "Onoff",
