@@ -10043,6 +10043,11 @@
       "first_seen": "2026-10-22T16:35:04.687019+00:00",
       "title": "Ingénieur Kubernetes SN2 F/H"
     },
+    "27aeb4922bf49398": {
+      "company": "Cummins",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "Electronic Systems Product Engineer"
+    },
     "27b13b3aa46d1f1d": {
       "company": "Deluxe",
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
@@ -12507,6 +12512,11 @@
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Software Engineer"
     },
+    "31cb99f31e26d16a": {
+      "company": "KLA",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "Business Intelligence Analyst (Master's)"
+    },
     "31cd4c1206f32c39": {
       "company": "Veepee",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
@@ -14397,6 +14407,11 @@
       "company": "NVIDIA",
       "first_seen": "2026-08-19T10:24:08.822599+00:00",
       "title": "Computer Architecture Intern"
+    },
+    "38dfdb82cb62abce": {
+      "company": "Salesforce",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "AI Labs Rotational Fellow"
     },
     "38e1bedb875c0920": {
       "company": "Thera",
@@ -26490,6 +26505,11 @@
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Product Manager Ads Attribution and Measurement Graduate (Measurement Signal and Privacy Product)"
     },
+    "6a368b4e89b0f888": {
+      "company": "The Home Depot",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "Analyst – Fulfillment"
+    },
     "6a3d864e6343914a": {
       "company": "Brookhaven Lab",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
@@ -37629,6 +37649,11 @@
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
       "title": "Software Engineer"
     },
+    "977b62510d6e4cb0": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "Business Intelligence Analyst"
+    },
     "977cd64902fb487b": {
       "company": "PennState University",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
@@ -40728,6 +40753,11 @@
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
       "title": "Electronic Systems Engineer - Entry-Level"
     },
+    "a3408f30111bb2cf": {
+      "company": "Intel",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "New Grad 2027: Junior CPU Verification Engineer"
+    },
     "a34b23ab620b5e88": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -42658,6 +42688,11 @@
       "company": "Capgemini",
       "first_seen": "2026-10-02T15:20:22.219515+00:00",
       "title": "Consultante / Consultant Cybersécurité Cloud"
+    },
+    "ab09eb43056669ff": {
+      "company": "Kimley-Horn",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "GIS Analyst"
     },
     "ab0d1201e517c7b4": {
       "company": "Celonis",
@@ -44704,6 +44739,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Responsable Assurance Qualité Projet/Produit F/H"
+    },
+    "b350158be57107de": {
+      "company": "Wise",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "New Grad 2027: Data Scientist"
     },
     "b3525b7ebe9ce132": {
       "ats_key": "gh:4696977101",
@@ -46777,6 +46817,11 @@
       "first_seen": "2026-09-26T14:03:24.878236+00:00",
       "title": "Forward Deployed Solution Engineer – Applied AI FDE"
     },
+    "bac9c1ca84265178": {
+      "company": "Goldman Sachs",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "Software Engineer - Software Engineering"
+    },
     "bacfd075b84c590e": {
       "company": "Tesla",
       "first_seen": "2026-09-10T23:40:50.395296+00:00",
@@ -47309,6 +47354,11 @@
       "company": "Salesforce",
       "first_seen": "2026-09-12T16:43:24.875958+00:00",
       "title": "Account Solution Engineer"
+    },
+    "bcbb770d973646ca": {
+      "company": "Amazon",
+      "first_seen": "2026-11-11T02:29:59.769274+00:00",
+      "title": "New Grad 2027: Software Development Engineer, Amazon Dedicated Cloud"
     },
     "bcc000efedc171bd": {
       "company": "MSX International",
