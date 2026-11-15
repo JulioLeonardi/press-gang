@@ -5230,11 +5230,6 @@
       "first_seen": "2026-10-31T14:59:24.817207+00:00",
       "title": "Développeur Fonctionnel Java Spring Boot"
     },
-    "1ba26e656dc29573": {
-      "company": "CSI",
-      "first_seen": "2026-08-17T15:21:52.123639+00:00",
-      "title": "Product Manager - Business Banking & Treasury Management"
-    },
     "1ba9154128a0e027": {
       "company": "MARGO",
       "first_seen": "2026-09-16T13:05:04.822696+00:00",
@@ -17553,11 +17548,6 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Associate (AI) Solution Consultant - Orbit Program (Madrid-based)"
     },
-    "5d2ea74ff9a749f9": {
-      "company": "DiDi Global",
-      "first_seen": "2026-08-17T16:22:38.774662+00:00",
-      "title": "Motion Planning Engineer Intern - PhD"
-    },
     "5d320ac0f0b76059": {
       "company": "Wise",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
@@ -20428,11 +20418,6 @@
       "first_seen": "2026-09-29T04:04:22.199104+00:00",
       "title": "Software Engineer 1"
     },
-    "6bda2c8708ce883a": {
-      "company": "EquipmentShare",
-      "first_seen": "2026-08-17T16:22:38.774662+00:00",
-      "title": "Telematics Installer"
-    },
     "6bdbf2e13206a3b4": {
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
@@ -20442,6 +20427,11 @@
       "company": "Laio",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Chef de projet marketing (responsable achat média | trafic | acquisition) - CDI"
+    },
+    "6be16fbd51ffe0f8": {
+      "company": "TikTok",
+      "first_seen": "2026-11-15T20:46:49.557094+00:00",
+      "title": "Machine Learning Engineer Graduate - E-Commerce Governance"
     },
     "6beca85b0aec7aea": {
       "ats_key": "ashby:a86c8704-3ddb-43e5-861d-90f18808887f",
@@ -20618,11 +20608,6 @@
       "company": "Thales",
       "first_seen": "2026-09-20T13:55:15.459335+00:00",
       "title": "Responsable de lot infrastructure (F/H)"
-    },
-    "6ce4b925419cd522": {
-      "company": "Mass General Brigham",
-      "first_seen": "2026-08-17T15:21:52.123639+00:00",
-      "title": "Data Analyst 1"
     },
     "6ce5d7e2b5dc2fdb": {
       "company": "Thales",
@@ -24604,11 +24589,6 @@
       "company": "Crédit Agricole",
       "first_seen": "2026-11-05T16:05:32.944172+00:00",
       "title": "Administrateur.trice, Support et Assistant/e Projet – Outil de Conformité H/F"
-    },
-    "827704ef4c1d3dce": {
-      "company": "Ryan Companies",
-      "first_seen": "2026-08-17T16:22:38.774662+00:00",
-      "title": "Business Intelligence Intern - Mission Critical"
     },
     "828521689f7063a1": {
       "company": "Kodiak Robotics",
@@ -30625,11 +30605,6 @@
       "first_seen": "2026-10-27T23:27:05.266498+00:00",
       "title": "New Grad 2027: Formal Verification Engineer"
     },
-    "a2e6a0a2a1669ccf": {
-      "company": "Daktronics",
-      "first_seen": "2026-08-17T15:21:52.123639+00:00",
-      "title": "Firmware/Hardware Design Student"
-    },
     "a2e7884813ead9c2": {
       "company": "SAM",
       "first_seen": "2026-08-19T21:21:30.125750+00:00",
@@ -32185,11 +32160,6 @@
       "company": "Spotify",
       "first_seen": "2026-10-09T16:56:17.185718+00:00",
       "title": "AV Engineer - Platform"
-    },
-    "ab118fa46be87218": {
-      "company": "Daktronics",
-      "first_seen": "2026-08-17T15:21:52.123639+00:00",
-      "title": "Software Design Student"
     },
     "ab125b686bb3b953": {
       "ats_key": "gh:7960138",
@@ -37523,11 +37493,6 @@
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "Software Engineer"
     },
-    "c6ecfe1f41e03d9c": {
-      "company": "FAST Enterprises",
-      "first_seen": "2026-08-17T15:21:52.123639+00:00",
-      "title": "Implementation Intern"
-    },
     "c6eebd8cf1449fbd": {
       "company": "University of Arkansas",
       "first_seen": "2026-10-25T14:46:21.130176+00:00",
@@ -38713,11 +38678,6 @@
       "first_seen": "2026-08-18T07:34:47.632154+00:00",
       "title": "Application Engineer - 2027 Start Date"
     },
-    "cce6e205f4db69bc": {
-      "company": "Datadog",
-      "first_seen": "2026-08-17T15:21:52.123639+00:00",
-      "title": "Software Engineer Intern - Observability and Security Platform"
-    },
     "ccea80b68237728f": {
       "company": "Openai",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
@@ -39352,11 +39312,6 @@
       "company": "STEP Consulting",
       "first_seen": "2026-09-23T13:19:37.655268+00:00",
       "title": "Data Scientist - Ingénieur IA / Agentic"
-    },
-    "d03da8c0c360c171": {
-      "company": "Leidos",
-      "first_seen": "2026-08-17T16:22:38.774662+00:00",
-      "title": "Cartographic Analyst Junior"
     },
     "d03ef3886b82b07a": {
       "company": "American Express",
@@ -40568,6 +40523,11 @@
       "company": "Thales",
       "first_seen": "2026-11-06T18:50:43.167253+00:00",
       "title": "Design Authority Solution Logiciel - Systèmes embarqués temps réel - F/H"
+    },
+    "d670bb2bd91c37eb": {
+      "company": "Carnegie Mellon University",
+      "first_seen": "2026-11-15T20:46:49.557094+00:00",
+      "title": "Research Assistant - Kenneth C. Griffin School of Computer Science - S3D"
     },
     "d676fcc3293db403": {
       "company": "GlobalFoundries",
@@ -42676,11 +42636,6 @@
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
       "title": "Technical Support Engineer"
     },
-    "e16b7af82850593a": {
-      "company": "General Dynamics Mission Systems",
-      "first_seen": "2026-08-17T20:22:27.941773+00:00",
-      "title": "ASIC FPGA Engineer"
-    },
     "e16d412939441fbc": {
       "company": "SUEZ",
       "first_seen": "2026-10-03T11:32:21.660547+00:00",
@@ -44513,11 +44468,6 @@
       "first_seen": "2026-09-12T05:22:16.892063+00:00",
       "title": "Software Privacy Engineer - Multiple Teams"
     },
-    "ec337631d2e1fa03": {
-      "company": "NVIDIA",
-      "first_seen": "2026-08-17T15:21:52.123639+00:00",
-      "title": "Verification Engineer"
-    },
     "ec40556011968c3b": {
       "company": "Datadog",
       "first_seen": "2026-08-30T01:00:31.565111+00:00",
@@ -45775,11 +45725,6 @@
       "company": "Cummins",
       "first_seen": "2026-11-13T04:56:20.202458+00:00",
       "title": "Electronic Systems Engineer - Software"
-    },
-    "f27ee92d78c7ee1b": {
-      "company": "Rivian",
-      "first_seen": "2026-08-17T15:21:52.123639+00:00",
-      "title": "FPGA Design Intern - FPGA Design"
     },
     "f2807fc80b88eec2": {
       "company": "Volta software",
