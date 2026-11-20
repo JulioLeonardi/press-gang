@@ -1217,6 +1217,11 @@
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieur SRE Storage & AIOps H/F/N"
     },
+    "06fcf53561113964": {
+      "company": "Cadence Design Systems",
+      "first_seen": "2026-11-20T18:16:09.195832+00:00",
+      "title": "Software Engineering, Verification IP Team"
+    },
     "06fe4efbccb220bc": {
       "company": "Intel",
       "first_seen": "2026-11-10T09:11:50.682864+00:00",
@@ -2135,11 +2140,6 @@
       "company": "Hermès",
       "first_seen": "2026-11-07T17:22:52.121070+00:00",
       "title": "CDI - Développeur Ennoblissement Matières - Chaussure (H/F)"
-    },
-    "0c022f2e29be36d7": {
-      "company": "Springs Window Fashions",
-      "first_seen": "2026-08-22T15:17:12.322025+00:00",
-      "title": "Product Management Competitive Product Assessment Intern - Summer 2027"
     },
     "0c02d639af38bb73": {
       "company": "Wake It Up",
@@ -4529,11 +4529,6 @@
       "first_seen": "2026-10-30T13:48:03.984357+00:00",
       "title": "Cloud Quality Engineer – Cloud Automation & AI-Augmented Testing (w/m/d)"
     },
-    "198d816ede8b93b6": {
-      "company": "Analog Devices",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Systems Integration Engineer Intern"
-    },
     "19a07bc4f132d796": {
       "company": "KLA",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
@@ -5088,11 +5083,6 @@
       "company": "HelloFresh",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "[DACH MAG] Instandhaltungstechniker Tagschicht (all genders)"
-    },
-    "1cef561b6eaae31e": {
-      "company": "Springs Window Fashions",
-      "first_seen": "2026-08-22T15:17:12.322025+00:00",
-      "title": "Product Management Intern"
     },
     "1cf1039ec48a5e91": {
       "company": "HelloFresh France",
@@ -10009,11 +9999,6 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Technical Services Engineer - Partners"
     },
-    "37dbf63b9ca07fd3": {
-      "company": "Mariana Minerals",
-      "first_seen": "2026-08-22T13:28:23.721118+00:00",
-      "title": "Analytical Applications Engineer"
-    },
     "37dd6143a1e1d76c": {
       "company": "LFB",
       "first_seen": "2026-11-08T15:45:38.431706+00:00",
@@ -11095,11 +11080,6 @@
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Adjoint Responsable Travaux Neufs H/F"
     },
-    "3e04e1fb5a424ebf": {
-      "company": "BP",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Reservoir Engineer Intern - Summer Internship"
-    },
     "3e17238b090315da": {
       "company": "Wayve",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
@@ -11676,11 +11656,6 @@
       "company": "KLA Corporation",
       "first_seen": "2026-10-04T02:21:37.502125+00:00",
       "title": "HPC Software Engineer"
-    },
-    "414bf491c7c3fcc3": {
-      "company": "TRIMEDX",
-      "first_seen": "2026-08-22T10:19:23.703368+00:00",
-      "title": "Imaging Engineer 1"
     },
     "415357f57c87b329": {
       "ats_key": "gh:4940601101",
@@ -15101,6 +15076,12 @@
       "company": "Visa",
       "first_seen": "2026-09-17T14:39:13.296346+00:00",
       "title": "Associate Product Manager"
+    },
+    "546bbe4f859d5922": {
+      "ats_key": "gh:8468733002",
+      "company": "AlphaSense",
+      "first_seen": "2026-11-20T18:16:09.195832+00:00",
+      "title": "Channel and Customer Research Analyst"
     },
     "54701791f1d1bb70": {
       "company": "Atos",
@@ -18973,6 +18954,11 @@
       "first_seen": "2026-10-02T15:20:22.219515+00:00",
       "title": "Developpeur Fullstack .NET H/F"
     },
+    "6ad0c6ad3d2f4b25": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-20T18:16:09.195832+00:00",
+      "title": "Architecture Energy Modeling Engineer - Power Modeling, Methodology and Analysis"
+    },
     "6ad52a9d51e17613": {
       "company": "Open",
       "first_seen": "2026-11-15T15:17:16.282352+00:00",
@@ -19470,11 +19456,6 @@
       "company": "Deliveryhero",
       "first_seen": "2026-10-28T16:57:36.917107+00:00",
       "title": "Quality Assurance Analyst"
-    },
-    "6da2ca98c48fdb2e": {
-      "company": "Springs Window Fashions",
-      "first_seen": "2026-08-22T15:17:12.322025+00:00",
-      "title": "Product Management Dashboard Analytics Intern"
     },
     "6db332dd4a8c57fa": {
       "company": "Cloudity",
@@ -21119,11 +21100,6 @@
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Architecte logiciel d'IHM Cockpit expérimenté"
     },
-    "76ae9aa3cba53b38": {
-      "company": "Tesla",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Software Engineer - Traction Control - Chassis Controls"
-    },
     "76b47fb054bc3490": {
       "company": "Capgemini",
       "first_seen": "2026-10-14T11:07:42.548841+00:00",
@@ -21564,6 +21540,11 @@
       "company": "MSA Safety",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Software Engineer Intern - Product Development - Summer 2027"
+    },
+    "7902dd2a82c2688f": {
+      "company": "Stryker",
+      "first_seen": "2026-11-20T18:16:09.195832+00:00",
+      "title": "Software Developer in Test"
     },
     "790a45935ed6b8d6": {
       "company": "TikTok",
@@ -24709,11 +24690,6 @@
       "first_seen": "2026-10-27T23:27:05.266498+00:00",
       "title": "Software Engineer New Grad"
     },
-    "8b57c81f113fad6f": {
-      "company": "Springs Window Fashions",
-      "first_seen": "2026-08-22T15:17:12.322025+00:00",
-      "title": "AI Analyst Intern - Consumer Business Unit"
-    },
     "8b59194265f74bfb": {
       "company": "Procter & Gamble",
       "first_seen": "2026-10-27T01:05:06.078868+00:00",
@@ -25024,11 +25000,6 @@
       "first_seen": "2026-09-15T00:14:23.337006+00:00",
       "seeded": true,
       "title": "IT Operations Engineer, Intelligent Platforms Alliance"
-    },
-    "8d28ac419967b305": {
-      "company": "Ascension",
-      "first_seen": "2026-08-22T13:28:23.721118+00:00",
-      "title": "Application Technology Specialist - Clinical Imaging"
     },
     "8d2cae92d1f68378": {
       "company": "Panasonic Holdings",
@@ -25734,11 +25705,6 @@
       "company": "Amazon",
       "first_seen": "2026-10-23T09:04:33.162473+00:00",
       "title": "New Grad 2027: Software Development Engineer 1, Annapurna Labs"
-    },
-    "9220ec2854f5f919": {
-      "company": "Springs Window Fashions",
-      "first_seen": "2026-08-22T15:17:12.322025+00:00",
-      "title": "Textile Engineering Intern - Summer 2027"
     },
     "92368ca6635e5b9b": {
       "company": "Alan",
@@ -29886,6 +29852,12 @@
       "first_seen": "2026-11-09T18:15:25.588891+00:00",
       "title": "Marketing Solution Engineer"
     },
+    "a981be9fc0901321": {
+      "ats_key": "gh:8405596",
+      "company": "Stripe",
+      "first_seen": "2026-11-20T18:16:09.195832+00:00",
+      "title": "Integration Engineer"
+    },
     "a98c3eccf59a0786": {
       "company": "Thales",
       "first_seen": "2026-09-02T18:27:00.115446+00:00",
@@ -30620,11 +30592,6 @@
       "first_seen": "2026-10-11T16:31:36.778015+00:00",
       "title": "Founding AI Engineer - IA agentique & Software Engineering (H/F) - Construis des produits IA qui vont au-delà du simple chatbot !"
     },
-    "ad34ae57b327ef80": {
-      "company": "AMERICAN SYSTEMS",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Field Service Technician Intern - Transitioning Military"
-    },
     "ad40d62877c16c46": {
       "company": "Regeneron Pharmaceuticals",
       "first_seen": "2026-11-06T03:06:23.003751+00:00",
@@ -30852,11 +30819,6 @@
       "company": "AstraZeneca",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Vice President R&D, Rare Disease"
-    },
-    "ae719a87be1e8f87": {
-      "company": "Springs Window Fashions",
-      "first_seen": "2026-08-22T15:17:12.322025+00:00",
-      "title": "Data Analyst Intern - Consumer Business Unit"
     },
     "ae7de96d5aefe931": {
       "company": "Linking Talents",
@@ -33779,11 +33741,6 @@
       "first_seen": "2026-09-22T15:25:00.833736+00:00",
       "title": "Solutions Engineer - Germany (Public Sector, NGOs & Education) (d/f/m)"
     },
-    "be592607a6d8bd9a": {
-      "company": "Analog Devices",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Algorithm Development Engineer Intern"
-    },
     "be5bb54d2843e962": {
       "company": "Sopra Steria",
       "first_seen": "2026-10-11T16:31:36.778015+00:00",
@@ -34210,11 +34167,6 @@
       "company": "Clarity Innovations",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Data Scientist"
-    },
-    "c139cbf4a953f9b7": {
-      "company": "Springs Window Fashions",
-      "first_seen": "2026-08-22T15:17:12.322025+00:00",
-      "title": "Dealer Business Operations & Analytics Intern - Summer 2027"
     },
     "c13ea6c05c728546": {
       "ats_key": "sr:744000149557354",
@@ -36192,11 +36144,6 @@
       "first_seen": "2026-09-12T13:50:34.116563+00:00",
       "title": "Administrateur(trice) Télécom Sécurité Réseau F/H"
     },
-    "cc62557afd336886": {
-      "company": "Intel",
-      "first_seen": "2026-08-22T16:19:05.342929+00:00",
-      "title": "RTL Design Engineer - CPU Design Team"
-    },
     "cc62d7fa1d28165a": {
       "company": "Thales",
       "first_seen": "2026-09-06T11:55:59.030411+00:00",
@@ -37729,11 +37676,6 @@
       "first_seen": "2026-10-05T17:49:28.419181+00:00",
       "title": "Ingénieur.e Système et Réseaux H/F"
     },
-    "d508b1b4222009ff": {
-      "company": "Springs Window Fashions",
-      "first_seen": "2026-08-22T15:17:12.322025+00:00",
-      "title": "Application Engineering Intern - Summer 2027"
-    },
     "d5096dedf57575dd": {
       "company": "Workday",
       "first_seen": "2026-08-30T01:00:31.565111+00:00",
@@ -38602,11 +38544,6 @@
       "company": "Daktronics",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Hardware Design Co-op Intern - Firmware"
-    },
-    "d994d0d6f7ce193f": {
-      "company": "Hitachi",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Engineering Intern"
     },
     "d99a00ddaade65fb": {
       "ats_key": "gh:8944347002",
@@ -40982,11 +40919,6 @@
       "first_seen": "2026-10-07T17:12:55.364544+00:00",
       "title": "Directeur informatique H/F"
     },
-    "e772aa6037a06c3e": {
-      "company": "Riot Platforms",
-      "first_seen": "2026-08-22T13:28:23.721118+00:00",
-      "title": "Mining Technician - Operations Department"
-    },
     "e77ce14ac35acf2d": {
       "company": "Sopra Steria",
       "first_seen": "2026-10-18T14:16:50.953537+00:00",
@@ -41618,6 +41550,11 @@
       "company": "Intel",
       "first_seen": "2026-08-31T22:23:38.257373+00:00",
       "title": "RTL Design Engineer"
+    },
+    "eb8ce3c4710630dc": {
+      "company": "Apple",
+      "first_seen": "2026-11-20T18:16:09.195832+00:00",
+      "title": "Gate-level Noise - Signal Integrity - STA CAD Engineer"
     },
     "eb982b34525ee255": {
       "company": "Openai",
