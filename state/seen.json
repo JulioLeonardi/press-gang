@@ -4145,6 +4145,11 @@
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
       "title": "QA Engineer - Core Database (remote)"
     },
+    "172b11cfd477bfba": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "New Grad 2027: Software Engineer, DL Kernel Libraries"
+    },
     "172d68de9ca47927": {
       "company": "Hello Pomelo",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
@@ -5911,6 +5916,11 @@
       "company": "CGI",
       "first_seen": "2026-11-01T21:39:19.541506+00:00",
       "title": "Consultant(e) technique SAP FIORI/ABAP F/H"
+    },
+    "21c63c8275d9d700": {
+      "company": "Oracle",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "Software Engineer New Grad - Oracle Cloud Infrastructure"
     },
     "21cbafbb362f7069": {
       "company": "Capgemini",
@@ -8010,6 +8020,11 @@
       "first_seen": "2026-10-24T14:14:03.842877+00:00",
       "title": "Concepteur Développeur Java / Vue.js H/F"
     },
+    "2ce70f1833a2b8b0": {
+      "company": "Apple",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "Engineer New Grad - Evolve - An Apple Services Rotation Program"
+    },
     "2ce7cde64d67836a": {
       "ats_key": "ashby:ff4217f3-571a-442b-bf01-68aa5ea1b06a",
       "company": "Back Market",
@@ -8608,11 +8623,6 @@
       "company": "EDF",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Ingénieur/Ingénieure Fonctionnement Interface Réseau HTB F/H"
-    },
-    "3085941b817a5274": {
-      "company": "GlobalFoundries",
-      "first_seen": "2026-08-22T23:16:59.642605+00:00",
-      "title": "Technology Architecture and Competitiveness Engineer New Grad - Structural Analysis"
     },
     "3087cca9d17b3267": {
       "company": "Artelys",
@@ -15166,6 +15176,11 @@
       "first_seen": "2026-11-15T07:30:35.456231+00:00",
       "title": "Research Scientist – PhD New College Grad - Generative AI for Physical AI"
     },
+    "54a9bd5169415835": {
+      "company": "CPI Card Group",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "DevOps Engineer I"
+    },
     "54ab9e99833b4e30": {
       "company": "Adobe",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
@@ -17348,6 +17363,11 @@
       "first_seen": "2026-09-29T17:34:13.015457+00:00",
       "title": "Systems Engineer 3"
     },
+    "619519e0ce7b98d1": {
+      "company": "NRG Energy",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "AI-Enabled Developer Analyst 1"
+    },
     "6196a68e7e5f435b": {
       "company": "Keysight Technologies",
       "first_seen": "2026-11-16T17:53:32.824424+00:00",
@@ -18403,6 +18423,11 @@
       "company": "Helsing",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Production Engineer - Software Integration"
+    },
+    "67c283ed7e8a6bf6": {
+      "company": "GE Vernova",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "Embedded Software Engineer"
     },
     "67c7c0cfec9453a6": {
       "company": "TotalEnergies",
@@ -21099,6 +21124,11 @@
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Architecte logiciel d'IHM Cockpit expérimenté"
+    },
+    "76ae9aa3cba53b38": {
+      "company": "Tesla",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "Software Engineer - Traction Control - Chassis Controls"
     },
     "76b47fb054bc3490": {
       "company": "Capgemini",
@@ -25247,6 +25277,11 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Quality assurance specialist"
     },
+    "8ef4fc5b0b4a3c54": {
+      "company": "Garmin",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "Software Engineer 1"
+    },
     "8ef5ddeb23be8ffd": {
       "company": "triPica",
       "first_seen": "2026-11-06T18:50:43.167253+00:00",
@@ -26828,6 +26863,12 @@
       "company": "NTT DATA",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "Junior RAN Engineer"
+    },
+    "99368fe657f9c000": {
+      "ats_key": "gh:4753762005",
+      "company": "Astera Labs",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "Post-Si Electrical Validation Engineer"
     },
     "99404e837150b6ff": {
       "company": "Accenture France",
@@ -28595,6 +28636,11 @@
       "first_seen": "2026-10-29T15:05:02.806317+00:00",
       "title": "Chef de projet IS/IT pour projet Immobilier F/H"
     },
+    "a25e46e707474283": {
+      "company": "Apple",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "New Grad 2027: Engineer - Evolve - An Apple Services Rotation Program"
+    },
     "a2692c52e326745a": {
       "company": "University of Maryland - College Park",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
@@ -29198,6 +29244,11 @@
       "company": "Thales",
       "first_seen": "2026-10-24T14:14:03.842877+00:00",
       "title": "Leader Technique Data/IA (H/F)"
+    },
+    "a60bfb3ae786a289": {
+      "company": "Amazon",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "New Grad 2027: Security Engineer"
     },
     "a61228578812e82c": {
       "company": "Gobano Robotics",
@@ -34714,6 +34765,12 @@
       "company": "PAYPLUG",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Site Reliability Engineer"
+    },
+    "c46aef354b159f17": {
+      "ats_key": "gh:5283494007",
+      "company": "Zscaler",
+      "first_seen": "2026-11-21T00:33:56.172434+00:00",
+      "title": "Software Development Engineer"
     },
     "c479e4cca098b534": {
       "company": "Just Eat Takeaway.com",
