@@ -1202,6 +1202,11 @@
       "first_seen": "2026-11-15T15:17:16.282352+00:00",
       "title": "Consultant Java Angular F/H/X - Lille"
     },
+    "06d0496319cb4314": {
+      "company": "Cadence Design Systems",
+      "first_seen": "2026-11-21T15:56:36.975337+00:00",
+      "title": "Software Engineer Recent Grad - Verification IP Team"
+    },
     "06dd3ad7e9dad6d4": {
       "company": "JetBrains",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -9962,11 +9967,6 @@
       "first_seen": "2026-09-21T17:51:26.321619+00:00",
       "title": "Développeur Backend"
     },
-    "3792da02bc0f39ab": {
-      "company": "KET-Kentucky Educational Television",
-      "first_seen": "2026-08-23T14:19:45.240815+00:00",
-      "title": "Television Broadcast Engineer"
-    },
     "37b1b6c0d88e5549": {
       "company": "Société Générale",
       "first_seen": "2026-11-07T17:22:52.121070+00:00",
@@ -13649,6 +13649,11 @@
       "company": "AstraZeneca",
       "first_seen": "2026-11-05T22:30:51.759298+00:00",
       "title": "Clinical Research Associate (m/w/d) – Zelltherapie - Region Norddeutschland"
+    },
+    "4c491190a7971f45": {
+      "company": "Walmart",
+      "first_seen": "2026-11-21T15:56:36.975337+00:00",
+      "title": "Software Engineer 3"
     },
     "4c5b7f906fdf6611": {
       "company": "Cofidis",
@@ -17676,11 +17681,6 @@
       "company": "DTCC",
       "first_seen": "2026-10-27T01:05:06.078868+00:00",
       "title": "New Grad 2027: Application Developer Analyst"
-    },
-    "632f87099f70e507": {
-      "company": "Eurofins",
-      "first_seen": "2026-08-23T10:19:36.681192+00:00",
-      "title": "Business Intelligence Intern"
     },
     "6330f26f13b7599a": {
       "company": "Elastic",
@@ -25786,11 +25786,6 @@
       "first_seen": "2026-10-06T17:52:31.595856+00:00",
       "title": "Ingénieur développement FPGA confirmé (F/H)"
     },
-    "926d7f1a7d74f500": {
-      "company": "Tesla",
-      "first_seen": "2026-08-23T09:24:09.197614+00:00",
-      "title": "Vision Engineering Technician - Vision Automation - Semi"
-    },
     "927508d7e73f4e7b": {
       "company": "Thales",
       "first_seen": "2026-11-02T19:08:06.208405+00:00",
@@ -30522,11 +30517,6 @@
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Forward Deployed Engineer - Software Engineer - Denmark"
     },
-    "ac81dabe3a691d7a": {
-      "company": "Maven Securities",
-      "first_seen": "2026-08-23T09:24:09.197614+00:00",
-      "title": "Developer New Grad"
-    },
     "ac8a569fe71ec196": {
       "company": "Sopra Steria",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -31411,11 +31401,6 @@
       "company": "Mach Industries",
       "first_seen": "2026-10-26T16:27:12.253470+00:00",
       "title": "Software Engineer"
-    },
-    "b19f4c481b6923a4": {
-      "company": "Mach Industries",
-      "first_seen": "2026-08-23T14:19:45.240815+00:00",
-      "title": "Engineering Co-op"
     },
     "b1a0977ffe5092c3": {
       "company": "Regeneron Pharmaceuticals",
