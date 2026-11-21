@@ -3025,6 +3025,11 @@
       "first_seen": "2026-09-30T14:34:52.226311+00:00",
       "title": "Data Engineer - Ingénieur·e Data / IA"
     },
+    "105f5255806692a7": {
+      "company": "Toyota",
+      "first_seen": "2026-11-21T07:56:52.070997+00:00",
+      "title": "Software Engineer"
+    },
     "106b64363cbcac1d": {
       "company": "Novartis",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
@@ -14325,6 +14330,11 @@
       "first_seen": "2026-11-12T17:53:47.589767+00:00",
       "title": "Data Scientist - MID Profile - BN 12/11/26"
     },
+    "50021bceb22a72c0": {
+      "company": "Further",
+      "first_seen": "2026-11-21T07:56:52.070997+00:00",
+      "title": "New Grad 2027: Analytics Developer"
+    },
     "50063cd73dccccf0": {
       "company": "GlobalFoundries",
       "first_seen": "2026-09-30T07:54:47.210563+00:00",
@@ -23260,6 +23270,11 @@
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
       "title": "Research Scientist - Model Capability Boundary Exploration and AI Data Flywheel System Development - Global Frontier Tech Recruitment Program - 2027 Start - PhD"
     },
+    "835ac3ef693d2b0c": {
+      "company": "Further",
+      "first_seen": "2026-11-21T07:56:52.070997+00:00",
+      "title": "New Grad 2027: Entry Level Developer"
+    },
     "8367651b6576d983": {
       "company": "Workday",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
@@ -25133,6 +25148,11 @@
       "company": "Apple",
       "first_seen": "2026-11-15T00:42:41.742372+00:00",
       "title": "SoC Physical Design Engineer - Place and Route"
+    },
+    "8dd7ff2cda897150": {
+      "company": "Further",
+      "first_seen": "2026-11-21T07:56:52.070997+00:00",
+      "title": "New Grad 2027: AI/Data Engineer"
     },
     "8de0708c36afa33b": {
       "company": "Accor Tech & Digital",
@@ -34756,11 +34776,6 @@
       "first_seen": "2026-10-29T15:05:02.806317+00:00",
       "title": "Technical Support Engineer – Italian & English"
     },
-    "c467ac11e2ec4494": {
-      "company": "Avride",
-      "first_seen": "2026-08-23T01:06:25.420948+00:00",
-      "title": "Robot Service Technician Assistant"
-    },
     "c468b9f464257707": {
       "company": "PAYPLUG",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
@@ -39849,6 +39864,11 @@
       "first_seen": "2026-09-21T17:51:26.321619+00:00",
       "title": "Consultante / Consultant Devops"
     },
+    "e0d3239067008ed9": {
+      "company": "Tesla",
+      "first_seen": "2026-11-21T07:56:52.070997+00:00",
+      "title": "Data Collection Operator - Optimus"
+    },
     "e0e00fb9541ac157": {
       "company": "Adyen",
       "first_seen": "2026-09-10T18:03:23.438210+00:00",
@@ -40442,6 +40462,12 @@
       "company": "Wake It Up",
       "first_seen": "2026-11-17T19:35:09.130213+00:00",
       "title": "Consultant fonctionnel Finance – Modélisation financière & Excel – Fintech IA – Scale-up"
+    },
+    "e4080bf639eb97de": {
+      "ats_key": "gh:8201469003",
+      "company": "Affirm",
+      "first_seen": "2026-11-21T07:56:52.070997+00:00",
+      "title": "Software Engineer 1 - Backend - Streaming Infra"
     },
     "e409fb400dde2f93": {
       "ats_key": "gh:5004134101",
@@ -41245,6 +41271,11 @@
       "company": "École 42",
       "first_seen": "2026-09-28T18:24:37.036956+00:00",
       "title": "Administrateur.rice Système & Réseau"
+    },
+    "e932e0fd1ad0c610": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-21T07:56:52.070997+00:00",
+      "title": "Silicon Design Engineer"
     },
     "e9335d06a7d86fa9": {
       "company": "Citadel Securities",
