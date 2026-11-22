@@ -13190,6 +13190,11 @@
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "Data Science New Grad"
     },
+    "498c0550fe7acf6f": {
+      "company": "Argonne National Laboratory",
+      "first_seen": "2026-11-22T09:18:13.525798+00:00",
+      "title": "Software Engineer"
+    },
     "49958f62535a9a02": {
       "company": "Natran",
       "first_seen": "2026-09-10T14:47:14.337333+00:00",
@@ -29230,6 +29235,11 @@
       "first_seen": "2026-10-02T15:20:22.219515+00:00",
       "title": "Scientist Chemistry (bachelor/master) 5X"
     },
+    "a5c6efd527ae54a5": {
+      "company": "Sierra Nevada Corporation",
+      "first_seen": "2026-11-22T09:18:13.525798+00:00",
+      "title": "Software Engineer 1"
+    },
     "a5cf5049b250279d": {
       "company": "Société Générale Assurances",
       "first_seen": "2026-10-08T17:11:13.730521+00:00",
@@ -43619,11 +43629,6 @@
       "company": "Citadel",
       "first_seen": "2026-11-14T15:30:59.233929+00:00",
       "title": "Software Engineer – University Graduate"
-    },
-    "f6d8972ae4f0b923": {
-      "company": "REI Systems",
-      "first_seen": "2026-08-24T02:59:30.156955+00:00",
-      "title": "Associate Software Engineer - Salesforce"
     },
     "f6e7e86e857a0f87": {
       "company": "Zenika",
